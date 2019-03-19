@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="1" battleScribeVersion="2.01" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="7566-f051-ac5e-1090" name="Eitu" hidden="false" targetId="d885-4599-55bd-51a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2e23-df63-bd32-90b0" name="Don Pavo" hidden="false" targetId="5002-604a-ad71-924c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="716a-fcb5-46c1-321a" name="Liname" hidden="false" targetId="0530-696e-1b58-ac77" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9f0a-2d11-0d80-fba0" name="El Curandero" hidden="false" targetId="818f-4ca7-47e1-7dec" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4b53-e92a-a98f-f1cb" name="Theresa" hidden="false" targetId="3ab9-4d52-7feb-a068" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6089-c8e6-9d1b-37d5" name="Fornido" hidden="false" targetId="52f8-2f5e-1f97-1704" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4bbc-6a97-2479-f892" name="Brahyn" hidden="false" targetId="dcbe-7362-cb94-ef02" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2f1c-b150-1a97-f876" name="Senor Conejo" hidden="false" targetId="c16b-f4f4-a6bb-a8c0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2516-e713-45ec-0eb6" name="Clara Cadora" hidden="false" targetId="345c-b792-afd3-c85a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0a9a-9846-7be5-f341" name="Wolfgang •" hidden="false" targetId="da05-0b00-9c7a-0d05" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="54f3-ae1a-cd77-9c09" name="Farrador" hidden="false" targetId="c5c6-200f-15de-a108" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c615-d9a1-5efa-fc84" name="Moja Alga" hidden="false" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9236-4150-5a51-2fff" name="Montero Guaca" hidden="false" targetId="126c-4174-a210-fc69" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c074-52ec-3c6d-a13b" name="Senora Ya Va" hidden="false" targetId="679d-c93d-5f95-b1b4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5714-dcc7-7166-79c2" name="Crazy Perez" hidden="false" targetId="01cf-aadd-1999-27f7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a842-26b3-13f7-c78e" name="Eugenie" hidden="false" targetId="70ca-a3b5-d738-d823" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d6f8-b5ba-b988-3aab" name="Lindo Guapo" hidden="false" targetId="4861-fdbb-5ed2-f6e1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="425d-016d-7238-e44c" name="Hanna Solare" hidden="false" targetId="c84e-6719-64e7-b2c8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d9a8-7725-b7c4-e7bb" name="Ibubesi" hidden="false" targetId="ef79-39e0-1ba6-038a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a898-4a80-8e3d-e1ff" name="La Pelotera" hidden="false" targetId="6484-5ac6-c301-11b8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0644-5bc3-e8ed-e0f9" name="El Grandulon" hidden="false" targetId="2ffa-c715-dc1e-74ba" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5a6a-c80b-c495-ecbd" name="Mrs. Juanhijo" hidden="false" targetId="be3e-f33a-0bda-302a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="21f4-e540-d0da-5fdc" name="Barkaza" hidden="false" targetId="b1d3-dc08-1067-5dee" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c746-a06a-e4fe-f3de" name="Baron Conchita" hidden="false" targetId="0e9e-d630-08c1-0a07" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a767-98bc-7afa-801a" name="Schwalbe" hidden="false" targetId="1773-bd90-c46a-0d03" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="af39-50ab-9ef5-d932" name="Piñassa" hidden="false" targetId="4ab9-5d4a-6011-c976" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e57b-58ea-f323-1085" name="Yola" hidden="false" targetId="befe-6420-f9cf-ccb9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f55e-a28b-0c87-1327" name="Capitan Leon" hidden="false" targetId="f3ba-cab6-0ce7-7aa7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d0f4-6551-3d32-282e" name="Cazador Comedreja" hidden="false" targetId="63dc-44e0-9241-8ec0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a069-70ad-e22e-e8da" name="Jarrono" hidden="false" targetId="7f7d-c350-dd61-e67f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f0c5-8647-caeb-2251" name="Capitan Garcia" hidden="false" targetId="9f46-5dd2-1736-aea3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="59da-cc39-f864-b170" name="Cazardorengardist (Ehrengarde)" hidden="false" targetId="f4cb-614e-fc6e-70a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ad46-fea0-c451-5c80" name="Asaltores" hidden="false" targetId="cab7-1309-c3d0-ba5f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2fcd-8d57-4a50-e99f" name="Seesoldat (Ehrengarde)" hidden="false" targetId="9ab4-4e0f-7edb-9ee9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1668-c9bd-8239-3ffa" name="Seesoldat" hidden="false" targetId="6047-2f63-9ff3-f9a9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b6da-e526-172e-a80b" name="Arquebusier" hidden="false" targetId="1dcb-182f-fff9-3924" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6271-0548-eac6-aecb" name="Cazardorengardist" hidden="false" targetId="11ea-89e6-fd66-c325" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9ed1-9046-39e4-7717" name="Alicija Degolara" hidden="false" targetId="a8c8-1c1a-e8ab-cd97" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2703-84b3-62b4-0092" name="Sargento Maneto" hidden="false" targetId="72ca-88a0-378e-372b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fed5-1322-413f-b3a4" name="Jamon Borodino" hidden="false" targetId="766d-7fa4-f944-2c7c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="375e-3c6e-a7c5-3d13" name="El Mastin" hidden="false" targetId="2be6-5317-24b8-135d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9bb8-43c6-09d5-4ed4" name="Tipo Duros" hidden="false" targetId="1e4c-b221-d4dd-6efb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="643f-b141-6d7b-84a5" name="Ahondaro" hidden="false" targetId="753e-cbbc-d383-c32d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fcf9-6fd8-e3ee-deff" name="Perro Rastreador" hidden="false" targetId="8cb2-be09-3e33-39fb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9cf3-00d3-1e5f-ce3b" name="Callado" hidden="false" targetId="08d0-2c83-0cb4-d680" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="35df-206e-083d-67b3" name="Don Guillermo" hidden="false" targetId="1d53-7c17-6c7e-5b03" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0720-245d-dbfb-8180" name="Alejandra" hidden="false" targetId="7d7b-1159-73f8-009c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6983-f3d1-3281-bdc1" name="Comtessa †" hidden="false" targetId="4cfd-2278-55c4-1a00" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0c66-327c-0238-b786" name="Sargent Escopeta †" hidden="false" targetId="a4b4-f2c3-e55b-b9f7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3ea3-fd67-9fee-f477" name="Zoffe †" hidden="false" targetId="c3f6-9356-a28c-5f94" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="58e7-f5ea-1ab9-d290" name="Torpe †" hidden="false" targetId="739b-9b94-b727-ebd6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4931-aaec-1453-b550" name="Teniente †" hidden="false" targetId="aa81-e0e7-e743-bf96" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3bc7-0bce-daa8-d33c" name="Tamborino †" hidden="false" targetId="6a73-a8a5-773e-5d07" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="41f7-ea0f-8ce0-3944" name="Erster Maat †" hidden="false" targetId="d3b4-3019-c7f3-2991" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e930-abb2-9a0f-534f" name="Narr †" hidden="false" targetId="20f0-2faa-c25b-fd2a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fe19-2406-ca8f-a7c6" name="Cortante •" hidden="false" targetId="d064-8ec3-bf62-e281" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8b16-78e9-8280-7f55" name="Captain Dèzette •" hidden="false" targetId="98e7-050b-da3f-a69f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9dd3-2557-f0af-327b" name="Victoria Innsfoot" hidden="false" targetId="8eb9-cd4b-969d-789c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="abd7-15f2-adae-602d" name="Arrequin" hidden="false" targetId="5002-b4e3-b2a4-2b06" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b957-1dfb-e765-c5f6" name="El Venador" hidden="false" targetId="428c-b7e5-8b05-c9f3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5773-4b00-5fec-a650" name="Carly Wench" page="" hidden="false" targetId="8688-b4f0-8971-a664" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
