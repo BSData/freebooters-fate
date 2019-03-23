@@ -377,6 +377,22 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="1721-6d5b-5df8-fb70" name="Canoa" hidden="false" targetId="770d-d204-6d15-b62c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="78fd-f279-c29b-c393" name="Pirraqua" hidden="false" targetId="0e7e-9889-89b4-710c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>

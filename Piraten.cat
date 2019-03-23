@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="2" battleScribeVersion="2.01" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="1" battleScribeVersion="2.01" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -578,6 +578,30 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="3b6e-add7-eae4-dbb0" name="Blanche Pascal" page="" hidden="false" targetId="bacb-f5c8-0b72-e10a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0cbd-9d3a-16d2-c717" name="Pirraqua" hidden="false" targetId="0e7e-9889-89b4-710c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="778f-9314-4f05-26bc" name="Canoa" hidden="false" targetId="770d-d204-6d15-b62c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a79e-dfd0-1e8e-d6fa" name="Xalupe" hidden="false" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>

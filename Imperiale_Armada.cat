@@ -497,6 +497,30 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="15e8-0aad-3e5d-f6e1" name="Pirraqua" hidden="false" targetId="0e7e-9889-89b4-710c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b9d1-f3a4-5e65-97c5" name="Canoa" hidden="false" targetId="770d-d204-6d15-b62c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cd25-c404-3034-a965" name="Xalupe" hidden="false" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>

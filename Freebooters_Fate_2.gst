@@ -195,6 +195,19 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="decrement" field="6022-ac19-492a-3207" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="283a-763f-29e6-0186" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="9fcb-63d8-f6dc-e471" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6022-ac19-492a-3207" type="max"/>
@@ -260,7 +273,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6f8-869f-d7d5-767c" type="max"/>
+      </constraints>
     </categoryEntry>
     <categoryEntry id="bba1-3aab-9928-03e4" name="Boote" hidden="false">
       <profiles/>
@@ -433,13 +448,6 @@
       <constraints/>
       <forceEntries/>
       <categoryLinks>
-        <categoryLink id="e11d-8db9-1719-424f" name="Boote" hidden="false" targetId="bba1-3aab-9928-03e4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="7ced-69a9-2666-c086" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false">
           <profiles/>
           <rules/>
@@ -515,9 +523,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad50-180e-e6c0-f381" type="max"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -597,9 +603,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3474-28ab-221c-67e0" type="max"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -696,6 +700,100 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa1-d35c-c2cd-f9e4" type="max"/>
           </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="8bcb-9b29-a795-4c22" name="Seeschlacht" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="2e99-91c8-06e6-a42d" name="Boote" hidden="false" targetId="bba1-3aab-9928-03e4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2898-fbdb-1540-a9a6" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0436-fc3d-c307-30c1" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="afdf-08e8-5196-5109" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2421-e940-1f9e-a067" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2223-0178-6219-768b" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="da9a-a9f0-270f-2b1c" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4c3a-e869-0540-9f29" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="815d-ff3b-8edd-a22a" name="MWP" hidden="false" targetId="48a0-6247-c625-1b06" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="683a-e6c1-7947-7281" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7310-5732-4d82-d920" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="270b-af57-dfcc-25df" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -9563,7 +9661,7 @@
         <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e7e-9889-89b4-710c" name="Piraqua" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0e7e-9889-89b4-710c" name="Pirraqua" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9b2c-06d3-951a-5f4a" name="Piraqua" hidden="false" profileTypeId="3476-83da-85b2-ac24" profileTypeName="5.1 Heuer">
           <profiles/>
@@ -24631,7 +24729,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="f8cc-b342-09ae-4436" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true">
+        <categoryLink id="f8cc-b342-09ae-4436" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f656-d9f6-7b8f-9a31" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26518,7 +26623,7 @@
             <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="670c-d7d2-bc34-9356" name="Holzbohrer" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="670c-d7d2-bc34-9356" name="Holzbohrer" hidden="true" collective="false" type="upgrade">
           <profiles>
             <profile id="628c-f670-c598-833d" name="Holzbohrer" hidden="false" profileTypeId="1596-5d49-ac81-74b8" profileTypeName="3.3 Bootsausrüstung">
               <profiles/>
@@ -26569,7 +26674,13 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
