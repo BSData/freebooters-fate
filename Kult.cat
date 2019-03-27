@@ -313,6 +313,174 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="ba42-8a78-bfc9-826f" name="Sybiline Vicieux" hidden="false" targetId="bc3f-e2df-01f6-fb5d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bfbb-bc69-494b-1fbc" name="Asquerosos Fugosa" hidden="false" targetId="b26b-d26d-781d-73f6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="219a-58f4-8440-3fb3" name="El Fusilio" hidden="false" targetId="8673-a169-bd8c-6aeb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8341-c807-d71b-7224" name="Asqueroso" hidden="false" targetId="9a2f-1895-f941-b65c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a641-8b6a-732d-dd51" name="Juedi" hidden="false" targetId="7e48-19c3-2c74-090a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2533-49d7-9d7e-2797" name="Juedi (Ehregarde)" hidden="false" targetId="4d78-c097-226e-aa45" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d688-24c8-236b-75e2" name="Eugen" hidden="false" targetId="ad3b-1e60-84ea-498b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6a7e-cbff-bfd4-ab2f" name="Kasper Boulott" hidden="false" targetId="e7d1-ec7c-4883-2aa8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4a0c-c791-63ee-fded" name="La Bruja" hidden="false" targetId="4406-3121-63ff-0d79" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="16b3-3a0a-e482-b7f4" name="Balagnoneco" hidden="false" targetId="1f46-f223-4454-4218" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b308-8c51-93a2-6b6f" name="Tronconneuse" hidden="false" targetId="90fe-c816-894a-13ad" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6f65-3484-e357-3c01" name="Calvario Vigueta" hidden="false" targetId="cfee-5514-bdc5-f3f3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2ecc-6130-e39f-b789" name="Cosphelia" hidden="false" targetId="10bd-db54-a464-5565" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cf5d-a250-9812-3140" name="Paltoquet" hidden="false" targetId="c7b3-6908-1970-c5aa" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="75af-0f46-1306-33c4" name="Asquerosos Pirat" hidden="false" targetId="37dd-acf1-96ad-b2a5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bb72-262f-fd65-2511" name="Asquerosos Pirat (Ehrengarde)" hidden="false" targetId="ad9c-edde-cfa2-78b8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="eeb2-831a-8919-4f08" name="Gualtiero" hidden="false" targetId="a541-ad26-bf24-7e3b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="abc5-9418-c739-1000" name="Sansame" hidden="false" targetId="1674-536b-8f65-4a26" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="29ec-9cf9-197e-20fd" name="Kultist (Ehrengarde)" hidden="false" targetId="bac6-7d62-c91a-dfa6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dcae-0ac8-6830-1d88" name="Mademoiselle D`oiseaux" hidden="false" targetId="357c-13d5-7843-a5dc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="75ac-dbb4-3f82-b980" name="Kultist" hidden="false" targetId="4a0a-f893-2156-c3ce" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>

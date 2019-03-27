@@ -5296,7 +5296,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="81a4-8b56-1559-0ac9" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="5366-ee8e-69a8-2d6a" type="rule">
+        <infoLink id="81a4-8b56-1559-0ac9" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="3e69-328f-de2b-914e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6057,7 +6057,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0622-e5c9-f0fa-e7c9" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="5366-ee8e-69a8-2d6a" type="rule">
+        <infoLink id="0622-e5c9-f0fa-e7c9" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="3e69-328f-de2b-914e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24190,7 +24190,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="ef40-5925-5d3b-bb75" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4406-3121-63ff-0d79" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef40-5925-5d3b-bb75" type="max"/>
       </constraints>
@@ -25753,6 +25761,2486 @@
         <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="120.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b26b-d26d-781d-73f6" name="Asquerosos Fugosa" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c669-4641-873d-9ce0" name="Asquerosos Fugosa" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Knüppel"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Entermesser"/>
+          </characteristics>
+        </profile>
+        <profile id="cefe-c7bc-9715-b649" name="Asquerosos Fugosa" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="9"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/7"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cd5d-61f2-62a5-176f" name="Heißblütig" hidden="false" targetId="d24c-cd50-455e-5970" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f6e8-f303-16b8-c7f8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d261-e1ab-9a78-768a" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8741-18fa-0763-512a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="38d5-19b9-98ac-d10d" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="36a4-54d9-640e-08d9" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8673-a169-bd8c-6aeb" name="El Fusilio" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5e26-d545-b17f-45fd" name="El Fusilio" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Flinte als Knüppel"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Keule"/>
+          </characteristics>
+        </profile>
+        <profile id="abf9-609b-5c90-0f57" name="El Fusilio" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Flinte, Doppelläufig, Nachladen, Zweihändig"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="6/3 ~ 40"/>
+          </characteristics>
+        </profile>
+        <profile id="bf88-af74-590d-da08" name="El Fusilio" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="10"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/5"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/7"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3117-c236-43d8-9008" name="Mob" hidden="false" targetId="c368-c8c3-cbde-7e71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8a7a-5e27-512a-fbfc" name="Standhaft" hidden="false" targetId="bb70-4663-3ad1-bbe9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="01dd-9255-8725-30b1" name="Feuersturm" hidden="false" targetId="5477-d399-78b4-1d93" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="02a9-7d3a-a4a6-86a6" name="Demagoge" hidden="false" targetId="1d06-272a-9bf2-cc78" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9c7c-c241-806e-1f28" name="Sergeant" hidden="false" targetId="8dbe-2027-f2a6-39ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ff-dba0-f72b-c5b4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ad33-0305-67a9-f99e" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="468f-bbfc-7c44-befa" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e1b8-05a7-104e-8816" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2542-cead-6e79-c741" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b98a-8284-8113-d3c9" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="25a9-219f-900c-4680" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a2f-1895-f941-b65c" name="Asqueroso" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d048-aded-4208-6539" name="Asqueroso" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Pistole als Knüppel"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Entersäbel"/>
+          </characteristics>
+        </profile>
+        <profile id="a919-0080-fbe8-79b4" name="Asqueroso" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Pistole, Nachladen, rechts"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="6/5 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="696e-9467-8a9e-13f3" name="Asqueroso" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="11"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/8"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1ca3-0df3-42a9-6f18" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9d85-3033-5946-d96d" name="Ehrengarde (Asquerosos Pirat)" hidden="false" targetId="5f27-de7a-e9dc-63c6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04a6-2970-9252-d739" name="Heißblütig" hidden="false" targetId="d24c-cd50-455e-5970" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8665-50f6-649f-d6d6" name="Schlaghagel" hidden="false" targetId="34cc-c5da-6a23-157b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aae-2332-3bae-8eca" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4de4-9ba1-1faf-b483" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0415-35f1-6a79-f01d" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0fae-96c6-47fe-0192" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bf97-c3c0-bfee-a5ea" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7968-6262-aba9-a76c" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d2f9-a44e-c60e-5196" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e48-19c3-2c74-090a" name="Juedi" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4923-550d-45d3-e6c7" name="Juedi" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Schwere Keule"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Dolch"/>
+          </characteristics>
+        </profile>
+        <profile id="f478-bbe6-2e70-875f" name="Juedi" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="13"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/9"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/6"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c743-a961-a622-47d3" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2923-91d0-0251-4f9e" name="Ehrengarde" hidden="false" targetId="6dcc-03df-c6a1-e736" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="ad3e-d4f8-e25a-3661" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d78-c097-226e-aa45" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3e-d4f8-e25a-3661" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a7db-f738-e1e7-5986" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="95a4-0ace-fbcd-4898" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2856-9929-4f81-c741" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="316e-43c1-9a27-ee65" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2913-43a9-ccc6-75fe" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc3f-e2df-01f6-fb5d" name="Sybiline Vicieux" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e506-a72d-d558-e825" name="Sybiline Vicieux" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Ritualdolch, Zewihändig"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Ritualdolch, Zewihändig"/>
+          </characteristics>
+        </profile>
+        <profile id="cb25-990f-10ec-b508" name="Sybiline Vicieux" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="10"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/5 ⑦"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/5 ⑦"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5eea-1909-9df4-b96e" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="09ca-a685-ce6f-91ae" name="Mystikerin (Missgunst, Tod, Woldniss, 1-6)" hidden="false" targetId="37e9-6803-f357-ad5d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="abb0-1324-d21a-c535" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="3e69-328f-de2b-914e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5027-f692-cee5-1f19" name="Priesterin" hidden="false" targetId="7852-0246-ba6a-f2b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa4a-d323-3bcd-d609" name="Keine Autorität" hidden="false" targetId="33cf-8eac-ab34-39c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f56e-0e0b-aca5-5809" name="Ehrengarde (Juedi)" hidden="false" targetId="159b-6ed0-786c-121e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d616-92cc-4d3d-f88a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="17f5-b667-c840-82f3" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c73-0f9e-3f59-15fc" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3a8d-9c28-840c-1e20" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="28ec-c134-0759-5e94" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f4c6-3f4a-6f51-f339" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0b4f-3d33-b932-208e" name="Loa Missgunst" hidden="false" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7bf2-eb95-73b1-f0e4" name="Loa Tod" hidden="false" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ce6-459c-64d0-439e" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="87fd-d378-35cf-aca6" name="Loa Wildnis" hidden="false" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b3a9-8344-cbda-1c04" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d78-c097-226e-aa45" name="Juedi (Ehregarde)" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="42fe-a08e-fddb-5455" name="Juedi" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Schwere Keule"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Dolch"/>
+          </characteristics>
+        </profile>
+        <profile id="ae0b-420e-05ba-7c8b" name="Juedi" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="13"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/9"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/6"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d933-89d6-9089-41d4" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d2aa-be97-bd42-159e" name="Ehrengarde" hidden="false" targetId="6dcc-03df-c6a1-e736" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6293-b47d-9ce3-8fc5" name="Unverwüstlich" hidden="false" targetId="6abc-9e1f-693e-685b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc3f-e2df-01f6-fb5d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="66c0-587f-b20a-bc5c" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e48-19c3-2c74-090a" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66c0-587f-b20a-bc5c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1ff3-9b74-1120-674c" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="30e3-fb3e-738e-6e63" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="005a-c714-e80e-d36a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5f86-1545-c1b2-54ec" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d40a-d911-8d9c-aadb" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad3b-1e60-84ea-498b" name="Eugen" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="eac3-13fc-4f35-b889" name="Eugen" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Ahle"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Bolzemschießer als Knüppel"/>
+          </characteristics>
+        </profile>
+        <profile id="1f25-9487-e83b-322f" name="Eugen" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Bolzenschießer, Nachladen, links"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="5/4 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="8d19-0e60-6c3b-d9d9" name="Eugen" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="9"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/5"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="07aa-3da0-2062-0040" name="Seelentreiber (0-4 Sansames)" hidden="false" targetId="e0a0-54b7-e607-64a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4dc3-1980-90c5-653d" name="Mary Chains" hidden="false" targetId="964a-807e-35a5-6475" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="045f-ce64-88a5-bf7b" name="Machtreserve" hidden="false" targetId="e123-3587-5ff0-42e0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cfa5-2301-717a-5e05" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe19-c050-5d68-3cfc" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ffd6-bb75-3712-e05d" name="Verwandt (Mom Cherie)" hidden="false" targetId="1d2a-2d61-137a-6176" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0523-d40f-812e-04bc" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="096c-59f2-0d08-d3cc" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2b2b-a93a-d12e-bc21" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd4c-ab30-df0b-1e9d" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="763f-4cbc-bab0-29be" name="Mary Chains" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5ceb-6a40-35d7-205b" name="Mary Chains" hidden="false" profileTypeId="d444-bbe2-118c-dd60" profileTypeName="3.2 Loa">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Dominanz" characteristicTypeId="93b8-b085-cf22-ea2d" value="1"/>
+                <characteristic name="Blutschuld" characteristicTypeId="4650-7501-acf4-492b" value="1"/>
+                <characteristic name="Reichweite" characteristicTypeId="6ff7-ada7-2278-e76f" value="60"/>
+                <characteristic name="Fähigkeit" characteristicTypeId="1fea-f07f-05ee-744c" value="Sansame"/>
+                <characteristic name="Verweildauer" characteristicTypeId="468f-01ec-965b-801b" value="Dauergast"/>
+                <characteristic name="Lehre" characteristicTypeId="1ddd-6ab0-b1b1-0739" value="Tod, nur Kult"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd1-1ef5-81c3-4efe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5856-96c6-e797-e31a" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4590-9c9b-7f95-ea35" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10bd-db54-a464-5565" name="Cosphelia" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9e07-aeb4-5744-9f26" name="Cosphelia" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Krallen, Gift"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Krallen, Gift"/>
+          </characteristics>
+        </profile>
+        <profile id="015e-38fd-46b0-4af7" name="Cosphelia" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="8"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="2/5"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="2/5"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="567d-a9b5-b263-3139" name="Unverwüstlich" hidden="false" targetId="6abc-9e1f-693e-685b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d79a-4d0e-a0af-f485" name="Medium" hidden="false" targetId="03ae-f0ed-3ce9-b49a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7409-b42d-40fe-5569" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c4b-c2a7-fb1c-1802" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac7b-650b-9e84-6499" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98dc-1ea0-da49-cd8c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e01c-033b-438a-27df" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef16-76ec-415d-5998" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="03fe-2308-3bee-e916" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7e2d-ebc5-3b20-2b2f" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="29e9-5063-73ab-2b25" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfee-5514-bdc5-f3f3" name="Calvario Vigueta" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ff61-41a5-e778-756d" name="Calvario Vigueta" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Mystiker Stab"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="a48b-888b-8481-77a2" name="Calvario Vigueta" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Schattenkraft, Nirgendwo sicher, rechts"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="5/4 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="1dfa-e5ba-25be-0b2b" name="Calvario Vigueta" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="8"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="4/8"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="2/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="2/2"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="750d-a59e-fb11-910e" name="Mob" hidden="false" targetId="c368-c8c3-cbde-7e71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4fd-9607-efca-b84a" name="Seelentreiber (0-4 Balagonecos)" hidden="false" targetId="68f7-a2b8-9c3b-2503" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ce29-5e88-bbb9-b5a9" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2087-fb88-62af-508f" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1d81-a884-800d-8b2c" name="Regeneration (1)" hidden="false" targetId="77a6-cd23-3bd4-bee5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc9-99a2-7bd4-9010" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec74-1077-827b-0590" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4858-a9ba-33af-db83" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="51d4-b46e-7dba-cfb7" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8384-862c-92ee-941d" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d973-5971-cf3e-b019" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5985-160f-62bb-db9a" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f46-f223-4454-4218" name="Balagnoneco" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a49b-88da-17d6-6b39" name="Balagnoneco" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Fiese Nadelhände"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Fiese Nadelhände"/>
+          </characteristics>
+        </profile>
+        <profile id="3990-fa9b-0161-9577" name="Balagnoneco" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="6"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="2/5"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="2/5"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="25c0-5337-bdc5-331d" name="Mob" hidden="false" targetId="c368-c8c3-cbde-7e71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="61e6-3dfb-c50b-2d4d" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1fa3-cdce-ffbd-9672" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bfcb-f99e-ebba-adee" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="784f-35d4-36b7-4f76" name="Tumb" hidden="false" targetId="5f26-9d54-ca27-c8d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="6b4b-2210-95a5-bae4" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfee-5514-bdc5-f3f3" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4b-2210-95a5-bae4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a14f-0ac1-f391-9f2f" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="df21-1512-2794-125c" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aee4-559a-3d66-172d" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4358-d5f8-0ae9-fc31" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7d49-3535-1b8e-2c34" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4406-3121-63ff-0d79" name="La Bruja" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bc94-0c5c-549a-8a12" name="La Bruja" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Kessel, Umhauen (5), Brennend (4), Zweihändig"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Kessel, Umhauen (5), Brennend (4), Zweihändig"/>
+          </characteristics>
+        </profile>
+        <profile id="5b98-46db-7f48-564c" name="La Bruja" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="11"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/4 ⑥"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/4 ⑥"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ed20-2339-7cd8-2b90" name="Spinnefeind (Kasper Boulott)" hidden="false" targetId="2cfa-3090-43a0-13f5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6baa-2c15-74a6-b640" name="Rundumschlag" hidden="false" targetId="f678-b4f1-1c1b-874e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="06ad-16c9-49c4-b1ed" name="Heißblütig" hidden="false" targetId="d24c-cd50-455e-5970" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="e8a3-f6a1-5309-303c" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7d1-ec7c-4883-2aa8" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a3-f6a1-5309-303c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="855c-26c8-430f-df16" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc57-5137-ef1f-0774" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dcf5-b693-26af-7903" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e356-fa16-8645-71c5" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4faa-21a3-9be8-21c8" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90fe-c816-894a-13ad" name="Tronconneuse" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f6fc-b494-7da1-221d" name="Tronconneuse" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Mechanische Kettensäge, Sägeschliff, Zweihändig"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Mechanische Kettensäge, Sägeschliff, Zweihändig"/>
+          </characteristics>
+        </profile>
+        <profile id="3a69-8156-ef3b-e25a" name="Tronconneuse" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="11"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/5 ⑧"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/5 ⑧"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2dd3-0948-eb57-67da" name="Furchterregend" hidden="false" targetId="2bf6-2121-736a-23eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ce8d-e6af-0e25-7eca" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da1e-8b9f-e110-c0d9" name="Riecht die Angst" hidden="false" targetId="6b37-02c5-16db-097c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ce6a-3280-f2f7-10cb" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f6b7-ca98-4d4a-d647" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb5-717c-feb4-800c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2aa9-29d6-9e80-d4b5" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cd6b-c6d1-396f-b80f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e2a6-fbde-3fe3-4251" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d9fb-09ae-beb4-786c" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1d4d-f867-7bda-a06e" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1674-536b-8f65-4a26" name="Sansame" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ec9e-6005-878d-52a9" name="Sansame" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Improvisierte Waffe"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Improvisierte Waffe"/>
+          </characteristics>
+        </profile>
+        <profile id="f5a2-3a7c-70c9-2c5f" name="Sansame" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="9"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/4"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/4"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d1ad-a177-696e-ffc1" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="26d0-0701-1d26-fb7d" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5dd1-2a36-bd85-d51d" name="Ungeschickt (Komplexe Aktion)" hidden="false" targetId="3034-5169-ba85-2f2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f2d4-7ceb-59b1-c8b4" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a29d-c0eb-e8ef-2b0d" name="Tumb" hidden="false" targetId="5f26-9d54-ca27-c8d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9fe3-0659-4c61-88ce" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="2">
+          <repeats>
+            <repeat field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0298-b0f4-7785-92eb" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a541-ad26-bf24-7e3b" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="f186-3313-72b8-3f95" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfee-5514-bdc5-f3f3" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0298-b0f4-7785-92eb" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfee-5514-bdc5-f3f3" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be3e-f33a-0bda-302a" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad3b-1e60-84ea-498b" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="f186-3313-72b8-3f95" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be3e-f33a-0bda-302a" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f186-3313-72b8-3f95" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1f5b-06db-67f1-5458" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e52f-7816-a617-945f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dac9-ebf9-eaed-263f" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d8b3-1e13-123c-9107" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d3ab-99f4-423b-8ad3" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7b3-6908-1970-c5aa" name="Paltoquet" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1f98-7c92-73b1-7ba0" name="Paltoquet" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Trompe Graillon, Zweihändig"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Trompe Graillon, Zweihändig"/>
+          </characteristics>
+        </profile>
+        <profile id="7c49-c8fc-32a6-30f1" name="Paltoquet" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Trompe Graillon, Zweihändig"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="5/4 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="c947-5e4e-28f9-0781" name="Paltoquet" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="13"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/5 ⑦"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/5 ⑦"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cf06-18a3-b990-5d09" name="Musiker" hidden="false" targetId="f719-bd37-ad8d-e312" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b81-bf6f-1ad4-8d02" name="Geritten (Rengorg)" hidden="false" targetId="76c6-35a8-33b2-fbb9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="53d3-4efd-ebeb-db95" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="caf2-45ea-4db8-7d20" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b87e-5b03-6de9-46d1" name="MWP" hidden="false" targetId="48a0-6247-c625-1b06" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9122-16ca-7f9d-cae0" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="174b-719a-6321-d696" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e977-ad88-b604-1507" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37dd-acf1-96ad-b2a5" name="Asquerosos Pirat" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ab33-2604-94cf-2070" name="Asquerosos Pirat" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Entermesser"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="Pistole als Knüppel"/>
+          </characteristics>
+        </profile>
+        <profile id="6388-c12e-2516-6e63" name="Asquerosos Pirat" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Pistole, Nachladen, links"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="5/4 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="485a-05d1-e150-c247" name="Asquerosos Pirat" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="9"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/1"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/5"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="d3b1-fe70-b112-8d69" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad9c-edde-cfa2-78b8" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3b1-fe70-b112-8d69" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7b14-3331-505d-f0da" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c875-0e65-0ef4-9b8d" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3363-813a-10ca-e59d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4e36-8717-bf4e-a853" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="095a-2405-b170-a0fc" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad9c-edde-cfa2-78b8" name="Asquerosos Pirat (Ehrengarde)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="644c-2ac0-20c8-eb18" name="Asquerosos Pirat" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Entermesser"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="Pistole als Knüppel"/>
+          </characteristics>
+        </profile>
+        <profile id="1204-bb55-619d-6ece" name="Asquerosos Pirat" hidden="false" profileTypeId="76c5-eae8-28cf-f52d" profileTypeName="2.1 Fernkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe" characteristicTypeId="fd1b-28d9-9ab5-a266" value="Pistole, Nachladen, links"/>
+            <characteristic name="FERN" characteristicTypeId="1a68-426e-effa-4443" value="5/4 ~ 30"/>
+          </characteristics>
+        </profile>
+        <profile id="f6a1-7c59-2291-1d61" name="Asquerosos Pirat" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="9"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/1"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/5"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="083c-8438-c6c4-9a43" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a2f-1895-f941-b65c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="f8a7-28ac-644d-2026" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37dd-acf1-96ad-b2a5" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a7-28ac-644d-2026" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b44d-899d-5759-2e3f" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0549-24f1-f457-a0da" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5c82-860f-87ef-71ee" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c085-1e51-4c1d-83ff" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e4d-78b4-c478-20b6" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a541-ad26-bf24-7e3b" name="Gualtiero" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a377-21ac-c647-4cc0" name="Gualtiero" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Dolch"/>
+          </characteristics>
+        </profile>
+        <profile id="e69d-9b68-6706-15dc" name="Gualtiero" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="10"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="3/3"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="3/6"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="97c3-d4d2-074e-2737" name="Keine Autorität" hidden="false" targetId="33cf-8eac-ab34-39c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0390-5020-215a-4eac" name="Seelentreiber (0-4 Sansames)" hidden="false" targetId="e0a0-54b7-e607-64a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40a2-fddf-6955-d193" name="Mystiker (Missgunst, Tod, Wohlwollen, 1-5)" hidden="false" targetId="5382-b040-49c7-9cad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b411-3113-7b62-a7a2" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7ea-21a5-7ca5-08ab" name="Machtreserve" hidden="false" targetId="e123-3587-5ff0-42e0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="52d9-35ac-391d-bb9b" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5107-7593-0251-5c6f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86d0-cf79-d697-6731" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="215a-b11a-8294-45ab" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7d3b-dedd-706d-b058" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fbf1-0282-a823-7fd3" name="Loa Missgunst" hidden="false" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5083-1088-469a-ebf9" name="Loa Tod" hidden="false" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6172-1b07-d6eb-7913" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d49-1aa5-ef3d-2e8b" name="Loa Wohlwollen" hidden="false" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cd2c-ebe0-412f-a819" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="357c-13d5-7843-a5dc" name="Mademoiselle D`oiseaux" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8631-d621-10ea-2dec" name="Mademoiselle D`oiseaux" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Dolch"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="ef3b-5ba1-78c1-19e4" name="Mademoiselle D`oiseaux" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="11"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="4/8"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="4/6"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="4/4"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="2/3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6fa3-aa45-aa3e-9a4a" name="Keine Autorität" hidden="false" targetId="33cf-8eac-ab34-39c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b9fb-98b3-0730-a9cf" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f448-09c8-786f-d730" name="Mystikerin (Missgunst, Wohlwollen, 1-5)" hidden="false" targetId="f293-c83f-3f3c-bfa1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2aaf-1043-46cf-dd93" name="Musiker" hidden="false" targetId="f719-bd37-ad8d-e312" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a96c-c607-77d6-0d45" name="Ehrengarde (Kultist)" hidden="false" targetId="9c93-57a3-deca-5e65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ac96-6d79-aa51-d59f" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6a88-c8d9-b100-62d1" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3c25-30ed-8450-2dac" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="827a-62c2-22d1-f809" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="618c-034e-e709-4d18" name="Verfluchtes Schifferklavier" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2837-4268-7150-823f" name="Sirenengesang" hidden="false" targetId="8c32-3d3b-fd36-7d6f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff4-a0bc-c5c7-104c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="349a-86df-d138-56d2" name="Loa Wohlwollen" hidden="false" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="846c-52ae-e858-39b5" name="Loa Missgunst" hidden="false" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1982-0ee4-82ac-c79a" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4423-d4ca-8ec0-402e" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a0a-f893-2156-c3ce" name="Kultist" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="91ac-a8ed-b871-050f" name="Kultist" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Improviserte Waffe"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="3a47-de05-60de-b173" name="Kultist" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="8"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="2/5"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="2/2"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e807-c645-3e68-e633" name="Mystischer Chor" hidden="false" targetId="c012-41f3-76cb-1dbc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="52a0-e689-193d-8ac5" name="Mob" hidden="false" targetId="c368-c8c3-cbde-7e71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2544-ebb4-2dce-b991" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="46ee-8dc4-5fa4-18f4" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bac6-7d62-c91a-dfa6" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ee-8dc4-5fa4-18f4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0686-db9f-0dc6-bc07" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d78e-7596-1112-a668" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6216-3103-10ae-286b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2c87-28f1-9155-5860" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0766-6e33-0d13-21b8" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bac6-7d62-c91a-dfa6" name="Kultist (Ehrengarde)" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cc0e-e181-eb4a-48fd" name="Kultist" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Waffe Rechts" characteristicTypeId="fa19-7fa1-4e1c-0922" value="Improviserte Waffe"/>
+            <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="853d-54fd-bb11-11c5" name="Kultist" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Leben" characteristicTypeId="1fc9-d21e-6cff-f9d8" value="8"/>
+            <characteristic name="Beine (BEW)" characteristicTypeId="9197-26bd-e35b-c893" value="5/10"/>
+            <characteristic name="Kopf (A)" characteristicTypeId="22df-2267-d38d-5587" value="1/2"/>
+            <characteristic name="Unterleib (V)" characteristicTypeId="6645-1b76-8cc6-3d73" value="2/3"/>
+            <characteristic name="Arm rechts (ST)" characteristicTypeId="3c5e-13a8-dfe7-f5e8" value="2/5"/>
+            <characteristic name="Arm links (ST)" characteristicTypeId="ddf7-0c69-aeb3-00b3" value="2/2"/>
+            <characteristic name="Torso (W)" characteristicTypeId="817d-6802-10fd-8a51" value="1/2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="eee3-8817-ac42-8089" name="Mystischer Chor" hidden="false" targetId="c012-41f3-76cb-1dbc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9cc7-6906-681a-f60a" name="Mob" hidden="false" targetId="c368-c8c3-cbde-7e71" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f5b8-5a5f-820b-8d8d" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c54-108e-628a-51b4" name="Mob (einmalig +1/+1 ST)" hidden="false" targetId="527f-a2e4-0e56-e302" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="357c-13d5-7843-a5dc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="dd96-3597-109a-1695" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a0a-f893-2156-c3ce" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd96-3597-109a-1695" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eeb0-7a3d-6389-8ea7" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ffef-c95a-4f01-b1ec" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5424-1f00-2b75-93f6" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="42af-0be2-8b30-a142" name="Ausrüstung Groß" hidden="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5cb9-bab4-55b7-8e18" name="Aurüstung" hidden="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false">
@@ -26464,13 +28952,13 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7d1-ec7c-4883-2aa8" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7d1-ec7c-4883-2aa8" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="275c-c172-98f5-18fd" type="max"/>
+            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="275c-c172-98f5-18fd" type="max"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="4728-58e2-dc53-2c81" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false">
@@ -28364,12 +30852,6 @@
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="5366-ee8e-69a8-2d6a" name="Seelentreiber (0-2 Sansames)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="8717-cffc-4263-19cb" name="Spinnefein (Söldner-Mystiker)" hidden="false">
       <profiles/>
       <rules/>
@@ -29169,6 +31651,132 @@
       <modifiers/>
     </rule>
     <rule id="8be0-b560-7da2-5389" name="Heroischer Befehl" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="c368-c8c3-cbde-7e71" name="Mob" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="5f27-de7a-e9dc-63c6" name="Ehrengarde (Asquerosos Pirat)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="6dcc-03df-c6a1-e736" name="Ehrengarde" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="159b-6ed0-786c-121e" name="Ehrengarde (Juedi)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="37e9-6803-f357-ad5d" name="Mystikerin (Missgunst, Tod, Wildniss, 1-6)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="7852-0246-ba6a-f2b5" name="Priesterin" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="e123-3587-5ff0-42e0" name="Machtreserve" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="964a-807e-35a5-6475" name="Mary Chains" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="e0a0-54b7-e607-64a6" name="Seelentreiber (0-4 Sansames)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="1d2a-2d61-137a-6176" name="Verwandt (Mom Cherie)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="03ae-f0ed-3ce9-b49a" name="Medium" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="68f7-a2b8-9c3b-2503" name="Seelentreiber (0-4 Balagonecos)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="2cfa-3090-43a0-13f5" name="Spinnefeind (Kasper Boulott)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="6b37-02c5-16db-097c" name="Riecht die Angst" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="3e69-328f-de2b-914e" name="Seelentreiber (0-2 Sansames)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="76c6-35a8-33b2-fbb9" name="Geritten (Rengorg)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="5382-b040-49c7-9cad" name="Mystiker (Missgunst, Tod, Wohlwollen, 1-5)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="9c93-57a3-deca-5e65" name="Ehrengarde (Kultist)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="f293-c83f-3f3c-bfa1" name="Mystikerin (Missgunst, Wohlwollen, 1-5)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="8c32-3d3b-fd36-7d6f" name="Sirenengesang" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="527f-a2e4-0e56-e302" name="Mob (einmalig +1/+1 ST)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
