@@ -1,5 +1,11 @@
-Freebooter´s Fate #2
+﻿Freebooter´s Fate #2
 =================
+
+Bug-Report:
+
+https://discord.gg/RGH7Nq
+
+
 
 #### Version ####
 
