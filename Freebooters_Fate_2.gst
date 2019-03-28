@@ -5337,6 +5337,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="39f7-ddf0-4b9d-f3b4" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -6098,6 +6105,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="adfd-a269-d588-b244" name="Söldner-Mystiker" hidden="false" targetId="bf0f-0aaa-a207-23d0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="516c-315e-7b1f-d0c8" name="Seelentreiber" hidden="false" targetId="0298-b0f4-7785-92eb" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26944,6 +26958,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfee-5514-bdc5-f3f3" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfee-5514-bdc5-f3f3" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
