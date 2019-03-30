@@ -27239,9 +27239,9 @@
         <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1674-536b-8f65-4a26" name="Sansame" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1674-536b-8f65-4a26" name="Sansâme" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="ec9e-6005-878d-52a9" name="Sansame" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+        <profile id="ec9e-6005-878d-52a9" name="Sansâme" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27251,7 +27251,7 @@
             <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Improvisierte Waffe"/>
           </characteristics>
         </profile>
-        <profile id="f5a2-3a7c-70c9-2c5f" name="Sansame" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+        <profile id="f5a2-3a7c-70c9-2c5f" name="Sansâme" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
           <profiles/>
           <rules/>
           <infoLinks/>
