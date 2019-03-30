@@ -9,9 +9,9 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
-1.0.1 Sansame und Seelentreiber angepasst.
+2.0.1 Sansame und Seelentreiber angepasst.
 
-1.0.0 Realeas. Kult hinzugefügt.
+2.0.0 Realeas. Kult hinzugefügt.
 
 0.1.1 Boote angepasst
 
