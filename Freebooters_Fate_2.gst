@@ -4,7 +4,7 @@
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="3e2b-74a8-7713-6552" name="Punkte" defaultCostLimit="-1.0"/>
+    <costType id="3e2b-74a8-7713-6552" name="Dublonen" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="f7bc-94e0-f392-9073" name="1.1 Charakter Stats">
@@ -933,7 +933,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1475-a8b4-60eb-8751" name="Matqueh" hidden="false" collective="false" type="model">
@@ -1039,7 +1039,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c329-d7be-6519-2837" name="Matqueh (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -1158,7 +1158,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e83-bb1e-72b7-4709" name="Totol" hidden="false" collective="false" type="model">
@@ -1262,7 +1262,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="770d-d204-6d15-b62c" name="Canoa" hidden="false" collective="false" type="model">
@@ -1350,7 +1350,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="345c-b792-afd3-c85a" name="Clara Cadora" hidden="false" collective="false" type="model">
@@ -1480,7 +1480,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6a2-27ba-b9ff-735d" name="Marshalla Silvie" hidden="false" collective="false" type="model">
@@ -1622,7 +1622,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="170.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="679d-c93d-5f95-b1b4" name="Senora Ya Va" hidden="false" collective="false" type="model">
@@ -1748,7 +1748,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d78-2538-8992-46f4" name="Tepoloa" hidden="false" collective="false" type="model">
@@ -1867,7 +1867,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b91f-feb1-ad55-e5bb" name="Tempelwächterin" hidden="false" collective="false" type="model">
@@ -1963,7 +1963,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c783-a9fb-6cb5-604f" name="Atl-Atl" hidden="false" collective="false" type="model">
@@ -2069,7 +2069,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1899-b20c-9d3b-018d" name="Cauyacatl" hidden="false" collective="false" type="model">
@@ -2198,7 +2198,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e3c-86ff-7351-20e5" name="Yolcameh" hidden="false" collective="false" type="model">
@@ -2335,7 +2335,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32c7-0814-cf73-ca08" name="Xicoa" hidden="false" collective="false" type="model">
@@ -2477,7 +2477,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63c2-1a1d-a23b-155b" name="Atl-Atl (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -2596,7 +2596,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec09-48be-16c9-3fa7" name="Tempelwächterin (Ehrangarde)" hidden="false" collective="false" type="model">
@@ -2705,7 +2705,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b718-8b40-aa20-c26a" name="Chicomeh" hidden="false" collective="false" type="model">
@@ -2801,7 +2801,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d99f-7e27-af5b-9e46" name="Chicomeh (Ehrahngarde)" hidden="false" collective="false" type="model">
@@ -2910,7 +2910,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a99-c0be-caf8-408a" name="Tocatl" hidden="false" collective="false" type="model">
@@ -3010,7 +3010,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0d2-cd28-e816-c0b1" name="Occepa" hidden="false" collective="false" type="model">
@@ -3104,7 +3104,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eefe-96e6-935f-c101" name="Tecuani" hidden="false" collective="false" type="model">
@@ -3205,7 +3205,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b41-e065-9786-0dbf" name="Onca" hidden="false" collective="false" type="model">
@@ -3296,7 +3296,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9db-4e65-15a0-950f" name="Ozomatli" hidden="false" collective="false" type="model">
@@ -3409,7 +3409,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="167e-1576-0572-1cda" name="Tzinaka" hidden="false" collective="false" type="model">
@@ -3527,7 +3527,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0cc-f98e-f71d-c93c" name="Canita" hidden="false" collective="false" type="model">
@@ -3649,7 +3649,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5a0-3ece-39e0-1fa4" name="Yachakuq" hidden="false" collective="false" type="model">
@@ -3794,7 +3794,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c03-4430-a9b7-7447" name="Macati" hidden="false" collective="false" type="model">
@@ -3888,7 +3888,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca02-5796-f747-c1b5" name="Nenetzin" hidden="false" collective="false" type="model">
@@ -3988,7 +3988,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c161-619a-ef4f-d8a6" name="Tamazolli" hidden="false" collective="false" type="model">
@@ -4098,7 +4098,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="063e-9c9a-b9c0-0462" name="Beameh" hidden="false" collective="false" type="model">
@@ -4204,7 +4204,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b38-75a4-5776-787a" name="Tapayaxin" hidden="false" collective="false" type="model">
@@ -4308,7 +4308,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3379-b6a8-676c-7ab7" name="Cuamotla" hidden="false" collective="false" type="model">
@@ -4418,7 +4418,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d04-9a7a-fbb4-d700" name="Tetecuinoa" hidden="false" collective="false" type="model">
@@ -4528,7 +4528,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c84e-6719-64e7-b2c8" name="Hanna Solare" hidden="false" collective="false" type="model">
@@ -4640,7 +4640,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6484-5ac6-c301-11b8" name="La Pelotera #1" hidden="false" collective="false" type="model">
@@ -4774,7 +4774,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88fd-cd02-fe2a-ed4f" name="Moja Alga" hidden="false" collective="false" type="model">
@@ -4896,7 +4896,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43f1-a951-0490-e316" name="Arida" hidden="false" collective="false" type="model">
@@ -4983,7 +4983,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0530-696e-1b58-ac77" name="Liname" hidden="false" collective="false" type="model">
@@ -5111,7 +5111,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1773-bd90-c46a-0d03" name="Schwalbe" hidden="false" collective="false" type="model">
@@ -5236,7 +5236,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d22-05d8-942c-2a1d" name="Lillith" hidden="false" collective="false" type="model">
@@ -5374,7 +5374,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01cf-aadd-1999-27f7" name="Crazy Perez" hidden="false" collective="false" type="model">
@@ -5483,7 +5483,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38d1-8edd-f89e-a2e5" name="Capitana Roja" hidden="false" collective="false" type="model">
@@ -5605,7 +5605,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ca7-1060-7a50-092d" name="Capitana Roja •" hidden="false" collective="false" type="model">
@@ -5734,7 +5734,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61da-501c-44cb-e21a" name="Tiradora •" hidden="false" collective="false" type="model">
@@ -5824,7 +5824,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3727-b381-ed89-110a" name="Matelots •" hidden="false" collective="false" type="model">
@@ -5914,7 +5914,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="70ca-a3b5-d738-d823" name="Eugenie" hidden="false" collective="false" type="model">
@@ -6016,7 +6016,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="430a-cd12-3696-d772" name="Estrella Nocturna" hidden="false" collective="false" type="model">
@@ -6148,7 +6148,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ab9-4d52-7feb-a068" name="Theresa" hidden="false" collective="false" type="model">
@@ -6282,7 +6282,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63dc-44e0-9241-8ec0" name="Cazador Comedreja" hidden="false" collective="false" type="model">
@@ -6424,7 +6424,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcbe-7362-cb94-ef02" name="Brahyn" hidden="false" collective="false" type="model">
@@ -6520,7 +6520,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d562-10ed-5135-2ec9" name="Cäsar" hidden="false" collective="false" type="upgrade">
@@ -6628,7 +6628,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5603-844a-365b-b710" name="Madam Gorgonne" hidden="false" collective="false" type="upgrade">
@@ -6774,7 +6774,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d696-d4ee-23ed-442a" name="Fidanzata" hidden="false" collective="false" type="upgrade">
@@ -6883,7 +6883,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa17-a3e7-4e4b-dd64" name="Rattenschwarm" hidden="false" collective="false" type="upgrade">
@@ -6982,7 +6982,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="248d-2618-0198-9a94" name="Samuel Juanhijo" hidden="false" collective="false" type="model">
@@ -7114,7 +7114,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be3e-f33a-0bda-302a" name="Mrs. Juanhijo" hidden="false" collective="false" type="upgrade">
@@ -7255,7 +7255,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e9e-d630-08c1-0a07" name="Baron Conchita" hidden="false" collective="false" type="upgrade">
@@ -7380,7 +7380,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5002-604a-ad71-924c" name="Don Pavo" hidden="false" collective="false" type="upgrade">
@@ -7507,7 +7507,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f129-fae7-68d9-c971" name="Seesoldat •" hidden="false" collective="false" type="model">
@@ -7587,7 +7587,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10f0-74a5-29d0-1c23" name="Don Pavo •" hidden="false" collective="false" type="upgrade">
@@ -7721,7 +7721,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2414-bf70-504f-4d24" name="Asaltores •" hidden="false" collective="false" type="model">
@@ -7818,7 +7818,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b87-d810-d98a-2a1e" name="Buscar" hidden="false" collective="false" type="upgrade">
@@ -7922,7 +7922,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="818f-4ca7-47e1-7dec" name="El Curandero" hidden="false" collective="false" type="model">
@@ -8012,7 +8012,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="400.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="400.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4861-fdbb-5ed2-f6e1" name="Lindo Guapo" hidden="false" collective="false" type="model">
@@ -8118,7 +8118,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bef-cb67-9f03-7a9e" name="Lobo" hidden="false" collective="false" type="model">
@@ -8226,7 +8226,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d885-4599-55bd-51a8" name="Eitu" hidden="false" collective="false" type="upgrade">
@@ -8316,7 +8316,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="126c-4174-a210-fc69" name="Montero Guaca" hidden="false" collective="false" type="model">
@@ -8428,7 +8428,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c16b-f4f4-a6bb-a8c0" name="Senor Conejo" hidden="false" collective="false" type="model">
@@ -8534,7 +8534,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5c6-200f-15de-a108" name="Farrador" hidden="false" collective="false" type="model">
@@ -8647,7 +8647,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52f8-2f5e-1f97-1704" name="Fornido" hidden="false" collective="false" type="upgrade">
@@ -8756,7 +8756,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef79-39e0-1ba6-038a" name="Ibubesi" hidden="false" collective="false" type="model">
@@ -8858,7 +8858,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da05-0b00-9c7a-0d05" name="Wolfgang •" hidden="false" collective="false" type="model">
@@ -8965,7 +8965,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50f7-f0e7-2d4b-b66f" name="Wolfgang" hidden="false" collective="false" type="model">
@@ -9063,7 +9063,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cccf-2e26-547d-d777" name="Wild Ox •" hidden="false" collective="false" type="model">
@@ -9198,7 +9198,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="259e-1cc3-bb22-d0ef" name="Wild Ox" hidden="false" collective="false" type="model">
@@ -9324,7 +9324,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="befe-6420-f9cf-ccb9" name="Yola" hidden="false" collective="false" type="model">
@@ -9412,7 +9412,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efaf-7b8b-c734-ccf1" name="Xalupe" hidden="false" collective="false" type="upgrade">
@@ -9501,7 +9501,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ab9-5d4a-6011-c976" name="Piñassa" hidden="false" collective="false" type="upgrade">
@@ -9584,7 +9584,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1d3-dc08-1067-5dee" name="Barkaza" hidden="false" collective="false" type="upgrade">
@@ -9672,7 +9672,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e7e-9889-89b4-710c" name="Pirraqua" hidden="false" collective="false" type="model">
@@ -9760,7 +9760,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9688-63e2-b1fb-91fa" name="Franjo" hidden="false" collective="false" type="upgrade">
@@ -9890,7 +9890,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="150.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ffa-c715-dc1e-74ba" name="El Grandulon" hidden="false" collective="false" type="model">
@@ -10002,7 +10002,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="165.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="165.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a8-3af2-e95c-d2ae" name="Kapitän Rosso" hidden="false" collective="false" type="model">
@@ -10125,7 +10125,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cf7-81a5-a093-69e2" name="Regicide" hidden="false" collective="false" type="model">
@@ -10242,7 +10242,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f497-3d01-60e8-36c3" name="Barco Malcaduco" hidden="false" collective="false" type="model">
@@ -10351,7 +10351,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2ed-af6b-4647-dd4c" name="Pirate Queen" hidden="false" collective="false" type="model">
@@ -10474,7 +10474,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f453-6d2d-75a5-1704" name="Captain Dèzette" hidden="false" collective="false" type="model">
@@ -10606,7 +10606,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b13b-cc40-eca0-9a76" name="Matelots" hidden="false" collective="false" type="model">
@@ -10695,7 +10695,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5a7-d72c-3d19-f3e9" name="Tiradora" hidden="false" collective="false" type="model">
@@ -10784,7 +10784,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df9e-7365-16e1-6119" name="Pirat/in" hidden="false" collective="false" type="model">
@@ -10873,7 +10873,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e22-77ad-bfeb-6d3c" name="Cuchillo" hidden="false" collective="false" type="upgrade">
@@ -10962,7 +10962,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b9-f50b-94ae-86f0" name="Seemann" hidden="false" collective="false" type="upgrade">
@@ -11048,7 +11048,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4514-bd51-5f97-2d1d" name="Ex Käpt´n Jack" hidden="false" collective="false" type="upgrade">
@@ -11162,7 +11162,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c9b-95a7-87f6-ac22" name="Curly Ann" hidden="false" collective="false" type="model">
@@ -11258,7 +11258,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1af2-0857-0050-6836" name="Krud" hidden="false" collective="false" type="model">
@@ -11364,7 +11364,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="934e-e7f7-4300-97a2" name="Mono" hidden="false" collective="false" type="model">
@@ -11464,7 +11464,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="702.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="702.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89d6-ad63-f29f-6668" name="Piedro der Wirt" hidden="false" collective="false" type="model">
@@ -11558,7 +11558,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c08-7a4f-0e09-5585" name="Big Jenny" hidden="false" collective="false" type="model">
@@ -11675,7 +11675,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e400-ec13-08ff-1b02" name="Spitfire" hidden="false" collective="false" type="model">
@@ -11775,7 +11775,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a12-dae5-5f26-8875" name="Long John" hidden="false" collective="false" type="upgrade">
@@ -11873,7 +11873,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eea6-1738-89cc-f931" name="Casimir Flynn" hidden="false" collective="false" type="model">
@@ -11983,7 +11983,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a168-3506-b87e-f123" name="The Lady" hidden="false" collective="false" type="model">
@@ -12074,7 +12074,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="177f-b0ed-863a-69df" name="Blackbeard" hidden="false" collective="false" type="model">
@@ -12175,7 +12175,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8efb-5e84-74a6-7509" name="Little Pete" hidden="false" collective="false" type="model">
@@ -12285,7 +12285,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="984b-1dd4-3f52-9272" name="El Enterrador" hidden="false" collective="false" type="model">
@@ -12404,7 +12404,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2435-aa26-33b6-6e89" name="Delora Waits" hidden="false" collective="false" type="model">
@@ -12492,7 +12492,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ee0-64a8-dc82-57f1" name="Defty Jim" hidden="false" collective="false" type="model">
@@ -12599,7 +12599,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e55-7da2-2c91-58b2" name="Schwarzer Nick" hidden="false" collective="false" type="model">
@@ -12720,7 +12720,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12744,7 +12744,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f7d-c350-dd61-e67f" name="Jarrono" hidden="false" collective="false" type="model">
@@ -12860,7 +12860,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3ba-cab6-0ce7-7aa7" name="Capitan Leon" hidden="false" collective="false" type="model">
@@ -12985,7 +12985,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f46-5dd2-1736-aea3" name="Capitan Garcia" hidden="false" collective="false" type="upgrade">
@@ -13102,7 +13102,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11ea-89e6-fd66-c325" name="Cazardorengardist" hidden="false" collective="false" type="model">
@@ -13191,7 +13191,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4cb-614e-fc6e-70a8" name="Cazardorengardist (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -13294,7 +13294,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6047-2f63-9ff3-f9a9" name="Seesoldat" hidden="false" collective="false" type="model">
@@ -13383,7 +13383,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ab4-4e0f-7edb-9ee9" name="Seesoldat (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -13486,7 +13486,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cab7-1309-c3d0-ba5f" name="Asaltores" hidden="false" collective="false" type="model">
@@ -13582,7 +13582,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dcb-182f-fff9-3924" name="Arquebusier" hidden="false" collective="false" type="model">
@@ -13671,7 +13671,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="766d-7fa4-f944-2c7c" name="Jamon Borodino" hidden="false" collective="false" type="model">
@@ -13781,7 +13781,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e4c-b221-d4dd-6efb" name="Tipo Duros" hidden="false" collective="false" type="model">
@@ -13885,7 +13885,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2be6-5317-24b8-135d" name="El Mastin" hidden="false" collective="false" type="model">
@@ -13993,7 +13993,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8c8-1c1a-e8ab-cd97" name="Alicija Degolara" hidden="false" collective="false" type="model">
@@ -14123,7 +14123,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="753e-cbbc-d383-c32d" name="Ahondaro" hidden="false" collective="false" type="model">
@@ -14217,7 +14217,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cb2-be09-3e33-39fb" name="Perro Rastreador" hidden="false" collective="false" type="model">
@@ -14327,7 +14327,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72ca-88a0-378e-372b" name="Sargento Maneto" hidden="false" collective="false" type="model">
@@ -14422,7 +14422,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08d0-2c83-0cb4-d680" name="Callado" hidden="false" collective="false" type="model">
@@ -14535,7 +14535,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d53-7c17-6c7e-5b03" name="Don Guillermo" hidden="false" collective="false" type="model">
@@ -14645,7 +14645,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d7b-1159-73f8-009c" name="Alejandra" hidden="false" collective="false" type="model">
@@ -14745,7 +14745,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4b4-f2c3-e55b-b9f7" name="Sergeant Escopeta" hidden="false" collective="false" type="upgrade">
@@ -14856,7 +14856,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a73-a8a5-773e-5d07" name="Tamborino" hidden="false" collective="false" type="model">
@@ -14944,7 +14944,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa81-e0e7-e743-bf96" name="Teniente" hidden="false" collective="false" type="model">
@@ -15061,7 +15061,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="739b-9b94-b727-ebd6" name="Torpe" hidden="false" collective="false" type="model">
@@ -15155,7 +15155,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3b4-3019-c7f3-2991" name="Erster Maat" hidden="false" collective="false" type="upgrade">
@@ -15272,7 +15272,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cfd-2278-55c4-1a00" name="Comtessa" hidden="false" collective="false" type="model">
@@ -15366,7 +15366,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3f6-9356-a28c-5f94" name="Zofe" hidden="false" collective="false" type="model">
@@ -15466,7 +15466,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20f0-2faa-c25b-fd2a" name="Narr" hidden="false" collective="false" type="model">
@@ -15570,7 +15570,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ade3-c625-e139-0b8e" name="Malo Gordab" hidden="false" collective="false" type="model">
@@ -15675,7 +15675,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1832-7330-bd6e-86db" name="Kapitäm Ulgat" hidden="false" collective="false" type="model">
@@ -15792,7 +15792,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d198-9572-77cf-41a7" name="Chulo Bolu" hidden="false" collective="false" type="model">
@@ -15921,7 +15921,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c79a-73b0-54f7-24e4" name="Gront" hidden="false" collective="false" type="upgrade">
@@ -16050,7 +16050,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="160c-74be-065e-bf07" name="Harter Junge" hidden="false" collective="false" type="model">
@@ -16146,7 +16146,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="824e-a22b-e73f-3c65" name="Harter Junge (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -16255,7 +16255,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bcd-e034-dd1d-8ea8" name="Hasadeur" hidden="false" collective="false" type="model">
@@ -16351,7 +16351,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f05e-f681-f7b8-0c2f" name="Velero" hidden="false" collective="false" type="model">
@@ -16447,7 +16447,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8217-2c54-fd25-4e75" name="Matrose" hidden="false" collective="false" type="model">
@@ -16543,7 +16543,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c202-9d92-26e3-33cf" name="Bajo" hidden="false" collective="false" type="model">
@@ -16637,7 +16637,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c15-c500-4c4c-8083" name="Revlugg" hidden="false" collective="false" type="model">
@@ -16754,7 +16754,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1372-acfb-2ac9-1183" name="Pegarata" hidden="false" collective="false" type="model">
@@ -16842,7 +16842,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55ff-1025-e70b-4bb7" name="Moby Dugg" hidden="false" collective="false" type="model">
@@ -16951,7 +16951,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6970-af2d-8a6a-a641" name="Bolgod" hidden="false" collective="false" type="model">
@@ -17058,7 +17058,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8954-899c-717b-ab4a" name="Golotag" hidden="false" collective="false" type="model">
@@ -17165,7 +17165,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5d47-ac90-27ac-73a2" name="Cucaracha" hidden="false" collective="false" type="model">
@@ -17275,7 +17275,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7db5-c736-b8ea-0904" name="Momma Cebada" hidden="false" collective="false" type="model">
@@ -17375,7 +17375,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcbe-a8a4-d5e6-6e46" name="Momma Galina" hidden="false" collective="false" type="model">
@@ -17485,7 +17485,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f961-1774-4605-e724" name="Hueso Narg" hidden="false" collective="false" type="model">
@@ -17579,7 +17579,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a98-527f-c6c3-9bfb" name="Grogg" hidden="false" collective="false" type="model">
@@ -17683,7 +17683,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5df5-bddb-58fe-682f" name="El Charro" hidden="false" collective="false" type="model">
@@ -17794,7 +17794,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3384-1889-bdab-c98b" name="Pujamen" hidden="false" collective="false" type="model">
@@ -17911,7 +17911,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="722b-40dc-c321-7cc3" name="Nartz" hidden="false" collective="false" type="model">
@@ -18017,7 +18017,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6195-6e84-5896-09be" name="Yogo Yogo" hidden="false" collective="false" type="model">
@@ -18140,7 +18140,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a499-c005-cbf5-71fc" name="Pierre &amp; Paolo" hidden="false" collective="false" type="upgrade">
@@ -18234,7 +18234,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae6b-30f9-73ee-5019" name="Momma Fiara" hidden="false" collective="false" type="model">
@@ -18359,7 +18359,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6445-3cc3-fe93-3c4d" name="Chico" hidden="false" collective="false" type="model">
@@ -18477,7 +18477,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef2d-c07d-dd41-fbd4" name="Velero (Ehrehgarde)" hidden="false" collective="false" type="model">
@@ -18580,7 +18580,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9079-0894-deac-217f" name="Buzo" hidden="false" collective="false" type="model">
@@ -18684,7 +18684,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ab2-0e02-d141-b9a1" name="Gubbins" hidden="false" collective="false" type="model">
@@ -18794,7 +18794,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3c3-c8fa-37cd-fb85" name="Kreisch" hidden="false" collective="false" type="model">
@@ -18910,7 +18910,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9ad-f1fa-5046-d0f3" name="Ampara" hidden="false" collective="false" type="model">
@@ -19023,7 +19023,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4f2-79d3-76d0-e78f" name="Tarro" hidden="false" collective="false" type="model">
@@ -19136,7 +19136,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bcb-06f4-3006-2b8f" name="Cortante" hidden="false" collective="false" type="model">
@@ -19240,7 +19240,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d064-8ec3-bf62-e281" name="Cortante •" hidden="false" collective="false" type="model">
@@ -19346,7 +19346,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54f1-0413-075b-6a70" name="Mesiterassassin" hidden="false" collective="false" type="model">
@@ -19475,7 +19475,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="115.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05fa-061e-9439-e279" name="Meisterharlequina" hidden="false" collective="false" type="model">
@@ -19610,7 +19610,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="105.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c22f-1b15-b532-cd30" name="Königin der Schatten" hidden="false" collective="false" type="model">
@@ -19729,7 +19729,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1fd0-a435-6fdd-9773" name="Senore Nefando" hidden="false" collective="false" type="model">
@@ -19858,7 +19858,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5eb-0ef8-c10c-e326" name="Dottore" hidden="false" collective="false" type="model">
@@ -19991,7 +19991,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7203-995a-c2f8-8231" name="Coscritti" hidden="false" collective="false" type="model">
@@ -20070,7 +20070,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="885e-7434-1ef0-7889" name="Battitore" hidden="false" collective="false" type="model">
@@ -20149,7 +20149,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d9-a4c0-b912-d7d2" name="Spada" hidden="false" collective="false" type="model">
@@ -20235,7 +20235,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="171b-23c1-5d7b-168d" name="Harlequinn" hidden="false" collective="false" type="model">
@@ -20341,7 +20341,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f66-f485-7bfe-0467" name="Harlequinn (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -20460,7 +20460,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd57-7eea-ae3b-be10" name="Apagado" hidden="false" collective="false" type="upgrade">
@@ -20572,7 +20572,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c72-b06b-0380-6b2d" name="Trucco" hidden="false" collective="false" type="model">
@@ -20688,7 +20688,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0bc-3933-ffdd-d16c" name="Romerto" hidden="false" collective="false" type="model">
@@ -20788,7 +20788,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e4e-4adb-2804-ce35" name="Bella Cigna" hidden="false" collective="false" type="model">
@@ -20898,7 +20898,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="caea-b9b6-1096-0555" name="Tronco" hidden="false" collective="false" type="model">
@@ -20998,7 +20998,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91b3-23a4-c811-d2b0" name="Adombra" hidden="false" collective="false" type="model">
@@ -21102,7 +21102,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e33-3f93-0cfb-b7fa" name="Colpo di Mano" hidden="false" collective="false" type="model">
@@ -21227,7 +21227,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5e7-fd38-0891-9120" name="Fith´Aarch" hidden="false" collective="false" type="model">
@@ -21343,7 +21343,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55d7-0d3c-2981-9b3d" name="Incantenebra" hidden="false" collective="false" type="upgrade">
@@ -21459,7 +21459,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8456-f04d-71aa-d0a8" name="Corvana" hidden="false" collective="false" type="model">
@@ -21557,7 +21557,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdc6-e69a-aff1-4275" name="Cadena" hidden="false" collective="false" type="model">
@@ -21657,7 +21657,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ea4-9d57-0f3e-03cb" name="Johanna Weiss" hidden="false" collective="false" type="model">
@@ -21785,7 +21785,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c7e-3d80-c603-8580" name="Pestdoktor" hidden="false" collective="false" type="model">
@@ -21897,7 +21897,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc18-b0e2-8395-322d" name="Viscero" hidden="false" collective="false" type="model">
@@ -21997,7 +21997,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f68b-688b-ff81-fe70" name="Sagitario" hidden="false" collective="false" type="model">
@@ -22113,7 +22113,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a825-15e5-b886-1630" name="Velocia" hidden="false" collective="false" type="model">
@@ -22220,7 +22220,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d271-5aa2-18f2-c023" name="Morena Feigatta" hidden="false" collective="false" type="model">
@@ -22338,7 +22338,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86ba-f43c-aa62-6e17" name="Bonaccia" hidden="false" collective="false" type="model">
@@ -22456,7 +22456,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dde-78fd-8cf2-c6e9" name="Piccina" hidden="false" collective="false" type="model">
@@ -22572,7 +22572,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c37-7c81-aba6-ae92" name="Miedo a Morir" hidden="false" collective="false" type="model">
@@ -22666,7 +22666,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a65c-42b2-4462-3ebc" name="Jeanne K. Raynal" hidden="false" collective="false" type="upgrade">
@@ -22789,7 +22789,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a8-80b3-759b-7ee4" name="Clisson N. Bonnet" hidden="false" collective="false" type="model">
@@ -22902,7 +22902,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f105-b9b0-8877-bdd8" name="Fusilier" hidden="false" collective="false" type="model">
@@ -22998,7 +22998,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0873-06c5-1a94-1a52" name="Vieille Garde" hidden="false" collective="false" type="model">
@@ -23094,7 +23094,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e12-e040-7924-bfac" name="Farouche" hidden="false" collective="false" type="upgrade">
@@ -23186,7 +23186,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="560f-7379-0cd6-b548" name="Taumata" hidden="false" collective="false" type="model">
@@ -23292,7 +23292,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad62-c0ea-e412-bae3" name="Akando" hidden="false" collective="false" type="model">
@@ -23420,7 +23420,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0840-d7fc-2395-e295" name="D´Arebousse" hidden="false" collective="false" type="model">
@@ -23524,7 +23524,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3352-c08c-47d5-bed0" name="Maitre Charlemont" hidden="false" collective="false" type="model">
@@ -23625,7 +23625,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6dd0-8777-65e5-a985" name="Potée" hidden="false" collective="false" type="model">
@@ -23735,7 +23735,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3c6-9c0e-60ef-858c" name="Ganache" hidden="false" collective="false" type="model">
@@ -23847,7 +23847,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e4e-2985-d5be-a0a1" name="Chevalier Calembour" hidden="false" collective="false" type="model">
@@ -23948,7 +23948,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff27-adcc-ea1c-aa07" name="Armond" hidden="false" collective="false" type="model">
@@ -24054,7 +24054,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="719f-909a-c237-79b1" name="Aplantage" hidden="false" collective="false" type="model">
@@ -24152,7 +24152,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7d1-ec7c-4883-2aa8" name="Kasper Boulott" hidden="false" collective="false" type="model">
@@ -24267,7 +24267,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98e7-050b-da3f-a69f" name="Captain Dèzette •" hidden="false" collective="false" type="model">
@@ -24408,7 +24408,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb40-5a33-3dde-fee6" name="Jebedaja Bowyn" hidden="false" collective="false" type="upgrade">
@@ -24541,7 +24541,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b5d-d73d-9b39-2a93" name="Zombie Oktopus" hidden="false" collective="false" type="upgrade">
@@ -24681,7 +24681,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8eb9-cd4b-969d-789c" name="Victoria Innsfoot" hidden="false" collective="false" type="model">
@@ -24787,7 +24787,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="428c-b7e5-8b05-c9f3" name="El Venador" hidden="false" collective="false" type="upgrade">
@@ -24906,7 +24906,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5002-b4e3-b2a4-2b06" name="Arrequin" hidden="false" collective="false" type="model">
@@ -25027,7 +25027,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f959-84b5-66f3-7153" name="Rubio" hidden="false" collective="false" type="model">
@@ -25156,7 +25156,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9517-6572-2212-7c3b" name="Lieutenant Krud" hidden="false" collective="false" type="model">
@@ -25287,7 +25287,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c2e-37e2-f016-f622" name="Sergeant Plisse" hidden="false" collective="false" type="model">
@@ -25400,7 +25400,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e953-73b9-9950-2073" name="Vieille Garde (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -25509,7 +25509,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8688-b4f0-8971-a664" name="Carly Wench" hidden="false" collective="false" type="model">
@@ -25638,7 +25638,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bacb-f5c8-0b72-e10a" name="Blanche Pascal" hidden="false" collective="false" type="model">
@@ -25772,7 +25772,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="120.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b26b-d26d-781d-73f6" name="Asquerosos Fugosa" hidden="false" collective="false" type="model">
@@ -25858,7 +25858,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8673-a169-bd8c-6aeb" name="El Fusilio" hidden="false" collective="false" type="model">
@@ -25987,7 +25987,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a2f-1895-f941-b65c" name="Asqueroso" hidden="false" collective="false" type="model">
@@ -26110,7 +26110,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e48-19c3-2c74-090a" name="Juedi" hidden="false" collective="false" type="model">
@@ -26212,7 +26212,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc3f-e2df-01f6-fb5d" name="Sybiline Vicieux" hidden="false" collective="false" type="model">
@@ -26368,7 +26368,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d78-c097-226e-aa45" name="Juedi (Ehregarde)" hidden="false" collective="false" type="model">
@@ -26483,7 +26483,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad3b-1e60-84ea-498b" name="Eugen" hidden="false" collective="false" type="model">
@@ -26624,7 +26624,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -26648,7 +26648,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10bd-db54-a464-5565" name="Cosphelia" hidden="false" collective="false" type="model">
@@ -26760,7 +26760,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfee-5514-bdc5-f3f3" name="Calvario Vigueta" hidden="false" collective="false" type="model">
@@ -26889,7 +26889,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f46-f223-4454-4218" name="Balagnoneco" hidden="false" collective="false" type="model">
@@ -27016,7 +27016,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4406-3121-63ff-0d79" name="La Bruja" hidden="false" collective="false" type="model">
@@ -27124,7 +27124,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90fe-c816-894a-13ad" name="Tronconneuse" hidden="false" collective="false" type="model">
@@ -27236,12 +27236,12 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1674-536b-8f65-4a26" name="Sansâme" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1674-536b-8f65-4a26" name="Sansame" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="ec9e-6005-878d-52a9" name="Sansâme" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
+        <profile id="ec9e-6005-878d-52a9" name="Sansame" hidden="false" profileTypeId="4e16-a753-363e-2951" profileTypeName="2.4 Nahkampf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27251,7 +27251,7 @@
             <characteristic name="Waffe Links" characteristicTypeId="5fd7-eb8d-c728-478e" value="Improvisierte Waffe"/>
           </characteristics>
         </profile>
-        <profile id="f5a2-3a7c-70c9-2c5f" name="Sansâme" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
+        <profile id="f5a2-3a7c-70c9-2c5f" name="Sansame" hidden="false" profileTypeId="f7bc-94e0-f392-9073" profileTypeName="1.1 Charakter Stats">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27406,7 +27406,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7b3-6908-1970-c5aa" name="Paltoquet" hidden="false" collective="false" type="model">
@@ -27515,7 +27515,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37dd-acf1-96ad-b2a5" name="Asquerosos Pirat" hidden="false" collective="false" type="upgrade">
@@ -27614,7 +27614,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad9c-edde-cfa2-78b8" name="Asquerosos Pirat (Ehrengarde)" hidden="false" collective="false" type="upgrade">
@@ -27727,7 +27727,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a541-ad26-bf24-7e3b" name="Gualtiero" hidden="false" collective="false" type="upgrade">
@@ -27875,7 +27875,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="357c-13d5-7843-a5dc" name="Mademoiselle D`oiseaux" hidden="false" collective="false" type="upgrade">
@@ -27992,7 +27992,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -28032,7 +28032,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a0a-f893-2156-c3ce" name="Kultist" hidden="false" collective="false" type="model">
@@ -28140,7 +28140,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bac6-7d62-c91a-dfa6" name="Kultist (Ehrengarde)" hidden="false" collective="false" type="model">
@@ -28261,7 +28261,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -28309,7 +28309,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6913-121c-0838-4495" name="Chivato" hidden="false" collective="false" type="upgrade">
@@ -28350,7 +28350,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="512c-8a3f-ed58-9892" name="Loa-Ex" hidden="false" collective="false" type="upgrade">
@@ -28378,7 +28378,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9d1b-8a0c-7dd0-f1d7" name="Glücksbringer" hidden="false" collective="false" type="upgrade">
@@ -28407,7 +28407,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="db5e-03c1-d781-b604" name="Giftschlange" hidden="false" collective="false" type="upgrade">
@@ -28451,7 +28451,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c105-4d14-d4d9-cf88" name="Sägeschliff" hidden="false" collective="false" type="upgrade">
@@ -28479,7 +28479,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a61-085c-a235-826a" name="Poncebys Taktikmanual" hidden="false" collective="false" type="upgrade">
@@ -28516,7 +28516,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="90e0-7ab7-cb74-ee8a" name="Kartusche" hidden="false" collective="false" type="upgrade">
@@ -28565,7 +28565,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b882-5a83-5895-5bdb" name="Zusatzwaffe" hidden="false" collective="false" type="upgrade">
@@ -28608,7 +28608,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="784f-c2f7-fdee-59ba" name="Fetisch" hidden="false" collective="false" type="upgrade">
@@ -28650,7 +28650,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3a70-27df-c953-4d68" name="Mitgebrachte Kanonekugel" hidden="false" collective="false" type="upgrade">
@@ -28692,7 +28692,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5359-4e90-9fa6-f676" name="Jarronos Geschenk" hidden="false" collective="false" type="upgrade">
@@ -28728,7 +28728,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b728-64d9-884a-24ea" name="Ulgats Begleiter" hidden="false" collective="false" type="upgrade">
@@ -28765,7 +28765,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="be9c-7711-a212-6c15" name="Toccasana" hidden="false" collective="false" type="upgrade">
@@ -28801,7 +28801,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d31-5ba3-724e-bd98" name="Ferracero" hidden="false" collective="false" type="upgrade">
@@ -28826,7 +28826,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="970b-8017-aa2a-5fe6" name="Macacron de Bravoure" hidden="false" collective="false" type="upgrade">
@@ -28871,7 +28871,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed6c-caa4-f009-07e3" name="Knüppelhartes Baguette" hidden="false" collective="false" type="upgrade">
@@ -28916,7 +28916,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5e1f-dd63-10a1-34a7" name="Champ Épine" hidden="false" collective="false" type="upgrade">
@@ -28953,7 +28953,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9b7d-869e-058f-61bd" name="Potage Sibyllin" hidden="false" collective="false" type="upgrade">
@@ -28996,7 +28996,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f2a1-e2e0-6f82-381b" name="Leichter Handmörser" hidden="false" collective="false" type="upgrade">
@@ -29032,7 +29032,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="233b-afcf-6650-192f" name="Bootsreparaturkit" hidden="true" collective="false" type="upgrade">
@@ -29075,7 +29075,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8206-79aa-d8db-1256" name="Rakete" hidden="true" collective="false" type="upgrade">
@@ -29131,7 +29131,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="670c-d7d2-bc34-9356" name="Holzbohrer" hidden="true" collective="false" type="upgrade">
@@ -29174,7 +29174,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -29247,7 +29247,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="78b2-cf0f-9a17-921e" name="Eimer" hidden="false" collective="false" type="upgrade">
@@ -29272,7 +29272,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2e30-2530-428e-e974" name="Hohe Reling" hidden="false" collective="false" type="upgrade">
@@ -29305,7 +29305,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3902-9b64-4bd9-e3ef" name="Imerialle Eiche" hidden="false" collective="false" type="upgrade">
@@ -29344,7 +29344,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a81d-b379-ec23-1949" name="Rauchfackel" hidden="true" collective="false" type="upgrade">
@@ -29392,7 +29392,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fbec-7c76-b561-f413" name="Taufender" hidden="false" collective="false" type="upgrade">
@@ -29417,7 +29417,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ec0-1782-6526-b4b1" name="Seepocken" hidden="false" collective="false" type="upgrade">
@@ -29442,7 +29442,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -29493,7 +29493,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="06b0-c053-9363-eb79" name="Maninvisible" hidden="false" collective="false" type="upgrade">
@@ -29524,7 +29524,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c29d-e70d-da2d-6aca" name="Talion" hidden="false" collective="false" type="upgrade">
@@ -29555,7 +29555,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a42b-4ebc-9047-d8c5" name="Esclavagist" hidden="false" collective="false" type="upgrade">
@@ -29586,7 +29586,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="81af-dc7b-4547-77f3" name="Kalaka" hidden="false" collective="false" type="upgrade">
@@ -29617,7 +29617,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b0d9-d675-5bb0-5823" name="Intrigue" hidden="false" collective="false" type="upgrade">
@@ -29648,7 +29648,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -29691,7 +29691,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9880-4417-a03b-a29d" name="Arbré" hidden="false" collective="false" type="upgrade">
@@ -29722,7 +29722,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d71-e39d-95f6-5d9a" name="Kohuri" hidden="false" collective="false" type="upgrade">
@@ -29753,7 +29753,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="549d-8cf1-1595-36f9" name="Soutance" hidden="false" collective="false" type="upgrade">
@@ -29784,7 +29784,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd0b-f3fb-2555-e286" name="Tamore" hidden="false" collective="false" type="upgrade">
@@ -29815,7 +29815,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36b8-78bc-24c3-1523" name="S´effeler" hidden="false" collective="false" type="upgrade">
@@ -29846,7 +29846,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0d78-94ef-50aa-c714" name="Le Grand Calmar" hidden="false" collective="false" type="upgrade">
@@ -29885,7 +29885,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -29913,7 +29913,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8469-3249-687d-35cd" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
@@ -29929,7 +29929,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="28a2-da4a-f66f-1495" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
@@ -29945,7 +29945,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4b51-2f9a-509f-1c91" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
@@ -29961,7 +29961,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5705-e638-c793-308b" name="Capitan Zombie" hidden="false" collective="false" type="upgrade">
@@ -29992,7 +29992,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c973-f546-3cb3-2046" name="Mary Chains" hidden="false" collective="false" type="upgrade">
@@ -30031,7 +30031,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -30074,7 +30074,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e995-aca1-dd40-ab4b" name="Nojaboul" hidden="false" collective="false" type="upgrade">
@@ -30105,7 +30105,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f15-080c-e329-977e" name="Zelè" hidden="false" collective="false" type="upgrade">
@@ -30136,7 +30136,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c76c-2cc0-fad7-e188" name="Myopia" hidden="false" collective="false" type="upgrade">
@@ -30167,7 +30167,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a8c7-3e3d-bc35-2a2a" name="L`Amidon" hidden="false" collective="false" type="upgrade">
@@ -30198,7 +30198,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c153-ab3c-1757-b7a2" name="Charisar" hidden="false" collective="false" type="upgrade">
@@ -30229,7 +30229,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -30272,7 +30272,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -30339,7 +30339,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3483-497e-288b-bebb" name="Bootsmörser" hidden="true" collective="false" type="upgrade">
@@ -30404,7 +30404,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82e7-4dd4-2145-974c" name="Drehbasse" hidden="true" collective="false" type="upgrade">
@@ -30457,7 +30457,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3489-9c8b-d62e-b8e9" name="Rammsporn" hidden="false" collective="false" type="upgrade">
@@ -30482,7 +30482,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Punkte" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name="Dublonen" costTypeId="3e2b-74a8-7713-6552" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
