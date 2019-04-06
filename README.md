@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.0.2 Punkt in Dublonen geändert.
+
 2.0.1 Sansame und Seelentreiber angepasst.
 
 2.0.0 Realeas. Kult hinzugefügt.
