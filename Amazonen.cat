@@ -1,505 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f34-cf91-6f72-ae5f" name="Amazonen" revision="1" battleScribeVersion="2.01" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
+<catalogue id="8f34-cf91-6f72-ae5f" name="Amazonen" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="50ec-08fc-17f8-4aee" name="Pehua" hidden="false" targetId="391e-7714-fc5f-02a8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="50ec-08fc-17f8-4aee" name="Pehua" hidden="false" collective="false" targetId="391e-7714-fc5f-02a8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="db09-dc85-11e6-00c7" name="Anführerin" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="db09-dc85-11e6-00c7" name="Anführerin" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5a6a-fabe-1336-25f6" name="Matqueh" hidden="false" targetId="1475-a8b4-60eb-8751" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="7b7f-5954-1ea9-2322" name="Matqueh (Ehrengarde)" hidden="false" targetId="c329-d7be-6519-2837" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="68a3-3860-f7e5-6cc9" name="Clara Cadora" hidden="false" targetId="345c-b792-afd3-c85a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="413e-b1b5-262f-c0e4" name="Totol" hidden="false" targetId="3e83-bb1e-72b7-4709" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="76ae-1b08-cb50-1864" name="Canoa" hidden="false" targetId="770d-d204-6d15-b62c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a210-3591-0064-071b" name="Marshalla Silvie" hidden="false" targetId="d6a2-27ba-b9ff-735d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="f605-2826-72c4-388c" name="Senora Ya Va" hidden="false" targetId="679d-c93d-5f95-b1b4" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="0ce3-d561-ee8c-bffd" name="Tepoloa" hidden="false" targetId="8d78-2538-8992-46f4" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="73b2-667c-3d4b-9389" name="Yolcameh" hidden="false" targetId="1e3c-86ff-7351-20e5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="1f08-68a8-d56b-5ab8" name="Xicoa" hidden="false" targetId="32c7-0814-cf73-ca08" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d88a-2dfb-ba4e-8351" name="Cauyacatl" hidden="false" targetId="1899-b20c-9d3b-018d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="9a94-0a80-139c-550a" name="Atl-Atl" hidden="false" targetId="c783-a9fb-6cb5-604f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="7a00-13c0-3c5a-d447" name="Tempelwächterin (Ehrangarde)" hidden="false" targetId="ec09-48be-16c9-3fa7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2d30-1290-e839-a69e" name="Chicomeh (Ehrahngarde)" hidden="false" targetId="d99f-7e27-af5b-9e46" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="7968-aa7e-b5c0-c4c1" name=" Atl-Atl (Ehrengarde)" hidden="false" targetId="63c2-1a1d-a23b-155b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="c100-ad0a-1e5e-4413" name="Chicomeh" hidden="false" targetId="b718-8b40-aa20-c26a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="243c-b12e-729e-1e67" name="Tempelwächterin" hidden="false" targetId="b91f-feb1-ad55-e5bb" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="112a-c2fc-ddfc-a7d8" name="Tocatl" hidden="false" targetId="5a99-c0be-caf8-408a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="b3b1-320f-8afa-5e1b" name="Tecuani" hidden="false" targetId="eefe-96e6-935f-c101" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8269-e229-70d1-4517" name="Onca" hidden="false" targetId="8b41-e065-9786-0dbf" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="e573-4e5c-ab50-60d3" name="Occepa" hidden="false" targetId="b0d2-cd28-e816-c0b1" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="62d9-c45f-19f8-3f71" name="Tzinaka" hidden="false" targetId="167e-1576-0572-1cda" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="21a2-0ddf-bcea-85f0" name="Canita" hidden="false" targetId="e0cc-f98e-f71d-c93c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a58e-88e1-2709-b38a" name="Ozomatli" hidden="false" targetId="a9db-4e65-15a0-950f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="052b-b679-9b71-5967" name="Yachakuq" hidden="false" targetId="e5a0-3ece-39e0-1fa4" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="55d3-d3f7-95b2-a368" name="Tamazolli" hidden="false" targetId="c161-619a-ef4f-d8a6" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2a4f-fd0a-c455-0b6e" name="Beameh" hidden="false" targetId="063e-9c9a-b9c0-0462" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="6c51-d59d-e400-38d9" name="Macati" hidden="false" targetId="1c03-4430-a9b7-7447" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d45f-be7f-6d64-934b" name="Nenetzin" hidden="false" targetId="ca02-5796-f747-c1b5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="0902-ac66-dc5a-7e4e" name="Tapayaxin" hidden="false" targetId="8b38-75a4-5776-787a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="6fe7-057f-a0e5-08bd" name="Cuamotla" hidden="false" targetId="3379-b6a8-676c-7ab7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="0a64-7f3e-a490-9a40" name="Tetecuinoa" hidden="false" targetId="0d04-9a7a-fbb4-d700" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="739b-fb04-c40a-86f8" name="La Pelotera" hidden="false" targetId="6484-5ac6-c301-11b8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="caf3-b3eb-7a7f-566c" name="Hanna Solare" hidden="false" targetId="c84e-6719-64e7-b2c8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="9db9-c7d2-0af2-95d1" name="Moja Alga" hidden="false" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="098f-8e38-81f9-772e" name="Capitana Roja" hidden="false" targetId="38d1-8edd-f89e-a2e5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="b316-ee2c-4e60-43bd" name="Crazy Perez" hidden="false" targetId="01cf-aadd-1999-27f7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="e7a4-9936-3347-a8b9" name="Lillith" hidden="false" targetId="4d22-05d8-942c-2a1d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="325d-d89c-7382-e137" name="Schwalbe" hidden="false" targetId="1773-bd90-c46a-0d03" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="fd45-88cd-ea89-b5ba" name="Liname" hidden="false" targetId="0530-696e-1b58-ac77" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="5d2c-ee9b-58ef-cd65" name="Eugenie" hidden="false" targetId="70ca-a3b5-d738-d823" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="e7b5-72b4-3863-a4e7" name="Theresa" hidden="false" targetId="3ab9-4d52-7feb-a068" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="9abf-c6af-170a-d331" name="Estrella Nocturna" hidden="false" targetId="430a-cd12-3696-d772" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="4fdb-4c0f-e2b8-6e48" name="Brahyn" hidden="false" targetId="dcbe-7362-cb94-ef02" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="98a5-8c29-b77a-6eab" name="Madam Gorgonne" hidden="false" targetId="5603-844a-365b-b710" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8a7d-73f8-76d9-5f23" name="Fidanzata" hidden="false" targetId="d696-d4ee-23ed-442a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="487e-36c6-891a-5ffe" name="Mrs. Juanhijo" hidden="false" targetId="be3e-f33a-0bda-302a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="fac9-70d1-c219-ee40" name="Baron Conchita" hidden="false" targetId="0e9e-d630-08c1-0a07" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d3fd-37e1-dff8-2a0b" name="Rattenschwarm" hidden="false" targetId="fa17-a3e7-4e4b-dd64" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="01df-b81f-36db-b697" name="Piraqua" hidden="false" targetId="0e7e-9889-89b4-710c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="b2aa-b7cb-ef1f-72c7" name="Yola" hidden="false" targetId="befe-6420-f9cf-ccb9" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="1b66-3319-c711-991d" name="Xalupe" hidden="false" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="33fb-9a52-9967-80f7" name="Franjo" hidden="false" targetId="9688-63e2-b1fb-91fa" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="ebae-1cd8-2fa4-c744" name="Captain Dèzette •" hidden="false" targetId="98e7-050b-da3f-a69f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="3568-71fb-b26e-4224" name="Victoria Innsfoot" hidden="false" targetId="8eb9-cd4b-969d-789c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="ec88-672d-b427-314b" name="Carly Wench" page="" hidden="false" targetId="8688-b4f0-8971-a664" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="91eb-38fc-3baf-9d20" name="Piñassa" hidden="false" targetId="4ab9-5d4a-6011-c976" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="65a6-a5f8-77b3-1b91" name="Barkaza" hidden="false" targetId="b1d3-dc08-1067-5dee" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="43c2-2c46-820b-6fcf" name="Sansame" hidden="false" targetId="1674-536b-8f65-4a26" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
+    <entryLink id="5a6a-fabe-1336-25f6" name="Matqueh" hidden="false" collective="false" targetId="1475-a8b4-60eb-8751" type="selectionEntry"/>
+    <entryLink id="7b7f-5954-1ea9-2322" name="Matqueh (Ehrengarde)" hidden="false" collective="false" targetId="c329-d7be-6519-2837" type="selectionEntry"/>
+    <entryLink id="68a3-3860-f7e5-6cc9" name="Clara Cadora" hidden="false" collective="false" targetId="345c-b792-afd3-c85a" type="selectionEntry"/>
+    <entryLink id="413e-b1b5-262f-c0e4" name="Totol" hidden="false" collective="false" targetId="3e83-bb1e-72b7-4709" type="selectionEntry"/>
+    <entryLink id="76ae-1b08-cb50-1864" name="Canoa" hidden="false" collective="false" targetId="770d-d204-6d15-b62c" type="selectionEntry"/>
+    <entryLink id="a210-3591-0064-071b" name="Marshalla Silvie" hidden="false" collective="false" targetId="d6a2-27ba-b9ff-735d" type="selectionEntry"/>
+    <entryLink id="f605-2826-72c4-388c" name="Senora Ya Va" hidden="false" collective="false" targetId="679d-c93d-5f95-b1b4" type="selectionEntry"/>
+    <entryLink id="0ce3-d561-ee8c-bffd" name="Tepoloa" hidden="false" collective="false" targetId="8d78-2538-8992-46f4" type="selectionEntry"/>
+    <entryLink id="73b2-667c-3d4b-9389" name="Yolcameh" hidden="false" collective="false" targetId="1e3c-86ff-7351-20e5" type="selectionEntry"/>
+    <entryLink id="1f08-68a8-d56b-5ab8" name="Xicoa" hidden="false" collective="false" targetId="32c7-0814-cf73-ca08" type="selectionEntry"/>
+    <entryLink id="d88a-2dfb-ba4e-8351" name="Cauyacatl" hidden="false" collective="false" targetId="1899-b20c-9d3b-018d" type="selectionEntry"/>
+    <entryLink id="9a94-0a80-139c-550a" name="Atl-Atl" hidden="false" collective="false" targetId="c783-a9fb-6cb5-604f" type="selectionEntry"/>
+    <entryLink id="7a00-13c0-3c5a-d447" name="Tempelwächterin (Ehrangarde)" hidden="false" collective="false" targetId="ec09-48be-16c9-3fa7" type="selectionEntry"/>
+    <entryLink id="2d30-1290-e839-a69e" name="Chicomeh (Ehrahngarde)" hidden="false" collective="false" targetId="d99f-7e27-af5b-9e46" type="selectionEntry"/>
+    <entryLink id="7968-aa7e-b5c0-c4c1" name=" Atl-Atl (Ehrengarde)" hidden="false" collective="false" targetId="63c2-1a1d-a23b-155b" type="selectionEntry"/>
+    <entryLink id="c100-ad0a-1e5e-4413" name="Chicomeh" hidden="false" collective="false" targetId="b718-8b40-aa20-c26a" type="selectionEntry"/>
+    <entryLink id="243c-b12e-729e-1e67" name="Tempelwächterin" hidden="false" collective="false" targetId="b91f-feb1-ad55-e5bb" type="selectionEntry"/>
+    <entryLink id="112a-c2fc-ddfc-a7d8" name="Tocatl" hidden="false" collective="false" targetId="5a99-c0be-caf8-408a" type="selectionEntry"/>
+    <entryLink id="b3b1-320f-8afa-5e1b" name="Tecuani" hidden="false" collective="false" targetId="eefe-96e6-935f-c101" type="selectionEntry"/>
+    <entryLink id="8269-e229-70d1-4517" name="Onca" hidden="false" collective="false" targetId="8b41-e065-9786-0dbf" type="selectionEntry"/>
+    <entryLink id="e573-4e5c-ab50-60d3" name="Occepa" hidden="false" collective="false" targetId="b0d2-cd28-e816-c0b1" type="selectionEntry"/>
+    <entryLink id="62d9-c45f-19f8-3f71" name="Tzinaka" hidden="false" collective="false" targetId="167e-1576-0572-1cda" type="selectionEntry"/>
+    <entryLink id="21a2-0ddf-bcea-85f0" name="Canita" hidden="false" collective="false" targetId="e0cc-f98e-f71d-c93c" type="selectionEntry"/>
+    <entryLink id="a58e-88e1-2709-b38a" name="Ozomatli" hidden="false" collective="false" targetId="a9db-4e65-15a0-950f" type="selectionEntry"/>
+    <entryLink id="052b-b679-9b71-5967" name="Yachakuq" hidden="false" collective="false" targetId="e5a0-3ece-39e0-1fa4" type="selectionEntry"/>
+    <entryLink id="55d3-d3f7-95b2-a368" name="Tamazolli" hidden="false" collective="false" targetId="c161-619a-ef4f-d8a6" type="selectionEntry"/>
+    <entryLink id="2a4f-fd0a-c455-0b6e" name="Beameh" hidden="false" collective="false" targetId="063e-9c9a-b9c0-0462" type="selectionEntry"/>
+    <entryLink id="6c51-d59d-e400-38d9" name="Macati" hidden="false" collective="false" targetId="1c03-4430-a9b7-7447" type="selectionEntry"/>
+    <entryLink id="d45f-be7f-6d64-934b" name="Nenetzin" hidden="false" collective="false" targetId="ca02-5796-f747-c1b5" type="selectionEntry"/>
+    <entryLink id="0902-ac66-dc5a-7e4e" name="Tapayaxin" hidden="false" collective="false" targetId="8b38-75a4-5776-787a" type="selectionEntry"/>
+    <entryLink id="6fe7-057f-a0e5-08bd" name="Cuamotla" hidden="false" collective="false" targetId="3379-b6a8-676c-7ab7" type="selectionEntry"/>
+    <entryLink id="0a64-7f3e-a490-9a40" name="Tetecuinoa" hidden="false" collective="false" targetId="0d04-9a7a-fbb4-d700" type="selectionEntry"/>
+    <entryLink id="739b-fb04-c40a-86f8" name="La Pelotera" hidden="false" collective="false" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
+    <entryLink id="caf3-b3eb-7a7f-566c" name="Hanna Solare" hidden="false" collective="false" targetId="c84e-6719-64e7-b2c8" type="selectionEntry"/>
+    <entryLink id="9db9-c7d2-0af2-95d1" name="Moja Alga" hidden="false" collective="false" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry"/>
+    <entryLink id="098f-8e38-81f9-772e" name="Capitana Roja" hidden="false" collective="false" targetId="38d1-8edd-f89e-a2e5" type="selectionEntry"/>
+    <entryLink id="b316-ee2c-4e60-43bd" name="Crazy Perez" hidden="false" collective="false" targetId="01cf-aadd-1999-27f7" type="selectionEntry"/>
+    <entryLink id="e7a4-9936-3347-a8b9" name="Lillith" hidden="false" collective="false" targetId="4d22-05d8-942c-2a1d" type="selectionEntry"/>
+    <entryLink id="325d-d89c-7382-e137" name="Schwalbe" hidden="false" collective="false" targetId="1773-bd90-c46a-0d03" type="selectionEntry"/>
+    <entryLink id="fd45-88cd-ea89-b5ba" name="Liname" hidden="false" collective="false" targetId="0530-696e-1b58-ac77" type="selectionEntry"/>
+    <entryLink id="5d2c-ee9b-58ef-cd65" name="Eugenie" hidden="false" collective="false" targetId="70ca-a3b5-d738-d823" type="selectionEntry"/>
+    <entryLink id="e7b5-72b4-3863-a4e7" name="Theresa" hidden="false" collective="false" targetId="3ab9-4d52-7feb-a068" type="selectionEntry"/>
+    <entryLink id="9abf-c6af-170a-d331" name="Estrella Nocturna" hidden="false" collective="false" targetId="430a-cd12-3696-d772" type="selectionEntry"/>
+    <entryLink id="4fdb-4c0f-e2b8-6e48" name="Brahyn" hidden="false" collective="false" targetId="dcbe-7362-cb94-ef02" type="selectionEntry"/>
+    <entryLink id="98a5-8c29-b77a-6eab" name="Madam Gorgonne" hidden="false" collective="false" targetId="5603-844a-365b-b710" type="selectionEntry"/>
+    <entryLink id="8a7d-73f8-76d9-5f23" name="Fidanzata" hidden="false" collective="false" targetId="d696-d4ee-23ed-442a" type="selectionEntry"/>
+    <entryLink id="487e-36c6-891a-5ffe" name="Mrs. Juanhijo" hidden="false" collective="false" targetId="be3e-f33a-0bda-302a" type="selectionEntry"/>
+    <entryLink id="fac9-70d1-c219-ee40" name="Baron Conchita" hidden="false" collective="false" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
+    <entryLink id="d3fd-37e1-dff8-2a0b" name="Rattenschwarm" hidden="false" collective="false" targetId="fa17-a3e7-4e4b-dd64" type="selectionEntry"/>
+    <entryLink id="01df-b81f-36db-b697" name="Piraqua" hidden="false" collective="false" targetId="0e7e-9889-89b4-710c" type="selectionEntry"/>
+    <entryLink id="b2aa-b7cb-ef1f-72c7" name="Yola" hidden="false" collective="false" targetId="befe-6420-f9cf-ccb9" type="selectionEntry"/>
+    <entryLink id="1b66-3319-c711-991d" name="Xalupe" hidden="false" collective="false" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry"/>
+    <entryLink id="33fb-9a52-9967-80f7" name="Franjo" hidden="false" collective="false" targetId="9688-63e2-b1fb-91fa" type="selectionEntry"/>
+    <entryLink id="ebae-1cd8-2fa4-c744" name="Captain Dèzette •" hidden="false" collective="false" targetId="98e7-050b-da3f-a69f" type="selectionEntry"/>
+    <entryLink id="3568-71fb-b26e-4224" name="Victoria Innsfoot" hidden="false" collective="false" targetId="8eb9-cd4b-969d-789c" type="selectionEntry"/>
+    <entryLink id="ec88-672d-b427-314b" name="Carly Wench" page="" hidden="false" collective="false" targetId="8688-b4f0-8971-a664" type="selectionEntry"/>
+    <entryLink id="91eb-38fc-3baf-9d20" name="Piñassa" hidden="false" collective="false" targetId="4ab9-5d4a-6011-c976" type="selectionEntry"/>
+    <entryLink id="65a6-a5f8-77b3-1b91" name="Barkaza" hidden="false" collective="false" targetId="b1d3-dc08-1067-5dee" type="selectionEntry"/>
+    <entryLink id="43c2-2c46-820b-6fcf" name="Sansame" hidden="false" collective="false" targetId="1674-536b-8f65-4a26" type="selectionEntry"/>
+    <entryLink id="8548-e7fd-590c-c732" name="Quecholli" hidden="false" collective="false" targetId="bbe1-77cb-3159-0dc9" type="selectionEntry"/>
   </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>
