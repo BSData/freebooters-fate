@@ -4655,6 +4655,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0e22-77ad-bfeb-6d3c" name="Cuchillo" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="9d7d-9990-30de-59cb" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8098-97fb-cb2d-5b81" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d7d-9990-30de-59cb" type="max"/>
+      </constraints>
       <profiles>
         <profile id="292d-718c-3636-f198" name="Cuchillo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
@@ -8297,7 +8307,7 @@
         <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54f1-0413-075b-6a70" name="Mesiterassassin" hidden="false" collective="false" type="model">
+    <selectionEntry id="54f1-0413-075b-6a70" name="Meisterassassin" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d8-65ef-20b3-ec26" type="max"/>
       </constraints>
@@ -12019,6 +12029,105 @@
         <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6f5c-ff0f-ded8-307d" name="La Hoja" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c215-3832-a2ce-30f0" name="La Hoja" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Wurfmesser als Messer</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Entersäbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a06b-40a3-ad4f-d931" name="La Hoja" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Wurfmesser, Rechts uns Links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c32-35a0-7f94-02bb" name="La Hoja" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0358-bb34-2fad-0ced" name="Ehrengarde (Cuchillos)" hidden="false" targetId="204f-2b39-c0bd-0e6a" type="rule"/>
+        <infoLink id="f266-8ebf-e945-78bd" name="Harter Wurf" hidden="false" targetId="b3aa-4bf6-137a-39f3" type="rule"/>
+        <infoLink id="e751-0617-d5a5-f13a" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+        <infoLink id="e7b1-9849-be4c-bb7e" name="Schusshagel" hidden="false" targetId="c5dd-721f-6265-c771" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fc68-670e-ce39-9f9a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="6aa0-de97-a28c-14c0" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+        <categoryLink id="fe20-df5f-9272-754d" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3359-fa31-df0e-a14b" name="Aurüstung" hidden="false" collective="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="49c8-9046-87ab-8270" name="Ausrüstung Groß" hidden="false" collective="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8098-97fb-cb2d-5b81" name="Cuchillo (Ehrengarde)" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5c-ff0f-ded8-307d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="d0d6-2a8f-6741-36a3" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e22-77ad-bfeb-6d3c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d6-2a8f-6741-36a3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2801-17c5-24eb-8822" name="Cuchillo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Dolch</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="e524-5e77-0ad1-d204" name="Cuchillo" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Wurfmesser, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4842-b165-0331-48c3" name="Cuchillo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/2</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bd43-653c-ad73-94ae" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+        <categoryLink id="5a56-fa8b-c05e-183d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d139-6b5e-2fc9-14f6" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6631-4501-ff28-c7ad" name="Aurüstung" hidden="false" collective="false" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="0c3f-f15a-f5f7-63fe" name="Ausrüstung Groß" hidden="false" collective="false" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false">
@@ -13668,5 +13777,7 @@
     <rule id="8c32-3d3b-fd36-7d6f" name="Sirenengesang" hidden="false"/>
     <rule id="527f-a2e4-0e56-e302" name="Mob (einmalig +1/+1 ST)" hidden="false"/>
     <rule id="fe45-8502-88eb-d3d7" name="Capitaine-Liuetenant" hidden="false"/>
+    <rule id="204f-2b39-c0bd-0e6a" name="Ehrengarde (Cuchillos)" hidden="false"/>
+    <rule id="c5dd-721f-6265-c771" name="Schusshagel" hidden="false"/>
   </sharedRules>
 </gameSystem>
