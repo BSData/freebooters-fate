@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.1.0 La Hoja, Quechollie, Treville hinzugefügt. Bugfix.
+
 2.0.2 Punkt in Dublonen geändert.
 
 2.0.1 Sansame und Seelentreiber angepasst.
