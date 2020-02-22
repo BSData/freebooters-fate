@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7566-f051-ac5e-1090" name="Eitu" hidden="false" collective="false" import="true" targetId="d885-4599-55bd-51a8" type="selectionEntry"/>
     <entryLink id="2e23-df63-bd32-90b0" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
@@ -65,5 +65,7 @@
     <entryLink id="15e8-0aad-3e5d-f6e1" name="Pirraqua" hidden="false" collective="false" import="true" targetId="0e7e-9889-89b4-710c" type="selectionEntry"/>
     <entryLink id="b9d1-f3a4-5e65-97c5" name="Canoa" hidden="false" collective="false" import="true" targetId="770d-d204-6d15-b62c" type="selectionEntry"/>
     <entryLink id="cd25-c404-3034-a965" name="Xalupe" hidden="false" collective="false" import="true" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry"/>
+    <entryLink id="6d48-6824-1637-191d" name="Milagroso •" hidden="false" collective="false" import="true" targetId="429b-7e71-0fbd-5647" type="selectionEntry"/>
+    <entryLink id="88e6-5513-172e-5530" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

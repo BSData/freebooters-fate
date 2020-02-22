@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="4" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="6" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="3e2b-74a8-7713-6552" name="Dublonen" defaultCostLimit="-1.0"/>
+    <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
+    <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="f7bc-94e0-f392-9073" name="1.1 Charakter Stats">
@@ -86,6 +87,49 @@
       <characteristicTypes>
         <characteristicType id="c6a3-cc15-a99f-f26a" name="Bedingung"/>
         <characteristicType id="e36b-0023-2d7c-1bca" name="Fähigkeit"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="8b55-17ee-4b7b-bae2" name="0.1 Schattenmacht">
+      <characteristicTypes>
+        <characteristicType id="5ca9-b2e6-e187-c38e" name="Punkte"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="b074-900d-1e7d-8cf2" name="2.1 Fernkampf (Schatten)">
+      <characteristicTypes>
+        <characteristicType id="9a27-64af-9506-a0ac" name="Waffe"/>
+        <characteristicType id="4a5a-e05f-f1a9-1709" name="FERN"/>
+        <characteristicType id="9ea9-0d1d-253b-41ea" name="Schattenmacht"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="c245-49c9-5e02-1384" name="2.5 Schattemacht">
+      <characteristicTypes>
+        <characteristicType id="cb98-23ed-fabd-e338" name="Eigenschaften"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="b2d2-214b-d143-f137" name="6.0 Schemen:">
+      <characteristicTypes>
+        <characteristicType id="3a32-9a41-d413-d1c0" name="                                                      "/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="69bf-aa72-966c-193f" name="6.0 Phantom:">
+      <characteristicTypes>
+        <characteristicType id="6b64-13df-e605-917f" name="                                                      "/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="af41-a8ef-8473-949e" name="3.1 Szenario Aurüstung">
+      <characteristicTypes>
+        <characteristicType id="341a-275d-fed8-6832" name="Bedingung"/>
+        <characteristicType id="df09-1d4e-c21a-d7e2" name="Leben"/>
+        <characteristicType id="d0d0-686f-7d1f-f21c" name="W Torso"/>
+        <characteristicType id="a279-2170-4eae-fdf7" name="Eigenschaften"/>
+        <characteristicType id="4a6a-0580-27bc-f55c" name="Fähigkeit"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="8b08-9408-d69c-7725" name="2.4 Nahkampf (Schatten)">
+      <characteristicTypes>
+        <characteristicType id="3c17-daf4-f67d-5eff" name="Waffe Rechts"/>
+        <characteristicType id="eaa5-a9e6-9c58-4476" name="Waffe Links"/>
+        <characteristicType id="3819-312d-daa6-fe28" name="Schattenmacht"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -181,7 +225,7 @@
     </categoryEntry>
     <categoryEntry id="3042-6dd0-6849-6711" name="Spezialist" hidden="false">
       <modifiers>
-        <modifier type="increment" field="cd75-698f-57a0-7852" value="1">
+        <modifier type="increment" field="cd75-698f-57a0-7852" value="1.0">
           <repeats>
             <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3187-0a9d-e3b5-1281" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af95-975f-c9e2-2f9d" repeats="1" roundUp="false"/>
@@ -190,9 +234,10 @@
             <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" repeats="2" roundUp="false"/>
             <repeat field="selections" scope="732f-549d-3e93-89af" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="732f-549d-3e93-89af" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5d-ef8f-f832-758d" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="962a-a5ef-939e-a65b" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="cd75-698f-57a0-7852" value="1">
+        <modifier type="increment" field="cd75-698f-57a0-7852" value="1.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -214,9 +259,20 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d47-ac90-27ac-73a2" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad3b-1e60-84ea-498b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="decrement" field="cd75-698f-57a0-7852" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="d10b-c097-e162-0b71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
         </modifier>
       </modifiers>
       <constraints>
@@ -252,6 +308,11 @@
     <categoryEntry id="0298-b0f4-7785-92eb" name="Seelentreiber" hidden="false"/>
     <categoryEntry id="d5a0-87c6-e508-be03" name="Goblin Piraten" hidden="false"/>
     <categoryEntry id="143b-d54b-d49f-65c2" name="Whaitaua" hidden="false"/>
+    <categoryEntry id="962a-a5ef-939e-a65b" name="Schatten" hidden="false"/>
+    <categoryEntry id="fec1-70b9-afca-abf0" name=" Gefolge" hidden="false"/>
+    <categoryEntry id="90fc-6632-5d82-68ff" name="Rauch" hidden="false"/>
+    <categoryEntry id="bcd3-ea1d-c64e-c73c" name="Spezial" hidden="false"/>
+    <categoryEntry id="f713-4f83-367e-66df" name="Szenariogegenstand" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ae6-f80d-3eba-63b6" name="Scharmützel" hidden="false">
@@ -267,6 +328,9 @@
         <categoryLink id="9eca-f51b-4b0b-b822" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="false"/>
         <categoryLink id="6f78-a493-056d-a9bf" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="df42-c7ca-2e44-8799" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
+        <categoryLink id="9224-104f-0728-85cb" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
+        <categoryLink id="fb6c-9b13-59a2-e420" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
+        <categoryLink id="3ca6-8562-1ee1-e97e" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c4da-7fa8-e089-d0a5" name="Iron Ball" hidden="false">
@@ -281,6 +345,9 @@
         <categoryLink id="adf9-809b-3fd1-b957" name="MWP" hidden="false" targetId="48a0-6247-c625-1b06" primary="false"/>
         <categoryLink id="0c23-b7ff-2ee8-9d75" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="58d0-bac2-dbd3-3988" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
+        <categoryLink id="40ee-5930-27a1-a2ff" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
+        <categoryLink id="d9a8-c4f1-b27c-f90f" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
+        <categoryLink id="5b85-acf3-2187-7b53" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="30bf-5f75-630e-c44f" name="Wolfgangs Mörserschule" hidden="true">
@@ -301,6 +368,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa1-d35c-c2cd-f9e4" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="5e0a-bad7-9326-4199" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
+        <categoryLink id="c7d8-1eda-2220-17ff" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
+        <categoryLink id="fbb5-ac9f-8878-350b" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8bcb-9b29-a795-4c22" name="Seeschlacht" hidden="false">
@@ -317,6 +387,9 @@
         <categoryLink id="683a-e6c1-7947-7281" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="false"/>
         <categoryLink id="7310-5732-4d82-d920" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="270b-af57-dfcc-25df" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
+        <categoryLink id="938d-92cd-e22b-91f9" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
+        <categoryLink id="845e-69a4-3f05-0d89" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
+        <categoryLink id="072d-5f83-cc48-1032" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -369,7 +442,8 @@
         <entryLink id="46d0-dcb9-42e9-9d4e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1475-a8b4-60eb-8751" name="Matqueh" hidden="false" collective="false" import="true" type="model">
@@ -421,7 +495,8 @@
         <entryLink id="d548-55bf-6ff6-5a7a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c329-d7be-6519-2837" name="Matqueh (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -479,7 +554,8 @@
         <entryLink id="2389-dfc7-76fc-199b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e83-bb1e-72b7-4709" name="Totol" hidden="false" collective="false" import="true" type="model">
@@ -525,7 +601,8 @@
         <entryLink id="434c-0a23-268f-4c8e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="770d-d204-6d15-b62c" name="Canoa" hidden="false" collective="false" import="true" type="model">
@@ -565,7 +642,8 @@
         <entryLink id="1b5e-898f-2904-f1fb" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="345c-b792-afd3-c85a" name="Clara Cadora" hidden="false" collective="false" import="true" type="model">
@@ -619,7 +697,8 @@
         <entryLink id="5bfd-7c59-2607-8aaa" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6a2-27ba-b9ff-735d" name="Marshalla Silvie" hidden="false" collective="false" import="true" type="model">
@@ -675,7 +754,8 @@
         <entryLink id="d087-1e19-abcf-18ac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="170.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="170.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="679d-c93d-5f95-b1b4" name="Senora Ya Va" hidden="false" collective="false" import="true" type="model">
@@ -734,7 +814,8 @@
         <entryLink id="38ed-1fe2-302d-a3c6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d78-2538-8992-46f4" name="Tepoloa" hidden="false" collective="false" import="true" type="model">
@@ -778,7 +859,8 @@
         <entryLink id="01d7-398c-81ec-9db1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b91f-feb1-ad55-e5bb" name="Tempelwächterin" hidden="false" collective="false" import="true" type="model">
@@ -824,7 +906,8 @@
         <entryLink id="5428-9e0d-51ef-939d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c783-a9fb-6cb5-604f" name="Atl-Atl" hidden="false" collective="false" import="true" type="model">
@@ -876,7 +959,8 @@
         <entryLink id="31de-9346-20b1-a523" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1899-b20c-9d3b-018d" name="Cauyacatl" hidden="false" collective="false" import="true" type="model">
@@ -926,7 +1010,8 @@
         <entryLink id="894c-9b94-5583-3edb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e3c-86ff-7351-20e5" name="Yolcameh" hidden="false" collective="false" import="true" type="model">
@@ -973,7 +1058,8 @@
         <entryLink id="f87c-ecac-16b0-469a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32c7-0814-cf73-ca08" name="Xicoa" hidden="false" collective="false" import="true" type="model">
@@ -1020,7 +1106,8 @@
         <entryLink id="02bd-a3ac-0daa-cabd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63c2-1a1d-a23b-155b" name="Atl-Atl (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -1078,7 +1165,8 @@
         <entryLink id="903c-fbd7-3943-65ed" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec09-48be-16c9-3fa7" name="Tempelwächterin (Ehrangarde)" hidden="false" collective="false" import="true" type="model">
@@ -1130,7 +1218,8 @@
         <entryLink id="377b-58e3-c30a-5185" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b718-8b40-aa20-c26a" name="Chicomeh" hidden="false" collective="false" import="true" type="model">
@@ -1176,7 +1265,8 @@
         <entryLink id="9dd6-a344-7a61-f313" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d99f-7e27-af5b-9e46" name="Chicomeh (Ehrahngarde)" hidden="false" collective="false" import="true" type="model">
@@ -1228,7 +1318,8 @@
         <entryLink id="913b-31dc-9288-5705" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a99-c0be-caf8-408a" name="Tocatl" hidden="false" collective="false" import="true" type="model">
@@ -1269,7 +1360,8 @@
         <entryLink id="3eeb-3b8e-64e9-0f1a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0d2-cd28-e816-c0b1" name="Occepa" hidden="false" collective="false" import="true" type="model">
@@ -1309,7 +1401,8 @@
         <entryLink id="70fe-86f6-be54-20df" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eefe-96e6-935f-c101" name="Tecuani" hidden="false" collective="false" import="true" type="model">
@@ -1350,7 +1443,8 @@
         <entryLink id="e03a-295e-0208-f821" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b41-e065-9786-0dbf" name="Onca" hidden="false" collective="false" import="true" type="model">
@@ -1394,7 +1488,8 @@
         <categoryLink id="04d8-0041-1a48-1172" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9db-4e65-15a0-950f" name="Ozomatli" hidden="false" collective="false" import="true" type="model">
@@ -1445,7 +1540,8 @@
         <entryLink id="b8c1-111a-e61a-88d4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="167e-1576-0572-1cda" name="Tzinaka" hidden="false" collective="false" import="true" type="model">
@@ -1489,7 +1585,8 @@
         <entryLink id="9097-b4f6-4508-b79f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0cc-f98e-f71d-c93c" name="Canita" hidden="false" collective="false" import="true" type="model">
@@ -1538,7 +1635,8 @@
         <entryLink id="624c-3be8-8c72-eae1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5a0-3ece-39e0-1fa4" name="Yachakuq" hidden="false" collective="false" import="true" type="model">
@@ -1590,7 +1688,8 @@
         <entryLink id="e11c-1166-fe7b-41fc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c03-4430-a9b7-7447" name="Macati" hidden="false" collective="false" import="true" type="model">
@@ -1630,7 +1729,8 @@
         <entryLink id="0dfa-9ae2-7272-12a8" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca02-5796-f747-c1b5" name="Nenetzin" hidden="false" collective="false" import="true" type="model">
@@ -1671,7 +1771,8 @@
         <entryLink id="d04e-6e38-d386-ea8f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c161-619a-ef4f-d8a6" name="Tamazolli" hidden="false" collective="false" import="true" type="model">
@@ -1718,7 +1819,8 @@
         <entryLink id="37c8-c0ad-a525-6247" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="063e-9c9a-b9c0-0462" name="Beameh" hidden="false" collective="false" import="true" type="model">
@@ -1760,7 +1862,8 @@
         <entryLink id="7340-4f68-be83-e679" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b38-75a4-5776-787a" name="Tapayaxin" hidden="false" collective="false" import="true" type="model">
@@ -1806,7 +1909,8 @@
         <entryLink id="6254-46b5-96a1-ef20" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3379-b6a8-676c-7ab7" name="Cuamotla" hidden="false" collective="false" import="true" type="model">
@@ -1853,7 +1957,8 @@
         <entryLink id="a1e5-b5ee-2495-2d92" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d04-9a7a-fbb4-d700" name="Tetecuinoa" hidden="false" collective="false" import="true" type="model">
@@ -1900,7 +2005,8 @@
         <entryLink id="04a3-b38f-3685-cc5e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c84e-6719-64e7-b2c8" name="Hanna Solare" hidden="false" collective="false" import="true" type="model">
@@ -1951,7 +2057,8 @@
         <entryLink id="1478-7f48-91fd-4101" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6484-5ac6-c301-11b8" name="La Pelotera #1" hidden="false" collective="false" import="true" type="model">
@@ -2009,7 +2116,8 @@
         <entryLink id="a078-39b2-d6af-e42a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88fd-cd02-fe2a-ed4f" name="Moja Alga" hidden="false" collective="false" import="true" type="model">
@@ -2057,7 +2165,8 @@
         <entryLink id="4317-1596-3deb-6ed0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43f1-a951-0490-e316" name="Arida" hidden="false" collective="false" import="true" type="model">
@@ -2099,7 +2208,8 @@
         <categoryLink id="f805-71e4-4c95-71a6" name="Lim" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0530-696e-1b58-ac77" name="Liname" hidden="false" collective="false" import="true" type="model">
@@ -2158,7 +2268,8 @@
         <entryLink id="bb6e-681c-6e59-21c2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1773-bd90-c46a-0d03" name="Schwalbe" hidden="false" collective="false" import="true" type="model">
@@ -2211,7 +2322,8 @@
         <entryLink id="8c7f-986f-996b-52ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d22-05d8-942c-2a1d" name="Lillith" hidden="false" collective="false" import="true" type="model">
@@ -2267,7 +2379,8 @@
         <entryLink id="5076-7a89-1ee3-f963" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01cf-aadd-1999-27f7" name="Crazy Perez" hidden="false" collective="false" import="true" type="model">
@@ -2321,7 +2434,8 @@
         <entryLink id="af99-24d7-f381-f537" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38d1-8edd-f89e-a2e5" name="Capitana Roja" hidden="false" collective="false" import="true" type="model">
@@ -2377,7 +2491,8 @@
         <entryLink id="bc89-36b8-193c-e07f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ca7-1060-7a50-092d" name="Capitana Roja •" hidden="false" collective="false" import="true" type="model">
@@ -2434,7 +2549,8 @@
         <entryLink id="6edf-4c6d-7bbf-f80e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61da-501c-44cb-e21a" name="Tiradora •" hidden="false" collective="false" import="true" type="model">
@@ -2471,15 +2587,17 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="b369-b4a1-5e3d-38e8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="b369-b4a1-5e3d-38e8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="false"/>
         <categoryLink id="5301-0630-ff4f-4870" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="30c3-66c8-72c1-9e0d" name="New CategoryLink" hidden="false" targetId="fec1-70b9-afca-abf0" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="abe3-a798-7dd8-010c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="48d1-af6c-945d-25a5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3727-b381-ed89-110a" name="Matelots •" hidden="false" collective="false" import="true" type="model">
@@ -2524,7 +2642,8 @@
         <entryLink id="7742-1d7f-3c32-d262" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="70ca-a3b5-d738-d823" name="Eugenie" hidden="false" collective="false" import="true" type="model">
@@ -2569,7 +2688,8 @@
         <entryLink id="c069-2af2-f012-a9a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="430a-cd12-3696-d772" name="Estrella Nocturna" hidden="false" collective="false" import="true" type="model">
@@ -2624,7 +2744,8 @@
         <entryLink id="5a55-dc16-0e39-22a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ab9-4d52-7feb-a068" name="Theresa" hidden="false" collective="false" import="true" type="model">
@@ -2687,7 +2808,8 @@
         <entryLink id="5ef1-8cad-706f-f740" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63dc-44e0-9241-8ec0" name="Cazador Comedreja" hidden="false" collective="false" import="true" type="model">
@@ -2739,7 +2861,8 @@
         <entryLink id="7f0d-8ce6-d228-c346" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcbe-7362-cb94-ef02" name="Brahyn" hidden="false" collective="false" import="true" type="model">
@@ -2783,7 +2906,8 @@
         <entryLink id="ebb6-7351-5492-f936" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d562-10ed-5135-2ec9" name="Cäsar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2830,7 +2954,8 @@
         <entryLink id="5e72-aabb-1c8d-573d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5603-844a-365b-b710" name="Madam Gorgonne" hidden="false" collective="false" import="true" type="upgrade">
@@ -2887,7 +3012,8 @@
         <entryLink id="05e3-bd7d-b826-0fde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d696-d4ee-23ed-442a" name="Fidanzata" hidden="false" collective="false" import="true" type="upgrade">
@@ -2933,7 +3059,8 @@
         <entryLink id="b2bb-a329-6d71-6825" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa17-a3e7-4e4b-dd64" name="Rattenschwarm" hidden="false" collective="false" import="true" type="upgrade">
@@ -2982,7 +3109,8 @@
         <categoryLink id="a3ce-f6f0-a7a3-253f" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="248d-2618-0198-9a94" name="Samuel Juanhijo" hidden="false" collective="false" import="true" type="model">
@@ -3032,7 +3160,8 @@
         <entryLink id="ed82-c75d-79f7-6b5b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be3e-f33a-0bda-302a" name="Mrs. Juanhijo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3093,7 +3222,8 @@
         <entryLink id="650e-17fa-6de7-9cac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e9e-d630-08c1-0a07" name="Baron Conchita" hidden="false" collective="false" import="true" type="upgrade">
@@ -3146,7 +3276,8 @@
         <entryLink id="8007-56db-3a7d-3b65" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5002-604a-ad71-924c" name="Don Pavo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3195,7 +3326,8 @@
         <entryLink id="c393-0611-0047-e4b6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f129-fae7-68d9-c971" name="Seesoldat •" hidden="false" collective="false" import="true" type="model">
@@ -3234,7 +3366,8 @@
         <entryLink id="e3a6-3af0-edef-2c2d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10f0-74a5-29d0-1c23" name="Don Pavo •" hidden="false" collective="false" import="true" type="upgrade">
@@ -3284,7 +3417,8 @@
         <entryLink id="b365-f075-2326-c943" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2414-bf70-504f-4d24" name="Asaltores •" hidden="false" collective="false" import="true" type="model">
@@ -3332,7 +3466,8 @@
         <entryLink id="da57-b806-6944-2445" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b87-d810-d98a-2a1e" name="Buscar" hidden="false" collective="false" import="true" type="upgrade">
@@ -3379,7 +3514,8 @@
         <entryLink id="3de8-65b6-991a-e519" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="818f-4ca7-47e1-7dec" name="El Curandero" hidden="false" collective="false" import="true" type="model">
@@ -3422,7 +3558,8 @@
         <entryLink id="49f6-ad23-5ddc-8f8c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="400.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="400.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4861-fdbb-5ed2-f6e1" name="Lindo Guapo" hidden="false" collective="false" import="true" type="model">
@@ -3472,7 +3609,8 @@
         <entryLink id="8b48-f3c5-6799-41c7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bef-cb67-9f03-7a9e" name="Lobo" hidden="false" collective="false" import="true" type="model">
@@ -3518,7 +3656,8 @@
         <entryLink id="c3a3-519d-156a-8fbc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d885-4599-55bd-51a8" name="Eitu" hidden="false" collective="false" import="true" type="upgrade">
@@ -3561,7 +3700,8 @@
         <entryLink id="cc92-1281-49d4-45a6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="126c-4174-a210-fc69" name="Montero Guaca" hidden="false" collective="false" import="true" type="model">
@@ -3612,7 +3752,8 @@
         <entryLink id="fd8b-9f10-30c2-8d88" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c16b-f4f4-a6bb-a8c0" name="Senor Conejo" hidden="false" collective="false" import="true" type="model">
@@ -3662,7 +3803,8 @@
         <entryLink id="9382-ecf6-a0d1-dc84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5c6-200f-15de-a108" name="Farrador" hidden="false" collective="false" import="true" type="model">
@@ -3713,7 +3855,8 @@
         <entryLink id="e6fd-b86b-45b5-cc1d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52f8-2f5e-1f97-1704" name="Fornido" hidden="false" collective="false" import="true" type="upgrade">
@@ -3759,7 +3902,8 @@
         <entryLink id="224d-9a47-f2d2-45c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef79-39e0-1ba6-038a" name="Ibubesi" hidden="false" collective="false" import="true" type="model">
@@ -3804,7 +3948,8 @@
         <entryLink id="7e35-19d1-142b-e34f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da05-0b00-9c7a-0d05" name="Wolfgang •" hidden="false" collective="false" import="true" type="model">
@@ -3854,7 +3999,8 @@
         <entryLink id="43bb-8267-b98b-72b9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50f7-f0e7-2d4b-b66f" name="Wolfgang" hidden="false" collective="false" import="true" type="model">
@@ -3899,7 +4045,8 @@
         <entryLink id="a8cb-9817-6ed5-927c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cccf-2e26-547d-d777" name="Wild Ox •" hidden="false" collective="false" import="true" type="model">
@@ -3955,7 +4102,8 @@
         <entryLink id="8a83-f8a2-22fb-d66f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="259e-1cc3-bb22-d0ef" name="Wild Ox" hidden="false" collective="false" import="true" type="model">
@@ -4006,7 +4154,8 @@
         <entryLink id="aeb4-c2b8-c3d9-6275" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="befe-6420-f9cf-ccb9" name="Yola" hidden="false" collective="false" import="true" type="model">
@@ -4046,7 +4195,8 @@
         <entryLink id="8bf8-d197-db59-5a85" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efaf-7b8b-c734-ccf1" name="Xalupe" hidden="false" collective="false" import="true" type="upgrade">
@@ -4082,7 +4232,8 @@
         <entryLink id="fb54-a829-6856-575e" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ab9-5d4a-6011-c976" name="Piñassa" hidden="false" collective="false" import="true" type="upgrade">
@@ -4117,7 +4268,8 @@
         <entryLink id="f159-fdad-81b3-05ed" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1d3-dc08-1067-5dee" name="Barkaza" hidden="false" collective="false" import="true" type="upgrade">
@@ -4157,7 +4309,8 @@
         <entryLink id="4043-2178-1c73-1d19" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e7e-9889-89b4-710c" name="Pirraqua" hidden="false" collective="false" import="true" type="model">
@@ -4197,7 +4350,8 @@
         <entryLink id="ea24-ad86-9c02-777c" name="Boots Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="1452-4990-4f3c-59ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9688-63e2-b1fb-91fa" name="Franjo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4244,7 +4398,8 @@
         <entryLink id="6b48-dfad-a0a6-6c10" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="150.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="150.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ffa-c715-dc1e-74ba" name="El Grandulon" hidden="false" collective="false" import="true" type="model">
@@ -4288,7 +4443,8 @@
         <entryLink id="d31d-eb8a-b138-df31" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="165.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="165.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a8-3af2-e95c-d2ae" name="Kapitän Rosso" hidden="false" collective="false" import="true" type="model">
@@ -4337,7 +4493,8 @@
         <entryLink id="3772-1175-91f9-96bb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cf7-81a5-a093-69e2" name="Regicide" hidden="false" collective="false" import="true" type="model">
@@ -4385,7 +4542,8 @@
         <entryLink id="7261-08c6-fef3-5f0d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f497-3d01-60e8-36c3" name="Barco Malcaduco" hidden="false" collective="false" import="true" type="model">
@@ -4430,9 +4588,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="bc62-1dc8-c329-6bde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="934d-9d58-4422-34db" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2ed-af6b-4647-dd4c" name="Pirate Queen" hidden="false" collective="false" import="true" type="model">
@@ -4481,7 +4641,8 @@
         <entryLink id="e21e-7cbb-eefe-6e44" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f453-6d2d-75a5-1704" name="Captain Dèzette" hidden="false" collective="false" import="true" type="model">
@@ -4535,7 +4696,8 @@
         <entryLink id="c52f-4f7e-5d6a-5884" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b13b-cc40-eca0-9a76" name="Matelots" hidden="false" collective="false" import="true" type="model">
@@ -4574,7 +4736,8 @@
         <entryLink id="1857-2b43-451d-2cbe" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5a7-d72c-3d19-f3e9" name="Tiradora" hidden="false" collective="false" import="true" type="model">
@@ -4613,7 +4776,8 @@
         <entryLink id="d235-6990-c721-0f2b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df9e-7365-16e1-6119" name="Pirat/in" hidden="false" collective="false" import="true" type="model">
@@ -4652,7 +4816,8 @@
         <entryLink id="66c2-17b7-0a4f-43dd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e22-77ad-bfeb-6d3c" name="Cuchillo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4701,7 +4866,8 @@
         <entryLink id="0b19-8ad0-92ac-80e4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b9-f50b-94ae-86f0" name="Seemann" hidden="false" collective="false" import="true" type="upgrade">
@@ -4737,7 +4903,8 @@
         <entryLink id="c020-97d9-6654-2027" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4514-bd51-5f97-2d1d" name="Ex Käpt´n Jack" hidden="false" collective="false" import="true" type="upgrade">
@@ -4782,7 +4949,8 @@
         <entryLink id="ed3e-feea-3b4c-735b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c9b-95a7-87f6-ac22" name="Curly Ann" hidden="false" collective="false" import="true" type="model">
@@ -4824,7 +4992,8 @@
         <entryLink id="9d16-a7d3-65c0-4966" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1af2-0857-0050-6836" name="Krud" hidden="false" collective="false" import="true" type="model">
@@ -4876,7 +5045,8 @@
         <entryLink id="1be7-a6cf-49a9-73fb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="934e-e7f7-4300-97a2" name="Mono" hidden="false" collective="false" import="true" type="model">
@@ -4917,7 +5087,8 @@
         <entryLink id="9563-383e-6537-676d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89d6-ad63-f29f-6668" name="Piedro der Wirt" hidden="false" collective="false" import="true" type="model">
@@ -4957,7 +5128,8 @@
         <entryLink id="feb5-48de-b666-5921" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c08-7a4f-0e09-5585" name="Big Jenny" hidden="false" collective="false" import="true" type="model">
@@ -5005,7 +5177,8 @@
         <entryLink id="f6a5-316f-8e57-8f19" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e400-ec13-08ff-1b02" name="Spitfire" hidden="false" collective="false" import="true" type="model">
@@ -5052,7 +5225,8 @@
         <entryLink id="de79-4456-65e3-5b1e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a12-dae5-5f26-8875" name="Long John" hidden="false" collective="false" import="true" type="upgrade">
@@ -5097,7 +5271,8 @@
         <entryLink id="6438-0ae9-c209-62ee" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eea6-1738-89cc-f931" name="Casimir Flynn" hidden="false" collective="false" import="true" type="model">
@@ -5144,7 +5319,8 @@
         <entryLink id="d608-33c1-da08-df2f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a168-3506-b87e-f123" name="The Lady" hidden="false" collective="false" import="true" type="model">
@@ -5186,7 +5362,8 @@
         <entryLink id="5942-8ddd-d62c-a87b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="177f-b0ed-863a-69df" name="Blackbeard" hidden="false" collective="false" import="true" type="model">
@@ -5234,7 +5411,8 @@
         <entryLink id="d4ce-374e-cb3b-8f89" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8efb-5e84-74a6-7509" name="Little Pete" hidden="false" collective="false" import="true" type="model">
@@ -5281,7 +5459,8 @@
         <entryLink id="146f-684c-d130-746b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="984b-1dd4-3f52-9272" name="El Enterrador" hidden="false" collective="false" import="true" type="model">
@@ -5325,7 +5504,8 @@
         <entryLink id="83ea-d24f-7502-39a1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2435-aa26-33b6-6e89" name="Delora Waits" hidden="false" collective="false" import="true" type="model">
@@ -5364,7 +5544,8 @@
         <entryLink id="197e-1506-1976-be77" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ee0-64a8-dc82-57f1" name="Defty Jim" hidden="false" collective="false" import="true" type="model">
@@ -5406,7 +5587,8 @@
         <entryLink id="f5ec-3023-e3e7-2702" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e55-7da2-2c91-58b2" name="Schwarzer Nick" hidden="false" collective="false" import="true" type="model">
@@ -5457,7 +5639,8 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c8-6d8d-0cbb-4fd2" type="max"/>
           </constraints>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5466,7 +5649,8 @@
         <entryLink id="c7a2-bf79-70f8-3c40" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f7d-c350-dd61-e67f" name="Jarrono" hidden="false" collective="false" import="true" type="model">
@@ -5514,7 +5698,8 @@
         <entryLink id="9f62-a4dd-7faa-df6c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3ba-cab6-0ce7-7aa7" name="Capitan Leon" hidden="false" collective="false" import="true" type="model">
@@ -5567,7 +5752,8 @@
         <entryLink id="7dc3-c174-f8b2-2c6a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f46-5dd2-1736-aea3" name="Capitan Garcia" hidden="false" collective="false" import="true" type="upgrade">
@@ -5615,7 +5801,8 @@
         <entryLink id="4b29-29d3-8f6f-5179" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11ea-89e6-fd66-c325" name="Cazardorengardist" hidden="false" collective="false" import="true" type="model">
@@ -5658,7 +5845,8 @@
         <entryLink id="70b4-1ace-d3e3-db54" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4cb-614e-fc6e-70a8" name="Cazardorengardist (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -5709,7 +5897,8 @@
         <entryLink id="9a51-4df6-d8b1-334e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6047-2f63-9ff3-f9a9" name="Seesoldat" hidden="false" collective="false" import="true" type="model">
@@ -5752,7 +5941,8 @@
         <entryLink id="20a1-ce23-da19-81ce" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ab4-4e0f-7edb-9ee9" name="Seesoldat (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -5803,7 +5993,8 @@
         <entryLink id="0efb-cc9f-420f-31c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cab7-1309-c3d0-ba5f" name="Asaltores" hidden="false" collective="false" import="true" type="model">
@@ -5845,10 +6036,18 @@
         <entryLink id="3a22-02ad-51a9-7473" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1dcb-182f-fff9-3924" name="Arquebusier" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1dcb-182f-fff9-3924" name="Arquebusier •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed99-8390-2e01-9fb4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c828-685a-2892-c245" name="Arquebusier" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
@@ -5884,7 +6083,8 @@
         <entryLink id="ed35-6a4a-79b3-ed2e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="766d-7fa4-f944-2c7c" name="Jamon Borodino" hidden="false" collective="false" import="true" type="model">
@@ -5931,7 +6131,8 @@
         <entryLink id="7dde-607e-e7ab-9e68" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e4c-b221-d4dd-6efb" name="Tipo Duros" hidden="false" collective="false" import="true" type="model">
@@ -5977,7 +6178,8 @@
         <entryLink id="4733-99af-562e-4226" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2be6-5317-24b8-135d" name="El Mastin" hidden="false" collective="false" import="true" type="model">
@@ -6025,7 +6227,8 @@
         <entryLink id="f931-e6b6-785c-3c82" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8c8-1c1a-e8ab-cd97" name="Alicija Degolara" hidden="false" collective="false" import="true" type="model">
@@ -6081,7 +6284,8 @@
         <entryLink id="4b58-a9de-2702-8b90" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="753e-cbbc-d383-c32d" name="Ahondaro" hidden="false" collective="false" import="true" type="model">
@@ -6121,7 +6325,8 @@
         <entryLink id="538c-3d65-56d2-5dcd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cb2-be09-3e33-39fb" name="Perro Rastreador" hidden="false" collective="false" import="true" type="model">
@@ -6168,7 +6373,8 @@
         <entryLink id="4f2d-37bf-9715-7070" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72ca-88a0-378e-372b" name="Sargento Maneto" hidden="false" collective="false" import="true" type="model">
@@ -6208,7 +6414,8 @@
         <entryLink id="f24d-b992-64b6-b4b0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08d0-2c83-0cb4-d680" name="Callado" hidden="false" collective="false" import="true" type="model">
@@ -6251,7 +6458,8 @@
         <entryLink id="7003-187f-e10e-45ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d53-7c17-6c7e-5b03" name="Don Guillermo" hidden="false" collective="false" import="true" type="model">
@@ -6298,7 +6506,8 @@
         <entryLink id="2d50-7526-9136-7d34" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d7b-1159-73f8-009c" name="Alejandra" hidden="false" collective="false" import="true" type="model">
@@ -6339,7 +6548,8 @@
         <entryLink id="52df-bf7b-e68b-f9e2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4b4-f2c3-e55b-b9f7" name="Sergeant Escopeta" hidden="false" collective="false" import="true" type="upgrade">
@@ -6386,7 +6596,8 @@
         <entryLink id="136f-6c90-0e3b-d395" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a73-a8a5-773e-5d07" name="Tamborino" hidden="false" collective="false" import="true" type="model">
@@ -6425,7 +6636,8 @@
         <entryLink id="77f8-b295-7f19-868e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa81-e0e7-e743-bf96" name="Teniente" hidden="false" collective="false" import="true" type="model">
@@ -6473,7 +6685,8 @@
         <entryLink id="fd70-342d-e108-28fc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="739b-9b94-b727-ebd6" name="Torpe" hidden="false" collective="false" import="true" type="model">
@@ -6513,7 +6726,8 @@
         <entryLink id="51e5-f68c-6ae5-b3be" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3b4-3019-c7f3-2991" name="Erster Maat" hidden="false" collective="false" import="true" type="upgrade">
@@ -6561,7 +6775,8 @@
         <entryLink id="7bcb-c9a5-7066-0ce9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cfd-2278-55c4-1a00" name="Comtessa" hidden="false" collective="false" import="true" type="model">
@@ -6601,7 +6816,8 @@
         <entryLink id="78b4-6b3d-c6f6-f6ef" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3f6-9356-a28c-5f94" name="Zofe" hidden="false" collective="false" import="true" type="model">
@@ -6642,7 +6858,8 @@
         <entryLink id="2e7a-7c2d-cffc-33d1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20f0-2faa-c25b-fd2a" name="Narr" hidden="false" collective="false" import="true" type="model">
@@ -6688,7 +6905,8 @@
         <entryLink id="daf7-5bc2-880a-ac84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ade3-c625-e139-0b8e" name="Malo Gordab" hidden="false" collective="false" import="true" type="model">
@@ -6734,7 +6952,8 @@
         <entryLink id="e6c9-a5c4-23b2-447c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1832-7330-bd6e-86db" name="Kapitän Ulgat" hidden="false" collective="false" import="true" type="model">
@@ -6782,7 +7001,8 @@
         <entryLink id="f2aa-1dbf-93f3-5742" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d198-9572-77cf-41a7" name="Chulo Bolu" hidden="false" collective="false" import="true" type="model">
@@ -6832,7 +7052,8 @@
         <entryLink id="5134-a984-38bb-e4b9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c79a-73b0-54f7-24e4" name="Gront" hidden="false" collective="false" import="true" type="upgrade">
@@ -6882,7 +7103,8 @@
         <entryLink id="78ae-8238-1716-125a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="160c-74be-065e-bf07" name="Harter Junge" hidden="false" collective="false" import="true" type="model">
@@ -6928,7 +7150,8 @@
         <entryLink id="6b36-69e7-4c7e-339a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="824e-a22b-e73f-3c65" name="Harter Junge (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -6980,7 +7203,8 @@
         <entryLink id="5df7-5f1f-ce8b-e708" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bcd-e034-dd1d-8ea8" name="Hasadeur" hidden="false" collective="false" import="true" type="model">
@@ -7022,7 +7246,8 @@
         <entryLink id="a901-54da-a88a-a7e4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f05e-f681-f7b8-0c2f" name="Velero" hidden="false" collective="false" import="true" type="model">
@@ -7068,7 +7293,8 @@
         <entryLink id="7d5e-f0d0-62ee-9ef9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8217-2c54-fd25-4e75" name="Matrose" hidden="false" collective="false" import="true" type="model">
@@ -7110,7 +7336,8 @@
         <entryLink id="d205-9084-a236-111b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c202-9d92-26e3-33cf" name="Bajo" hidden="false" collective="false" import="true" type="model">
@@ -7150,7 +7377,8 @@
         <entryLink id="4a6f-34c8-d4d5-d9e0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c15-c500-4c4c-8083" name="Revlugg" hidden="false" collective="false" import="true" type="model">
@@ -7198,7 +7426,8 @@
         <entryLink id="4168-7a47-b11b-e491" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1372-acfb-2ac9-1183" name="Pegarata" hidden="false" collective="false" import="true" type="model">
@@ -7237,7 +7466,8 @@
         <entryLink id="e4b8-fddd-a01b-c547" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55ff-1025-e70b-4bb7" name="Moby Dugg" hidden="false" collective="false" import="true" type="model">
@@ -7292,7 +7522,8 @@
         <entryLink id="5383-0d33-4d64-a057" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6970-af2d-8a6a-a641" name="Bolgod" hidden="false" collective="false" import="true" type="model">
@@ -7342,7 +7573,8 @@
         <entryLink id="3e15-8e95-a0d1-7ed1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8954-899c-717b-ab4a" name="Golotag" hidden="false" collective="false" import="true" type="model">
@@ -7392,7 +7624,8 @@
         <entryLink id="1934-e506-5fb1-ae14" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5d47-ac90-27ac-73a2" name="Cucaracha" hidden="false" collective="false" import="true" type="model">
@@ -7439,7 +7672,8 @@
         <entryLink id="4b6d-ee3f-11ab-040e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7db5-c736-b8ea-0904" name="Momma Cebada" hidden="false" collective="false" import="true" type="model">
@@ -7480,7 +7714,8 @@
         <entryLink id="7ca8-577e-9784-0aa4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcbe-a8a4-d5e6-6e46" name="Momma Galina" hidden="false" collective="false" import="true" type="model">
@@ -7527,7 +7762,8 @@
         <entryLink id="8492-8ec6-6f78-8b18" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f961-1774-4605-e724" name="Hueso Narg" hidden="false" collective="false" import="true" type="model">
@@ -7567,7 +7803,8 @@
         <entryLink id="cadd-2872-7a13-f74d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a98-527f-c6c3-9bfb" name="Grogg" hidden="false" collective="false" import="true" type="model">
@@ -7613,7 +7850,8 @@
         <entryLink id="dd73-15fb-f6aa-585e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5df5-bddb-58fe-682f" name="El Charro" hidden="false" collective="false" import="true" type="model">
@@ -7660,7 +7898,8 @@
         <entryLink id="ddd5-37c3-9c58-5658" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3384-1889-bdab-c98b" name="Pujamen" hidden="false" collective="false" import="true" type="model">
@@ -7708,7 +7947,8 @@
         <entryLink id="b68a-a530-5cb6-ee67" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="722b-40dc-c321-7cc3" name="Nartz" hidden="false" collective="false" import="true" type="model">
@@ -7750,7 +7990,8 @@
         <entryLink id="97ff-a7b4-95dc-2fd7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6195-6e84-5896-09be" name="Yogo Yogo" hidden="false" collective="false" import="true" type="model">
@@ -7794,7 +8035,8 @@
         <entryLink id="5983-e39d-eec4-81ac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a499-c005-cbf5-71fc" name="Pierre &amp; Paolo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7834,7 +8076,8 @@
         <entryLink id="2f80-4753-a107-4e84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae6b-30f9-73ee-5019" name="Momma Fiara" hidden="false" collective="false" import="true" type="model">
@@ -7887,7 +8130,8 @@
         <entryLink id="ae2c-8d33-e813-e6cf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6445-3cc3-fe93-3c4d" name="Chico" hidden="false" collective="false" import="true" type="model">
@@ -7931,7 +8175,8 @@
         <entryLink id="1f95-3c1c-6ab3-fccf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef2d-c07d-dd41-fbd4" name="Velero (Ehrehgarde)" hidden="false" collective="false" import="true" type="model">
@@ -7982,7 +8227,8 @@
         <entryLink id="be9b-4534-617a-3830" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9079-0894-deac-217f" name="Buzo" hidden="false" collective="false" import="true" type="model">
@@ -8028,7 +8274,8 @@
         <entryLink id="20ca-91cd-4500-8366" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ab2-0e02-d141-b9a1" name="Gubbins" hidden="false" collective="false" import="true" type="model">
@@ -8075,7 +8322,8 @@
         <entryLink id="36b0-f4d8-8dd9-b728" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3c3-c8fa-37cd-fb85" name="Kreisch" hidden="false" collective="false" import="true" type="model">
@@ -8123,7 +8371,8 @@
         <entryLink id="24fd-1463-4120-80da" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9ad-f1fa-5046-d0f3" name="Ampara" hidden="false" collective="false" import="true" type="model">
@@ -8166,7 +8415,8 @@
         <entryLink id="fed2-2a87-9e0c-9e80" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4f2-79d3-76d0-e78f" name="Tarro" hidden="false" collective="false" import="true" type="model">
@@ -8209,7 +8459,8 @@
         <entryLink id="f209-4305-5570-8983" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bcb-06f4-3006-2b8f" name="Cortante" hidden="false" collective="false" import="true" type="model">
@@ -8255,7 +8506,8 @@
         <entryLink id="092d-c66c-9beb-71f9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d064-8ec3-bf62-e281" name="Cortante •" hidden="false" collective="false" import="true" type="model">
@@ -8305,7 +8557,8 @@
         <entryLink id="9616-c8e1-595c-6a3e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54f1-0413-075b-6a70" name="Meisterassassin" hidden="false" collective="false" import="true" type="model">
@@ -8355,7 +8608,8 @@
         <entryLink id="2640-399d-534f-7577" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05fa-061e-9439-e279" name="Meisterharlequina" hidden="false" collective="false" import="true" type="model">
@@ -8406,7 +8660,8 @@
         <entryLink id="8079-eefe-9f2c-f035" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="105.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="105.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c22f-1b15-b532-cd30" name="Königin der Schatten" hidden="false" collective="false" import="true" type="model">
@@ -8450,7 +8705,8 @@
         <entryLink id="024a-96b1-a417-4fec" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1fd0-a435-6fdd-9773" name="Senore Nefando" hidden="false" collective="false" import="true" type="model">
@@ -8497,7 +8753,8 @@
         <entryLink id="9cb5-7ec8-a6ac-4dde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5eb-0ef8-c10c-e326" name="Dottore" hidden="false" collective="false" import="true" type="model">
@@ -8543,7 +8800,8 @@
         <entryLink id="49ae-fdaa-c785-5b60" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7203-995a-c2f8-8231" name="Coscritti" hidden="false" collective="false" import="true" type="model">
@@ -8576,7 +8834,8 @@
         <entryLink id="5ec5-0b1e-fc39-9282" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="885e-7434-1ef0-7889" name="Battitore" hidden="false" collective="false" import="true" type="model">
@@ -8609,7 +8868,8 @@
         <entryLink id="9703-55d1-66c3-3578" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d9-a4c0-b912-d7d2" name="Spada" hidden="false" collective="false" import="true" type="model">
@@ -8645,7 +8905,8 @@
         <entryLink id="e6ca-f18f-ba64-471d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="171b-23c1-5d7b-168d" name="Harlequinn" hidden="false" collective="false" import="true" type="model">
@@ -8697,7 +8958,8 @@
         <entryLink id="a2bf-ab17-fea0-e539" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f66-f485-7bfe-0467" name="Harlequinn (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -8755,7 +9017,8 @@
         <entryLink id="fa24-8bc0-36c1-adfd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd57-7eea-ae3b-be10" name="Apagado" hidden="false" collective="false" import="true" type="upgrade">
@@ -8798,7 +9061,8 @@
         <entryLink id="26ae-e381-e164-f2df" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c72-b06b-0380-6b2d" name="Trucco" hidden="false" collective="false" import="true" type="model">
@@ -8846,7 +9110,8 @@
         <entryLink id="3a07-c682-3640-936c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0bc-3933-ffdd-d16c" name="Romerto" hidden="false" collective="false" import="true" type="model">
@@ -8887,7 +9152,8 @@
         <entryLink id="d9fb-17c9-0338-c4e5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e4e-4adb-2804-ce35" name="Bella Cigna" hidden="false" collective="false" import="true" type="model">
@@ -8934,7 +9200,8 @@
         <entryLink id="3ad1-c8a9-3a68-85d4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="caea-b9b6-1096-0555" name="Tronco" hidden="false" collective="false" import="true" type="model">
@@ -8975,7 +9242,8 @@
         <entryLink id="3ae0-834b-3478-997a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91b3-23a4-c811-d2b0" name="Adombra" hidden="false" collective="false" import="true" type="model">
@@ -9021,7 +9289,8 @@
         <entryLink id="b82a-b2e4-0fd0-1965" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e33-3f93-0cfb-b7fa" name="Colpo di Mano" hidden="false" collective="false" import="true" type="model">
@@ -9074,7 +9343,8 @@
         <entryLink id="455a-a809-059d-5441" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5e7-fd38-0891-9120" name="Fith´Aarch" hidden="false" collective="false" import="true" type="model">
@@ -9122,7 +9392,8 @@
         <entryLink id="9188-3d23-dc8d-a5dd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55d7-0d3c-2981-9b3d" name="Incantenebra" hidden="false" collective="false" import="true" type="upgrade">
@@ -9170,7 +9441,8 @@
         <entryLink id="55d1-7017-d2d8-f241" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8456-f04d-71aa-d0a8" name="Corvana" hidden="false" collective="false" import="true" type="model">
@@ -9215,7 +9487,8 @@
         <entryLink id="6d38-ffc4-0de2-d97b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdc6-e69a-aff1-4275" name="Cadena" hidden="false" collective="false" import="true" type="model">
@@ -9256,7 +9529,8 @@
         <entryLink id="b4b0-e5ac-5faa-aa7b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ea4-9d57-0f3e-03cb" name="Johanna Weiss" hidden="false" collective="false" import="true" type="model">
@@ -9301,7 +9575,8 @@
         <entryLink id="f02f-831b-6f7e-5808" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c7e-3d80-c603-8580" name="Pestdoktor" hidden="false" collective="false" import="true" type="model">
@@ -9344,7 +9619,8 @@
         <entryLink id="5f0a-da75-a66e-db77" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc18-b0e2-8395-322d" name="Viscero" hidden="false" collective="false" import="true" type="model">
@@ -9385,7 +9661,8 @@
         <entryLink id="d019-1f9c-6bb7-c776" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f68b-688b-ff81-fe70" name="Sagitario" hidden="false" collective="false" import="true" type="model">
@@ -9433,7 +9710,8 @@
         <entryLink id="ca18-4c8b-a03e-2fe7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a825-15e5-b886-1630" name="Velocia" hidden="false" collective="false" import="true" type="model">
@@ -9475,10 +9753,11 @@
         <entryLink id="3599-7d1d-3e4a-997c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d271-5aa2-18f2-c023" name="Morena Feigatta" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d271-5aa2-18f2-c023" name="Morena Feligatta" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ff-4931-13a0-eae1" type="max"/>
       </constraints>
@@ -9519,7 +9798,8 @@
         <entryLink id="f10f-f13b-b377-43bb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86ba-f43c-aa62-6e17" name="Bonaccia" hidden="false" collective="false" import="true" type="model">
@@ -9563,7 +9843,8 @@
         <entryLink id="1ffc-4f6c-9c7e-9576" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dde-78fd-8cf2-c6e9" name="Piccina" hidden="false" collective="false" import="true" type="model">
@@ -9611,7 +9892,8 @@
         <entryLink id="a9b1-bfec-0ce0-0e9d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c37-7c81-aba6-ae92" name="Miedo a Morir" hidden="false" collective="false" import="true" type="model">
@@ -9651,27 +9933,28 @@
         <entryLink id="2e2e-a392-a127-1e6d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a65c-42b2-4462-3ebc" name="Jeanne K. Raynal" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a65c-42b2-4462-3ebc" name="Jeanne-Jaques  Raynal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8229-cbc6-90c6-d54c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a3af-542f-a04f-d8ee" name="Jeanne K. Raynal" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+        <profile id="a3af-542f-a04f-d8ee" name="Jeanne J. Raynal" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
             <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Antiker Karabiner als Knüppel</characteristic>
             <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Degen</characteristic>
           </characteristics>
         </profile>
-        <profile id="5304-be91-e31a-02b1" name="Jeanne K. Raynal" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+        <profile id="5304-be91-e31a-02b1" name="Jeanne J. Raynal" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
           <characteristics>
             <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Antiker Karabiner, Schwere Waffe, Zweihändig</characteristic>
             <characteristic name="FERN" typeId="1a68-426e-effa-4443">4/3 ~ 40</characteristic>
           </characteristics>
         </profile>
-        <profile id="fb66-97b7-8f1a-32fd" name="Jeanne K. Raynal" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+        <profile id="fb66-97b7-8f1a-32fd" name="Jeanne J. Raynal" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
           <characteristics>
             <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
             <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">4/8</characteristic>
@@ -9700,7 +9983,8 @@
         <entryLink id="be8f-e26f-d291-63c5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a8-80b3-759b-7ee4" name="Clisson N. Bonnet" hidden="false" collective="false" import="true" type="model">
@@ -9743,7 +10027,8 @@
         <entryLink id="0d46-1139-a343-f4ec" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f105-b9b0-8877-bdd8" name="Fusilier" hidden="false" collective="false" import="true" type="model">
@@ -9785,7 +10070,8 @@
         <entryLink id="a250-26a2-8d74-0319" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0873-06c5-1a94-1a52" name="Vieille Garde" hidden="false" collective="false" import="true" type="model">
@@ -9831,7 +10117,8 @@
         <entryLink id="8740-8038-1997-ae13" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e12-e040-7924-bfac" name="Farouche" hidden="false" collective="false" import="true" type="upgrade">
@@ -9868,7 +10155,8 @@
         <entryLink id="b13c-31a3-ac4c-dad8" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="560f-7379-0cd6-b548" name="Taumata" hidden="false" collective="false" import="true" type="model">
@@ -9910,7 +10198,8 @@
         <entryLink id="5f2f-9b38-5d30-a942" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad62-c0ea-e412-bae3" name="Akando" hidden="false" collective="false" import="true" type="model">
@@ -9960,7 +10249,8 @@
         <entryLink id="b4e0-5236-84b0-d42d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0840-d7fc-2395-e295" name="D´Arebousse" hidden="false" collective="false" import="true" type="model">
@@ -10000,9 +10290,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="97e5-16d0-0607-6d0f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8ba0-b538-d7ad-f22e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3352-c08c-47d5-bed0" name="Maitre Charlemont" hidden="false" collective="false" import="true" type="model">
@@ -10043,7 +10335,8 @@
         <entryLink id="03b3-355e-0551-a7e2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6dd0-8777-65e5-a985" name="Potée" hidden="false" collective="false" import="true" type="model">
@@ -10090,7 +10383,8 @@
         <entryLink id="7695-aa82-f91c-397b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3c6-9c0e-60ef-858c" name="Ganache" hidden="false" collective="false" import="true" type="model">
@@ -10139,7 +10433,8 @@
         <entryLink id="fa7e-47cc-7ea6-7ae5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e4e-2985-d5be-a0a1" name="Chevalier Calembour" hidden="false" collective="false" import="true" type="model">
@@ -10180,7 +10475,8 @@
         <entryLink id="a0d0-c53c-9215-4cc4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff27-adcc-ea1c-aa07" name="Armond" hidden="false" collective="false" import="true" type="model">
@@ -10222,7 +10518,8 @@
         <entryLink id="16a7-69f6-a6eb-536e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="719f-909a-c237-79b1" name="Aplantage" hidden="false" collective="false" import="true" type="model">
@@ -10263,7 +10560,8 @@
         <entryLink id="ea6b-0281-03e8-b3cd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7d1-ec7c-4883-2aa8" name="Kasper Boulott" hidden="false" collective="false" import="true" type="model">
@@ -10312,7 +10610,8 @@
         <entryLink id="6d52-d539-f7cf-d075" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98e7-050b-da3f-a69f" name="Captain Dèzette •" hidden="false" collective="false" import="true" type="model">
@@ -10371,7 +10670,8 @@
         <entryLink id="15da-85d3-bc61-51f0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb40-5a33-3dde-fee6" name="Jebedaja Bowyn" hidden="false" collective="false" import="true" type="upgrade">
@@ -10421,7 +10721,8 @@
         <entryLink id="498e-c2c8-6499-2211" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b5d-d73d-9b39-2a93" name="Zombie Oktopus" hidden="false" collective="false" import="true" type="upgrade">
@@ -10473,7 +10774,8 @@
         <categoryLink id="e412-c558-66b4-76af" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8eb9-cd4b-969d-789c" name="Victoria Innsfoot" hidden="false" collective="false" import="true" type="model">
@@ -10515,7 +10817,8 @@
         <entryLink id="6c29-9e5f-9081-6704" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="428c-b7e5-8b05-c9f3" name="El Venador" hidden="false" collective="false" import="true" type="upgrade">
@@ -10559,7 +10862,8 @@
         <entryLink id="e848-e058-b32e-2e58" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5002-b4e3-b2a4-2b06" name="Arrequin" hidden="false" collective="false" import="true" type="model">
@@ -10605,7 +10909,8 @@
         <entryLink id="54f5-c4d9-f765-19c9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f959-84b5-66f3-7153" name="Rubio" hidden="false" collective="false" import="true" type="model">
@@ -10655,7 +10960,8 @@
         <entryLink id="944e-7872-26e8-b201" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9517-6572-2212-7c3b" name="Lieutenant Krud" hidden="false" collective="false" import="true" type="model">
@@ -10711,7 +11017,8 @@
         <entryLink id="f316-dfbe-b772-433e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c2e-37e2-f016-f622" name="Sergeant Plisse" hidden="false" collective="false" import="true" type="model">
@@ -10754,7 +11061,8 @@
         <entryLink id="5115-deb8-35f4-e628" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e953-73b9-9950-2073" name="Vieille Garde (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -10806,7 +11114,8 @@
         <entryLink id="c3a9-a5f9-c975-5549" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8688-b4f0-8971-a664" name="Carly Wench" hidden="false" collective="false" import="true" type="model">
@@ -10861,7 +11170,8 @@
         <entryLink id="5815-27fc-7773-234e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bacb-f5c8-0b72-e10a" name="Blanche Pascal" hidden="false" collective="false" import="true" type="model">
@@ -10909,7 +11219,8 @@
         <entryLink id="fd31-825b-69c4-f4e9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="120.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="120.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b26b-d26d-781d-73f6" name="Asquerosos Fugosa" hidden="false" collective="false" import="true" type="model">
@@ -10945,7 +11256,8 @@
         <entryLink id="36a4-54d9-640e-08d9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8673-a169-bd8c-6aeb" name="El Fusilio" hidden="false" collective="false" import="true" type="model">
@@ -10995,7 +11307,8 @@
         <entryLink id="25a9-219f-900c-4680" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a2f-1895-f941-b65c" name="Asqueroso" hidden="false" collective="false" import="true" type="model">
@@ -11044,7 +11357,8 @@
         <entryLink id="d2f9-a44e-c60e-5196" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e48-19c3-2c74-090a" name="Juedi" hidden="false" collective="false" import="true" type="model">
@@ -11091,7 +11405,8 @@
         <entryLink id="2913-43a9-ccc6-75fe" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc3f-e2df-01f6-fb5d" name="Sybiline Vicieux" hidden="false" collective="false" import="true" type="model">
@@ -11140,7 +11455,8 @@
         <entryLink id="b3a9-8344-cbda-1c04" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d78-c097-226e-aa45" name="Juedi (Ehregarde)" hidden="false" collective="false" import="true" type="model">
@@ -11193,7 +11509,8 @@
         <entryLink id="d40a-d911-8d9c-aadb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad3b-1e60-84ea-498b" name="Eugen" hidden="false" collective="false" import="true" type="model">
@@ -11254,7 +11571,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11263,7 +11581,8 @@
         <entryLink id="4590-9c9b-7f95-ea35" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10bd-db54-a464-5565" name="Cosphelia" hidden="false" collective="false" import="true" type="model">
@@ -11306,7 +11625,8 @@
         <entryLink id="29e9-5063-73ab-2b25" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfee-5514-bdc5-f3f3" name="Calvario Vigueta" hidden="false" collective="false" import="true" type="model">
@@ -11356,7 +11676,8 @@
         <entryLink id="5985-160f-62bb-db9a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f46-f223-4454-4218" name="Balagoneco" hidden="false" collective="false" import="true" type="model">
@@ -11411,7 +11732,8 @@
         <entryLink id="7d49-3535-1b8e-2c34" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4406-3121-63ff-0d79" name="La Bruja" hidden="false" collective="false" import="true" type="model">
@@ -11459,7 +11781,8 @@
         <entryLink id="4faa-21a3-9be8-21c8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90fe-c816-894a-13ad" name="Tronconneuse" hidden="false" collective="false" import="true" type="model">
@@ -11502,12 +11825,13 @@
         <entryLink id="1d4d-f867-7bda-a06e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1674-536b-8f65-4a26" name="Sansame" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="f186-3313-72b8-3f95" value="2">
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d22-05d8-942c-2a1d" type="greaterThan"/>
           </conditions>
@@ -11541,9 +11865,15 @@
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a541-ad26-bf24-7e3b" type="equalTo"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d22-05d8-942c-2a1d" type="equalTo"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="430a-cd12-3696-d772" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -11586,7 +11916,8 @@
         <entryLink id="d3ab-99f4-423b-8ad3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7b3-6908-1970-c5aa" name="Paltoquet" hidden="false" collective="false" import="true" type="model">
@@ -11630,7 +11961,8 @@
         <entryLink id="e977-ad88-b604-1507" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37dd-acf1-96ad-b2a5" name="Asquerosos Pirat" hidden="false" collective="false" import="true" type="upgrade">
@@ -11679,7 +12011,8 @@
         <entryLink id="095a-2405-b170-a0fc" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad9c-edde-cfa2-78b8" name="Asquerosos Pirat (Ehrengarde)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11736,7 +12069,8 @@
         <entryLink id="6e4d-78b4-c478-20b6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a541-ad26-bf24-7e3b" name="Gualtiero" hidden="false" collective="false" import="true" type="upgrade">
@@ -11781,7 +12115,8 @@
         <entryLink id="cd2c-ebe0-412f-a819" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="357c-13d5-7843-a5dc" name="Mademoiselle D`oiseaux" hidden="false" collective="false" import="true" type="upgrade">
@@ -11826,7 +12161,8 @@
             <infoLink id="2837-4268-7150-823f" name="Sirenengesang" hidden="false" targetId="8c32-3d3b-fd36-7d6f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11837,7 +12173,8 @@
         <entryLink id="4423-d4ca-8ec0-402e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a0a-f893-2156-c3ce" name="Kultist" hidden="false" collective="false" import="true" type="model">
@@ -11885,7 +12222,8 @@
         <entryLink id="0766-6e33-0d13-21b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bac6-7d62-c91a-dfa6" name="Kultist (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
@@ -11939,7 +12277,8 @@
         <entryLink id="5cb9-bab4-55b7-8e18" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbe1-77cb-3159-0dc9" name="Quecholli" hidden="false" collective="false" import="true" type="model">
@@ -11980,7 +12319,8 @@
         <entryLink id="2727-167d-6850-4916" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f6f-673f-5a70-1561" name="Treville" hidden="false" collective="false" import="true" type="model">
@@ -12027,7 +12367,8 @@
         <entryLink id="6129-1e2a-d29a-c976" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f5c-ff0f-ded8-307d" name="La Hoja" hidden="false" collective="false" import="true" type="model">
@@ -12072,7 +12413,8 @@
         <entryLink id="49c8-9046-87ab-8270" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8098-97fb-cb2d-5b81" name="Cuchillo (Ehrengarde)" hidden="false" collective="false" import="true" type="upgrade">
@@ -12126,7 +12468,8 @@
         <entryLink id="0c3f-f15a-f5f7-63fe" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1f2-2645-3168-a75f" name="Drunken Ivar" hidden="false" collective="false" import="true" type="model">
@@ -12168,7 +12511,8 @@
         <entryLink id="b99c-b5ea-e69c-d4d9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6405-77d0-f585-71b4" name="Quamitzli" hidden="false" collective="false" import="true" type="model">
@@ -12205,17 +12549,1662 @@
       <categoryLinks>
         <categoryLink id="6cd1-65a6-67cb-7e24" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="52eb-f142-c69b-2a89" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
-        <categoryLink id="eb17-baf9-6830-f04e" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="eb17-baf9-6830-f04e" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4b95-d957-5176-55da" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="bf60-6732-5c30-06c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="365d-54e7-0bca-a9a4" name="Anqui" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="365d-54e7-0bca-a9a4" name="Anqui" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7ddd-913a-9709-1603" name="Anqui" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89e1-13e3-bd9c-baf7" name="Anqui" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Arquebuse, als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Arquebuse, als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa9d-1367-e60e-cd8a" name="Anqui" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Arquebuse, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/6 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de10-cc0a-180e-68f3" name="Anqui" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5 ⑧</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5 ⑧</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="921f-dba4-c6af-ed36" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule"/>
+        <infoLink id="6962-89f5-fa7d-da9b" name="Wachsam" hidden="false" targetId="212b-40b8-a396-ced1" type="rule"/>
+        <infoLink id="2f42-69eb-65e2-e003" name="Späherin" hidden="false" targetId="6031-2530-8d06-69eb" type="rule"/>
+        <infoLink id="8c05-c90d-ac44-141d" name="Tarnen" hidden="false" targetId="0f68-f09a-2f3e-82ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8bb7-e9c2-f43c-8121" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="b3a5-b35a-48db-2a11" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+        <categoryLink id="2c59-357d-090a-bde0" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="71bf-16ed-7dbf-9fa0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9392-3557-729b-93cb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9036-151a-f883-7d87" name="Flüsterer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="496a-1856-88a4-01ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a671-ebed-ae56-5ee0" name="Flüsterer" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="11e4-61e2-ef7c-96bf" name="Flüsterer" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Dolch</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Krallen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e099-23bb-d1ec-f066" name="Flüsterer" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b43-b45f-a9ba-232b" name="Flüsterer" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: Befehl
+•1: Bewegung mit Bestochenen möglich
+•1: Schattenlauf</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="84ab-3e38-869f-cc6b" name="Auflösen" hidden="false" targetId="48fe-ebff-ea79-d75d" type="rule"/>
+        <infoLink id="4ca1-d6dd-686f-79e2" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="9b19-4547-eee7-797f" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="8d0a-d86e-ae11-532c" name="Aura der Schwäche" hidden="false" targetId="6d67-1a4c-b8ed-f66b" type="rule"/>
+        <infoLink id="c0c7-6b3f-c58b-8e17" name="Bestechung" hidden="false" targetId="cd39-87ce-bcd0-df55" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="623d-0826-885c-ef5b" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="06a0-ef4b-280e-5d42" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="7074-3278-492d-9f60" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="b160-b540-35d8-7d9d" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a4cb-4443-6549-cb2e" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0226-cfdc-4e8e-8d58" name="Banshee" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c03b-9b8d-f1d6-b60c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="76ad-4350-288a-40c1" name="Banshee" hidden="false" typeId="b074-900d-1e7d-8cf2" typeName="2.1 Fernkampf (Schatten)">
+          <characteristics>
+            <characteristic name="Waffe" typeId="9a27-64af-9506-a0ac">Todeskuss, Schattengeschoss (1), Kopf</characteristic>
+            <characteristic name="FERN" typeId="4a5a-e05f-f1a9-1709">5/4 ~ 20</characteristic>
+            <characteristic name="Schattenmacht" typeId="9ea9-0d1d-253b-41ea">•1: Fern +2/+1
+•1: Reichweite +10cm
+•2: Nirgendwo sicher oder Schreckliches Heulen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e68-b909-2866-c27b" name="Banshee" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">6</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6115-ae96-7c02-e441" name="Banshee" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Krallen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Krallen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d03d-aeb0-e66f-b222" name="Banshee" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3327-a2d6-7f0e-0f2d" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="6f42-e59b-2f68-beb8" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="4c88-ab4a-4e10-548b" name="Körperlos" hidden="false" targetId="de78-c566-3781-68b7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a4e3-e112-d772-4d49" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="a04f-6b0d-1d0f-e017" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="e62f-3ffa-0b07-1c9f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9f9d-bd59-f063-7ab0" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79e5-c4ed-2818-78dd" name="Dunkler Pirat" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a97-c3e6-c1fc-985a" name="Dunkler Pirat" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Rostiger Säbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d1bc-573f-4d89-ed3e" name="Dunkler Pirat" hidden="false" typeId="b074-900d-1e7d-8cf2" typeName="2.1 Fernkampf (Schatten)">
+          <characteristics>
+            <characteristic name="Waffe" typeId="9a27-64af-9506-a0ac">Pistole, Schattengeschoss (1), links</characteristic>
+            <characteristic name="FERN" typeId="4a5a-e05f-f1a9-1709">4/4 ~ 20</characteristic>
+            <characteristic name="Schattenmacht" typeId="9ea9-0d1d-253b-41ea">•1: +10cm Reichweite
+•1: +2/+1 FERN</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f4be-579a-82b5-f6d2" name="Dunkler Pirat" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">5</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">4/8</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f63f-252a-6cf6-e0f6" name="Dunkler Pirat" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f9f2-3d9c-8233-31f6" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="daa7-3114-ff19-30d9" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="9fb1-b368-fb16-3b8d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="2508-47db-be29-58ae" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2845-e41d-ef99-9e6d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0c2-5b95-5ef7-6e13" name="Schleicher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2a37-601e-3a6d-642a" name="Schleicher" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: +1/+2 Bewegung
+•1: Körperlos</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d99-ccbd-75f8-7d3c" name="Schleicher" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Krallen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Rostige Sichel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a0df-2e20-7b7e-c8a3" name="Schleicher" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">6</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6369-a35d-33b6-21f3" name="Schleicher" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2621-56ea-c554-f247" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+        <infoLink id="9286-364d-7888-d21b" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f4c1-7ae6-bdc8-2038" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="d7b1-b317-69b8-3d87" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="3b8e-1ab1-ba82-f734" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d058-cdb4-76b4-6554" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="277e-238c-16da-9b8c" name="Schemen" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="de6f-7ecd-4048-1232" name="Schemen" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">4</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">0</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">0**</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">0</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">0</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b829-8c8b-dcc3-e2a7" name="Schemen" hidden="false" typeId="b2d2-214b-d143-f137" typeName="6.0 Schemen:">
+          <characteristics>
+            <characteristic name="                                                      " typeId="3a32-9a41-d413-d1c0"/>
+          </characteristics>
+        </profile>
+        <profile id="c18a-6956-f633-1f53" name="Schemen" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: Unverwehbar</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d30-b632-4fdb-ebe2" name="Schemen" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="622a-814d-3e06-93c5" name="Nebelwesen" hidden="false" targetId="2acb-d6b6-a204-a09c" type="rule"/>
+        <infoLink id="e10b-a332-5a21-3880" name="Vollstandige Regeneration" hidden="false" targetId="7cc2-4a44-baae-6ec4" type="rule"/>
+        <infoLink id="d956-de32-a847-fc79" name="Körperlos" hidden="false" targetId="de78-c566-3781-68b7" type="rule"/>
+        <infoLink id="a767-3932-968d-e2ea" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="2a22-c2ce-8aa7-ec14" name="**Wehrlos" hidden="false" targetId="faa9-4b49-9f73-990e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4137-935a-236d-00fb" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="9674-8e9b-ced2-6ec5" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="3106-f4b9-50de-252e" name=" Gefolge" hidden="false" targetId="fec1-70b9-afca-abf0" primary="false"/>
+        <categoryLink id="9d6b-9d05-e177-edfa" name="New CategoryLink" hidden="false" targetId="90fc-6632-5d82-68ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a21-488d-424d-1032" name="Phantom " hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0e9d-4090-0c02-4860" name="Phantom " hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: Unverwehbar</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="241c-deb5-9c76-db24" name="Phantom " hidden="false" typeId="69bf-aa72-966c-193f" typeName="6.0 Phantom:">
+          <characteristics>
+            <characteristic name="                                                      " typeId="6b64-13df-e605-917f">                                                       </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6f16-eff6-1ac9-a1ce" name="Phantom " hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">4</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">0</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">0**</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">0</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">0</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e29b-0ee3-3792-b21b" name="Phantom " hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a756-2779-1925-00d7" name="**Wehrlos" hidden="false" targetId="faa9-4b49-9f73-990e" type="rule"/>
+        <infoLink id="86ec-a478-10ab-8f4d" name="Vollstandige Regeneration" hidden="false" targetId="7cc2-4a44-baae-6ec4" type="rule"/>
+        <infoLink id="882e-1f17-2a23-0862" name="Nebelwesen" hidden="false" targetId="2acb-d6b6-a204-a09c" type="rule"/>
+        <infoLink id="2202-955c-4ffc-3742" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="5eab-e0a4-5266-e1ea" name="Körperlos" hidden="false" targetId="de78-c566-3781-68b7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8244-c29b-9b47-b16c" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="52e3-6f14-c251-5a3e" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="6ae8-5804-92d7-0f71" name=" Gefolge" hidden="false" targetId="fec1-70b9-afca-abf0" primary="false"/>
+        <categoryLink id="a0f3-4dcb-b127-2190" name="New CategoryLink" hidden="false" targetId="90fc-6632-5d82-68ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d226-c9ca-555a-14ee" name="Hirte" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4849-0e57-7a75-ccd0" name="Hirte" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: Beschwören (Schemen)
+•1: Befehl für einen Beschworenen Schemen
+•1: Beschwörung im Umkreis von 10 cm</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f83f-f49f-a640-9fdc" name="Hirte" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Hirtenstab, zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Hirtenstab, zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2def-662b-71b2-9364" name="Hirte" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑦</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑦</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a11d-4ccd-9703-cfd0" name="Hirte" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1a62-e83a-994d-3442" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="fc50-f364-1f89-0a07" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="5a93-239a-027b-a935" name="Auflösen" hidden="false" targetId="48fe-ebff-ea79-d75d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ec7d-d06c-124c-b5af" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="f9a4-6f30-e5d3-be33" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="7912-8729-39bb-f7b7" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="300e-0fa1-fb46-9918" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed80-80e7-137c-97f5" name="Todesfee" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="13bf-3503-6f31-75be" name="Todesfee" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: +1/+2 BEW
+•1: Gift
+•2: Hinterhältiger Angriff</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="181c-61f6-be27-2a95" name="Todesfee" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">
+Krallen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Krallen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24fa-fb1f-8247-92dd" name="Todesfee" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5547-7f1c-6a57-565a" name="Todesfee" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5a3f-2219-d0b7-08a5" name="Körperlos" hidden="false" targetId="de78-c566-3781-68b7" type="rule"/>
+        <infoLink id="6d55-0946-6f42-204a" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="091a-f70f-68a4-1e03" name="Furchterregend" hidden="false" targetId="2bf6-2121-736a-23eb" type="rule"/>
+        <infoLink id="d4fd-d1eb-38a1-4395" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="392b-dcfd-230c-b57b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="5b74-32c0-da25-be95" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="e929-5091-8b8a-a4b9" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7abf-fe97-8008-5ca5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec46-f371-28cf-425a" name="Evil Moby" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0d7c-25d0-16f0-cfcd" name="Evil Moby" hidden="false" typeId="8b08-9408-d69c-7725" typeName="2.4 Nahkampf (Schatten)">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="3c17-daf4-f67d-5eff">Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="eaa5-a9e6-9c58-4476">Hai, Sägeschliff</characteristic>
+            <characteristic name="Schattenmacht" typeId="3819-312d-daa6-fe28">•2: Rüstungsbrechend für Hai</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e83b-94aa-3b33-20ac" name="Evil Moby" hidden="false" typeId="b074-900d-1e7d-8cf2" typeName="2.1 Fernkampf (Schatten)">
+          <characteristics>
+            <characteristic name="Waffe" typeId="9a27-64af-9506-a0ac">Pistole, Schattengeschoss (1), rechts</characteristic>
+            <characteristic name="FERN" typeId="4a5a-e05f-f1a9-1709">5/4 ~ 20</characteristic>
+            <characteristic name="Schattenmacht" typeId="9ea9-0d1d-253b-41ea">•1: +10 cm Reichweite
+•1: +1/+1 FERN</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b5d-4013-266c-5e11" name="Evil Moby" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">4/8</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d7c-c7b6-4b1c-1536" name="Evil Moby" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cb80-b94b-0862-5506" name="Böser Zwilling (Moby Dugg)" hidden="false" targetId="374f-d466-fa9d-1dab" type="rule"/>
+        <infoLink id="4c8f-0367-a8ab-640e" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="440a-881d-641a-a4da" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca22-4b34-fdf3-47d4" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="5b44-1bcd-4618-6849" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="00ac-419b-28f0-9220" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee8c-af1d-cbaa-0eeb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcde-14d2-2552-4ef1" name="Schwarze Witwe" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="42e8-16e4-d3e1-0c2a" name="Schwarze Witwe" hidden="false" typeId="8b08-9408-d69c-7725" typeName="2.4 Nahkampf (Schatten)">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="3c17-daf4-f67d-5eff">4 Klauen, Gift</characteristic>
+            <characteristic name="Waffe Links" typeId="eaa5-a9e6-9c58-4476">4 Klauen, Gift</characteristic>
+            <characteristic name="Schattenmacht" typeId="3819-312d-daa6-fe28">•1: +1/+1 ST
+•1: Sägeschliff oder Seelenschwund (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4855-7804-5d6f-0b47" name="Schwarze Witwe" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb8b-f7a8-c587-ecd6" name="Schwarze Witwe" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
+          <characteristics>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3823-358d-c2d8-fc11" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="e5eb-6254-d835-d7bd" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="6aae-504b-88dc-3e14" name="Blitzattacke" hidden="false" targetId="3957-0d44-894b-2714" type="rule"/>
+        <infoLink id="37ba-8df8-7b27-487d" name="Böser Zwilling (Königin der Schatten)" hidden="false" targetId="ac70-c0d7-0382-1f9d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="14c0-30ba-f89f-4a6a" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="10b8-9984-70be-64a8" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="6830-129c-7927-4365" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2060-531c-7d0d-aaec" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ced-8aa7-3ce4-2933" name="La Droite" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9155-fa9a-fbed-85e3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="17b7-a8d2-cf7b-d72e" name="La Droite" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Entersäbel, Sägeschliff</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="beea-4ceb-90ee-86b0" name="La Droite" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f150-4c70-0b98-5622" name="La Droite" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="06ac-2b88-dda0-d4b5" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule"/>
+        <infoLink id="f0ed-f7e3-be45-0e02" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="28a8-bb5a-8719-4e9a" name="Sergeant" hidden="false" targetId="8dbe-2027-f2a6-39ab" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="27d2-fac4-7dc3-3a71" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="ba44-156c-e31e-00d6" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="e0f6-1fca-29d0-b13a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="4e7e-b5d1-4977-70d4" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5b2b-8e22-6e04-796b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="2492-d50c-861a-3563" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1551-b232-25bf-f9a9" name="Mom Chérie" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674a-4532-bf8a-781f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ecd0-b89f-e2e0-5d2c" name="Mom Chérie" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Metzgermesser</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="925d-11a8-3c25-65d8" name="Mom Chérie" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="817f-cf7c-f181-0c91" name="Mom Chérie" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/1</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/2</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="32f2-326e-76ba-390a" name="Spurloses Verschwinden" hidden="false" targetId="aa2e-5266-79be-fa0e" type="rule"/>
+        <infoLink id="5012-2fe8-b7e4-888e" name="Spinnefein (Cazador Comdreja)" hidden="false" targetId="234d-aec4-968d-e4d3" type="rule"/>
+        <infoLink id="b0ec-bea5-607c-cdb2" name="Verwandt (Eugen)" hidden="false" targetId="793c-70ca-e172-792f" type="rule"/>
+        <infoLink id="4b25-dcab-6f90-02e9" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="9611-0fb2-57ac-f47a" name="Seelentreiber (0-2 Sansames)" hidden="false" targetId="3e69-328f-de2b-914e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf72-59e5-b8b8-a9e4" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="5e53-9549-0df2-9159" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="7b9b-9294-edfa-366b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="52e2-1e52-e888-00a3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="012a-172d-b11a-93e7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f21-fec6-c8b8-2e28" name="Milagroso" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="06de-681a-b492-1465" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-0ef8-c10c-e326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c4-9985-543d-2130" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7db5-c736-b8ea-0904" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f26-2153-a51a-a783" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-0ef8-c10c-e326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c4-9985-543d-2130" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7db5-c736-b8ea-0904" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f26-2153-a51a-a783" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06de-681a-b492-1465" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="397b-59d7-64fe-dbd9" name="Milagroso" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Zahnreißerzange</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b0a-d0ca-d1b9-5cbb" name="Milagroso" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5a21-56fa-693b-e2e0" name="Wundermittel" hidden="false" targetId="c1c4-4cf8-e97a-67d2" type="rule"/>
+        <infoLink id="b7ec-772a-550f-dfa2" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="253d-d043-817e-4bcb" name="Spinnefein (Charaktere mit Wunden Versorgen)" hidden="false" targetId="8291-e3f5-f607-212a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aa8e-24da-5fd3-2b24" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="4eac-b9a0-ac89-bf8f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="ff0d-831b-597b-dfd2" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f11b-e94d-c307-6995" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f509-ea79-8fc7-e267" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3d02-da94-0492-0507" name="Wundermittel" hidden="false" collective="false" import="true" targetId="fae7-8f32-505c-d541" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="429b-7e71-0fbd-5647" name="Milagroso •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="6a53-695f-0231-7aac" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-0ef8-c10c-e326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c4-9985-543d-2130" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7db5-c736-b8ea-0904" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f26-2153-a51a-a783" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-0ef8-c10c-e326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c4-9985-543d-2130" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7db5-c736-b8ea-0904" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f26-2153-a51a-a783" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a53-695f-0231-7aac" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f327-1e53-2e5f-b59f" name="Milagroso" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Zahnreißerzange</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c134-1b48-d98b-735b" name="Milagroso" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3180-70cd-dfbd-eee4" name="Milagroso" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft nicht für Amazonen</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3ab4-bab7-5b8a-6faa" name="Wundermittel" hidden="false" targetId="c1c4-4cf8-e97a-67d2" type="rule"/>
+        <infoLink id="c845-9dfc-89de-f89d" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="e0ed-0730-58c5-9630" name="Spinnefein (Charaktere mit Wunden Versorgen)" hidden="false" targetId="8291-e3f5-f607-212a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9d9b-e9b8-9b29-fe17" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="14f7-bc9c-c347-25ec" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="3ea3-9102-dd74-efae" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="561d-b0da-e846-00a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0901-f587-4c54-809f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="92de-8d9e-bbf5-cc6e" name="Wundermittel" hidden="false" collective="false" import="true" targetId="fae7-8f32-505c-d541" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd1f-31a3-5cf0-2d62" name="Tripolo" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf4-03fa-4365-c1b6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0509-8a90-df55-f3d0" name="Tripolo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Gehstock</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Faust</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ae0e-7dbe-a9c4-82b3" name="Tripolo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">3/6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2/3</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">1/2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f626-2bd6-056b-84bb" name="⃝    1. Geschärfte Sinne" hidden="false" targetId="8ef2-2fa5-2454-2205" type="rule"/>
+        <infoLink id="2005-ebd2-12c4-383f" name="Tre Valori" hidden="false" targetId="26f3-6ff1-47b6-1a66" type="rule"/>
+        <infoLink id="c5e3-446d-b3ac-ba98" name="⃝    3. Furchterregend" hidden="false" targetId="fd02-9c1a-7720-bce5" type="rule"/>
+        <infoLink id="4aa9-c315-f747-3feb" name="⃝    2. Attraktiv" hidden="false" targetId="5b6c-3b49-50a4-1e8f" type="rule"/>
+        <infoLink id="6081-ab3b-ce73-fcae" name="Tre Facce" hidden="false" targetId="543a-c9d9-c820-c25e" type="rule"/>
+        <infoLink id="0339-e847-512c-83f4" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ecd2-077c-838b-2657" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="f761-994a-2def-75e0" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="8924-3b55-dc9b-0902" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0896-d901-575a-d528" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="b571-2dbe-80da-b76e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d8e-35e7-46f6-d1f7" name="Tossica" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf2-79e7-c115-5641" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="beb8-17b4-efea-98a4" name="Tossica" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Lange Krallen, Gift (3)</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Lange Krallen, Gift (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c5f8-ca72-96f0-48af" name="Tossica" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="560f-1a33-5cb8-c863" name="Verschleiern" hidden="false" targetId="a92e-8904-71b4-1acc" type="rule"/>
+        <infoLink id="d76d-6614-dc3c-6eb9" name="Reißattacke" hidden="false" targetId="670b-44b5-f8b1-4235" type="rule"/>
+        <infoLink id="6c64-f41c-9e7a-0442" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="027f-bd5b-6206-2cff" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9344-5ecd-6945-300a" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="ccec-c711-2b63-21d9" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="7ec5-b047-7319-8b15" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a92f-17d6-63cc-beeb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a62f-e26d-e5e2-65c4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd64-5b3b-933d-9a7e" name="Tessa Polverade" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa5-5642-bddc-64a3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="89da-be28-f45e-bfd1" name="Tessa Polverade" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="977b-96b1-f7d9-00c7" name="Tessa Polverade" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Faust</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Degen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fce9-a026-ff5b-f6d1" name="Tessa Polverade" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b2d4-db87-7abd-6744" name="Tessa Polverade" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Spiltterbombe</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">EX 5/6 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e019-7715-a148-5368" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="06e7-7dea-044a-9d01" name="Kanonenkugel Präparieren" hidden="false" targetId="0735-693d-4764-4982" type="rule"/>
+        <infoLink id="1f48-b0a4-e509-f2ad" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+        <infoLink id="7950-c4ad-9fb4-ff61" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="2052-9290-beb8-d510" name="Mitgebrachte Kanonekugel" hidden="false" targetId="6fed-5350-c54e-b910" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a98a-5951-f8f5-ac1e" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+        <categoryLink id="fb25-1ea9-8181-9c71" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="e6c5-a346-1b76-e390" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="66b7-f686-b7ad-2165" name="New CategoryLink" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8c6c-2249-3791-60bf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="b820-59ca-e539-7d5e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04f6-803e-dd04-2a07" name="Toledo de Alvarez" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7735-cd65-6028-5c87" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="39cb-c7d7-e4f8-ccc7" name="Toledo de Alvarez" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Schwerer Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="0c54-ba8f-0bc6-7052" name="Toledo de Alvarez" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft nicht für Amazonen und Imeriale Armada</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="61fb-8472-feb3-cc45" name="Toledo de Alvarez" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Arquebuse, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/6 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="37cd-474a-f25a-3efc" name="Toledo de Alvarez" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca40-efff-14c0-5f5a" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="716b-48b5-a8bd-0a20" name="Verstärkung (Arquebusiere)" hidden="false" targetId="4ede-1947-2b8d-0e98" type="rule"/>
+        <infoLink id="d013-2cf2-19d6-a622" name="Inspirierend" hidden="false" targetId="15ac-54bb-511c-b203" type="rule"/>
+        <infoLink id="2aaa-c5e6-9d78-aed8" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="e917-d11b-b7f5-7dba" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="077e-c1f7-6aba-8fdd" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="047c-2d83-007a-8d47" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="fa31-2ff2-1f86-f749" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a842-6596-b0b9-015a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e327-5b22-ad22-86b4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed99-8390-2e01-9fb4" name="Toledo de Alvarez •" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ed-1189-450d-1702" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e717-f3af-2854-3e0b" name="Toledo de Alvarez" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Schwerer Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="bc63-2345-1c04-977a" name="Toledo de Alvarez" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft nicht für Amazonen und Imeriale Armada</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b64a-b49c-2486-810c" name="Toledo de Alvarez" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Arquebuse, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/6 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5017-e335-71fe-1681" name="Toledo de Alvarez" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="efa9-5d51-c6e7-ead0" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="6b97-ecdf-a431-8ea5" name="Verstärkung (Arquebusiere)" hidden="false" targetId="4ede-1947-2b8d-0e98" type="rule"/>
+        <infoLink id="ca2b-8cf1-4a2f-7bac" name="Inspirierend" hidden="false" targetId="15ac-54bb-511c-b203" type="rule"/>
+        <infoLink id="7835-866b-df47-e024" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="3db0-e3e6-f32d-a01b" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a75c-e526-4738-06d8" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e080-1707-a801-29bb" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="f072-16b5-3062-ab58" name="New CategoryLink" hidden="false" targetId="9fcb-63d8-f6dc-e471" primary="false"/>
+        <categoryLink id="8755-c22f-24a8-5ee3" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6bf7-ec2c-e670-de42" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="834c-be23-7558-29e2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c0c-e7d0-68d2-bfdd" name="Arquebusier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="17dc-8ff8-8760-4076" name="Arquebusier" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Arquebuse als Knüppel, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Arquebuse als Knüppel, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7029-081f-0ef6-98a3" name="Arquebusier" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Arquebuse, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/6 ~50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7413-d5c7-81ac-5dee" name="Arquebusier" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/4 ⑤</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/4 ⑤</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a03f-86a2-556f-40cf" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="c5ea-23ab-efa5-b6fe" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+        <categoryLink id="9bc2-854a-9d76-96e3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4ec2-06a0-bce8-4e40" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5fd7-3554-ec77-dbbf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02a9-884f-b653-f04c" name="Fury" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bfc-1b9f-0b9d-738a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="09be-b57b-157b-834d" name="Furry" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Ladestock, Waffenlos, Umhauen (5)</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Ladestock, Waffenlos, Umhauen (5)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d4f-4d11-c7f5-3493" name="Furry" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5 ⑦</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5 ⑦</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c306-1de6-055e-2de6" name="Kanonier" hidden="false" targetId="7d74-84dd-3ef9-6816" type="rule"/>
+        <infoLink id="99e3-88c7-e84b-4c6c" name="Rundumschlag" hidden="false" targetId="f678-b4f1-1c1b-874e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4dd6-4d6f-86c0-44fb" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+        <categoryLink id="2f42-e83d-3566-e7c3" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="6201-842f-c24b-fa95" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d784-c249-aee1-528c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1441-23b0-b95e-05b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f2b-93e1-d8a0-6a68" name="Belette" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e2-03c2-3242-038b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cba0-30ba-ccce-919b" name="Belette" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Wiesel Friponne, Festbeißen, Nirgendo Sicher, Rüstungsbrechend, rechts
+Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b20-3b40-eb30-b7f4" name="Belette" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Messer</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Messer</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="882c-a94c-4d10-de2c" name="Belette" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9903-804b-fede-8d28" name="Auge der Jägerin" hidden="false" targetId="c9d5-04ef-2dd4-30ea" type="rule"/>
+        <infoLink id="4e23-6bbc-146a-c1d4" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0a46-1ba0-287f-e008" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="ea6b-c80c-5c8b-66ec" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="e5f3-9cec-284d-e915" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a606-16c8-4dff-428e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="1796-5c24-c6bc-4415" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f26-2153-a51a-a783" name="Estelle Etalage" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd76-9572-9774-0f10" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1112-a26a-a069-d70b" name="Estelle Etalage" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Großes Messer</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1def-9dfb-88c2-b73e" name="Estelle Etalage" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Alte Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/3 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b18b-48cd-f5b2-b94d" name="Estelle Etalage" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fbde-68f7-3c48-7ee3" name="Evantaire" hidden="false" targetId="0888-1ee3-945b-40d8" type="rule"/>
+        <infoLink id="eb63-8e18-740a-0313" name="Wunden versogen" hidden="false" targetId="d53f-8bdd-3cde-d06a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6689-6036-fc75-2f7d" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="1fce-92e1-f2a2-3427" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e899-783f-19f0-d83a" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8a7f-49c8-cc9a-791a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8a47-46d1-6cbc-6517" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d5b-5159-d62f-8477" name="La Crobat" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa4-50c8-43ba-bbb2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7663-16d0-5c61-a475" name="La Crobat" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Säbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="c7ea-9feb-aee2-6bb7" name="La Crobat" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b0c-fbd7-07b9-42b6" name="Seitenhieb" hidden="false" targetId="543d-6672-8e13-d374" type="rule"/>
+        <infoLink id="572b-f77e-8cda-839c" name="Akrobatik" hidden="false" targetId="b713-da60-9aad-160d" type="rule"/>
+        <infoLink id="90f2-44eb-4b1b-89ef" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="829a-b7b2-443e-51c9" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="6709-429c-ece6-24df" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="464a-01f2-6120-6566" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4692-6406-7bb0-f8c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="62cc-5dc2-24b5-af4a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e964-aa50-0ce9-ef81" name="Pierre de Croar" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fe-228a-c97c-49f2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="55d0-2e8b-0a4f-62c8" name="Pierre de Croar" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Laute, Nirgendwo sicher, zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">3/2 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1905-d3b4-5638-92cd" name="Pierre de Croar" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Laute, zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Laute, zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6197-e486-e3bc-e88b" name="Pierre de Croar" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑥</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑥</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1b83-296d-8142-0219" name="Chanson I´otique" hidden="false" targetId="052f-3c99-94ba-f930" type="rule"/>
+        <infoLink id="e156-f6d1-c412-bd14" name="Musiker" hidden="false" targetId="f719-bd37-ad8d-e312" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2c6d-bdf8-8f4f-7f33" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="1e5e-d24d-7e9c-d571" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="355f-ee5c-d84c-d22e" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="efa9-1926-2b00-e07b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f412-cdf0-9bd1-c452" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8aa-833c-c04d-e6cc" name="Mathis Senilo" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5db9-c79a-4a7d-1dd4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2db-ba83-0535-11a2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2cf5-19d2-d012-174d" name="Mathis Senilo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Gehstock</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+        <profile id="a5b9-5d90-c829-0228" name="Mathis Senilo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">4/</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/2</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b444-b496-1995-bcf2" name="In Vino Oblivio" hidden="false" targetId="4ad2-d23e-5a07-cc16" type="rule"/>
+        <infoLink id="612b-aad7-a8aa-44d8" name="Tier" hidden="false" targetId="cbf1-ebf8-d2a3-b602" type="rule"/>
+        <infoLink id="7a9c-17af-f57c-47fd" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="cb63-0236-d729-086a" name="In Reyh und Glied" hidden="false" targetId="fef3-7d61-61a3-4d5a" type="rule"/>
+        <infoLink id="0395-36b4-eb73-7bf7" name="Inspirierend" hidden="false" targetId="15ac-54bb-511c-b203" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fd56-426c-c951-a125" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="c7b6-6255-ef6d-f552" name="New CategoryLink" hidden="false" targetId="0e47-d461-b178-5e66" primary="true"/>
+        <categoryLink id="ef11-bdff-ca33-0869" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5db9-c79a-4a7d-1dd4" name="Madam Potin" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e8c-59cd-a40c-2e81" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6d81-a520-c383-8eb6" name="Madam Potin" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Nudelholz, Umhauen (5), Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Nudelholz, Umhauen (5), Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f9c-9650-eb24-4da7" name="Madam Potin" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑦</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑦</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e39e-0bb7-4361-e206" name="Tierbändiger (Mathis Senilo)" hidden="false" targetId="4c23-3887-e47d-e517" type="rule"/>
+        <infoLink id="f6ba-8aca-656c-e10d" name="Ansporn" hidden="false" targetId="28b9-5dd6-7487-e305" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c45-c570-6fad-64c6" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="18b0-db2d-3d60-b880" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="54cf-9b5f-51b6-e620" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f062-65f6-2672-acd0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5d9a-e27b-90db-3981" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1dc8-d43c-e21c-3648" name="Victore Droiture" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db03-a4d4-c0e4-231d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dcf1-f7f9-18ef-0954" name="Victore Droiture" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d3b9-dd1d-c7e8-3759" name="Victore Droiture" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1e54-4edc-19f1-6c15" name="Victore Droiture" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/1</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ccbd-fc1d-779d-988f" name="Richtspruch" hidden="false" targetId="f845-6ffd-e7f8-7c26" type="rule"/>
+        <infoLink id="2e0b-6488-2278-e10c" name="Kopfgeld" hidden="false" targetId="e8b8-aa7d-704b-8242" type="rule"/>
+        <infoLink id="4b37-1622-36da-9558" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+        <infoLink id="a20f-cacb-bd6d-acf8" name="Doppelagent" hidden="false" targetId="bad8-ab33-8011-c377" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0138-ab92-07d6-096d" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="2b5e-0715-addf-beb7" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="2ccc-0032-cff8-0364" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a659-b694-9b07-393f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8044-6e89-d84f-bf1c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1460-d5e2-56f7-1dab" name="Fonogra" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f55c-a898-2221-5bfb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="eb2d-1882-6df2-91d2" name="Fonogra" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Messer</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Trichter als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c4a1-7713-7f1b-ce44" name="Fonogra" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">9</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4703-cbe2-6e75-e243" name="Sirenengesang" hidden="false" targetId="8c32-3d3b-fd36-7d6f" type="rule"/>
+        <infoLink id="693a-31f8-8243-8b28" name="Musiker" hidden="false" targetId="f719-bd37-ad8d-e312" type="rule"/>
+        <infoLink id="ea43-91cf-d0b8-fac3" name="Ansporn" hidden="false" targetId="28b9-5dd6-7487-e305" type="rule"/>
+        <infoLink id="0b96-913d-3885-8484" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="05e9-ab53-7aa0-9383" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="82ee-b8c3-36c0-f9c9" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="9f1e-1073-58f7-c651" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5b74-17f9-8d99-252f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ea62-d6a4-4228-0f5f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04af-018d-17f1-31bd" name="Senor Flauschkätzchen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c171-4a0e-dde1-372f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="59fd-e139-5d7a-ce12" name="Senor Flauschkätzchen" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Krallen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Großes Messer</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2bdf-b9f7-0e6e-a823" name="Senor Flauschkätzchen" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9987-913b-3c91-175d" name="Wasserscheu" hidden="false" targetId="07b3-c63f-a423-9d3b" type="rule"/>
+        <infoLink id="1a14-8207-a9c6-01aa" name="Unverwüstlich" hidden="false" targetId="6abc-9e1f-693e-685b" type="rule"/>
+        <infoLink id="a918-9d3f-c713-6238" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+        <infoLink id="84e0-cf5a-c51f-4bee" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule"/>
+        <infoLink id="89e1-3f52-332b-3baf" name="Reißattacke" hidden="false" targetId="670b-44b5-f8b1-4235" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2571-d2b4-dacd-83eb" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="9e2d-15b8-d220-85f7" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="805f-5b21-d34e-ad20" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3b21-4330-c2b8-5484" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9656-ce90-0bbb-1c6f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0a1-dd9b-a6f7-8dbf" name="Schattentor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884a-6e9f-8637-043f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d264-fa8b-5483-e79a" name="Schattentor" hidden="false" typeId="af41-a8ef-8473-949e" typeName="3.1 Szenario Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="341a-275d-fed8-6832">Groß, Mittelgroßer Szenario Gegenstand, nur für Schatten</characteristic>
+            <characteristic name="Leben" typeId="df09-1d4e-c21a-d7e2">11</characteristic>
+            <characteristic name="W Torso" typeId="d0d0-686f-7d1f-f21c">5/5</characteristic>
+            <characteristic name="Eigenschaften" typeId="a279-2170-4eae-fdf7">Eingeschränkte Sicht (0), Wehrlos</characteristic>
+            <characteristic name="Fähigkeit" typeId="4a6a-0580-27bc-f55c">•1: Beschwören (Schemen)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c8b5-112c-697a-fb12" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="992a-c43c-62bd-eb9c" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="1cf9-1694-0e30-32c4" name="New CategoryLink" hidden="false" targetId="f713-4f83-367e-66df" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a05b-7294-4f51-59e6" name="Mouvait Gout" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d4-682e-16eb-0c0e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9dd2-ef81-52c4-9434" name="Mouvait Gout" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Flöte als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Baguette de tambour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d4b9-e888-6b18-94fa" name="Mouvait Gout" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b137-1991-3f21-a3ed" name="Musiker" hidden="false" targetId="f719-bd37-ad8d-e312" type="rule"/>
+        <infoLink id="8867-411f-fef9-129f" name="Verwirrt" hidden="false" targetId="c6a9-f70f-b488-288c" type="rule"/>
+        <infoLink id="c511-2da6-4c8c-92d8" name="In Reyh und Glied" hidden="false" targetId="fef3-7d61-61a3-4d5a" type="rule"/>
+        <infoLink id="4417-3190-3fde-7f8f" name="Musique de Rum-ta-ta" hidden="false" targetId="7c97-0755-7edd-6517" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9dd-d6c0-91bd-291a" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="4e63-4da6-6e5c-5462" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="00b6-0066-3899-b150" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="06b6-b9d6-c488-b641" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1c46-ef6b-efd0-90cb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2fe4-0ace-0db7-cb46" name="La Gauche  WIP" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="810a-84cd-7b2f-f3d5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="727c-ce9b-0474-a8ff" name="La Gauche" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8"/>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893"/>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587"/>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73"/>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8"/>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3"/>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51"/>
+          </characteristics>
+        </profile>
+        <profile id="53f6-c86c-39dd-90d3" name="La Gauche" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266"/>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
+          </characteristics>
+        </profile>
+        <profile id="0359-5a36-69c4-4e33" name="La Gauche" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink id="463e-f3ea-74cf-1126" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a350-bb8a-aee2-9250" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false" import="true">
@@ -12223,6 +14212,7 @@
         <modifier type="decrement" field="56a7-27b6-8d41-e1c6" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad53-13d6-61ac-bd67" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fae7-8f32-505c-d541" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -12244,7 +14234,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6913-121c-0838-4495" name="Chivato" hidden="false" collective="false" import="true" type="upgrade">
@@ -12272,7 +14263,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="512c-8a3f-ed58-9892" name="Loa-Ex" hidden="false" collective="false" import="true" type="upgrade">
@@ -12289,7 +14281,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9d1b-8a0c-7dd0-f1d7" name="Glücksbringer" hidden="false" collective="false" import="true" type="upgrade">
@@ -12307,7 +14300,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="db5e-03c1-d781-b604" name="Giftschlange" hidden="false" collective="false" import="true" type="upgrade">
@@ -12338,7 +14332,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c105-4d14-d4d9-cf88" name="Sägeschliff" hidden="false" collective="false" import="true" type="upgrade">
@@ -12355,7 +14350,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a61-085c-a235-826a" name="Poncebys Taktikmanual" hidden="false" collective="false" import="true" type="upgrade">
@@ -12380,7 +14376,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="90e0-7ab7-cb74-ee8a" name="Kartusche" hidden="false" collective="false" import="true" type="upgrade">
@@ -12412,7 +14409,8 @@
             <infoLink id="26db-b10a-c550-0cb8" name="Powdermonky" hidden="false" targetId="5bb4-fd53-8dfd-e32c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b882-5a83-5895-5bdb" name="Zusatzwaffe" hidden="false" collective="false" import="true" type="upgrade">
@@ -12442,7 +14440,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="784f-c2f7-fdee-59ba" name="Fetisch" hidden="false" collective="false" import="true" type="upgrade">
@@ -12471,7 +14470,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3a70-27df-c953-4d68" name="Mitgebrachte Kanonekugel" hidden="false" collective="false" import="true" type="upgrade">
@@ -12482,6 +14482,7 @@
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d78-2538-8992-46f4" type="notInstanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52f8-2f5e-1f97-1704" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd64-5b3b-933d-9a7e" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -12500,7 +14501,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5359-4e90-9fa6-f676" name="Jarronos Geschenk" hidden="false" collective="false" import="true" type="upgrade">
@@ -12524,7 +14526,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b728-64d9-884a-24ea" name="Ulgats Begleiter" hidden="false" collective="false" import="true" type="upgrade">
@@ -12540,7 +14543,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f49-e22d-1da9-aa5a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bb9c-9080-1f72-7dca" name="Jarronos Geschenk" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+            <profile id="bb9c-9080-1f72-7dca" name="Ulgats Begleiter" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
               <characteristics>
                 <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Einmal Anwenbar</characteristic>
                 <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
@@ -12549,7 +14552,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="be9c-7711-a212-6c15" name="Toccasana" hidden="false" collective="false" import="true" type="upgrade">
@@ -12573,7 +14577,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d31-5ba3-724e-bd98" name="Ferracero" hidden="false" collective="false" import="true" type="upgrade">
@@ -12589,7 +14594,8 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250d-24a7-091e-56aa" type="max"/>
           </constraints>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="970b-8017-aa2a-5fe6" name="Macacron de Bravoure" hidden="false" collective="false" import="true" type="upgrade">
@@ -12617,7 +14623,8 @@
             <categoryLink id="ff14-9a32-ea0c-9449" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed6c-caa4-f009-07e3" name="Knüppelhartes Baguette" hidden="false" collective="false" import="true" type="upgrade">
@@ -12645,7 +14652,8 @@
             <categoryLink id="1a5c-5360-371a-94d8" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5e1f-dd63-10a1-34a7" name="Champ Épine" hidden="false" collective="false" import="true" type="upgrade">
@@ -12670,7 +14678,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9b7d-869e-058f-61bd" name="Potage Sibyllin" hidden="false" collective="false" import="true" type="upgrade">
@@ -12696,7 +14705,8 @@
             <categoryLink id="4728-58e2-dc53-2c81" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f2a1-e2e0-6f82-381b" name="Leichter Handmörser" hidden="false" collective="false" import="true" type="upgrade">
@@ -12720,7 +14730,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="233b-afcf-6650-192f" name="Bootsreparaturkit" hidden="true" collective="false" import="true" type="upgrade">
@@ -12749,7 +14760,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8206-79aa-d8db-1256" name="Rakete" hidden="true" collective="false" import="true" type="upgrade">
@@ -12789,7 +14801,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="670c-d7d2-bc34-9356" name="Holzbohrer" hidden="true" collective="false" import="true" type="upgrade">
@@ -12818,7 +14831,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6b51-0657-466a-b293" name="Huhn" hidden="false" collective="false" import="true" type="upgrade">
@@ -12839,7 +14853,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e224-de92-eba2-2d2b" name="Blutdolch" hidden="false" collective="false" import="true" type="upgrade">
@@ -12864,7 +14879,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4998-e641-93d9-9db9" name="Blaues Lutschbonbon" hidden="false" collective="false" import="true" type="upgrade">
@@ -12884,7 +14900,8 @@
             <infoLink id="5efd-8351-2a1e-e7a7" name="Standhaft" hidden="false" targetId="bb70-4663-3ad1-bbe9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b428-f466-08cb-7827" name="Spucknapf des Schwarzen Schwans" hidden="false" collective="false" import="true" type="upgrade">
@@ -12905,7 +14922,8 @@
             <infoLink id="2008-06d8-c319-c808" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2328-52e8-6f7e-6e77" name="Kleine Knotenkunde" hidden="false" collective="false" import="true" type="upgrade">
@@ -12925,7 +14943,8 @@
             <infoLink id="f31d-62af-6ed7-646f" name="Anhänglich" hidden="false" targetId="6631-c3f6-2833-cb84" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee9c-d896-ca98-cb74" name="Splittergeschoss" hidden="false" collective="false" import="true" type="upgrade">
@@ -12942,7 +14961,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="745e-d1ce-0451-9ea7" name="Rollstiefel" hidden="false" collective="false" import="true" type="upgrade">
@@ -12967,7 +14987,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="20ea-501a-1aa7-85c2" name="Tarnbemalung" hidden="false" collective="false" import="true" type="upgrade">
@@ -12997,7 +15018,8 @@
             <infoLink id="917b-130c-0ffd-0a8f" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d485-54f0-d9a9-25e4" name="Kletterhaken" hidden="false" collective="false" import="true" type="upgrade">
@@ -13014,7 +15036,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d108-2269-b288-3709" name="Krummes Wurfholz" hidden="false" collective="false" import="true" type="upgrade">
@@ -13031,7 +15054,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c2bd-576a-bdd1-e332" name="Mamas Trinktur" hidden="false" collective="false" import="true" type="upgrade">
@@ -13048,7 +15072,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b635-eba2-3c8a-b676" name="Kristallkugel" hidden="false" collective="false" import="true" type="upgrade">
@@ -13073,7 +15098,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38fa-5f6e-d7b5-f927" name="Alte Dublone" hidden="false" collective="false" import="true" type="upgrade">
@@ -13091,7 +15117,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fe3e-fb16-a52b-f720" name="Treuer Begleiter" hidden="false" collective="false" import="true" type="upgrade">
@@ -13109,7 +15136,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8965-710c-8869-2e1f" name="Alte Holzpfeife" hidden="false" collective="false" import="true" type="upgrade">
@@ -13126,7 +15154,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a3d-14bf-0875-a994" name="Kleiner Handspiegel" hidden="false" collective="false" import="true" type="upgrade">
@@ -13144,7 +15173,26 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="85fb-a383-c030-ccfb" name="Winkelmesser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a034-66a3-9284-d73b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="681c-e6cd-688d-3cd1" name="Winkelmesser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, Selten</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13191,7 +15239,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="78b2-cf0f-9a17-921e" name="Eimer" hidden="false" collective="false" import="true" type="upgrade">
@@ -13204,7 +15253,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2e30-2530-428e-e974" name="Hohe Reling" hidden="false" collective="false" import="true" type="upgrade">
@@ -13224,7 +15274,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3902-9b64-4bd9-e3ef" name="Imerialle Eiche" hidden="false" collective="false" import="true" type="upgrade">
@@ -13249,7 +15300,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a81d-b379-ec23-1949" name="Rauchfackel" hidden="true" collective="false" import="true" type="upgrade">
@@ -13284,7 +15336,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fbec-7c76-b561-f413" name="Taufender" hidden="false" collective="false" import="true" type="upgrade">
@@ -13297,7 +15350,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ec0-1782-6526-b4b1" name="Seepocken" hidden="false" collective="false" import="true" type="upgrade">
@@ -13310,7 +15364,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13341,7 +15396,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="06b0-c053-9363-eb79" name="Maninvisible" hidden="false" collective="false" import="true" type="upgrade">
@@ -13361,7 +15417,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c29d-e70d-da2d-6aca" name="Talion" hidden="false" collective="false" import="true" type="upgrade">
@@ -13381,7 +15438,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a42b-4ebc-9047-d8c5" name="Esclavagist" hidden="false" collective="false" import="true" type="upgrade">
@@ -13401,7 +15459,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="81af-dc7b-4547-77f3" name="Kalaka" hidden="false" collective="false" import="true" type="upgrade">
@@ -13421,7 +15480,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b0d9-d675-5bb0-5823" name="Intrigue" hidden="false" collective="false" import="true" type="upgrade">
@@ -13441,7 +15501,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13465,7 +15526,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9880-4417-a03b-a29d" name="Arbré" hidden="false" collective="false" import="true" type="upgrade">
@@ -13485,7 +15547,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d71-e39d-95f6-5d9a" name="Kohuri" hidden="false" collective="false" import="true" type="upgrade">
@@ -13505,7 +15568,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="549d-8cf1-1595-36f9" name="Soutance" hidden="false" collective="false" import="true" type="upgrade">
@@ -13525,7 +15589,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd0b-f3fb-2555-e286" name="Tamore" hidden="false" collective="false" import="true" type="upgrade">
@@ -13545,7 +15610,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36b8-78bc-24c3-1523" name="S´effeler" hidden="false" collective="false" import="true" type="upgrade">
@@ -13565,7 +15631,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0d78-94ef-50aa-c714" name="Le Grand Calmar" hidden="false" collective="false" import="true" type="upgrade">
@@ -13592,7 +15659,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13616,7 +15684,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8469-3249-687d-35cd" name="Feru" hidden="false" collective="false" import="true" type="upgrade">
@@ -13636,7 +15705,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="28a2-da4a-f66f-1495" name="Sangsue" hidden="false" collective="false" import="true" type="upgrade">
@@ -13656,7 +15726,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4b51-2f9a-509f-1c91" name="Caduc" hidden="false" collective="false" import="true" type="upgrade">
@@ -13676,7 +15747,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5705-e638-c793-308b" name="Capitan Zombie" hidden="false" collective="false" import="true" type="upgrade">
@@ -13696,7 +15768,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c973-f546-3cb3-2046" name="Mary Chains" hidden="false" collective="false" import="true" type="upgrade">
@@ -13723,7 +15796,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13747,7 +15821,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e995-aca1-dd40-ab4b" name="Nojaboul" hidden="false" collective="false" import="true" type="upgrade">
@@ -13767,7 +15842,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f15-080c-e329-977e" name="Zelè" hidden="false" collective="false" import="true" type="upgrade">
@@ -13787,7 +15863,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c76c-2cc0-fad7-e188" name="Myopia" hidden="false" collective="false" import="true" type="upgrade">
@@ -13807,7 +15884,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a8c7-3e3d-bc35-2a2a" name="L`Amidon" hidden="false" collective="false" import="true" type="upgrade">
@@ -13827,7 +15905,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c153-ab3c-1757-b7a2" name="Charisar" hidden="false" collective="false" import="true" type="upgrade">
@@ -13847,7 +15926,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13871,7 +15951,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de39-672e-9b7b-5c0e" name="Tarnmantel" hidden="false" collective="false" import="true" type="upgrade">
@@ -13891,7 +15972,8 @@
             <infoLink id="b89e-4225-79d4-6de3" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6b9-3a2c-73a6-4399" name="Sprachrohr" hidden="false" collective="false" import="true" type="upgrade">
@@ -13920,7 +16002,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="763e-2ab4-7c8b-def0" name="Trittleiter" hidden="false" collective="false" import="true" type="upgrade">
@@ -13937,7 +16020,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f95f-a3ca-83b0-367c" name="Zielfernrohr" hidden="false" collective="false" import="true" type="upgrade">
@@ -13958,7 +16042,8 @@
             <infoLink id="1552-8f73-0410-b402" name="Scharfschütze" hidden="false" targetId="4fe1-4144-59f5-a1f3" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f38-87d8-aa66-af2f" name="Erhöhte Reichweite" hidden="false" collective="false" import="true" type="upgrade">
@@ -13976,7 +16061,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="49f3-d75b-cfb4-720b" name="Buch der Macht" hidden="false" collective="false" import="true" type="upgrade">
@@ -14001,7 +16087,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f37b-5754-5b76-fa09" name="Zusätzliches Rüstzeugs" hidden="false" collective="false" import="true" type="upgrade">
@@ -14018,7 +16105,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14062,7 +16150,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3483-497e-288b-bebb" name="Bootsmörser" hidden="true" collective="false" import="true" type="upgrade">
@@ -14108,7 +16197,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82e7-4dd4-2145-974c" name="Drehbasse" hidden="true" collective="false" import="true" type="upgrade">
@@ -14145,7 +16235,8 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3489-9c8b-d62e-b8e9" name="Rammsporn" hidden="false" collective="false" import="true" type="upgrade">
@@ -14158,10 +16249,81 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fae7-8f32-505c-d541" name="Wundermittel" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e0-a7f7-0f87-aea5" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8797-cb11-648b-28a1" name="Eilxier der Geschwindigkeit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3c-3664-3dca-6ac5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f817-6e56-49ec-6dc9" name="Eilxier der Geschwindigkeit" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, kann nur von Milagroso &quot;angeheuert&quot; werden</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b0a-1f0b-9934-19cd" name="Elixier der Unsterblichkeit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ab-dce2-dd54-6bf5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7553-db6a-9974-016d" name="Elixier der Unsterblichkeit" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, kann nur von Milagroso &quot;angeheuert&quot; werden</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2213-f02f-b56b-497f" name="Elixier der wundersamen Stärke" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2367-11a5-7e7a-8636" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7e15-8993-a1f0-bdb8" name="Elixier der wundersamen Stärke" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, kann nur von Milagroso &quot;angeheuert&quot; werden</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bf04-9545-b3ab-28b7" name="Schatten Ausrüstung" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="9fe2-bea2-218d-ae55" name="Schattentor" hidden="false" collective="false" import="true" targetId="c0a1-dd9b-a6f7-8dbf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1301-b204-f5f9-3f08" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -14389,5 +16551,30 @@
     <rule id="c5dd-721f-6265-c771" name="Schusshagel" hidden="false"/>
     <rule id="26a3-1c61-4d3c-b341" name="Reyh und Glied" hidden="false"/>
     <rule id="5f31-718e-fdf0-c226" name="Betrunken" hidden="false"/>
+    <rule id="48fe-ebff-ea79-d75d" name="Auflösen" hidden="false"/>
+    <rule id="0e8d-f224-850e-1413" name="In Rauch Auflösen" hidden="false"/>
+    <rule id="de78-c566-3781-68b7" name="Körperlos" hidden="false"/>
+    <rule id="2acb-d6b6-a204-a09c" name="Nebelwesen" hidden="false"/>
+    <rule id="faa9-4b49-9f73-990e" name="**Wehrlos" hidden="false"/>
+    <rule id="374f-d466-fa9d-1dab" name="Böser Zwilling (Moby Dugg)" hidden="false"/>
+    <rule id="ac70-c0d7-0382-1f9d" name="Böser Zwilling (Königin der Schatten)" hidden="false"/>
+    <rule id="aa2e-5266-79be-fa0e" name="Spurloses Verschwinden" hidden="false"/>
+    <rule id="793c-70ca-e172-792f" name="Verwandt (Eugen)" hidden="false"/>
+    <rule id="c1c4-4cf8-e97a-67d2" name="Wundermittel" hidden="false"/>
+    <rule id="8291-e3f5-f607-212a" name="Spinnefein (Charaktere mit Wunden Versorgen)" hidden="false"/>
+    <rule id="543a-c9d9-c820-c25e" name="Tre Facce" hidden="false"/>
+    <rule id="26f3-6ff1-47b6-1a66" name="Tre Valori" hidden="false"/>
+    <rule id="8ef2-2fa5-2454-2205" name="⃝    1. Geschärfte Sinne" hidden="false"/>
+    <rule id="5b6c-3b49-50a4-1e8f" name="⃝    2. Attraktiv" hidden="false"/>
+    <rule id="fd02-9c1a-7720-bce5" name="⃝    3. Furchterregend" hidden="false"/>
+    <rule id="0735-693d-4764-4982" name="Kanonenkugel Präparieren" hidden="false"/>
+    <rule id="4ede-1947-2b8d-0e98" name="Verstärkung (Arquebusiere)" hidden="false"/>
+    <rule id="0888-1ee3-945b-40d8" name="Evantaire" hidden="false"/>
+    <rule id="052f-3c99-94ba-f930" name="Chanson I´otique" hidden="false"/>
+    <rule id="574c-07a2-5e5f-e8ff" name="In Vino Oblivio" hidden="false"/>
+    <rule id="4c23-3887-e47d-e517" name="Tierbändiger (Mathis Senilo)" hidden="false"/>
+    <rule id="bad8-ab33-8011-c377" name="Doppelagent" hidden="false"/>
+    <rule id="07b3-c63f-a423-9d3b" name="Wasserscheu" hidden="false"/>
+    <rule id="7c97-0755-7edd-6517" name="Musique de Rum-ta-ta" hidden="false"/>
   </sharedRules>
 </gameSystem>

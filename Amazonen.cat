@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f34-cf91-6f72-ae5f" name="Amazonen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f34-cf91-6f72-ae5f" name="Amazonen" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="50ec-08fc-17f8-4aee" name="Pehua" hidden="false" collective="false" import="true" targetId="391e-7714-fc5f-02a8" type="selectionEntry">
       <categoryLinks>
@@ -66,6 +66,8 @@
     <entryLink id="65a6-a5f8-77b3-1b91" name="Barkaza" hidden="false" collective="false" import="true" targetId="b1d3-dc08-1067-5dee" type="selectionEntry"/>
     <entryLink id="43c2-2c46-820b-6fcf" name="Sansame" hidden="false" collective="false" import="true" targetId="1674-536b-8f65-4a26" type="selectionEntry"/>
     <entryLink id="8548-e7fd-590c-c732" name="Quecholli" hidden="false" collective="false" import="true" targetId="bbe1-77cb-3159-0dc9" type="selectionEntry"/>
-    <entryLink id="a7dc-25c7-0b0e-c6a9" name="Quamitzli" hidden="false" collective="false" import="true" targetId="6405-77d0-f585-71b4" type="selectionEntry"/>
+    <entryLink id="989b-beca-9757-9682" name="Quamitzli" hidden="false" collective="false" import="true" targetId="6405-77d0-f585-71b4" type="selectionEntry"/>
+    <entryLink id="53c3-5a54-c5c8-c80a" name="Anqui" hidden="false" collective="false" import="true" targetId="365d-54e7-0bca-a9a4" type="selectionEntry"/>
+    <entryLink id="a6ab-52e6-0fd9-3024" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2f56-3339-9366-5682" name="Baron Conchita" hidden="false" collective="false" import="true" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
     <entryLink id="6aad-0daa-4314-8227" name="Moja Alga" hidden="false" collective="false" import="true" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry"/>
@@ -75,5 +75,11 @@
     <entryLink id="ba07-65ed-c392-f7f8" name="Victoria Innsfoot" hidden="false" collective="false" import="true" targetId="8eb9-cd4b-969d-789c" type="selectionEntry"/>
     <entryLink id="2e16-500d-a1ec-2f70" name="Carly Wench" page="" hidden="false" collective="false" import="true" targetId="8688-b4f0-8971-a664" type="selectionEntry"/>
     <entryLink id="e1b7-fc3d-d5a4-8add" name="Sansame" hidden="false" collective="false" import="true" targetId="1674-536b-8f65-4a26" type="selectionEntry"/>
+    <entryLink id="d58a-3d7e-1c02-c979" name="Milagroso •" hidden="false" collective="false" import="true" targetId="429b-7e71-0fbd-5647" type="selectionEntry"/>
+    <entryLink id="d3cb-f967-f287-4b3d" name="Anqui" hidden="false" collective="false" import="true" targetId="365d-54e7-0bca-a9a4" type="selectionEntry"/>
+    <entryLink id="46a9-3744-3819-1db4" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
+    <entryLink id="8c56-b227-29c0-c693" name="Toledo de Alvarez" hidden="false" collective="false" import="true" targetId="04f6-803e-dd04-2a07" type="selectionEntry"/>
+    <entryLink id="7bc4-acf8-b65f-6c17" name="Fonogra" hidden="false" collective="false" import="true" targetId="1460-d5e2-56f7-1dab" type="selectionEntry"/>
+    <entryLink id="87ed-b785-88a4-c7bc" name="Senor Flauschkätzchen" hidden="false" collective="false" import="true" targetId="04af-018d-17f1-31bd" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9b0-f1d4-36b5-dfd1" name="Söldner" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9b0-f1d4-36b5-dfd1" name="Söldner" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d2c4-49cc-408c-f870" name="Liname" hidden="false" collective="false" import="true" targetId="0530-696e-1b58-ac77" type="selectionEntry"/>
     <entryLink id="4b3a-403a-0b72-7b00" name="Schwalbe" hidden="false" collective="false" import="true" targetId="1773-bd90-c46a-0d03" type="selectionEntry"/>
@@ -50,5 +50,10 @@
     <entryLink id="1721-6d5b-5df8-fb70" name="Canoa" hidden="false" collective="false" import="true" targetId="770d-d204-6d15-b62c" type="selectionEntry"/>
     <entryLink id="78fd-f279-c29b-c393" name="Pirraqua" hidden="false" collective="false" import="true" targetId="0e7e-9889-89b4-710c" type="selectionEntry"/>
     <entryLink id="0f67-eb1d-17bd-973c" name="Sansame" hidden="false" collective="false" import="true" targetId="1674-536b-8f65-4a26" type="selectionEntry"/>
+    <entryLink id="0687-5836-2a03-8f26" name="Milagroso •" hidden="false" collective="false" import="true" targetId="429b-7e71-0fbd-5647" type="selectionEntry"/>
+    <entryLink id="d7c5-54a9-af40-7dd7" name="Anqui" hidden="false" collective="false" import="true" targetId="365d-54e7-0bca-a9a4" type="selectionEntry"/>
+    <entryLink id="2dd5-cd28-2e28-2890" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
+    <entryLink id="b008-a63c-574f-02dd" name="Toledo de Alvarez •" hidden="false" collective="false" import="true" targetId="ed99-8390-2e01-9fb4" type="selectionEntry"/>
+    <entryLink id="0048-d204-2674-470e" name="Arquebusier •" hidden="false" collective="false" import="true" targetId="1dcb-182f-fff9-3924" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

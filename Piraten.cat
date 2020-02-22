@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6fcf-c863-bf87-6af3" name="La Pelotera" hidden="false" collective="false" import="true" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
     <entryLink id="9afe-2dc8-cbdb-572f" name="Baron Conchita" hidden="false" collective="false" import="true" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
@@ -84,5 +84,10 @@
         <cost name="Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
       </costs>
     </entryLink>
+    <entryLink id="d005-0c9b-3a00-7628" name="Milagroso •" hidden="false" collective="false" import="true" targetId="429b-7e71-0fbd-5647" type="selectionEntry"/>
+    <entryLink id="c467-2f8b-b598-de42" name="Anqui" hidden="false" collective="false" import="true" targetId="365d-54e7-0bca-a9a4" type="selectionEntry"/>
+    <entryLink id="0516-a87a-c85e-6e55" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
+    <entryLink id="748b-9c1f-fae5-08da" name="Toledo de Alvarez" hidden="false" collective="false" import="true" targetId="04f6-803e-dd04-2a07" type="selectionEntry"/>
+    <entryLink id="8cad-5e04-51e9-f8c6" name="Furry" hidden="false" collective="false" import="true" targetId="02a9-884f-b653-f04c" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

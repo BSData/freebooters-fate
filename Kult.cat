@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8022-9887-19ec-677d" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
     <entryLink id="0be1-a588-0ef1-82fa" name="La Pelotera #1" hidden="false" collective="false" import="true" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
@@ -60,5 +60,12 @@
     <entryLink id="29ec-9cf9-197e-20fd" name="Kultist (Ehrengarde)" hidden="false" collective="false" import="true" targetId="bac6-7d62-c91a-dfa6" type="selectionEntry"/>
     <entryLink id="dcae-0ac8-6830-1d88" name="Mademoiselle D`oiseaux" hidden="false" collective="false" import="true" targetId="357c-13d5-7843-a5dc" type="selectionEntry"/>
     <entryLink id="75ac-dbb4-3f82-b980" name="Kultist" hidden="false" collective="false" import="true" targetId="4a0a-f893-2156-c3ce" type="selectionEntry"/>
+    <entryLink id="df78-6716-213e-c630" name="Mom Chérie" hidden="false" collective="false" import="true" targetId="1551-b232-25bf-f9a9" type="selectionEntry"/>
+    <entryLink id="fe87-9260-5ee6-edab" name="La Droite" hidden="false" collective="false" import="true" targetId="8ced-8aa7-3ce4-2933" type="selectionEntry"/>
+    <entryLink id="f116-78fb-31cb-353b" name="Milagroso" hidden="false" collective="false" import="true" targetId="9f21-fec6-c8b8-2e28" type="selectionEntry"/>
+    <entryLink id="c612-921d-8864-5da1" name="Anqui" hidden="false" collective="false" import="true" targetId="365d-54e7-0bca-a9a4" type="selectionEntry"/>
+    <entryLink id="32a6-d58d-9b5a-c80e" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
+    <entryLink id="3f9f-4dcc-4c58-dc66" name="Toledo de Alvarez" hidden="false" collective="false" import="true" targetId="04f6-803e-dd04-2a07" type="selectionEntry"/>
+    <entryLink id="333d-6c1b-ef31-49df" name="La Gauche  WIP" hidden="false" collective="false" import="true" targetId="2fe4-0ace-0db7-cb46" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

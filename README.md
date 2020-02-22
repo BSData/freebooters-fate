@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.2.0 Alle Charaktere nachgepflegt, Ausrüstung hinzugefügt, Schatten Beta sind aufgetaucht.
+
 2.1.0 La Hoja, Quechollie, Treville hinzugefügt. Bugfix.
 
 2.0.2 Punkt in Dublonen geändert.
