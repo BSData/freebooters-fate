@@ -313,6 +313,7 @@
     <categoryEntry id="90fc-6632-5d82-68ff" name="Rauch" hidden="false"/>
     <categoryEntry id="bcd3-ea1d-c64e-c73c" name="Spezial" hidden="false"/>
     <categoryEntry id="f713-4f83-367e-66df" name="Szenariogegenstand" hidden="false"/>
+    <categoryEntry id="2ff6-ca78-4df9-8993" name="Alle für einen" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ae6-f80d-3eba-63b6" name="Scharmützel" hidden="false">
@@ -331,6 +332,7 @@
         <categoryLink id="9224-104f-0728-85cb" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
         <categoryLink id="fb6c-9b13-59a2-e420" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="3ca6-8562-1ee1-e97e" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="2ae1-8252-9780-b392" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c4da-7fa8-e089-d0a5" name="Iron Ball" hidden="false">
@@ -348,6 +350,7 @@
         <categoryLink id="40ee-5930-27a1-a2ff" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
         <categoryLink id="d9a8-c4f1-b27c-f90f" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="5b85-acf3-2187-7b53" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="a0dc-60a1-a08d-6bad" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="30bf-5f75-630e-c44f" name="Wolfgangs Mörserschule" hidden="true">
@@ -371,6 +374,7 @@
         <categoryLink id="5e0a-bad7-9326-4199" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
         <categoryLink id="c7d8-1eda-2220-17ff" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="fbb5-ac9f-8878-350b" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="6689-f0d7-0b62-f093" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8bcb-9b29-a795-4c22" name="Seeschlacht" hidden="false">
@@ -390,6 +394,7 @@
         <categoryLink id="938d-92cd-e22b-91f9" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
         <categoryLink id="845e-69a4-3f05-0d89" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="072d-5f83-cc48-1032" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="bc84-e9bc-b896-7a16" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -10254,6 +10259,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0840-d7fc-2395-e295" name="D´Arebousse" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a919-f4ec-ad81-ab1e" type="max"/>
       </constraints>
@@ -10340,6 +10352,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6dd0-8777-65e5-a985" name="Potée" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c8e-ac02-0733-cd04" type="max"/>
       </constraints>
@@ -10479,7 +10498,14 @@
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff27-adcc-ea1c-aa07" name="Armond" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ff27-adcc-ea1c-aa07" name="Armond (AFE)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee86-5c18-f646-0569" type="max"/>
       </constraints>
@@ -10511,7 +10537,7 @@
       <categoryLinks>
         <categoryLink id="3ca0-c41c-dfb6-067d" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
         <categoryLink id="3023-8b58-f8fb-499b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
-        <categoryLink id="b1d7-5cc5-4814-6171" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="8b7f-045e-9f0b-458f" name="New CategoryLink" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dca3-88b6-cb30-6965" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -10523,6 +10549,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="719f-909a-c237-79b1" name="Aplantage" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b53a-0ff4-53d8-8a23" type="max"/>
       </constraints>
@@ -14167,41 +14200,308 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fe4-0ace-0db7-cb46" name="La Gauche  WIP" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2fe4-0ace-0db7-cb46" name="La Gauche" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="810a-84cd-7b2f-f3d5" type="max"/>
       </constraints>
       <profiles>
         <profile id="727c-ce9b-0474-a8ff" name="La Gauche" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
           <characteristics>
-            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8"/>
-            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893"/>
-            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587"/>
-            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73"/>
-            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8"/>
-            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3"/>
-            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51"/>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5 ⑧</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5 ⑧</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
           </characteristics>
         </profile>
         <profile id="53f6-c86c-39dd-90d3" name="La Gauche" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
           <characteristics>
-            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266"/>
-            <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Verfluchte Muskete
+Verflucht, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 50</characteristic>
           </characteristics>
         </profile>
         <profile id="0359-5a36-69c4-4e33" name="La Gauche" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
-            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
-            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Verfluchte Muskete als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Verfluchte Muskete als Knüppel</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="26f3-c22b-a4e7-b81b" name="Sergeant" hidden="false" targetId="8dbe-2027-f2a6-39ab" type="rule"/>
+        <infoLink id="4732-699d-2122-af23" name="Spiritualität" hidden="false" targetId="a86a-3b21-374c-6241" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a399-8268-d0f5-4185" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="642a-3c1b-c51e-e6f9" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="c8ad-0cb7-18d8-d1c3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="463e-f3ea-74cf-1126" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="a350-bb8a-aee2-9250" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f1a-aa0a-2b4e-aa69" name="Aplantage (AFE)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de80-8ae3-56ca-d884" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0039-a3b2-b407-d8bd" name="Aplantage" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Weinflasche</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b04b-bb2a-d7fa-3f51" name="Aplantage" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3173-341e-9422-ea6f" name="In Vino Oblivio" hidden="false" targetId="4ad2-d23e-5a07-cc16" type="rule"/>
+        <infoLink id="9185-685d-6836-ed93" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+        <infoLink id="1852-48cc-2cc0-722e" name="Schlaghagel" hidden="false" targetId="34cc-c5da-6a23-157b" type="rule"/>
+        <infoLink id="4647-45b1-1fb5-705c" name="Alle für einen" hidden="false" targetId="f87e-6818-ce2a-3e5c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bade-8e29-1e02-21c2" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="dbbb-0eee-db76-0f28" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="a7a7-86f1-6b36-06fe" name="New CategoryLink" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d556-9fba-2fb7-e4d0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f934-81db-4307-ef78" name="Armond" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="264f-1ab4-5e7c-dad3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5f17-92dc-18a3-5486" name="Armond" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen </characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Degen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="611c-dbed-100d-d07b" name="Armond" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/1</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">74/</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eedd-acb2-d64b-a1e5" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+        <infoLink id="ff57-5c93-7111-f008" name="Anhänglich" hidden="false" targetId="6631-c3f6-2833-cb84" type="rule"/>
+        <infoLink id="46ac-1496-d326-92f1" name="Blitzattacke" hidden="false" targetId="3957-0d44-894b-2714" type="rule"/>
+        <infoLink id="166a-42dc-4b3d-37fa" name="Alle für einen" hidden="false" targetId="f87e-6818-ce2a-3e5c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="26fb-74c0-72aa-6a78" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="f0e9-b435-7add-ecd3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="5248-8019-1e70-74ca" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a3f5-fc79-7955-d085" name="Armond (AFE)" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9886-7268-13e6-7ffd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5b77-cf57-0eb9-8e46" name="Armond" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+              <characteristics>
+                <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen </characteristic>
+                <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Degen</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c9e6-7119-d09b-b558" name="Armond" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+              <characteristics>
+                <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+                <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/1</characteristic>
+                <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+                <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+                <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/</characteristic>
+                <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">74/</characteristic>
+                <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e6d6-9ab0-e77a-f521" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+            <infoLink id="dc35-89a9-c227-84f2" name="Anhänglich" hidden="false" targetId="6631-c3f6-2833-cb84" type="rule"/>
+            <infoLink id="8a84-bdc3-e67f-2ffe" name="Blitzattacke" hidden="false" targetId="3957-0d44-894b-2714" type="rule"/>
+            <infoLink id="9b65-d604-4dfd-d905" name="Alle für einen" hidden="false" targetId="f87e-6818-ce2a-3e5c" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a9b9-e858-0c4d-7041" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+            <categoryLink id="13b8-e444-88e3-0b1f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+            <categoryLink id="c2b6-ebaa-a289-2ec4" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="d7bd-2ee7-ca08-1804" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+            <entryLink id="155f-b15e-043f-aca9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="74a1-8a07-7d76-923c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="4905-b83f-ddae-b57d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e80d-8861-755b-fc33" name="D´Arebousse (AFE)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0640-3929-3ed2-6412" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a2b9-f37a-7161-729e" name="D´Arebousse" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="15bc-d07d-fbac-ef9c" name="D´Arebousse" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/9</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b02a-e87d-d516-ba2b" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="e052-c907-9442-c31c" name="Alle für einen" hidden="false" targetId="f87e-6818-ce2a-3e5c" type="rule"/>
+        <infoLink id="42c5-903d-e5cd-7cc6" name="Anhänglich" hidden="false" targetId="6631-c3f6-2833-cb84" type="rule"/>
+        <infoLink id="089c-5574-c7e0-a509" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+        <infoLink id="5e58-0c7b-fe4a-05b6" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f236-ac37-2089-54f0" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="7704-4cb4-1d0b-38d2" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="0101-f6be-76f4-1090" name="New CategoryLink" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="563d-b57b-6eea-5a75" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6352-4048-c7a2-bef6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="913c-898f-755d-b34f" name="Potée (AFE)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f6f-673f-5a70-1561" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca7-1cc0-37b8-844d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="447e-75c8-544d-93a4" name="Potée" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Muskete als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Degen</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cd2f-e721-fd94-6ae5" name="Potée" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Dicke alte Muskete, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b6c7-1680-2b29-1331" name="Potée" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">4/8</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">3/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec17-36cb-bf13-0f00" name="Anhänglich" hidden="false" targetId="6631-c3f6-2833-cb84" type="rule"/>
+        <infoLink id="fe32-8ee4-d9a2-b389" name="Petard-Atem" hidden="false" targetId="197d-8912-e75a-885e" type="rule"/>
+        <infoLink id="0152-2265-5cae-74c9" name="Alle für einen" hidden="false" targetId="f87e-6818-ce2a-3e5c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="413d-b18a-6c5b-a13d" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="1189-911d-ce6d-5bc7" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="4fca-ec8c-1fd5-0ca5" name="New CategoryLink" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3539-841e-888d-607b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="cc6c-3ea4-8e1d-bc68" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4816-5b55-bca1-bbdf" name="Buscar" hidden="false" collective="false" import="true" targetId="0b87-d810-d98a-2a1e" type="selectionEntry"/>
     <entryLink id="6853-7ae3-669f-a5a7" name="Brahyn" hidden="false" collective="false" import="true" targetId="dcbe-7362-cb94-ef02" type="selectionEntry"/>
@@ -64,5 +64,9 @@
     <entryLink id="c05f-6c42-15dd-247c" name="Belette" hidden="false" collective="false" import="true" targetId="6f2b-93e1-d8a0-6a68" type="selectionEntry"/>
     <entryLink id="3d25-06f9-9ef7-be3f" name="Victore Droiture" hidden="false" collective="false" import="true" targetId="1dc8-d43c-e21c-3648" type="selectionEntry"/>
     <entryLink id="d785-dcd4-7c0e-9b83" name="Mouvait Gout" hidden="false" collective="false" import="true" targetId="a05b-7294-4f51-59e6" type="selectionEntry"/>
+    <entryLink id="5563-4cbd-3d24-fc74" name="Aplantage (AFE)" hidden="false" collective="false" import="true" targetId="5f1a-aa0a-2b4e-aa69" type="selectionEntry"/>
+    <entryLink id="43a3-f7bb-e183-5ec2" name="D´Arebousse (AFE)" hidden="false" collective="false" import="true" targetId="e80d-8861-755b-fc33" type="selectionEntry"/>
+    <entryLink id="6578-71ce-16e0-5b87" name="Potée (AFE)" hidden="false" collective="false" import="true" targetId="913c-898f-755d-b34f" type="selectionEntry"/>
+    <entryLink id="12f7-9575-a80b-8697" name="Armond" hidden="false" collective="false" import="true" targetId="f934-81db-4307-ef78" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
