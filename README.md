@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.2.2 Loa kosten koriegiert
+
 2.2.1 Alle für einen Kategorie eingeführt, La Gauche komplettiert
 
 2.2.0 Alle Charaktere nachgepflegt, Ausrüstung hinzugefügt, Schatten Beta sind aufgetaucht.
