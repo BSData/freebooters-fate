@@ -4696,6 +4696,32 @@
         <categoryLink id="6aa8-401d-9927-948a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="1087-8497-2ec4-46e9" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="323e-f276-3812-4f51" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6218-6958-1ec0-2f35" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e744-2feb-36cb-2992" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a40d-135b-23b4-88bc" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="9d93-2daa-35d6-ba79" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c52f-4f7e-5d6a-5884" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -10698,6 +10724,32 @@
         <categoryLink id="da63-0b74-d13d-2f72" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="683c-92c2-53f2-2c82" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="db8b-a0b9-f4af-2987" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fefd-f829-950f-2aca" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a9b-ae25-2aab-21ee" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8252-c880-7b3e-489f" name="Dèzette`s Söldner" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="6b0f-9b93-1b6f-dd46" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="15da-85d3-bc61-51f0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
