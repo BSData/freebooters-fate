@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7566-f051-ac5e-1090" name="Eitu" hidden="false" collective="false" import="true" targetId="d885-4599-55bd-51a8" type="selectionEntry"/>
     <entryLink id="2e23-df63-bd32-90b0" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
@@ -36,7 +36,6 @@
     <entryLink id="ad46-fea0-c451-5c80" name="Asaltores" hidden="false" collective="false" import="true" targetId="cab7-1309-c3d0-ba5f" type="selectionEntry"/>
     <entryLink id="2fcd-8d57-4a50-e99f" name="Seesoldat (Ehrengarde)" hidden="false" collective="false" import="true" targetId="9ab4-4e0f-7edb-9ee9" type="selectionEntry"/>
     <entryLink id="1668-c9bd-8239-3ffa" name="Seesoldat" hidden="false" collective="false" import="true" targetId="6047-2f63-9ff3-f9a9" type="selectionEntry"/>
-    <entryLink id="b6da-e526-172e-a80b" name="Arquebusier" hidden="false" collective="false" import="true" targetId="1dcb-182f-fff9-3924" type="selectionEntry"/>
     <entryLink id="6271-0548-eac6-aecb" name="Cazardorengardist" hidden="false" collective="false" import="true" targetId="11ea-89e6-fd66-c325" type="selectionEntry"/>
     <entryLink id="9ed1-9046-39e4-7717" name="Alicija Degolara" hidden="false" collective="false" import="true" targetId="a8c8-1c1a-e8ab-cd97" type="selectionEntry"/>
     <entryLink id="2703-84b3-62b4-0092" name="Sargento Maneto" hidden="false" collective="false" import="true" targetId="72ca-88a0-378e-372b" type="selectionEntry"/>
@@ -67,5 +66,20 @@
     <entryLink id="cd25-c404-3034-a965" name="Xalupe" hidden="false" collective="false" import="true" targetId="efaf-7b8b-c734-ccf1" type="selectionEntry"/>
     <entryLink id="6d48-6824-1637-191d" name="Milagroso •" hidden="false" collective="false" import="true" targetId="429b-7e71-0fbd-5647" type="selectionEntry"/>
     <entryLink id="88e6-5513-172e-5530" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
+    <entryLink id="8db7-32e9-9f8a-46bf" name="El Almirante episch" hidden="false" collective="false" import="true" targetId="1b1c-f393-d45e-1088" type="selectionEntry"/>
+    <entryLink id="735a-3385-1261-e3e5" name="Gunpowder Mary" hidden="false" collective="false" import="true" targetId="e3ce-34ff-bd37-0705" type="selectionEntry"/>
+    <entryLink id="49fb-707b-6e3f-5a55" name="Capitaine Octavia •" hidden="false" collective="false" import="true" targetId="d0a3-7058-62ff-5cb6" type="selectionEntry"/>
+    <entryLink id="be0c-6b95-59a7-b98f" name="Qualani" hidden="false" collective="false" import="true" targetId="1bf7-4be7-810b-a87b" type="selectionEntry"/>
+    <entryLink id="6f40-a0b3-753b-7f0f" name="Gipsy" hidden="false" collective="false" import="true" targetId="82b3-03dd-0930-ca4f" type="selectionEntry"/>
+    <entryLink id="c055-7fc1-e20e-da8c" name="Mozo" hidden="false" collective="false" import="true" targetId="a244-e009-8bee-f605" type="selectionEntry"/>
+    <entryLink id="9ff8-90e4-9f1a-c1d1" name="Donja Esperanza" hidden="false" collective="false" import="true" targetId="46b8-b8cf-e3e0-216a" type="selectionEntry"/>
+    <entryLink id="aed9-6fb1-230f-a78f" name="El Almirante" hidden="false" collective="false" import="true" targetId="e76a-73db-117e-3b01" type="selectionEntry"/>
+    <entryLink id="cc18-34cc-d33b-8837" name="Arquebusier" hidden="false" collective="false" import="true" targetId="8c0c-e7d0-68d2-bfdd" type="selectionEntry"/>
+    <entryLink id="ff0e-03f1-227c-93d7" name="Chassa" hidden="false" collective="false" import="true" targetId="648a-e668-04a2-7427" type="selectionEntry"/>
+    <entryLink id="47aa-1328-8b2e-7c3c" name="Chassa episch" hidden="false" collective="false" import="true" targetId="4437-32d7-24de-601d" type="selectionEntry"/>
+    <entryLink id="3dd5-4cbc-9bb5-1e4f" name="Virgo Despedad Saufeder" hidden="false" collective="false" import="true" targetId="003f-4215-269b-5e8c" type="selectionEntry"/>
+    <entryLink id="6cb6-765e-0d3a-1025" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
+    <entryLink id="0b1b-5305-8704-6a49" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
+    <entryLink id="b272-6739-2b06-4eb2" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

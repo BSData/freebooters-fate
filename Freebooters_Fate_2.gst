@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="6" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="8" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
     <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
@@ -197,7 +197,7 @@
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9fcb-63d8-f6dc-e471" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="6022-ac19-492a-3207" value="2">
+        <modifier type="increment" field="6022-ac19-492a-3207" value="2.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -208,7 +208,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="decrement" field="6022-ac19-492a-3207" value="1">
+        <modifier type="decrement" field="6022-ac19-492a-3207" value="1.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -314,6 +314,15 @@
     <categoryEntry id="bcd3-ea1d-c64e-c73c" name="Spezial" hidden="false"/>
     <categoryEntry id="f713-4f83-367e-66df" name="Szenariogegenstand" hidden="false"/>
     <categoryEntry id="2ff6-ca78-4df9-8993" name="Alle für einen" hidden="false"/>
+    <categoryEntry id="9172-483a-3792-9bbf" name="Legenden" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a4-1d75-e69c-ea2f" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c855-1a30-2c8e-e26d" name="Compañero" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ae6-f80d-3eba-63b6" name="Scharmützel" hidden="false">
@@ -395,6 +404,27 @@
         <categoryLink id="845e-69a4-3f05-0d89" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="072d-5f83-cc48-1032" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
         <categoryLink id="bc84-e9bc-b896-7a16" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="c2e7-8009-a151-95c5" name="Legendäre Schlacht" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3440-0700-fb16-0fc1" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="c4d2-604a-92f2-4c8b" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="69b3-aeec-4609-5cc8" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="false"/>
+        <categoryLink id="9e58-4a26-b9ce-d25a" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="false"/>
+        <categoryLink id="9f21-55f3-dc52-3706" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="0e67-29ac-e563-4975" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+        <categoryLink id="1b6c-8a6b-6826-d669" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="c256-c47f-2fc3-d9ea" name="MWP" hidden="false" targetId="48a0-6247-c625-1b06" primary="false"/>
+        <categoryLink id="1314-d760-e4d0-0733" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="false"/>
+        <categoryLink id="d16f-38a6-fcf7-f6e9" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+        <categoryLink id="9e5d-56d6-b8c5-dd64" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
+        <categoryLink id="10d3-8a56-0546-a756" name="Rauch" hidden="false" targetId="90fc-6632-5d82-68ff" primary="false"/>
+        <categoryLink id="4638-bc3e-ddf8-cdc3" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
+        <categoryLink id="076e-cdbe-4044-bb5d" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="6275-f244-31ce-a16a" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
+        <categoryLink id="a6d4-e957-fb70-a516" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="1161-c0e8-7227-f21c" name="Compañero" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -509,6 +539,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="391e-7714-fc5f-02a8" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="f668-2867-0f53-0d80" value="1">
@@ -1050,7 +1082,6 @@
         <infoLink id="1a65-61ff-4576-90c4" name="Ehrengarde (Chicomeh)" hidden="false" targetId="e45c-2dd3-c486-51c3" type="rule"/>
         <infoLink id="43c6-8900-19a4-0ca7" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
         <infoLink id="4140-aa38-a4ce-fe49" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
-        <infoLink id="9e2d-d894-c3d1-6105" name="Feuersturm" hidden="false" targetId="5477-d399-78b4-1d93" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="58d9-bce6-f812-958c" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
@@ -1120,6 +1151,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1899-b20c-9d3b-018d" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="4299-7120-17f1-1b85" value="1">
@@ -1179,9 +1212,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32c7-0814-cf73-ca08" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="3b98-8333-2c09-0445" value="1">
+        <modifier type="increment" field="3b98-8333-2c09-0445" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b91f-feb1-ad55-e5bb" type="greaterThan"/>
           </conditions>
@@ -1279,6 +1314,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e3c-86ff-7351-20e5" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="51f8-60ee-a0bd-4cb2" value="1">
@@ -2066,7 +2103,7 @@
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6484-5ac6-c301-11b8" name="La Pelotera #1" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6484-5ac6-c301-11b8" name="La Pelotera" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d84-13c3-1893-bf8b" type="max"/>
       </constraints>
@@ -2091,7 +2128,7 @@
             <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
             <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/4</characteristic>
             <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/4</characteristic>
-            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
           </characteristics>
         </profile>
         <profile id="bd1b-1ca2-9ab8-e096" name="La Pelotera" hidden="false" typeId="e592-a9d2-7c5a-4744" typeName="2.3 Munition">
@@ -2106,10 +2143,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d75f-e71b-e149-33fc" name="Falsche Kannonenkugel" hidden="false" targetId="0845-8b1d-61c0-2ae3" type="rule"/>
-        <infoLink id="0b60-de2f-b459-4342" name="Zusatzwaffe" hidden="false" targetId="9a56-e430-b104-c9de" type="rule"/>
+        <infoLink id="d75f-e71b-e149-33fc" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
         <infoLink id="21df-2293-8b76-8c06" name="Anheizen" hidden="false" targetId="a2d4-9232-71c7-c908" type="rule"/>
-        <infoLink id="4807-379f-9453-84c7" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ca3-5947-3845-743d" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
@@ -2121,7 +2156,7 @@
         <entryLink id="a078-39b2-d6af-e42a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3340,6 +3375,10 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10f0-74a5-29d0-1c23" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3333-f7a4-c140-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d732-874e-17b0-01f8" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13ab-98ba-680d-c190" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1738-eb2e-21f3-97b6" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5885,6 +5924,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63dc-44e0-9241-8ec0" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e76a-73db-117e-3b01" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b1c-f393-d45e-1088" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="d035-1abe-b446-e0b4" value="1">
@@ -5981,6 +6022,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f7d-c350-dd61-e67f" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e76a-73db-117e-3b01" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b1c-f393-d45e-1088" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="33fe-4244-f95b-2a72" value="1">
@@ -7190,6 +7233,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c79a-73b0-54f7-24e4" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3924-9884-0190-fef9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb58-584e-c3af-3b4e" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5d85-00aa-461c-08c2" value="1">
@@ -8215,6 +8260,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6445-3cc3-fe93-3c4d" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3924-9884-0190-fef9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb58-584e-c3af-3b4e" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="0ed3-9edb-4ecc-fb95" value="1">
@@ -8998,6 +9045,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="05fa-061e-9439-e279" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9776-c94b-d2d8-fb02" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c42c-ecd2-67dd-f758" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="890c-90ea-d8ed-92b5" value="1">
@@ -11293,11 +11342,11 @@
         <infoLink id="8dea-ea13-8788-3690" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b69b-5896-6de4-cede" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="false"/>
+        <categoryLink id="b69b-5896-6de4-cede" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
         <categoryLink id="d4ff-be7d-c303-ce55" name="Aura 25" hidden="false" targetId="84a1-ee5a-70d0-2bd7" primary="false"/>
         <categoryLink id="0f04-bad4-1f26-0385" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="dd46-a686-de24-fadd" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
-        <categoryLink id="9129-5a5f-964c-e3af" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="9129-5a5f-964c-e3af" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e906-c422-28ab-52f5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -11549,6 +11598,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc3f-e2df-01f6-fb5d" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="decrement" field="66c0-587f-b20a-bc5c" value="1">
@@ -11951,6 +12002,10 @@
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d22-05d8-942c-2a1d" type="equalTo"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="430a-cd12-3696-d772" type="equalTo"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a7e-7fda-cd32-1b0b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b525-ace3-e49b-878d" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -11958,6 +12013,23 @@
         <modifier type="increment" field="f186-3313-72b8-3f95" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="f186-3313-72b8-3f95" value="3.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a7e-7fda-cd32-1b0b" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b525-ace3-e49b-878d" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="decrement" field="f186-3313-72b8-3f95" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a0a-d73e-97d5-2bd4" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -12316,6 +12388,8 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="357c-13d5-7843-a5dc" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="dd96-3597-109a-1695" value="1">
@@ -14557,6 +14631,2274 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3fed-03be-9b8a-9c80" name="Ragg Ciflad" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="67e9-a4b3-c817-2e70" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e62-b61a-0285-1bf5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e9-a4b3-c817-2e70" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1688-03e6-5776-400a" name="Ragg Ciflad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Bombrade, als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Bombrade, als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2c77-f6e2-8744-a3a9" name="Ragg Ciflad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Bombarde, Schwere Waffe, Zweihändig, Umhauen (3)</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a41f-0f49-9941-284b" name="Ragg Ciflad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑥</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑥</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="27ab-1c9d-607a-1cb8" name="Spinnefeind (Käpt´n Ragg)" hidden="false" targetId="5822-4f99-a088-3076" type="rule"/>
+        <infoLink id="bee7-b4cd-ecca-28d6" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule"/>
+        <infoLink id="6bce-b40f-fc71-5a8a" name="Kanonier" hidden="false" targetId="7d74-84dd-3ef9-6816" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3690-6a8d-279f-36da" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="44ec-bbd4-9c48-c26c" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+        <categoryLink id="6f1a-bae7-7f74-6588" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="7df1-7f72-3e7e-56b9" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e138-119c-95d4-6ad4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d603-4931-4332-05d0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e62-b61a-0285-1bf5" name="★ Käpt´n Ragg" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="31c2-8769-d957-f36f" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3fed-03be-9b8a-9c80" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c2-8769-d957-f36f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c02f-0207-dbc5-4056" name="Käpt´n Ragg" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Säbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0eca-e316-d8eb-0987" name="Käpt´n Ragg" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7e1-cfe5-99c5-a25f" name="Käpt´n Ragg" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">9</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="27ba-b1d3-5cd6-6908" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule"/>
+        <infoLink id="b704-ec5e-6bac-4e11" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+        <infoLink id="fb9b-74bc-ff5f-cbfe" name="Fate Punkt (2)" hidden="false" targetId="d9f4-b6f8-4f9d-9d50" type="rule"/>
+        <infoLink id="42fe-bf3c-f776-4351" name="Spinnefeind (Ragg Chiflad)" hidden="false" targetId="7bbf-a1ee-3691-4e5c" type="rule"/>
+        <infoLink id="f768-1490-b1b3-830d" name="Gehimnisvolle Kiste" hidden="false" targetId="da51-6755-f1d6-96c4" type="rule"/>
+        <infoLink id="be7e-f669-e3f4-945f" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="6132-39f0-5a2e-0552" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="31e5-a4f3-5e9f-3b8c" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="05b0-1427-6376-7d48" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="37a5-9836-fbe1-04d2" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+        <categoryLink id="a17c-3ea5-05e0-581d" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="8ac5-5e96-a179-5474" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c64b-2b2b-2c36-3847" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82b3-03dd-0930-ca4f" name="Gipsy" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e9-6ff2-8630-0952" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="598d-1307-4bbe-a9ac" name="Gipsy" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Fächer mit Verstecktem Dolch</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f5b-d37d-f40f-ca48" name="Gipsy" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa38-5999-debb-0731" name="Gipsy" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34f1-f955-ac3c-7a36" name="Gipsy" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4acc-dced-6b7a-9d98" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="52c7-2bb4-bea5-0cce" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+        <categoryLink id="a400-e5ff-2d45-3f6d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="0179-063b-139c-5c67" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8f6a-19be-9763-9b83" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d57a-75de-17c7-6616" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bf7-4be7-810b-a87b" name="Qualani" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c054-68ef-dc1f-040f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6087-5bbb-3983-c597" name="Qualani" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schwerer Dolch, Gift</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e3d-2201-dfac-f8ba" name="Qualani" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Bogen, gift, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f74b-0c52-6388-fcac" name="Qualani" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4954-90bd-da02-b3f1" name="Qualani" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a092-fe87-79a7-cde0" name="Dschungelkriegerin" hidden="false" targetId="393e-a0f3-590d-7d1d" type="rule"/>
+        <infoLink id="6de4-1362-5399-6a1e" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="c6b3-b7f4-98ab-2dc7" name="Akrobatik" hidden="false" targetId="b713-da60-9aad-160d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1d33-a2e5-8d82-c933" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="8098-968c-0ba0-eed9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e4dc-b825-1a87-cc67" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e457-c0e2-e4a5-85dc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b4a8-f33b-25e9-a033" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46b8-b8cf-e3e0-216a" name="Donja Esperanza" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="870e-ed64-537c-3387" name="Donja Esperanza" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af2a-5c7e-2455-f7d0" name="Donja Esperanza" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Säbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2aa0-79f0-1873-a4b0" name="Donja Esperanza" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Duelpistole, Nachladen, links oder rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="334f-b99f-ddd0-a7bb" name="Donja Esperanza" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4ad7-031c-b7fc-2ae3" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="be5c-3ea0-653c-a917" name="Geschärfte Sinne" hidden="false" targetId="a94e-9304-c039-59b0" type="rule"/>
+        <infoLink id="b8ff-a3be-4552-7620" name="Powdermonky" hidden="false" targetId="5bb4-fd53-8dfd-e32c" type="rule"/>
+        <infoLink id="839c-2b70-43e6-c911" name="Aufmersamkeit" hidden="false" targetId="d189-bee3-27f3-d1c9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0905-828a-08e5-80b7" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+        <categoryLink id="86d4-d25a-8b28-8acc" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="db38-63a0-8bcf-1e2e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9a32-59ca-3177-3812" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4a0d-e0fb-d941-81b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3ce-34ff-bd37-0705" name="Gunpowder Mary" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d5a-56ff-89c9-ff58" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f686-1741-a175-ffa4" name="Gunpowder Mary" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entersäbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e962-9ebb-7b6f-a939" name="Gunpowder Mary" hidden="false" typeId="e592-a9d2-7c5a-4744" typeName="2.3 Munition">
+          <characteristics>
+            <characteristic name="Munition" typeId="2194-f120-f0ef-474e">O</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c90a-2dbc-c10d-9fdc" name="Gunpowder Mary" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Uralte Kanone, Artillerie, Munition</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">10/8 ~ 60</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4984-eb32-69ac-9b32" name="Gunpowder Mary" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Duellpistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e933-0396-7fd3-4908" name="Gunpowder Mary" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45cf-2c05-b93f-2414" name="Gunpowder Mary" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c54f-056d-ecdb-4551" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="da66-0dec-a974-6b2e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="01d0-7d83-863b-b2fb" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fbd1-4474-b17a-004c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="0dbc-7f7f-7798-3d09" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f47c-b72d-2179-91a1" name="Capitaine Octavia" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbb5-4a3e-7c7d-70d7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fa64-3dc7-5ae1-23b0" name="Capitaine Octavia" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entersäbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="77b6-77e9-be07-85c4" name="Capitaine Octavia" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="466e-0f68-9845-679e" name="Capitaine Octavia" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11+7 Kopf</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c45-463f-f14e-859a" name="Madame Pieuvre" hidden="false" targetId="286d-e60c-ae2b-80ef" type="rule"/>
+        <infoLink id="183b-7e0e-0ac6-c185" name="Tintewolke" hidden="false" targetId="fbde-9616-4143-e736" type="rule"/>
+        <infoLink id="1cb7-cd2e-d084-b754" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="7531-b69f-f031-575d" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="b5d9-55cb-5900-79ca" name="Mystikerin (Missgunst, Tod 1-3)" hidden="false" targetId="f720-c1cd-2cc1-7304" type="rule"/>
+        <infoLink id="57d4-a76c-30da-abbf" name="Lucky 8" hidden="false" targetId="8d66-f04d-ead8-0d70" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="16a0-0c17-9506-b2c3" name="New CategoryLink" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="true"/>
+        <categoryLink id="3811-aa86-6aac-2ded" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false"/>
+        <categoryLink id="8a23-e99c-82a2-5cc2" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="ca21-7590-24bb-7c5e" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="9869-f0d8-8d0e-16ae" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="7fad-3140-6d4c-fbb9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b5f6-2970-d637-2bfd" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
+        <entryLink id="3901-f1a1-3998-cabf" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
+        <entryLink id="ea2f-1855-f4b9-bd06" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5160-78b9-d8f7-44c8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0a3-7058-62ff-5cb6" name="Capitaine Octavia •" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7dd-65ce-e5b6-4a05" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cd49-b5bc-3df0-273a" name="Capitaine Octavia" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entersäbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ab4-8f91-fd5a-03cf" name="Capitaine Octavia" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a141-a2a9-1592-5fe4" name="Capitaine Octavia" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11+7 Kopf</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e62c-0148-2f9c-cd52" name="Capitaine Octavia •" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft für alle Mannschaften</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be04-43f0-60d4-c7ab" name="Madame Pieuvre" hidden="false" targetId="286d-e60c-ae2b-80ef" type="rule"/>
+        <infoLink id="2130-5b18-d9fa-6302" name="Tintewolke" hidden="false" targetId="fbde-9616-4143-e736" type="rule"/>
+        <infoLink id="fb90-abb7-5371-3bec" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="7152-d907-ef23-77ca" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="6deb-4407-cc40-2f77" name="Mystikerin (Missgunst, Tod 1-3)" hidden="false" targetId="f720-c1cd-2cc1-7304" type="rule"/>
+        <infoLink id="c64c-1d45-4894-e5ee" name="Lucky 8" hidden="false" targetId="8d66-f04d-ead8-0d70" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9410-1c0f-db0a-4406" name="New CategoryLink" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="true"/>
+        <categoryLink id="08d5-ce69-50f3-eead" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false"/>
+        <categoryLink id="5399-73e6-46c6-bf3d" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="d4af-04d6-74a8-2554" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="9a80-60f0-e44a-2def" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2c47-14b4-e775-77e6" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
+        <entryLink id="9f48-7e94-e94f-3792" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
+        <entryLink id="4944-d14b-3821-2e00" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="259e-ecde-bf43-7e4b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9776-c94b-d2d8-fb02" name="★ Raven" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="1db1-5355-ee65-e4cc" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c42c-ecd2-67dd-f758" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db1-5355-ee65-e4cc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="931e-2fba-e00f-7ce3" name="Raven" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schattendolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6bb6-7ae5-37f7-11b4" name="Raven" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Schattenkraft, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87f2-cf4a-3478-2bd2" name="Raven" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8b5a-3dea-2190-9985" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="5ea9-c3aa-4821-09a8" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="3e54-3db2-6d63-41f8" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="cba0-6e72-547b-e636" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="75aa-0c01-5ab9-738a" name="Schattenlauf" hidden="false" targetId="269f-687f-b722-6122" type="rule"/>
+        <infoLink id="6c9b-d7b4-6db7-97e9" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="87e7-be8c-1486-a99b" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="a4f5-ae93-5b06-d16e" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="93f0-f4bb-e578-e745" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="40c3-f304-d5a6-3c20" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="771f-1406-93d0-99fa" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccdd-9987-585a-b296" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c42c-ecd2-67dd-f758" name="★ Raven episch" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="add4-4f74-1eb6-50d6" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9776-c94b-d2d8-fb02" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add4-4f74-1eb6-50d6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fe68-624a-0d60-5214" name="Raven" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schattendolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2a90-8df7-7d8d-74ce" name="Raven" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Schattenkraft,Nirgenwo Sicher, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c8c-492d-d0f6-aba1" name="Raven" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f651-62aa-66f7-6311" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="2e34-2c64-d0a0-72d5" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="5f55-a0f1-965e-4320" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="4cb0-270d-6c23-1980" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="8bdb-7659-ac5a-502a" name="Schattenlauf" hidden="false" targetId="269f-687f-b722-6122" type="rule"/>
+        <infoLink id="2a91-7abc-18b1-594a" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="739d-330c-4e8f-d274" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="5b7d-1a81-c5a8-8adb" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="0688-04c3-1663-75c9" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="1106-a8ad-453a-d205" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="2015-c056-d4fe-db10" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c670-102f-cb61-bb20" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="135.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bbb-869b-0511-7e16" name="★ Schattenharpye" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9776-c94b-d2d8-fb02" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c42c-ecd2-67dd-f758" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1146-5d4a-6318-8fb5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b98-fe71-8a28-d70b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8cb2-0682-c018-78c2" name="Schattenharpye" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Krallen, Gift </characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Krallen, Gift </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8eca-fb44-eb9c-bfc4" name="Schattenharpye" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">6</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f27-0649-b324-2639" name="Compañero (Raven)" hidden="false" targetId="2da5-4bcf-36b4-af0b" type="rule"/>
+        <infoLink id="460b-ebee-e48f-6441" name="Körperlos" hidden="false" targetId="de78-c566-3781-68b7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b7ae-6cd1-7a31-ab22" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="dee5-b388-83ca-7d48" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="a97c-df9a-05fa-04d7" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+        <categoryLink id="f2b5-71cc-2b2f-f0fd" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a244-e009-8bee-f605" name="★ Mozo" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e76a-73db-117e-3b01" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b1c-f393-d45e-1088" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2bea-271f-0700-ce10" name="Mozo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑥</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑥</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="272e-4729-8528-e55c" name="Mozo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Banner als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Banner als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="97d0-a24c-2b36-3fac" name="Standhaft" hidden="false" targetId="bb70-4663-3ad1-bbe9" type="rule"/>
+        <infoLink id="72e8-8385-31ec-6b49" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="5fab-d410-cec6-b87b" name="Compañero (El Almirante)" hidden="false" targetId="2efd-d6d0-188a-98ed" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e29b-6d7a-f9d4-30f6" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+        <categoryLink id="d7a0-f3ae-a6a9-626f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="6006-7db0-ab53-b3cf" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="40af-af76-b68b-d054" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e76a-73db-117e-3b01" name="★ El Almirante" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="154d-feb5-d619-28c1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b1c-f393-d45e-1088" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154d-feb5-d619-28c1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e3bb-2260-27d1-323f" name="El Almirante" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Deullpistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7026-5ae9-8c6d-2919" name="El Almirante" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Duellpistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Entersäbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eee1-374a-df8c-8782" name="El Almirante" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cd36-6523-f4ff-c54e" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="967e-2617-917b-b541" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="b922-ecb0-052e-a903" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="75db-99ca-fa9d-6d28" name="Oberbefehlshaber" hidden="false" targetId="d7b6-ced4-152f-a91d" type="rule"/>
+        <infoLink id="117d-a79c-6df5-f03f" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4792-c293-13f9-5aaa" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="15f1-7071-2ff1-dd91" name="Aura 30" hidden="false" targetId="0a59-2e46-6e8d-1268" primary="false"/>
+        <categoryLink id="3c08-089e-0d52-f98e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d51a-3eb2-d174-7687" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="5931-81f4-b724-aa2d" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b50c-a273-d8a4-b864" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b1c-f393-d45e-1088" name="★ El Almirante episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="0c2b-91a2-7467-7a4b" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e76a-73db-117e-3b01" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c2b-91a2-7467-7a4b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="77cb-a081-0eec-ec11" name="El Almirante" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Meisterhafte Deullpistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/5 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9d2c-09de-bbf6-f378" name="El Almirante" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Duellpistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Meisterhafte gefertigter Entersäbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="441d-f3de-1493-c8f2" name="El Almirante" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b72-3693-4eb4-d762" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="0a01-a75b-e32b-a064" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="3775-67fb-7c30-c7af" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="6b98-effb-1254-34f6" name="Oberbefehlshaber" hidden="false" targetId="d7b6-ced4-152f-a91d" type="rule"/>
+        <infoLink id="36cf-1019-ac97-d748" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="5d40-981f-40c4-1cd2" name="Powdermonky" hidden="false" targetId="5bb4-fd53-8dfd-e32c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="936a-16da-cfef-cfc8" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="b9b2-8572-bfa8-0f6e" name="Aura 30" hidden="false" targetId="0a59-2e46-6e8d-1268" primary="false"/>
+        <categoryLink id="4e3d-532e-cc77-b52b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="0f62-9d9b-f0c1-6ae4" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="3218-4335-4ede-5929" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8bd5-5771-1723-06ef" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3924-9884-0190-fef9" name="★ Maestro Cerebro" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="d983-f902-7437-1424" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb58-584e-c3af-3b4e" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d983-f902-7437-1424" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c231-b479-fff4-3784" name="Maestro Cerebro" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Beeindruckende Knarre, Nachladen, Umhauen (3), Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1cda-20c1-0404-780c" name="Maestro Cerebro" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e1be-a560-f45a-c6ce" name="Maestro Cerebro" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Birro´s Werkzeug</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Cerebro´s Werkzeug</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0701-4c9b-eae1-9e89" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="1bc3-b697-fe1e-33b6" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cb79-a549-d17d-655b" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+        <categoryLink id="d432-18ea-9ecf-accc" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="bd53-01e4-e498-273b" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="c52c-d847-18a7-9b06" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d146-8e00-82f3-4e2e" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb58-584e-c3af-3b4e" name="★ Maestro Cerebro episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="f1d3-98be-2c71-cb8f" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3924-9884-0190-fef9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d3-98be-2c71-cb8f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8335-0a5e-9e80-bb5d" name="Maestro Cerebro" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Beeindruckende Knarre, Nachladen, Umhauen (3), Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d656-1de1-52a0-74c8" name="Maestro Cerebro" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/4</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="37aa-16dd-1cfe-d3e0" name="Maestro Cerebro" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Birro´s Panzerhandschuh</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Cerebro´s Werkzeug</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="11fa-0ba1-b5d5-28ec" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="3281-cd69-64c1-4b08" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule"/>
+        <infoLink id="ee8b-0377-9dfe-73f2" name="Auge der Jägerin" hidden="false" targetId="c9d5-04ef-2dd4-30ea" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d0a-c305-3017-5a61" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+        <categoryLink id="14c0-7119-e7d7-92b7" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="8313-d361-403d-d45c" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="19aa-d189-9e12-4d26" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7432-8e40-7068-13d6" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0835-b869-f771-04e0" name="★ Cebo" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3924-9884-0190-fef9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb58-584e-c3af-3b4e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdfa-cdb1-4966-e4be" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f805-4683-2f84-1db1" name="Cebo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Großes Schwert, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Großes Schwert, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4a1f-6711-97a7-582e" name="Cebo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4 ⑥</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/4 ⑥</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="834d-5ab1-6669-6dd5" name="Feige" hidden="false" targetId="4c89-ec27-3aed-d290" type="rule"/>
+        <infoLink id="eba5-a3f2-9f87-2aaa" name="Schützenhilfe (Maestro Cerebro)" hidden="false" targetId="6267-2871-60f4-7607" type="rule"/>
+        <infoLink id="b1e8-e6c9-e71c-006f" name="Compañero (Maestro Cerebro)" hidden="false" targetId="3df3-93d7-e3f3-ee11" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1bfa-4dcc-c25c-d386" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+        <categoryLink id="1e1f-fa89-e63c-b34f" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
+        <categoryLink id="e625-3be8-eaa5-4a54" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="e89b-00c2-083c-3ec7" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f11e-f505-691d-233c" name="★ Antoinette Balfour" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="5685-2c6a-d57b-75b9" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75ac-2613-7607-214b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5685-2c6a-d57b-75b9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2fec-8678-c450-f6d4" name="Antoinette Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entersäbel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c332-ddc0-4083-6d68" name="Antoinette Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/5 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e955-9718-9501-b999" name="Antoinette Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2d00-c69a-7e93-81c4" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="5ee8-3a60-7e2b-2d54" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="52c2-bc07-6212-8efe" name="Fate Punkt (2)" hidden="false" targetId="d9f4-b6f8-4f9d-9d50" type="rule"/>
+        <infoLink id="032e-452b-760c-8c6a" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+        <infoLink id="2ccd-f849-c7d2-8949" name="Seefest" hidden="false" targetId="0fce-1afd-a269-0254" type="rule"/>
+        <infoLink id="84e9-5b9a-23a9-7893" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7b5d-650e-2327-db75" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="3240-e5bd-2005-21ca" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="fc23-eb81-8593-57ac" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="9f7f-1afa-c7ac-1d53" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="2738-dd6d-98ce-93dd" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dd7c-b31f-a56d-50f7" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75ac-2613-7607-214b" name="★ Antoinette Balfour episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="8346-6149-4340-c257" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f11e-f505-691d-233c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8346-6149-4340-c257" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="922e-978d-8fb3-b99c" name="Antoinette Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Pistole als Knüppe</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">lSchwerer Entersäbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="acbb-2096-d73d-475d" name="Antoinette Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Mehrschüssig, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/5 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e448-9f7c-4f23-fca3" name="Antoinette Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/9</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3cb6-8923-92bd-6969" name="Antoinette Balfour" hidden="false" typeId="e592-a9d2-7c5a-4744" typeName="2.3 Munition">
+          <characteristics>
+            <characteristic name="Munition" typeId="2194-f120-f0ef-474e">O O O O O O</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ab7-fe48-49aa-6211" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="0f71-68eb-414a-7b24" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="d81b-496c-7ac7-0643" name="Fate Punkt (2)" hidden="false" targetId="d9f4-b6f8-4f9d-9d50" type="rule"/>
+        <infoLink id="0710-44e1-58da-fec4" name="Parieren" hidden="false" targetId="8975-4ed3-0fda-fe92" type="rule"/>
+        <infoLink id="9601-1211-e915-6f55" name="Seefest" hidden="false" targetId="0fce-1afd-a269-0254" type="rule"/>
+        <infoLink id="6d1b-898a-e58a-cc3e" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f60c-3996-7aa3-1701" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="7177-f19f-01cb-fb4f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="2be7-5da1-917a-f0d8" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="f8cf-ce6e-96a5-8286" name="Aura 15" hidden="false" targetId="8b71-75b6-2047-ad36" primary="false"/>
+        <categoryLink id="8005-9852-a66c-dc1a" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1d43-7441-8c8e-f9d9" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86d4-7dfe-e7c4-03b1" name="★ Drecksack" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f11e-f505-691d-233c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75ac-2613-7607-214b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa56-2241-d6b6-af9f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8544-6c5c-74ef-88a7" name="Drecksack" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Rumbuddel als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Rumbuddel als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9595-8c3c-2533-7f06" name="Drecksack" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">6</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">1/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">1/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8290-737f-bdb6-58c3" name="Versteckte Aufstellung" hidden="false" targetId="126d-21fc-7ac1-eaa2" type="rule"/>
+        <infoLink id="e09f-4416-ffd3-49a4" name="Waldläufer" hidden="false" targetId="35c8-a52c-3caf-230b" type="rule"/>
+        <infoLink id="bf1e-bff1-ffae-63fc" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+        <infoLink id="1948-323e-82f3-3a95" name="Compañero ()" hidden="false" targetId="58da-d857-2d01-acc0" type="rule"/>
+        <infoLink id="fba5-e4eb-4ba5-05da" name="Akrobatik" hidden="false" targetId="b713-da60-9aad-160d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3425-c8d7-26ed-4374" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+        <categoryLink id="8d6e-6153-23bf-d368" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="645a-55e5-c890-8b6f" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f588-5c46-c3e7-ee66" name="★ Ixchelcoatl" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="3c40-0fc5-69a5-4471" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c40-0fc5-69a5-4471" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="beee-445d-f0b6-067d" name="Ixchelcoatl" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5af7-758c-1a0c-da07" name="Ixchelcoatl" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30ea-a7e4-a165-5369" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule"/>
+        <infoLink id="d8a2-2184-04e8-3150" name="Dschungelkriegerin" hidden="false" targetId="393e-a0f3-590d-7d1d" type="rule"/>
+        <infoLink id="5707-e897-5cbc-ac4e" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="d86a-6b6f-d087-4273" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="d480-0706-a2bc-ebf1" name="Mystikerin (Wildnis, Missgunst, Wohlwollen, 1-5)" hidden="false" targetId="2112-0f78-85d9-17b5" type="rule"/>
+        <infoLink id="2b97-5b2c-cead-2193" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="534a-e560-211f-9e96" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="2624-8c51-ce2e-6de2" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="c643-652e-c9f2-9470" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="5d6c-93a7-d9d0-2bf1" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="06d7-b51b-6208-22c7" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d525-7dc7-648c-2ab4" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d009-3a1e-5a0d-ff6c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+        <entryLink id="efa0-ce12-1a06-447a" name="Loa Wohlwollen" hidden="false" collective="false" import="true" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup"/>
+        <entryLink id="d80a-39c3-725d-2eed" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
+        <entryLink id="120a-748d-abb3-981c" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b55-f702-7510-8772" name="★ Ixchelcoatl episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="bd91-b7cf-7366-a198" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd91-b7cf-7366-a198" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b877-9c03-f361-77a6" name="Ixchelcoatl" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schlangenstab, Gift(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c68-18dc-defc-3225" name="Ixchelcoatl" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b984-bd63-4add-e144" name="Ixchelcoatl episch" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Speikobra, Gift (2), rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">4/3 ~20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3d66-c3c2-d0ab-0574" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule"/>
+        <infoLink id="7965-9d55-4bb4-e455" name="Dschungelkriegerin" hidden="false" targetId="393e-a0f3-590d-7d1d" type="rule"/>
+        <infoLink id="d4b8-8416-a0f1-b4cc" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="9ace-a7b8-4f99-b7b1" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="bc62-6881-7d19-96d0" name="Mystikerin (Wildnis, Missgunst, Wohlwollen, 1-5)" hidden="false" targetId="2112-0f78-85d9-17b5" type="rule"/>
+        <infoLink id="e806-ecbc-e3ed-281c" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5d7e-8825-a181-16c9" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="4b65-9fed-33a5-c12d" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="1fab-3058-f008-2c30" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="cab9-50a5-5115-af89" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="30d9-bdf0-b466-30b5" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e538-ef10-3990-8c3e" name="Mystiker" hidden="false" targetId="e869-8e85-7a56-60ed" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1ba-6f84-0552-6a35" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+        <entryLink id="1f6a-45b8-e207-6c78" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
+        <entryLink id="4c9d-3882-e34b-f877" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
+        <entryLink id="2ed5-bdbe-fac5-973d" name="Loa Wohlwollen" hidden="false" collective="false" import="true" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed3e-96cd-00f7-19fd" name="★ Gefiederte Schlange" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f588-5c46-c3e7-ee66" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b55-f702-7510-8772" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b041-e573-d206-a031" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7351-695a-e9fc-b191" name="Gefiederte Schlange" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Biss, Gift</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Biss, Gift</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ec93-95f0-8ea5-c6c8" name="Gefiederte Schlange" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">6</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31d2-5d6a-81d3-1c97" name="Versteckte Aufstellung" hidden="false" targetId="126d-21fc-7ac1-eaa2" type="rule"/>
+        <infoLink id="0b42-db73-f952-9035" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+        <infoLink id="ce08-6077-7fc2-7f28" name="Dschungelkriegerin" hidden="false" targetId="393e-a0f3-590d-7d1d" type="rule"/>
+        <infoLink id="5d77-2e0b-bcc8-14a7" name="Compañero ()" hidden="false" targetId="94da-d87e-54df-2e66" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ca8-705e-72b9-2159" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+        <categoryLink id="60f5-da43-3356-3985" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="41fe-6589-271c-f048" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="14f0-956b-f244-0491" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6a1-a546-3535-c841" name="★ Calamite Balfour" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="4619-16c7-9492-25c3" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4619-16c7-9492-25c3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec06-3c48-42d5-9661" name="Calamite Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Säbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87d0-4c4f-8e44-2b1b" name="Calamite Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="37e0-5ec1-610f-788e" name="Calamite Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25dd-2624-273c-2975" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="c1ea-90e5-591a-ee9a" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="70ab-4026-d670-0f50" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="50fa-4db3-24da-634c" name="Seelentreiber (0-3 Sansames, inklusive Tufo)" hidden="false" targetId="7e22-94d9-e9c0-7e12" type="rule"/>
+        <infoLink id="c9bb-f8fd-9fe7-3ebd" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="6701-afd3-602b-ae5e" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="4558-c3e2-2126-12f9" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ffe-b9a8-abc5-60ed" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="3f3f-2e15-de21-db6c" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="4dc4-c879-12ee-327c" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="bccb-1790-975d-ffe5" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="9052-5f39-8843-2693" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="97a7-4b5d-5c23-5ea5" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c71b-05f5-71e1-ecca" name="★ Calamite Balfour episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="855c-5f9e-c5d6-aea1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="855c-5f9e-c5d6-aea1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a81e-c81d-27da-7bf4" name="Calamite Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Meisterhafte Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Bessesener Säbel, Rüstungsbrechend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a4c2-f44f-a5ca-4fe3" name="Calamite Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Meisterhafte Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/5 ~ 0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="435f-a058-d68a-5b33" name="Calamite Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a45f-7b08-1cae-f600" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="0c28-0b58-1c6e-74ab" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="cc42-7032-966d-15fc" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="c17d-cdcf-f110-cccd" name="Seelentreiber (0-3 Sansames, inklusive Tufo)" hidden="false" targetId="7e22-94d9-e9c0-7e12" type="rule"/>
+        <infoLink id="b73f-8bf3-9c36-9b6a" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="e8d5-dad0-7028-4208" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="5d6d-145e-ce18-98a7" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9c1-ab21-cf70-87e2" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="8e77-403b-3f21-ef56" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="8b28-e76c-85fe-2433" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="2f37-6a96-8e62-130e" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="6241-c59a-ed4b-7db1" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d135-f968-2ca3-9471" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="130.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a7e-7fda-cd32-1b0b" name="★ Calamite Balfour" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="a608-040a-bbbe-f711" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b525-ace3-e49b-878d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a608-040a-bbbe-f711" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fd03-da13-558d-0a2c" name="Calamite Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Säbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63b3-f84a-59d3-70e1" name="Calamite Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a56b-c0c8-0146-0772" name="Calamite Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a6f-b747-f7d5-9623" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="40dd-aaa4-bfef-64fc" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="5f8c-e57a-902a-a0fb" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="cbd4-8c45-8c47-e249" name="Seelentreiber (0-3 Sansames, inklusive Tufo)" hidden="false" targetId="7e22-94d9-e9c0-7e12" type="rule"/>
+        <infoLink id="7c4e-7386-2f5f-f829" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="3203-dbf1-4741-9ccc" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="02fd-b7bb-460f-d489" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db39-5946-4860-0242" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="a77a-ca63-a8a3-695f" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="ff49-0b24-9592-35d4" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="3c23-3943-f676-bf8e" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="b922-8d86-a32d-c4aa" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9ece-90f3-df7f-883c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a0a-d73e-97d5-2bd4" name="★ Tufo" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a7e-7fda-cd32-1b0b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c71b-05f5-71e1-ecca" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b525-ace3-e49b-878d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5677-cf60-e490-9671" name="Tufo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/3</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/3</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b63-35b7-7bff-4e21" name="Tufo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Klauen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Klauen</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8839-23d6-5fc2-1690" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+        <infoLink id="d4d2-98b1-bb20-0eb0" name="Aura der Schwäche" hidden="false" targetId="6d67-1a4c-b8ed-f66b" type="rule"/>
+        <infoLink id="44ee-d147-2eb4-d2f2" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="fa23-e788-5e4a-2902" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule"/>
+        <infoLink id="00c9-b13c-3641-bd4f" name="Compañero (Calamite Balfour)" hidden="false" targetId="78e9-0ba8-a9b9-ebe8" type="rule"/>
+        <infoLink id="f5f6-30ee-baeb-6057" name="Tumb" hidden="false" targetId="5f26-9d54-ca27-c8d9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1c9f-daec-03f6-5c69" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="3709-ba52-5b47-95a0" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+        <categoryLink id="de44-a145-7b1d-ea52" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="4348-d878-c433-f3ce" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="0d9e-3d4c-5cae-2785" name="New CategoryLink" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b525-ace3-e49b-878d" name="★ Calamite Balfour episch" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="e188-d698-8c72-5175" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a1-a546-3535-c841" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e188-d698-8c72-5175" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2d01-1307-a38c-f7e5" name="Calamite Balfour" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Meisterhafte Pistole als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Bessesener Säbel, Rüstungsbrechend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d919-b892-2148-0d6f" name="Calamite Balfour" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Meisterhafte Pistole, Nachladen, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">7/5 ~ 0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="69bf-efd6-830d-386e" name="Calamite Balfour" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">4/6</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">4/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bf19-dfad-ecc0-117a" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="7f3f-7915-d7ad-9f60" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="8ecf-07da-9d16-07e7" name="Fechtmeister" hidden="false" targetId="d046-0962-b7a0-37ab" type="rule"/>
+        <infoLink id="667a-1710-e377-322e" name="Seelentreiber (0-3 Sansames, inklusive Tufo)" hidden="false" targetId="7e22-94d9-e9c0-7e12" type="rule"/>
+        <infoLink id="573a-b072-13cd-66eb" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="e192-cb9b-84f7-6caa" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="a0f3-e01e-0aec-56ec" name="Immun gegen Gift" hidden="false" targetId="f13c-13d4-007c-77fd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e2a0-59de-b01d-66cd" name="Anführer" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="726a-2c3b-0585-5eb3" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="0e74-d483-334b-7921" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="195f-d133-a58d-810c" name="New CategoryLink" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="cd76-bdc3-a768-1981" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="13c4-fbd9-063d-b366" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="130.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a6a-3e68-a81d-9bfd" name="★ Papa Houngan" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb2-5931-f473-244b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e16b-9da5-d8ce-86a1" name="Papa Houngan" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Stab</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8fd4-f73d-dd3e-98ed" name="Papa Houngan" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="09cf-8f89-48de-b408" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule"/>
+        <infoLink id="8a60-d2d6-44dc-2dde" name="Seelentreiber (0-3 Sansame)" hidden="false" targetId="0b1c-a9e8-2305-c153" type="rule"/>
+        <infoLink id="212a-bf00-aabd-d318" name="Mystischer Chor" hidden="false" targetId="c012-41f3-76cb-1dbc" type="rule"/>
+        <infoLink id="f5ea-9ebc-7601-2b0f" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule"/>
+        <infoLink id="cd3c-c4ba-76e8-e41a" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="52ae-fccd-c6bc-dd16" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="7fb3-c26d-2154-0fab" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="6503-3b56-b011-993e" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="8e4f-c594-afd0-daf5" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2eca-739f-772a-4dab" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f272-0f56-a355-cd70" name="★ Papa Houngan episch" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45cf-cab7-f173-a970" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cd30-15a6-ed1c-21e0" name="Papa Houngan" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Knochenstab, Umhauen (4)</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a80c-b47a-f732-f797" name="Papa Houngan" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c123-a83a-49df-198a" name="Empfindungslos" hidden="false" targetId="f79f-98cc-c331-6266" type="rule"/>
+        <infoLink id="6e47-19f5-c304-50bc" name="Seelentreiber (0-3 Sansame)" hidden="false" targetId="0b1c-a9e8-2305-c153" type="rule"/>
+        <infoLink id="f023-e303-885d-7dd2" name="Mystischer Chor" hidden="false" targetId="c012-41f3-76cb-1dbc" type="rule"/>
+        <infoLink id="88d9-4771-08b6-2d88" name="Geritten" hidden="false" targetId="4db0-faca-da71-203f" type="rule"/>
+        <infoLink id="92ea-cca4-acb2-2690" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="1ae1-4be5-8fae-a408" name="Demagoge" hidden="false" targetId="1d06-272a-9bf2-cc78" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="efb3-5813-a91f-1c56" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="4d26-1f24-05b5-5f32" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="d85f-3c48-130a-eff9" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="9dab-abfd-526f-0a78" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f1ce-e177-a791-0d2d" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="648a-e668-04a2-7427" name="★ Chassa" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5bf-94f5-8c4e-a61b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c401-3cee-ead9-7e0d" name="Chassa" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Panzerhandschu</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Entersäbel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea22-8515-0e37-a8b9" name="Chassa" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/8</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="60da-d76b-9ab4-8eda" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="66e4-f34e-bc67-116a" name="Kopfgeld" hidden="false" targetId="e8b8-aa7d-704b-8242" type="rule"/>
+        <infoLink id="6a47-9ca8-d7e2-6435" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="e0f8-6f4a-92d2-bb4e" name="Standhaft" hidden="false" targetId="bb70-4663-3ad1-bbe9" type="rule"/>
+        <infoLink id="e1fc-00e2-a513-d0ca" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="780b-fbf1-6647-a5f4" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="f5ea-7e52-14fa-12a8" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="2416-25d2-c438-45e9" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="449e-eb96-1091-fef8" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4437-32d7-24de-601d" name="★ Chassa episch" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c63-3e11-2daf-2f90" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5854-54e5-e5ac-1d10" name="Chassa" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Bündelmuskete als Knüppel, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Bündelmuskete als Knüppel, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e12-6502-66b4-7ed9" name="Chassa" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑧</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑧</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c3ad-2bcd-6947-12d8" name="Chassa" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Bündelmuskete, Mehrschüssig, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a8ab-2302-6782-2211" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="e620-d4ea-7bd0-2e0b" name="Kopfgeld" hidden="false" targetId="e8b8-aa7d-704b-8242" type="rule"/>
+        <infoLink id="08e1-6737-c1b7-1a25" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="b6f7-fac7-0b8a-e333" name="Standhaft" hidden="false" targetId="bb70-4663-3ad1-bbe9" type="rule"/>
+        <infoLink id="1890-efbf-516b-7368" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5aa3-444b-1264-31ea" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="6790-1c74-7abe-6523" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="4203-9fe1-b75b-6050" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="72ac-4417-aa2d-3935" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f913-5a83-0515-6505" name="★ Virgo Despiedad" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="b962-4be8-1aa3-bef0" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43f4-549b-1da5-5ccd" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="178b-8b2e-c246-60ce" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="003f-4215-269b-5e8c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b962-4be8-1aa3-bef0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d7c5-6322-c378-8b7f" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b952-cc67-be68-e5be" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="314b-b0bf-4ea0-5a01" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c025-96f2-42cf-bf3c" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="ae6e-cda4-a03c-8dc6" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="1268-262f-a171-cf05" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="8f54-f3c5-d749-16ba" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="6035-6adb-cbd9-1886" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="7809-ed32-c8dd-3808" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4fc0-495c-008f-f3ac" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="9255-8dd0-9491-3fc8" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="7c8d-6eda-eb82-5050" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="b8fe-802f-5553-79b9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c05b-a637-9f76-b85c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43f4-549b-1da5-5ccd" name="★ Virgo Despiedad epic" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="8b27-e61b-aa0f-888a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f913-5a83-0515-6505" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="178b-8b2e-c246-60ce" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="003f-4215-269b-5e8c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b27-e61b-aa0f-888a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b1fd-36f3-4ab8-038d" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Meisterhafte Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="750d-41de-df40-d600" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Meisterhafter Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76f2-fdf1-1aba-c695" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/9</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cf5e-eced-a050-b2a4" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="8e06-fa64-c37e-a764" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="3cd4-82e3-818e-7370" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="cee6-67d6-4462-fc9c" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="11dd-239d-320a-8028" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="9056-8adc-3688-5736" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3de6-5b4c-2666-3f6a" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="5287-9705-b718-1bb7" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="73a5-8be2-0e4d-c417" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="e778-0375-210d-b049" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c374-8f1b-67a0-fa4c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3333-f7a4-c140-8cf1" name="★ Virgo Despiedad Muskete •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="71f6-2eb2-0bc2-0217" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13ab-98ba-680d-c190" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1738-eb2e-21f3-97b6" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d732-874e-17b0-01f8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f6-2eb2-0bc2-0217" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="68a6-83cf-8cb5-2f54" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Muskete, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="149b-7e71-0493-1e92" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Muskete als Knüppel, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Muskete als Knüppel, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b63-6b11-265c-efbc" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑦</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑦</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e4cf-1a32-4ff3-202f" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="999d-5f32-2ec0-f951" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="c9d4-c7fb-79f1-7949" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="4516-b09e-ed65-33ad" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="d09a-04d1-1eef-3c45" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="0ce0-9f1a-e0c3-c056" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="bfa9-2efa-2c78-866e" name="Verstärkung (Seemann, Seesoldaten)" hidden="false" targetId="3287-029e-f529-c79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bd29-aa27-a72c-caae" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="400f-2683-1036-1e60" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="956b-7a22-fff8-cd6e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="307c-ec45-c05a-e88c" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="d561-b7d3-5d3b-f174" name="Söldnerhauptmann" hidden="false" targetId="9fcb-63d8-f6dc-e471" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d6d9-23dc-9732-390c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ab-98ba-680d-c190" name="★ Virgo Despiedad •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="5e77-18ed-e207-90cd" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1738-eb2e-21f3-97b6" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3333-f7a4-c140-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d732-874e-17b0-01f8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e77-18ed-e207-90cd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5d64-f2bf-5064-ff87" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fc4b-4c79-569e-d045" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bfe6-e6e0-6b01-7ed3" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1c66-562d-3467-a297" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="6001-734d-c965-3d09" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="ffb2-ae8d-9d9b-4a93" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="661a-8f5c-ba18-0369" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="3860-dbf7-82f1-02dc" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="05b8-0a81-83be-1a40" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="6c3b-8751-7ae6-cb6a" name="Verstärkung (Seemann, Seesoldaten)" hidden="false" targetId="3287-029e-f529-c79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e7b7-8b1f-e6a7-bbf7" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="bdba-c5b7-9452-51e9" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="db8d-2a2b-3862-eeae" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="64ca-2302-676c-4624" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="d33d-fd7c-8ff7-8344" name="Söldnerhauptmann" hidden="false" targetId="9fcb-63d8-f6dc-e471" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cc95-66da-d722-6f56" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1738-eb2e-21f3-97b6" name="★ Virgo Despiedad epic  •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="c131-0cd4-bff6-29fb" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13ab-98ba-680d-c190" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3333-f7a4-c140-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d732-874e-17b0-01f8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c131-0cd4-bff6-29fb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d8d8-1a22-a6c0-1037" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Meisterhafte Pistole, Nachladen, links</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9f6e-9dff-cfe0-ed96" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Meisterhafter Degen</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f00c-6b26-1f61-3ed2" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/9</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="efcf-a649-b348-b021" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="9083-921d-40d2-3e23" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="07a1-5482-5c15-dfbe" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="d26e-eaa2-1dba-e452" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="ed10-9178-3b3c-74f3" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="70b9-b2ea-4ccd-142c" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="0d22-19c8-c836-03b5" name="Verstärkung (Seemann, Seesoldaten)" hidden="false" targetId="3287-029e-f529-c79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a833-4e85-047b-9c7d" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="b52f-690d-cf37-1dff" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="9614-000c-0961-8e83" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="55f9-c187-1b97-c813" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="13bf-440a-e9c1-5fe2" name="Söldnerhauptmann" hidden="false" targetId="9fcb-63d8-f6dc-e471" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1994-ec77-243a-af8c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="178b-8b2e-c246-60ce" name="★ Virgo Despiedad Muskete" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="78b0-4714-da42-9105" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43f4-549b-1da5-5ccd" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f913-5a83-0515-6505" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="003f-4215-269b-5e8c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b0-4714-da42-9105" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f735-3ab9-a18b-e7e2" name="Virgo Despiedad" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Muskete, Schwere Waffe, Zweihändig</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/5 ~ 50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ef5-16c8-5969-3947" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Muskete als Knüppel, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Muskete als Knüppel, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="28b6-d882-595b-2a60" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑦</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑦</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a618-0d2a-ff95-99ea" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="edd2-3f45-fcff-5a9f" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="81a7-f6df-bce7-a94c" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="03af-50ef-472b-cbe8" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="16dc-61d6-d778-447d" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="623a-45e6-ba22-8dc6" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6e30-3f3a-a0de-0888" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="aac5-7c3c-33ff-7429" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="9483-f406-e174-62f8" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="1e50-27e2-de99-b731" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="30db-e998-9e63-81ac" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d732-874e-17b0-01f8" name="★ Virgo Despiedad Saufeder •" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="2aff-d5ac-a8db-fa43" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13ab-98ba-680d-c190" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3333-f7a4-c140-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1738-eb2e-21f3-97b6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aff-d5ac-a8db-fa43" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0cf2-8a22-0b70-bba9" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Saufeder, Bajonett, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Saufeder, Bajonett, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e8b-9f8e-1607-f9ba" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑧</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑧</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5c9c-29ca-4075-92b8" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="fd31-fe86-58a1-8d06" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="6ad9-0e25-41d0-d60b" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="523f-abb9-363a-1bcb" name="Söldnerhauptmann (Lieutenant)" hidden="false" targetId="dd18-7f63-ae42-b335" type="rule"/>
+        <infoLink id="b890-7a9d-e8c7-f465" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="90ae-4805-3b8e-7e6e" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+        <infoLink id="88f9-b764-50b0-fc06" name="Verstärkung (Seemann, Seesoldaten)" hidden="false" targetId="3287-029e-f529-c79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="144a-e49b-a486-3125" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="b2f1-3464-4953-e417" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="c5af-7356-e5bd-05c9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="9ac9-ae05-c05d-7595" name="New CategoryLink" hidden="false" targetId="e40b-1a54-0143-fcee" primary="true"/>
+        <categoryLink id="7cae-e811-a35e-1b7b" name="Söldnerhauptmann" hidden="false" targetId="9fcb-63d8-f6dc-e471" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="280d-8ade-e8b6-0a4c" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="003f-4215-269b-5e8c" name="★ Virgo Despiedad Saufeder" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="3455-2abe-5409-4217" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43f4-549b-1da5-5ccd" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="178b-8b2e-c246-60ce" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f913-5a83-0515-6505" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3455-2abe-5409-4217" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f036-0a95-0474-6bd5" name="Virgo Despiedad" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Saufeder, Bajonett, Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Saufeder, Bajonett, Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aa4a-1b9a-d2ae-feba" name="Virgo Despiedad" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">12</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑧</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑧</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0e91-0e90-e82e-1fde" name="Sammelruf" hidden="false" targetId="5a61-93a1-81ab-cd79" type="rule"/>
+        <infoLink id="b75e-f17d-8535-a469" name="Fate Punkt (1)" hidden="false" targetId="52df-6dbe-1c3d-f252" type="rule"/>
+        <infoLink id="c769-2e22-1152-8ae0" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+        <infoLink id="ad96-1ccd-868a-cd91" name="Lieutenant" hidden="false" targetId="ff34-5320-9639-a949" type="rule"/>
+        <infoLink id="66e9-e4bc-3aaf-1aea" name="Befehl" hidden="false" targetId="cdbd-1bfe-0b62-4236" type="rule"/>
+        <infoLink id="fa01-f6c0-77b2-f0e7" name="Zäh" hidden="false" targetId="c68e-f65b-e906-c128" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2020-9f16-65ca-caa2" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+        <categoryLink id="c5e5-62ef-3f06-96ac" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
+        <categoryLink id="602e-eafd-ebd6-a296" name="Aura 20" hidden="false" targetId="e352-2e92-2c7d-4ef6" primary="false"/>
+        <categoryLink id="d3c7-90eb-2932-e7d9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a7aa-97e1-6bf7-10e3" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true" targetId="25df-a614-565a-3875" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="193e-9ccd-d44b-591a" name="Seemann •" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3333-f7a4-c140-8cf1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d732-874e-17b0-01f8" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13ab-98ba-680d-c190" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1738-eb2e-21f3-97b6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="1591-f4c1-7cb7-a6d9" name="Seemann" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entermesser</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a708-2f64-6fa0-3b26" name="Seemann" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">8</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="488b-3d63-d8b7-f34e" name="Wantenläufer" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0bcf-a8f3-028a-3fb4" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="3b09-10b9-5955-ab1d" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5723-7553-4163-16e2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="c8f5-eddb-5b95-6467" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false" import="true">
@@ -16709,6 +19051,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="25df-a614-565a-3875" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8f32-8598-e005-f017" name="Sturmschuss" hidden="false"/>
@@ -16717,7 +19060,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="393e-a0f3-590d-7d1d" name="Dschungelkriegerin" hidden="false"/>
     <rule id="cdbd-1bfe-0b62-4236" name="Befehl" hidden="false"/>
     <rule id="6477-3e8f-c8c3-d2e0" name="Ausweichen (Fernkampf)" hidden="false"/>
-    <rule id="e8b8-aa7d-704b-8242" name="Kopfgeld" hidden="false"/>
+    <rule id="e8b8-aa7d-704b-8242" name="Kopfgeld ()" hidden="false"/>
     <rule id="a22e-72ef-f837-c519" name="Ruderboot" hidden="false"/>
     <rule id="35c8-a52c-3caf-230b" name="Waldläufer" hidden="false"/>
     <rule id="6abc-9e1f-693e-685b" name="Unverwüstlich" hidden="false"/>
@@ -16960,5 +19303,24 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="bad8-ab33-8011-c377" name="Doppelagent" hidden="false"/>
     <rule id="07b3-c63f-a423-9d3b" name="Wasserscheu" hidden="false"/>
     <rule id="7c97-0755-7edd-6517" name="Musique de Rum-ta-ta" hidden="false"/>
+    <rule id="5822-4f99-a088-3076" name="Spinnefeind (Käpt´n Ragg)" hidden="false"/>
+    <rule id="fbde-9616-4143-e736" name="Tintewolke" hidden="false"/>
+    <rule id="f720-c1cd-2cc1-7304" name="Mystikerin (Missgunst, Tod 1-3)" hidden="false"/>
+    <rule id="8d66-f04d-ead8-0d70" name="Lucky 8" hidden="false"/>
+    <rule id="286d-e60c-ae2b-80ef" name="Madame Pieuvre" hidden="false"/>
+    <rule id="2da5-4bcf-36b4-af0b" name="Compañero (Raven)" hidden="false"/>
+    <rule id="d7b6-ced4-152f-a91d" name="Oberbefehlshaber" hidden="false"/>
+    <rule id="58da-d857-2d01-acc0" name="Compañero (Antoinette Balfour)" hidden="false"/>
+    <rule id="94da-d87e-54df-2e66" name="Compañero (Ixchelcoatl)" hidden="false"/>
+    <rule id="3df3-93d7-e3f3-ee11" name="Compañero (Maestro Cerebro)" hidden="false"/>
+    <rule id="2efd-d6d0-188a-98ed" name="Compañero (El Almirante)" hidden="false"/>
+    <rule id="6267-2871-60f4-7607" name="Schützenhilfe (Maestro Cerebro)" hidden="false"/>
+    <rule id="d9f4-b6f8-4f9d-9d50" name="Fate Punkt (2)" hidden="false"/>
+    <rule id="2112-0f78-85d9-17b5" name="Mystikerin (Wildnis, Missgunst, Wohlwollen, 1-5)" hidden="false"/>
+    <rule id="7e22-94d9-e9c0-7e12" name="Seelentreiber (0-3 Sansames, inklusive Tufo)" hidden="false"/>
+    <rule id="78e9-0ba8-a9b9-ebe8" name="Compañero (Calamite Balfour)" hidden="false"/>
+    <rule id="0b1c-a9e8-2305-c153" name="Seelentreiber (0-3 Sansame)" hidden="false"/>
+    <rule id="7bbf-a1ee-3691-4e5c" name="Spinnefeind (Ragg Chiflad)" hidden="false"/>
+    <rule id="3287-029e-f529-c79e" name="Verstärkung (Seemann, Seesoldaten)" hidden="false"/>
   </sharedRules>
 </gameSystem>

@@ -68,5 +68,14 @@
     <entryLink id="43a3-f7bb-e183-5ec2" name="D´Arebousse (AFE)" hidden="false" collective="false" import="true" targetId="e80d-8861-755b-fc33" type="selectionEntry"/>
     <entryLink id="6578-71ce-16e0-5b87" name="Potée (AFE)" hidden="false" collective="false" import="true" targetId="913c-898f-755d-b34f" type="selectionEntry"/>
     <entryLink id="12f7-9575-a80b-8697" name="Armond" hidden="false" collective="false" import="true" targetId="f934-81db-4307-ef78" type="selectionEntry"/>
+    <entryLink id="1616-9f92-ff93-138d" name="Virgo Despedad Saufeder" hidden="false" collective="false" import="true" targetId="003f-4215-269b-5e8c" type="selectionEntry"/>
+    <entryLink id="412c-5451-01a1-5452" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
+    <entryLink id="ebb8-f638-2ff1-a37e" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
+    <entryLink id="205b-a5dc-582e-93c5" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
+    <entryLink id="be19-dc6d-6c83-d2fc" name="Capitaine Octavia •" hidden="false" collective="false" import="true" targetId="d0a3-7058-62ff-5cb6" type="selectionEntry"/>
+    <entryLink id="52bd-fedf-d21d-0e57" name="Qualani" hidden="false" collective="false" import="true" targetId="1bf7-4be7-810b-a87b" type="selectionEntry"/>
+    <entryLink id="82b0-4755-e841-6e35" name="Donja Esperanza" hidden="false" collective="false" import="true" targetId="46b8-b8cf-e3e0-216a" type="selectionEntry"/>
+    <entryLink id="3251-e1a3-2fb5-5f3f" name="Gunpowder Mary" hidden="false" collective="false" import="true" targetId="e3ce-34ff-bd37-0705" type="selectionEntry"/>
+    <entryLink id="1b0a-dd36-cc47-9b1f" name="Gipsy" hidden="false" collective="false" import="true" targetId="82b3-03dd-0930-ca4f" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

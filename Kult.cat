@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8022-9887-19ec-677d" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
     <entryLink id="0be1-a588-0ef1-82fa" name="La Pelotera #1" hidden="false" collective="false" import="true" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
@@ -67,5 +67,21 @@
     <entryLink id="32a6-d58d-9b5a-c80e" name="Tessa Polverade" hidden="false" collective="false" import="true" targetId="fd64-5b3b-933d-9a7e" type="selectionEntry"/>
     <entryLink id="3f9f-4dcc-4c58-dc66" name="Toledo de Alvarez" hidden="false" collective="false" import="true" targetId="04f6-803e-dd04-2a07" type="selectionEntry"/>
     <entryLink id="333d-6c1b-ef31-49df" name="La Gauche  WIP" hidden="false" collective="false" import="true" targetId="2fe4-0ace-0db7-cb46" type="selectionEntry"/>
+    <entryLink id="6f59-07ff-eef8-80d6" name="Calamite Balfour" hidden="false" collective="false" import="true" targetId="c6a1-a546-3535-c841" type="selectionEntry"/>
+    <entryLink id="6b74-8920-cb99-3e4a" name="Tufo" hidden="false" collective="false" import="true" targetId="9a0a-d73e-97d5-2bd4" type="selectionEntry"/>
+    <entryLink id="55ea-9563-95e5-53d0" name="Gunpowder Mary" hidden="false" collective="false" import="true" targetId="e3ce-34ff-bd37-0705" type="selectionEntry"/>
+    <entryLink id="8877-7aa0-e7dd-965d" name="Capitaine Octavia" hidden="false" collective="false" import="true" targetId="f47c-b72d-2179-91a1" type="selectionEntry"/>
+    <entryLink id="0b96-83c5-6df8-455c" name="Calamite Balfour episch K" hidden="false" collective="false" import="true" targetId="c71b-05f5-71e1-ecca" type="selectionEntry"/>
+    <entryLink id="9a26-2a50-e97e-f4e3" name="Qualani" hidden="false" collective="false" import="true" targetId="1bf7-4be7-810b-a87b" type="selectionEntry"/>
+    <entryLink id="91fb-c853-0826-39b9" name="Gipsy" hidden="false" collective="false" import="true" targetId="82b3-03dd-0930-ca4f" type="selectionEntry"/>
+    <entryLink id="b140-368a-a324-3fb5" name="Donja Esperanza" hidden="false" collective="false" import="true" targetId="46b8-b8cf-e3e0-216a" type="selectionEntry"/>
+    <entryLink id="016b-a957-7dbe-fe1e" name="Papa Houngan episch" hidden="false" collective="false" import="true" targetId="f272-0f56-a355-cd70" type="selectionEntry"/>
+    <entryLink id="8438-fe32-8a76-f960" name="Papa Houngan" hidden="false" collective="false" import="true" targetId="6a6a-3e68-a81d-9bfd" type="selectionEntry"/>
+    <entryLink id="d2c2-a3b5-497e-ae10" name="Chassa" hidden="false" collective="false" import="true" targetId="648a-e668-04a2-7427" type="selectionEntry"/>
+    <entryLink id="8abf-2fa1-653a-a6bc" name="Chassa episch" hidden="false" collective="false" import="true" targetId="4437-32d7-24de-601d" type="selectionEntry"/>
+    <entryLink id="020a-73c3-fb5a-7ae7" name="Virgo Despedad Saufeder" hidden="false" collective="false" import="true" targetId="003f-4215-269b-5e8c" type="selectionEntry"/>
+    <entryLink id="57b0-bd39-494a-fd81" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
+    <entryLink id="32be-4865-f6ba-050f" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
+    <entryLink id="1103-09e6-8c4c-e060" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

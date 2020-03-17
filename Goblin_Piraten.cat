@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2f56-3339-9366-5682" name="Baron Conchita" hidden="false" collective="false" import="true" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
     <entryLink id="6aad-0daa-4314-8227" name="Moja Alga" hidden="false" collective="false" import="true" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry"/>
@@ -81,5 +81,21 @@
     <entryLink id="8c56-b227-29c0-c693" name="Toledo de Alvarez" hidden="false" collective="false" import="true" targetId="04f6-803e-dd04-2a07" type="selectionEntry"/>
     <entryLink id="7bc4-acf8-b65f-6c17" name="Fonogra" hidden="false" collective="false" import="true" targetId="1460-d5e2-56f7-1dab" type="selectionEntry"/>
     <entryLink id="87ed-b785-88a4-c7bc" name="Senor Flauschkätzchen" hidden="false" collective="false" import="true" targetId="04af-018d-17f1-31bd" type="selectionEntry"/>
+    <entryLink id="57c1-d7fd-2bd7-3cfd" name="Capitaine Octavia •" hidden="false" collective="false" import="true" targetId="d0a3-7058-62ff-5cb6" type="selectionEntry"/>
+    <entryLink id="24ea-f244-4448-28c2" name="Qualani" hidden="false" collective="false" import="true" targetId="1bf7-4be7-810b-a87b" type="selectionEntry"/>
+    <entryLink id="fa85-30fe-8bb7-df69" name="Gipsy" hidden="false" collective="false" import="true" targetId="82b3-03dd-0930-ca4f" type="selectionEntry"/>
+    <entryLink id="f96d-62ea-38f2-4224" name="Donja Esperanza" hidden="false" collective="false" import="true" targetId="46b8-b8cf-e3e0-216a" type="selectionEntry"/>
+    <entryLink id="6509-cf29-b663-7a1e" name="Maestro Cerebro episch" hidden="false" collective="false" import="true" targetId="cb58-584e-c3af-3b4e" type="selectionEntry"/>
+    <entryLink id="85e2-8ea1-c43f-ae96" name="Cebo" hidden="false" collective="false" import="true" targetId="0835-b869-f771-04e0" type="selectionEntry"/>
+    <entryLink id="4746-7dc5-f4be-1517" name="Gunpowder Mary" hidden="false" collective="false" import="true" targetId="e3ce-34ff-bd37-0705" type="selectionEntry"/>
+    <entryLink id="652a-519e-a0ae-18eb" name="Ragg Ciflad" hidden="false" collective="false" import="true" targetId="3fed-03be-9b8a-9c80" type="selectionEntry"/>
+    <entryLink id="d70b-0940-f7f8-b380" name="Maestro Cerebro" hidden="false" collective="false" import="true" targetId="3924-9884-0190-fef9" type="selectionEntry"/>
+    <entryLink id="e8b4-0fb7-ca86-4492" name="★ Käpt´n Ragg" hidden="false" collective="false" import="true" targetId="7e62-b61a-0285-1bf5" type="selectionEntry"/>
+    <entryLink id="62d4-1a14-c107-580d" name="Chassa" hidden="false" collective="false" import="true" targetId="648a-e668-04a2-7427" type="selectionEntry"/>
+    <entryLink id="3abc-55e6-46e9-4ed5" name="Chassa episch" hidden="false" collective="false" import="true" targetId="4437-32d7-24de-601d" type="selectionEntry"/>
+    <entryLink id="a3ca-e9a5-3d7a-2a5f" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
+    <entryLink id="d731-5863-14d3-7dcb" name="Virgo Despedad Saufeder" hidden="false" collective="false" import="true" targetId="003f-4215-269b-5e8c" type="selectionEntry"/>
+    <entryLink id="823f-decc-d334-2c30" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
+    <entryLink id="8208-723b-258b-3d03" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
