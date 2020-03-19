@@ -9,7 +9,9 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
-2.3.0 Legendäres Update, weiter Lim und Spe hinzugefügt
+2.4.0 Finka Junior added
+
+2.3.0 Legendäres Update, weiter Lim und Spe added
 
 2.2.2 Loa kosten korrigiert
 
@@ -23,7 +25,7 @@ https://discord.gg/RGH7Nq
 
 2.0.1 Sansame und Seelentreiber angepasst.
 
-2.0.0 Realeas. Kult hinzugefügt.
+2.0.0 Realeas. Kult added.
 
 0.1.1 Boote angepasst
 
