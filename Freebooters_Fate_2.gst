@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="8" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="9" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
     <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
@@ -16899,6 +16899,55 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7466-0ffa-5fea-49b5" name="Finka Junior" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98f-3649-edd6-ff6c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a7dd-243c-a0a1-54ec" name="Finka Junior" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch, Gift, links</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb58-f5e7-fab5-3aa5" name="Finka Junior" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Wurfmesser, rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e32-3d56-060f-02d2" name="Finka Junior" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5901-1d29-39b5-db1b" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+        <infoLink id="c369-d11b-c793-2362" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+        <infoLink id="b9f7-f23e-9bc0-8ad6" name="Miese Ratte" hidden="false" targetId="2de2-0438-aaaa-5916" type="rule"/>
+        <infoLink id="a720-e92b-222c-2fa2" name="Die mit den Ratten tanzt" hidden="false" targetId="9c2c-8b7b-19e4-1cb6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0e5d-8a6e-2676-78f0" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="c156-612b-f735-6ee9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="38da-3c00-a332-5ed7" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="0aa6-8343-89bf-269a" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d4c3-5eef-01ae-ac1b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e8ff-1846-7f07-f2c0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false" import="true">
@@ -19322,5 +19371,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="0b1c-a9e8-2305-c153" name="Seelentreiber (0-3 Sansame)" hidden="false"/>
     <rule id="7bbf-a1ee-3691-4e5c" name="Spinnefeind (Ragg Chiflad)" hidden="false"/>
     <rule id="3287-029e-f529-c79e" name="Verstärkung (Seemann, Seesoldaten)" hidden="false"/>
+    <rule id="2de2-0438-aaaa-5916" name="Miese Ratte" hidden="false"/>
+    <rule id="9c2c-8b7b-19e4-1cb6" name="Die mit den Ratten tanzt" hidden="false"/>
   </sharedRules>
 </gameSystem>
