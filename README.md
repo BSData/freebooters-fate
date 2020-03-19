@@ -9,7 +9,9 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
-2.2.2 Loa kosten koriegiert
+2.3.0 Legendäres Update, weiter Lim und Spe hinzugefügt
+
+2.2.2 Loa kosten korrigiert
 
 2.2.1 Alle für einen Kategorie eingeführt, La Gauche komplettiert
 
