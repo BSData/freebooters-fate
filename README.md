@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.4.1 Bugfix Heuer angepasst
+
 2.4.0 Finka Junior added
 
 2.3.0 Legendäres Update, weiter Lim und Spe added
