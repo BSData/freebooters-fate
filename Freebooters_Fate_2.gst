@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="9" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="10" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
     <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
@@ -3602,7 +3602,7 @@
         <entryLink id="49f6-ad23-5ddc-8f8c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="400.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5915,7 +5915,7 @@
         <entryLink id="70b4-1ace-d3e3-db54" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5969,7 +5969,7 @@
         <entryLink id="9a51-4df6-d8b1-334e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16946,6 +16946,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -16960,12 +16961,12 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a7-27b6-8d41-e1c6" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="56a7-27b6-8d41-e1c6" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="4823-a2b1-e9c4-029b" name="Gift" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acb-c5da-9fe9-ddf7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acb-c5da-9fe9-ddf7" type="max"/>
           </constraints>
           <profiles>
             <profile id="9f5c-0571-f165-3856" name="Gift" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17012,7 +17013,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="512c-8a3f-ed58-9892" name="Loa-Ex" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e46-237c-33e5-ba91" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e46-237c-33e5-ba91" type="max"/>
           </constraints>
           <profiles>
             <profile id="1d52-04e7-845c-c42b" name="Loa-Ex" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17030,7 +17031,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="9d1b-8a0c-7dd0-f1d7" name="Glücksbringer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e7-9027-9065-7a68" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66e7-9027-9065-7a68" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b68-98d4-0fe6-17ce" type="max"/>
           </constraints>
           <profiles>
@@ -17062,7 +17063,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d4-1eda-3553-a64f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8d4-1eda-3553-a64f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110a-330a-0a6a-71e1" type="max"/>
           </constraints>
           <profiles>
@@ -17081,7 +17082,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="c105-4d14-d4d9-cf88" name="Sägeschliff" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784c-6741-eb0e-2296" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784c-6741-eb0e-2296" type="max"/>
           </constraints>
           <profiles>
             <profile id="2333-ec2a-2fca-58b4" name="Sägeschliff" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17106,7 +17107,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="052b-fce6-6652-ac51" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="052b-fce6-6652-ac51" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e2-0dd5-63b2-bcb7" type="max"/>
           </constraints>
           <profiles>
@@ -17137,7 +17138,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c53-bce3-8198-03cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c53-bce3-8198-03cc" type="max"/>
           </constraints>
           <profiles>
             <profile id="7b46-b655-3464-d745" name="Kartusche" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17170,7 +17171,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac6e-7003-956e-dd57" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac6e-7003-956e-dd57" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ceb-0482-226f-5889" type="max"/>
           </constraints>
           <profiles>
@@ -17201,7 +17202,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ca-a00d-a4a1-a458" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ca-a00d-a4a1-a458" type="max"/>
           </constraints>
           <profiles>
             <profile id="913e-e194-85e7-367e" name="Fetisch" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17257,7 +17258,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688e-bf3e-f923-3b21" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688e-bf3e-f923-3b21" type="max"/>
           </constraints>
           <profiles>
             <profile id="41fe-68fa-6848-ba92" name="Jarronos Geschenk" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17308,7 +17309,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b69a-3d1e-2ba3-4243" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b69a-3d1e-2ba3-4243" type="max"/>
           </constraints>
           <profiles>
             <profile id="d93c-93b8-7620-69fc" name="Toccasana" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17380,7 +17381,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f0-794e-c62a-6aae" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d5-338e-5b11-69d1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97d5-338e-5b11-69d1" type="max"/>
           </constraints>
           <profiles>
             <profile id="60dc-e5ec-5c3d-94e9" name="Knüppelhartes Baguette" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17565,6 +17566,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943f-4e6d-4744-8a07" type="max"/>
+          </constraints>
           <profiles>
             <profile id="628c-f670-c598-833d" name="Holzbohrer" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -17586,6 +17590,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="779d-a62f-3384-e164" type="max"/>
+          </constraints>
           <profiles>
             <profile id="aa62-dfb9-2d2b-2265" name="Huhn" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
               <characteristics>
@@ -17609,7 +17616,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aea2-5c84-1713-223e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aea2-5c84-1713-223e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-b969-89bb-54c4" type="max"/>
           </constraints>
           <profiles>
@@ -17628,7 +17635,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="4998-e641-93d9-9db9" name="Blaues Lutschbonbon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e9-ba24-8eec-1f1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e9-ba24-8eec-1f1c" type="max"/>
           </constraints>
           <profiles>
             <profile id="93db-5dfe-410c-1109" name="Blaues Lutschbonbon" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17671,7 +17678,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="2328-52e8-6f7e-6e77" name="Kleine Knotenkunde" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c177-65e1-8d31-d3cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c177-65e1-8d31-d3cc" type="max"/>
           </constraints>
           <profiles>
             <profile id="4b61-30d3-ee2f-21b2" name="Kleine Knotenkunde" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17692,7 +17699,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="ee9c-d896-ca98-cb74" name="Splittergeschoss" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342c-d041-3777-48a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342c-d041-3777-48a3" type="max"/>
           </constraints>
           <profiles>
             <profile id="ecdc-43c5-7bfb-d009" name="Splittergeschoss" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17717,7 +17724,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc96-8ab3-bb7c-cb83" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc96-8ab3-bb7c-cb83" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ea-673d-1adc-2c9e" type="max"/>
           </constraints>
           <profiles>
@@ -17748,6 +17755,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30a-f1b3-fa9a-808e" type="max"/>
+          </constraints>
           <profiles>
             <profile id="92db-124b-75d1-56bb" name="Tarnbemalung" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
               <characteristics>
@@ -17767,7 +17777,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="d485-54f0-d9a9-25e4" name="Kletterhaken" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6317-c4e7-b71b-ce7d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6317-c4e7-b71b-ce7d" type="max"/>
           </constraints>
           <profiles>
             <profile id="7802-958f-d0fa-6807" name="Kletterhaken" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17785,7 +17795,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="d108-2269-b288-3709" name="Krummes Wurfholz" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b19a-07e9-6ff3-2dd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b19a-07e9-6ff3-2dd2" type="max"/>
           </constraints>
           <profiles>
             <profile id="3a33-258a-6049-a450" name="Krummes Wurfholz" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17803,7 +17813,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="c2bd-576a-bdd1-e332" name="Mamas Trinktur" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c1-dcdd-101b-2d8b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c1-dcdd-101b-2d8b" type="max"/>
           </constraints>
           <profiles>
             <profile id="d505-bb25-cd02-80ba" name="Mamas Trinktur" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17828,7 +17838,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="140b-c9e9-7c3f-00c1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="140b-c9e9-7c3f-00c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ca-2b87-8e68-eaff" type="max"/>
           </constraints>
           <profiles>
@@ -17847,7 +17857,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="38fa-5f6e-d7b5-f927" name="Alte Dublone" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1904-a83b-9f0e-94a2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1904-a83b-9f0e-94a2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6091-2bf9-7e43-f08b" type="max"/>
           </constraints>
           <profiles>
@@ -17866,7 +17876,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="fe3e-fb16-a52b-f720" name="Treuer Begleiter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="028c-4c39-06c9-581b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="028c-4c39-06c9-581b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1781-2a10-2e63-69ff" type="max"/>
           </constraints>
           <profiles>
@@ -17885,7 +17895,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="8965-710c-8869-2e1f" name="Alte Holzpfeife" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412b-69a2-2027-bff4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412b-69a2-2027-bff4" type="max"/>
           </constraints>
           <profiles>
             <profile id="dbae-e3f3-1886-e2ee" name="Alte Holzpfeife" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17904,7 +17914,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="1a3d-14bf-0875-a994" name="Kleiner Handspiegel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dc2-f790-2648-3271" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8065-1f86-6644-5001" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8065-1f86-6644-5001" type="max"/>
           </constraints>
           <profiles>
             <profile id="c615-d1e4-47ba-043f" name="Kleiner Handspiegel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18801,7 +18811,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
         <selectionEntry id="f95f-a3ca-83b0-367c" name="Zielfernrohr" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c03-ade1-2ad3-abbe" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c03-ade1-2ad3-abbe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1851-b9e5-2323-bcfa" type="max"/>
           </constraints>
           <profiles>
@@ -18824,7 +18834,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="3f38-87d8-aa66-af2f" name="Erhöhte Reichweite" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3f0-71ae-3b5a-a55b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e43-2d96-be45-cafb" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e43-2d96-be45-cafb" type="max"/>
           </constraints>
           <profiles>
             <profile id="f9fb-52bb-9347-4ea2" name="Erhöhte Reichweite" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18849,7 +18859,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb5-72d7-16be-6a2a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccb5-72d7-16be-6a2a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa51-6a7d-f759-bb7e" type="max"/>
           </constraints>
           <profiles>
@@ -19092,6 +19102,30 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="bf04-9545-b3ab-28b7" name="Schatten Ausrüstung" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="ca23-1bce-6f39-24c8" name="Schwarze Dodofeder" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3b8-fa45-1cfd-dcfc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92db-4f24-039f-5609" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="90f0-1de8-4691-0cb3" name="Schwarze Dodofeder" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2cc7-7cbc-2d8b-d7a1" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="1.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="9fe2-bea2-218d-ae55" name="Schattentor" hidden="false" collective="false" import="true" targetId="c0a1-dd9b-a6f7-8dbf" type="selectionEntry">
           <constraints>
