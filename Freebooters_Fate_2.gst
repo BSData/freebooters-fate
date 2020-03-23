@@ -3653,7 +3653,7 @@
         <entryLink id="8b48-f3c5-6799-41c7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
