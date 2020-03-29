@@ -9,6 +9,8 @@ https://discord.gg/RGH7Nq
 
 #### Version ####
 
+2.4.2 Ausrüstungauswahl an Regeln angepasst
+
 2.4.1 Bugfix Heuer angepasst
 
 2.4.0 Finka Junior added
