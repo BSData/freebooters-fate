@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="10" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="12" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
     <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
@@ -475,6 +475,7 @@
       <entryLinks>
         <entryLink id="5036-54c1-2afd-91af" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="46d0-dcb9-42e9-9d4e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c4e6-de56-7574-97e7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -528,6 +529,7 @@
       <entryLinks>
         <entryLink id="f919-349c-5b46-e859" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d548-55bf-6ff6-5a7a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="dee7-e3fb-073a-64a4" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -589,6 +591,7 @@
       <entryLinks>
         <entryLink id="8916-7a08-d773-26ab" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2389-dfc7-76fc-199b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4984-c383-844d-b259" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -636,6 +639,7 @@
       <entryLinks>
         <entryLink id="362e-4945-a3d0-f33f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="434c-0a23-268f-4c8e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d07e-97c5-2489-d82d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -732,6 +736,7 @@
       <entryLinks>
         <entryLink id="64db-aa3b-9950-0121" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5bfd-7c59-2607-8aaa" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="de32-780e-0af4-7411" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -789,6 +794,7 @@
       <entryLinks>
         <entryLink id="44de-b8e4-6987-a1f3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d087-1e19-abcf-18ac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3387-67d5-32b8-76db" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="170.0"/>
@@ -849,6 +855,7 @@
       <entryLinks>
         <entryLink id="8c15-786d-34dd-38fe" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="38ed-1fe2-302d-a3c6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e0f9-f4a4-bfad-f62a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -894,6 +901,7 @@
       <entryLinks>
         <entryLink id="9e82-486c-2f47-e984" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="01d7-398c-81ec-9db1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a9e4-89c2-2c1b-2272" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -941,6 +949,7 @@
       <entryLinks>
         <entryLink id="8891-7607-1c63-1301" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5428-9e0d-51ef-939d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3e36-3f69-cbdd-9723" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -994,6 +1003,7 @@
       <entryLinks>
         <entryLink id="3189-8968-4c3b-303e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="31de-9346-20b1-a523" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8c36-77e2-027f-0d36" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -1045,6 +1055,7 @@
       <entryLinks>
         <entryLink id="d6a2-4914-a0a2-95a4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="894c-9b94-5583-3edb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0fd9-39cf-b6c9-a6e7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -1092,6 +1103,7 @@
       <entryLinks>
         <entryLink id="4111-abbb-8d94-50e9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f87c-ecac-16b0-469a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3c92-047d-e180-4e17" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -1140,6 +1152,7 @@
         <entryLink id="58fd-dd5b-dc07-6cd9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9ba7-e454-9172-2b9b" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
         <entryLink id="02bd-a3ac-0daa-cabd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="93f2-fa81-46ae-01be" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -1201,6 +1214,7 @@
       <entryLinks>
         <entryLink id="b6b8-b289-7949-9642" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="903c-fbd7-3943-65ed" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="619b-1e81-1bb7-c2bc" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -1256,6 +1270,7 @@
       <entryLinks>
         <entryLink id="5961-5a3f-7ae8-3b0b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="377b-58e3-c30a-5185" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3a26-5514-fbc4-73e7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -1303,6 +1318,7 @@
       <entryLinks>
         <entryLink id="5ef3-057e-d6e8-a67b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9dd6-a344-7a61-f313" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4fc2-f65b-b7a7-716d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -1358,6 +1374,7 @@
       <entryLinks>
         <entryLink id="dcc8-5738-2be1-b119" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="913b-31dc-9288-5705" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="98ad-b42b-a84c-e39e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -1400,6 +1417,7 @@
       <entryLinks>
         <entryLink id="faa6-4359-24f2-8eb0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3eeb-3b8e-64e9-0f1a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c6f2-fae1-805c-ac9d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -1441,6 +1459,7 @@
       <entryLinks>
         <entryLink id="73d4-c99f-f73e-68f7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="70fe-86f6-be54-20df" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="46a6-ef99-70ab-6c9e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -1483,6 +1502,7 @@
       <entryLinks>
         <entryLink id="e711-a80a-a105-8ed9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e03a-295e-0208-f821" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8612-1a97-5d57-0c71" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -1580,6 +1600,7 @@
       <entryLinks>
         <entryLink id="e20a-c8d6-3172-bd8a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b8c1-111a-e61a-88d4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2e99-8c50-a89a-3e59" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -1614,7 +1635,7 @@
         <infoLink id="bfb0-44a8-fad1-c594" name="Wantenläuferin" hidden="false" targetId="dfd8-a34a-3b69-a56c" type="rule"/>
         <infoLink id="709c-6613-598b-cd86" name="Klingentanz" hidden="false" targetId="0fbe-d74b-c3c9-3407" type="rule"/>
         <infoLink id="4c70-c070-49ea-a0a5" name="Nachtsicht" hidden="false" targetId="c301-4031-5fbe-aafb" type="rule"/>
-        <infoLink id="d127-15bf-c743-f62d" name="Blitzreflexe" hidden="false" targetId="c8cc-e501-d177-46b1" type="rule"/>
+        <infoLink id="d127-15bf-c743-f62d" name="Blitzattacke" hidden="false" targetId="3957-0d44-894b-2714" type="rule"/>
         <infoLink id="ac88-dd61-b57c-6a14" name="Waldläuferin" hidden="false" targetId="35c8-a52c-3caf-230b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1625,6 +1646,7 @@
       <entryLinks>
         <entryLink id="7f0e-77fa-165d-9806" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9097-b4f6-4508-b79f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="351d-a2e3-3832-b03e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -1638,7 +1660,7 @@
       <profiles>
         <profile id="85ba-722d-a9d7-9610" name="Canita" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
-            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Bogen als Knppel</characteristic>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Bogen als Knüppel</characteristic>
             <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
           </characteristics>
         </profile>
@@ -1675,6 +1697,7 @@
       <entryLinks>
         <entryLink id="1fae-a210-ddf6-b77a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="624c-3be8-8c72-eae1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5cf8-9b4e-5411-853b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -1728,6 +1751,7 @@
         <entryLink id="29c8-4718-449e-93cf" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
         <entryLink id="9735-c2db-4e7e-bc46" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
         <entryLink id="e11c-1166-fe7b-41fc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="bc9e-f7b7-4363-a03a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -1769,6 +1793,7 @@
       <entryLinks>
         <entryLink id="ab5d-6a74-733e-fdb3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0dfa-9ae2-7272-12a8" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6bc9-1d4b-da3c-7fb5" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -1811,6 +1836,7 @@
       <entryLinks>
         <entryLink id="7c63-df81-d46a-8bb2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d04e-6e38-d386-ea8f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4ef6-f907-1bf1-9ce6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -1859,6 +1885,7 @@
       <entryLinks>
         <entryLink id="a9a2-3238-6098-6e79" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="37c8-c0ad-a525-6247" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4ece-7104-a71c-75c3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -1902,6 +1929,7 @@
       <entryLinks>
         <entryLink id="1a6d-37c8-67f9-3daf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7340-4f68-be83-e679" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="bc6c-91b9-931c-6892" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -1949,6 +1977,7 @@
       <entryLinks>
         <entryLink id="7c0b-a428-28e4-7841" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6254-46b5-96a1-ef20" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b4c0-c88d-51eb-4252" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -1997,6 +2026,7 @@
       <entryLinks>
         <entryLink id="dde7-063b-ef11-9335" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a1e5-b5ee-2495-2d92" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0270-84f3-652f-1562" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -2045,6 +2075,7 @@
       <entryLinks>
         <entryLink id="7611-5d1f-9254-4e51" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="04a3-b38f-3685-cc5e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a287-223f-8f5d-2c42" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -2097,6 +2128,7 @@
       <entryLinks>
         <entryLink id="01b5-2acb-6327-cc30" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1478-7f48-91fd-4101" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="262d-0541-9962-8de4" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -2154,6 +2186,7 @@
       <entryLinks>
         <entryLink id="9382-e846-8bf7-1103" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a078-39b2-d6af-e42a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="402e-86d4-1fbf-9bc3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -2203,6 +2236,7 @@
         <entryLink id="5d87-d7bd-0c64-163c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7d85-6d3e-9666-fe74" name="Arida #1" hidden="false" collective="false" import="true" targetId="43f1-a951-0490-e316" type="selectionEntry"/>
         <entryLink id="4317-1596-3deb-6ed0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4f6f-99ca-a891-c2f8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -2247,6 +2281,9 @@
         <categoryLink id="56b5-5058-a5f8-3b72" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="f805-71e4-4c95-71a6" name="Lim" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="80dd-1ec1-974d-a6b8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -2306,6 +2343,7 @@
       <entryLinks>
         <entryLink id="ff65-6d38-d4f0-2deb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="bb6e-681c-6e59-21c2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6e6f-3e1d-aa8a-cdcf" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -2360,6 +2398,7 @@
       <entryLinks>
         <entryLink id="be7c-89db-4537-8283" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8c7f-986f-996b-52ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b01c-71fd-2b78-03a3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -2417,6 +2456,7 @@
         <entryLink id="94b0-a61d-3927-9d0c" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
         <entryLink id="23ba-285a-8eee-ab43" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5076-7a89-1ee3-f963" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d519-bfa0-bc8d-cef1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -2472,6 +2512,7 @@
       <entryLinks>
         <entryLink id="26c5-c3f6-4442-6539" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="af99-24d7-f381-f537" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="16b1-40e4-fd7f-afb5" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -2529,6 +2570,7 @@
       <entryLinks>
         <entryLink id="6a60-17aa-a37c-3ef6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="bc89-36b8-193c-e07f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d888-a494-a696-b6c5" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -2587,6 +2629,7 @@
       <entryLinks>
         <entryLink id="df15-3cde-04ed-572e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6edf-4c6d-7bbf-f80e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="07ce-c023-f271-12f5" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -2634,6 +2677,7 @@
       <entryLinks>
         <entryLink id="abe3-a798-7dd8-010c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="48d1-af6c-945d-25a5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8b31-5a3d-1227-1557" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -2680,6 +2724,7 @@
       <entryLinks>
         <entryLink id="13ed-b514-910c-df05" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7742-1d7f-3c32-d262" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8f58-a0b1-07ad-e1b9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -2726,6 +2771,7 @@
       <entryLinks>
         <entryLink id="cd94-236a-1c8b-e960" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c069-2af2-f012-a9a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="251a-46fb-872d-d396" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -2782,6 +2828,7 @@
         <entryLink id="798e-7d38-d5a8-7262" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
         <entryLink id="47f4-d469-ada4-7a5b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5a55-dc16-0e39-22a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9560-87e1-ea85-91c9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -2846,6 +2893,7 @@
         <entryLink id="0f54-c32e-3f7e-256d" name="Loa Wohlwollen" hidden="false" collective="false" import="true" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup"/>
         <entryLink id="d7e9-c88e-82cd-f7ff" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5ef1-8cad-706f-f740" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d285-3496-2e37-e4e6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -2899,6 +2947,7 @@
       <entryLinks>
         <entryLink id="ebde-0eca-4a2f-f387" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7f0d-8ce6-d228-c346" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="701b-a00e-da1e-a28c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -2944,6 +2993,7 @@
       <entryLinks>
         <entryLink id="c82c-ea64-c3cc-80f2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ebb6-7351-5492-f936" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5d90-2833-8e45-0305" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -2992,6 +3042,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5e72-aabb-1c8d-573d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ff19-90ed-9e49-49a3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -3050,6 +3101,7 @@
         <entryLink id="ef01-7edf-d35a-aaa7" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
         <entryLink id="154d-5252-f65d-d532" name="Cäsar" hidden="false" collective="false" import="true" targetId="d562-10ed-5135-2ec9" type="selectionEntry"/>
         <entryLink id="05e3-bd7d-b826-0fde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e454-3b49-5fab-2f9e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -3097,6 +3149,7 @@
       <entryLinks>
         <entryLink id="fb0b-27dd-3026-2950" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b2bb-a329-6d71-6825" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1520-8f12-15c7-55f1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -3148,6 +3201,9 @@
         <categoryLink id="3913-0276-2bd5-19a8" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="true"/>
         <categoryLink id="a3ce-f6f0-a7a3-253f" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="a265-eeba-0004-b317" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -3198,6 +3254,7 @@
       <entryLinks>
         <entryLink id="aa5b-237f-2a32-f573" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ed82-c75d-79f7-6b5b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3503-a0b2-3819-eb0a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -3260,6 +3317,7 @@
         <entryLink id="ba3a-420b-e604-795e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2e3c-d42b-dc1d-98d6" name="Samuel Juanhijo" hidden="false" collective="false" import="true" targetId="248d-2618-0198-9a94" type="selectionEntry"/>
         <entryLink id="650e-17fa-6de7-9cac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4b7f-70ee-26c5-c604" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -3314,6 +3372,7 @@
       <entryLinks>
         <entryLink id="6b76-9431-98a3-7e19" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8007-56db-3a7d-3b65" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9ce9-cbdb-2eaf-0580" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -3364,6 +3423,7 @@
       <entryLinks>
         <entryLink id="cc16-c830-abd0-ed36" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c393-0611-0047-e4b6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="37ad-261e-f338-05df" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -3408,6 +3468,7 @@
       <entryLinks>
         <entryLink id="d6bb-d5ff-6f68-adc4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e3a6-3af0-edef-2c2d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ed97-7607-ce1a-59eb" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -3459,6 +3520,7 @@
       <entryLinks>
         <entryLink id="a1f0-3188-2f04-b518" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b365-f075-2326-c943" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="bffd-f051-9847-3031" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -3508,6 +3570,7 @@
       <entryLinks>
         <entryLink id="f5c4-9985-543d-2130" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="da57-b806-6944-2445" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1acc-771d-7fa7-5f50" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -3556,6 +3619,7 @@
       <entryLinks>
         <entryLink id="2230-7924-c486-5d24" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3de8-65b6-991a-e519" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9e80-d1f1-95ab-5908" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -3600,6 +3664,7 @@
       <entryLinks>
         <entryLink id="237f-32c7-6ff9-a5c1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="49f6-ad23-5ddc-8f8c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="24ab-8faa-4f27-e437" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -3651,6 +3716,7 @@
       <entryLinks>
         <entryLink id="cd57-1959-1944-8ba8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8b48-f3c5-6799-41c7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="04c2-c373-1144-f732" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -3698,6 +3764,7 @@
       <entryLinks>
         <entryLink id="b8be-49bb-56b1-6730" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c3a3-519d-156a-8fbc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f4f0-9c6b-03b3-b27d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -3742,6 +3809,7 @@
       <entryLinks>
         <entryLink id="3c98-7577-dc36-7121" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="cc92-1281-49d4-45a6" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="da10-8a29-a99c-cb36" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -3794,6 +3862,7 @@
       <entryLinks>
         <entryLink id="9b52-07a2-04c4-1365" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="fd8b-9f10-30c2-8d88" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d35f-bdd5-bb8e-5afd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -3845,6 +3914,7 @@
       <entryLinks>
         <entryLink id="f08f-4c82-df1b-6af7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9382-ecf6-a0d1-dc84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4416-b1a6-d0a6-9017" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -3897,6 +3967,7 @@
       <entryLinks>
         <entryLink id="d7a0-0f96-7149-7dea" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e6fd-b86b-45b5-cc1d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="566b-c86f-5654-7ac6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -3944,6 +4015,7 @@
       <entryLinks>
         <entryLink id="4499-8be0-e598-3a49" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="224d-9a47-f2d2-45c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d9cc-6dcc-6560-3f5c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -3990,6 +4062,7 @@
       <entryLinks>
         <entryLink id="c233-50c7-9db5-65f3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7e35-19d1-142b-e34f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8ee3-a961-3c42-9e48" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -4041,6 +4114,7 @@
       <entryLinks>
         <entryLink id="40c0-d36f-2364-9e65" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="43bb-8267-b98b-72b9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d9e1-a803-affc-629f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -4087,6 +4161,7 @@
       <entryLinks>
         <entryLink id="9220-0028-53cd-7fca" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a8cb-9817-6ed5-927c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d2a5-121a-bad4-8fad" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -4144,6 +4219,7 @@
       <entryLinks>
         <entryLink id="a733-c38a-ae39-69db" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8a83-f8a2-22fb-d66f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8b8d-6705-27a8-9eee" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -4196,6 +4272,7 @@
       <entryLinks>
         <entryLink id="01e7-b6e8-226d-3ec1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="aeb4-c2b8-c3d9-6275" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4c9c-ec63-8390-1454" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -4440,6 +4517,7 @@
       <entryLinks>
         <entryLink id="205f-3456-2ff5-b56b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6b48-dfad-a0a6-6c10" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="eece-db14-cacd-5b6f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="150.0"/>
@@ -4485,6 +4563,7 @@
       <entryLinks>
         <entryLink id="24ef-3dfc-6bab-7647" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d31d-eb8a-b138-df31" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7f4e-0b05-c392-870a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="165.0"/>
@@ -4535,6 +4614,7 @@
       <entryLinks>
         <entryLink id="a994-b7e1-7b72-079e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3772-1175-91f9-96bb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0b87-b61c-14e1-6d90" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
@@ -4584,6 +4664,7 @@
       <entryLinks>
         <entryLink id="6613-f074-90cd-edfb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7261-08c6-fef3-5f0d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="da89-2b36-ed8d-fe26" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -4633,6 +4714,7 @@
       <entryLinks>
         <entryLink id="bc62-1dc8-c329-6bde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="934d-9d58-4422-34db" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="dafd-299d-1f8c-26af" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -4683,6 +4765,7 @@
       <entryLinks>
         <entryLink id="8d35-172d-999d-6ef1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e21e-7cbb-eefe-6e44" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="77a5-df6f-8948-e622" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -4764,6 +4847,7 @@
       <entryLinks>
         <entryLink id="9d93-2daa-35d6-ba79" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c52f-4f7e-5d6a-5884" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a9ca-1ab4-3c44-f0f9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -4804,6 +4888,7 @@
       <entryLinks>
         <entryLink id="ed5b-42e7-3cdb-780a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1857-2b43-451d-2cbe" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="df08-814b-224c-8330" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -4844,6 +4929,7 @@
       <entryLinks>
         <entryLink id="29b1-605d-6962-d39e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d235-6990-c721-0f2b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="87fb-d410-33b0-b3d9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -4884,6 +4970,7 @@
       <entryLinks>
         <entryLink id="8b82-692d-2253-77cd" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="66c2-17b7-0a4f-43dd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c710-c54b-7680-3083" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -4934,6 +5021,7 @@
       <entryLinks>
         <entryLink id="baab-97f6-eaf0-8fc0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0b19-8ad0-92ac-80e4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="68e3-e653-ebc5-3e4e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -4971,6 +5059,7 @@
       <entryLinks>
         <entryLink id="5436-53b1-5481-c3e8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c020-97d9-6654-2027" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b205-099d-3c92-6d6d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -5017,6 +5106,7 @@
       <entryLinks>
         <entryLink id="fb19-dc7d-62ee-ba03" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ed3e-feea-3b4c-735b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0b6d-c41c-2d5b-b6fb" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -5060,6 +5150,7 @@
       <entryLinks>
         <entryLink id="8b2a-c134-77b5-8cf6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9d16-a7d3-65c0-4966" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3c03-d0ed-09d5-ef1b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -5113,6 +5204,7 @@
       <entryLinks>
         <entryLink id="b2e2-644d-d25a-87d6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1be7-a6cf-49a9-73fb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0eaa-2a45-d49b-2138" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -5155,6 +5247,7 @@
       <entryLinks>
         <entryLink id="e5a4-9433-c486-582f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9563-383e-6537-676d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a484-2418-6b1e-42f7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -5196,6 +5289,7 @@
       <entryLinks>
         <entryLink id="974d-dd13-b111-3b9b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="feb5-48de-b666-5921" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="24f0-79f6-0f70-b3a1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -5245,6 +5339,7 @@
       <entryLinks>
         <entryLink id="9ec0-1266-a4dc-6e46" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f6a5-316f-8e57-8f19" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="dabb-6ba1-3eda-8833" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -5293,6 +5388,7 @@
       <entryLinks>
         <entryLink id="2fc2-88a1-bcb5-1d5d" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="de79-4456-65e3-5b1e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="84d5-ea58-595e-a911" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -5339,6 +5435,7 @@
       <entryLinks>
         <entryLink id="6f20-75f2-6c7a-916f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6438-0ae9-c209-62ee" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="823b-f408-0603-37f8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -5387,6 +5484,7 @@
       <entryLinks>
         <entryLink id="01e0-441e-5ad3-118c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d608-33c1-da08-df2f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="12ec-da0a-906f-9606" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -5430,6 +5528,7 @@
       <entryLinks>
         <entryLink id="5d72-c37c-74b4-6d3b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5942-8ddd-d62c-a87b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9e18-f835-3bf2-4195" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -5479,6 +5578,7 @@
       <entryLinks>
         <entryLink id="5267-81da-613a-2fcf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d4ce-374e-cb3b-8f89" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8952-5194-a8d7-6ae9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -5527,6 +5627,7 @@
       <entryLinks>
         <entryLink id="c46e-f324-aab8-5a59" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="146f-684c-d130-746b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b0b7-104e-2b2a-c5d2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -5572,6 +5673,7 @@
       <entryLinks>
         <entryLink id="4190-5e01-da0a-68de" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="83ea-d24f-7502-39a1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="fec0-3a31-5a6f-2bae" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -5612,6 +5714,7 @@
       <entryLinks>
         <entryLink id="d216-14bc-911e-eaee" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="197e-1506-1976-be77" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6bbe-6f31-6c9c-b043" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -5655,6 +5758,7 @@
       <entryLinks>
         <entryLink id="19d6-cd5d-f92d-c1fd" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f5ec-3023-e3e7-2702" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1fff-4e29-5187-853b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -5717,6 +5821,7 @@
       <entryLinks>
         <entryLink id="1fa4-d086-1fe2-e0c8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c7a2-bf79-70f8-3c40" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3fea-67b2-016c-2e9a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -5766,6 +5871,7 @@
       <entryLinks>
         <entryLink id="9387-37f6-e1d8-f210" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9f62-a4dd-7faa-df6c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="807f-6458-18d5-3b0e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -5820,6 +5926,7 @@
       <entryLinks>
         <entryLink id="543a-42ad-d06e-363e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7dc3-c174-f8b2-2c6a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b80a-611f-40dc-ada2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -5869,6 +5976,7 @@
       <entryLinks>
         <entryLink id="e963-74bc-fc6d-d321" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4b29-29d3-8f6f-5179" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="773d-85ec-2534-4996" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -5913,6 +6021,7 @@
       <entryLinks>
         <entryLink id="8ae5-399e-4b02-c499" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="70b4-1ace-d3e3-db54" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="abbe-625f-d3bb-376c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -5967,6 +6076,7 @@
       <entryLinks>
         <entryLink id="090f-87ac-894a-e283" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9a51-4df6-d8b1-334e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d15d-a927-ea16-284f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -6011,6 +6121,7 @@
       <entryLinks>
         <entryLink id="703f-6709-aeaf-0c6a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="20a1-ce23-da19-81ce" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6edf-ea23-1eec-24fb" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -6065,6 +6176,7 @@
       <entryLinks>
         <entryLink id="b8db-c7dc-add2-458b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0efb-cc9f-420f-31c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="329e-e255-bc54-411d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -6108,6 +6220,7 @@
       <entryLinks>
         <entryLink id="009d-8957-9f62-3c07" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3a22-02ad-51a9-7473" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a840-5a3b-0371-c788" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -6155,6 +6268,7 @@
       <entryLinks>
         <entryLink id="0e16-16ac-ab09-acfe" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ed35-6a4a-79b3-ed2e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5d3e-1e13-7f23-b1cd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -6203,6 +6317,7 @@
       <entryLinks>
         <entryLink id="a345-56c7-8424-c991" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7dde-607e-e7ab-9e68" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0023-2811-ddc1-1c56" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -6250,6 +6365,7 @@
       <entryLinks>
         <entryLink id="0cf4-3849-b780-9bdd" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4733-99af-562e-4226" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c100-8067-faeb-ffd6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -6296,10 +6412,6 @@
         <categoryLink id="8942-7580-11ff-5159" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="f927-50d8-f4b2-d568" name="Tiere" hidden="false" targetId="0e47-d461-b178-5e66" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="38b6-5df4-df89-db0f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
-        <entryLink id="f931-e6b6-785c-3c82" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -6356,6 +6468,7 @@
       <entryLinks>
         <entryLink id="9419-9acc-2b62-2962" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4b58-a9de-2702-8b90" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="cc60-0d28-699c-22e3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -6397,6 +6510,7 @@
       <entryLinks>
         <entryLink id="cc49-324e-9c87-1295" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="538c-3d65-56d2-5dcd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="59f5-d18d-1658-1693" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -6445,6 +6559,7 @@
       <entryLinks>
         <entryLink id="1c2c-41b1-a1df-f74c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4f2d-37bf-9715-7070" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ec38-a01c-96c2-8679" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -6486,6 +6601,7 @@
       <entryLinks>
         <entryLink id="bf35-d459-3409-e3db" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f24d-b992-64b6-b4b0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7ed5-e7fb-5355-fe9e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -6530,6 +6646,7 @@
       <entryLinks>
         <entryLink id="e8b3-fa4f-bf1a-c2ca" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7003-187f-e10e-45ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ec3b-626c-a936-b7ea" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -6578,6 +6695,7 @@
       <entryLinks>
         <entryLink id="6a7a-2570-8c43-9f5c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2d50-7526-9136-7d34" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1cca-d4b1-3b3b-d8d3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -6620,6 +6738,7 @@
       <entryLinks>
         <entryLink id="b5b2-4109-13ca-9392" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="52df-bf7b-e68b-f9e2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="79f6-47e4-64ba-b069" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -6668,6 +6787,7 @@
       <entryLinks>
         <entryLink id="d43b-8573-5aaa-ae90" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="136f-6c90-0e3b-d395" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7f21-6464-9c50-8f5f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -6708,6 +6828,7 @@
       <entryLinks>
         <entryLink id="bc02-7b1c-11cc-8dbe" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="77f8-b295-7f19-868e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5afa-c34b-b2f9-af8d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
@@ -6757,6 +6878,7 @@
       <entryLinks>
         <entryLink id="ee94-0f1c-d1b1-110a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="fd70-342d-e108-28fc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7fb7-c132-8c16-bcb5" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -6798,6 +6920,7 @@
       <entryLinks>
         <entryLink id="8ab6-bdb5-a109-c82c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="51e5-f68c-6ae5-b3be" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8086-450b-1e60-e2b2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -6847,6 +6970,7 @@
       <entryLinks>
         <entryLink id="8e1c-ab7c-9536-57d3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7bcb-c9a5-7066-0ce9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1ec8-909a-d96b-40b6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -6888,6 +7012,7 @@
       <entryLinks>
         <entryLink id="0dd4-8ca2-2a03-d890" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="78b4-6b3d-c6f6-f6ef" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2152-1d16-ed77-10fe" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -6930,6 +7055,7 @@
       <entryLinks>
         <entryLink id="ba6c-6a0e-bca5-3621" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2e7a-7c2d-cffc-33d1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4760-c472-9f07-89e9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -6977,6 +7103,7 @@
       <entryLinks>
         <entryLink id="7e5d-6ab7-f024-9d30" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="daf7-5bc2-880a-ac84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="18cc-5326-e462-f3ec" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -7024,6 +7151,7 @@
       <entryLinks>
         <entryLink id="c757-5e0c-5125-f4b4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e6c9-a5c4-23b2-447c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a567-ac69-5be2-595e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -7073,6 +7201,7 @@
       <entryLinks>
         <entryLink id="8c26-1976-f357-8558" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f2aa-1dbf-93f3-5742" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="984a-bfce-4345-4562" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -7124,6 +7253,7 @@
       <entryLinks>
         <entryLink id="de1b-3f4b-b887-1932" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5134-a984-38bb-e4b9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="330a-9ca0-2031-eb6a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -7175,6 +7305,7 @@
       <entryLinks>
         <entryLink id="73cb-e318-daf6-5fb0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="78ae-8238-1716-125a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9b53-0a6b-1ee2-ee43" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -7222,6 +7353,7 @@
       <entryLinks>
         <entryLink id="ac56-1f01-c5f1-491c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6b36-69e7-4c7e-339a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9a2e-4f85-064f-6c40" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -7277,6 +7409,7 @@
       <entryLinks>
         <entryLink id="5b4c-36fa-f584-65c5" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5df7-5f1f-ce8b-e708" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d5bb-1b03-2b51-f7c0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7320,6 +7453,7 @@
       <entryLinks>
         <entryLink id="06e1-fe2c-b83b-44d0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a901-54da-a88a-a7e4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0b77-6758-cc96-4a48" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7367,6 +7501,7 @@
       <entryLinks>
         <entryLink id="f3fe-f714-9a24-6329" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7d5e-f0d0-62ee-9ef9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b87c-ebcb-fdc1-93d1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -7410,6 +7545,7 @@
       <entryLinks>
         <entryLink id="0dd7-8d7a-d8be-1dfc" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d205-9084-a236-111b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="35f3-abe2-e95e-7330" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
@@ -7451,6 +7587,7 @@
       <entryLinks>
         <entryLink id="18d0-d676-7a7b-93b4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4a6f-34c8-d4d5-d9e0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="64f6-20b7-e0b8-8801" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
@@ -7500,6 +7637,7 @@
       <entryLinks>
         <entryLink id="fe81-d41e-2d35-773a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4168-7a47-b11b-e491" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6672-4e6e-09d8-dfe8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -7540,6 +7678,7 @@
       <entryLinks>
         <entryLink id="ae74-f578-cd77-0a51" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e4b8-fddd-a01b-c547" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0eb5-330d-a98b-f284" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -7596,6 +7735,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5383-0d33-4d64-a057" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b5dc-1c56-a4b6-aacc" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7647,6 +7787,7 @@
       <entryLinks>
         <entryLink id="4312-73ce-a210-2002" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3e15-8e95-a0d1-7ed1" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="363d-2fb7-1ff7-cbbd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7698,6 +7839,7 @@
       <entryLinks>
         <entryLink id="840a-0056-d90d-aca2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1934-e506-5fb1-ae14" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5a35-c44e-a548-afb6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7746,6 +7888,7 @@
       <entryLinks>
         <entryLink id="1a5e-3d24-1ab8-e61b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4b6d-ee3f-11ab-040e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="879b-8bfb-5705-300b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -7788,6 +7931,7 @@
       <entryLinks>
         <entryLink id="1831-617b-be6d-416a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7ca8-577e-9784-0aa4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ef3d-dc6c-eb9e-56d6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -7836,6 +7980,7 @@
       <entryLinks>
         <entryLink id="2e73-fc2e-bf25-59cb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8492-8ec6-6f78-8b18" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="363d-c09b-eebf-fc84" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -7877,6 +8022,7 @@
       <entryLinks>
         <entryLink id="f1c5-91a1-ebfc-ee06" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="cadd-2872-7a13-f74d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0251-caf6-ffea-4c97" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -7924,6 +8070,7 @@
       <entryLinks>
         <entryLink id="6af2-7ae9-33ed-fb7e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="dd73-15fb-f6aa-585e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3d98-c338-5609-1d46" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -7972,6 +8119,7 @@
       <entryLinks>
         <entryLink id="19ec-a8f5-f0e0-cfc2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ddd5-37c3-9c58-5658" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d755-aa94-143f-ba4d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8021,6 +8169,7 @@
       <entryLinks>
         <entryLink id="4110-e07a-79be-799a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b68a-a530-5cb6-ee67" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a7f9-2305-0bd0-3640" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8064,6 +8213,7 @@
       <entryLinks>
         <entryLink id="0feb-4bcc-b6d4-efae" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="97ff-a7b4-95dc-2fd7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="dda9-6ef1-9fc8-0daa" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -8109,6 +8259,7 @@
         <entryLink id="347b-3a89-3fec-8ded" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
         <entryLink id="6f3d-57ff-29a6-498c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5983-e39d-eec4-81ac" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="cd1f-80aa-68e5-ac86" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8150,6 +8301,7 @@
       <entryLinks>
         <entryLink id="fc1c-6f5b-46e0-4d29" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2f80-4753-a107-4e84" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="bf59-a650-5ac0-d87e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8204,6 +8356,7 @@
       <entryLinks>
         <entryLink id="b166-3dde-bba5-d01f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ae2c-8d33-e813-e6cf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d4a3-1d72-d266-c58d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -8249,6 +8402,7 @@
       <entryLinks>
         <entryLink id="4236-e47e-22a4-b3fd" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1f95-3c1c-6ab3-fccf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7498-88d8-4a47-cb38" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -8303,6 +8457,7 @@
       <entryLinks>
         <entryLink id="c673-df51-79e7-a942" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="be9b-4534-617a-3830" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="80fa-dc8d-7b08-50d0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -8350,6 +8505,7 @@
       <entryLinks>
         <entryLink id="805e-91fd-ec1d-e0db" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="20ca-91cd-4500-8366" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9cdd-4022-ed54-8e56" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8398,6 +8554,7 @@
       <entryLinks>
         <entryLink id="efab-8dc8-f200-de03" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="36b0-f4d8-8dd9-b728" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b400-e51b-25a3-5b25" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -8447,6 +8604,7 @@
       <entryLinks>
         <entryLink id="a041-ff14-f52e-8e43" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="24fd-1463-4120-80da" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="dddc-259c-9352-30d3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -8491,6 +8649,7 @@
       <entryLinks>
         <entryLink id="5107-6f3a-3782-2c63" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="fed2-2a87-9e0c-9e80" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6e9b-621f-dbf5-9df2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8535,6 +8694,7 @@
       <entryLinks>
         <entryLink id="dc90-7160-0c4f-b7c3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f209-4305-5570-8983" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b7ff-69e5-eecd-3458" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -8582,6 +8742,7 @@
       <entryLinks>
         <entryLink id="33d2-685f-3def-a318" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="092d-c66c-9beb-71f9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f129-816d-2f5f-65c1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -8633,6 +8794,7 @@
       <entryLinks>
         <entryLink id="d5bf-1e92-3a64-4443" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9616-c8e1-595c-6a3e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6d3b-ae70-20cc-8591" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -8684,6 +8846,7 @@
       <entryLinks>
         <entryLink id="88da-6d63-a4bd-3595" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2640-399d-534f-7577" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="086e-05a6-4d69-5674" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="115.0"/>
@@ -8736,6 +8899,7 @@
       <entryLinks>
         <entryLink id="9899-83b7-f954-c06f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8079-eefe-9f2c-f035" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ecfa-a495-ecff-8a8e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="105.0"/>
@@ -8781,6 +8945,7 @@
       <entryLinks>
         <entryLink id="ce77-9a27-399d-1be8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="024a-96b1-a417-4fec" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="fde8-6ec5-da7e-8416" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="110.0"/>
@@ -8829,6 +8994,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9cb5-7ec8-a6ac-4dde" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1cfc-f125-4dbc-27e0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -8876,6 +9042,7 @@
         <entryLink id="578f-c152-d4f8-e5b7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="89a6-4805-3d99-6ccf" name="Senore Nefando" hidden="false" collective="false" import="true" targetId="1fd0-a435-6fdd-9773" type="selectionEntry"/>
         <entryLink id="49ae-fdaa-c785-5b60" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b3aa-0f12-1687-9d81" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -8910,6 +9077,7 @@
       <entryLinks>
         <entryLink id="078d-ee85-21a2-f467" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5ec5-0b1e-fc39-9282" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7ccf-055b-1ede-5692" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
@@ -8944,6 +9112,7 @@
       <entryLinks>
         <entryLink id="d8b6-ad63-b3f0-d814" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9703-55d1-66c3-3578" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e6ba-b94f-20d4-84f9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -8981,6 +9150,7 @@
       <entryLinks>
         <entryLink id="3fbc-3061-69a8-f040" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="e6ca-f18f-ba64-471d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="cac1-43c8-735d-aaed" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -9034,6 +9204,7 @@
       <entryLinks>
         <entryLink id="0967-3efc-2d5a-179a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a2bf-ab17-fea0-e539" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7854-cede-896e-985d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -9095,6 +9266,7 @@
       <entryLinks>
         <entryLink id="27ac-27eb-4f27-8575" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="fa24-8bc0-36c1-adfd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a92f-757b-ef01-36ba" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -9139,6 +9311,7 @@
       <entryLinks>
         <entryLink id="c0fc-8978-d3ef-c817" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="26ae-e381-e164-f2df" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a70e-75e8-5996-ed63" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -9188,6 +9361,7 @@
       <entryLinks>
         <entryLink id="c66b-c4f2-cd81-cc17" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3a07-c682-3640-936c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="7e4d-5ffc-3158-5754" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -9230,6 +9404,7 @@
       <entryLinks>
         <entryLink id="3c89-874b-3d9f-7ccf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d9fb-17c9-0338-c4e5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b1df-c328-94fd-83ff" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -9278,6 +9453,7 @@
       <entryLinks>
         <entryLink id="b414-7728-186a-597c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3ad1-c8a9-3a68-85d4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="42c2-8eee-4ea7-6bdd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -9320,6 +9496,7 @@
       <entryLinks>
         <entryLink id="f49a-8e96-a691-0969" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3ae0-834b-3478-997a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="094f-1a76-6996-a5c9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -9367,6 +9544,7 @@
       <entryLinks>
         <entryLink id="6a10-ae36-ef21-dcc3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b82a-b2e4-0fd0-1965" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="148f-70ef-c130-0a65" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9421,6 +9599,7 @@
       <entryLinks>
         <entryLink id="e16f-e91a-c9b5-6e83" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="455a-a809-059d-5441" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8fcd-0a59-d2fd-be02" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -9470,6 +9649,7 @@
       <entryLinks>
         <entryLink id="38f2-ce0c-142f-7719" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="9188-3d23-dc8d-a5dd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="343c-83ed-7daf-17dd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -9519,6 +9699,7 @@
       <entryLinks>
         <entryLink id="c8ad-10bb-2c88-ba71" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="55d1-7017-d2d8-f241" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="16fa-47f7-9a48-3945" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9565,6 +9746,7 @@
       <entryLinks>
         <entryLink id="c411-0201-c636-e8e3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6d38-ffc4-0de2-d97b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="14a3-669f-10b5-d8ca" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -9607,6 +9789,7 @@
       <entryLinks>
         <entryLink id="999c-63db-ae37-29a4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b4b0-e5ac-5faa-aa7b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a1c7-9dbb-01c1-5bb6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9653,6 +9836,7 @@
         <entryLink id="56fc-eb6b-9050-e054" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1f7b-2aad-a5ce-4fb9" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
         <entryLink id="f02f-831b-6f7e-5808" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="ec27-5c64-9022-ac18" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9697,6 +9881,7 @@
       <entryLinks>
         <entryLink id="401b-f571-d59a-91cf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5f0a-da75-a66e-db77" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5d0d-41fe-7fc0-f5bc" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -9739,6 +9924,7 @@
       <entryLinks>
         <entryLink id="bb41-18a5-c72b-10eb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="d019-1f9c-6bb7-c776" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5114-d7da-a2a8-79d6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9788,6 +9974,7 @@
       <entryLinks>
         <entryLink id="8560-871e-92d6-e23b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="ca18-4c8b-a03e-2fe7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="407c-2826-ff23-26dd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -9831,6 +10018,7 @@
       <entryLinks>
         <entryLink id="385f-cb5a-47df-0780" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3599-7d1d-3e4a-997c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2c08-1919-43f2-1ffb" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -9876,6 +10064,7 @@
       <entryLinks>
         <entryLink id="1447-40df-4f33-8cd8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="f10f-f13b-b377-43bb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f8cc-4cfb-19d7-1f54" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -9921,6 +10110,7 @@
       <entryLinks>
         <entryLink id="2e08-81c1-519d-10f5" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1ffc-4f6c-9c7e-9576" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6f63-0ad9-3843-6b7e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -9970,6 +10160,7 @@
       <entryLinks>
         <entryLink id="a76a-3f77-b9e3-b87a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a9b1-bfec-0ce0-0e9d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="e2de-bead-2166-4d0c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10011,6 +10202,7 @@
       <entryLinks>
         <entryLink id="a205-09fb-0b76-61c3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2e2e-a392-a127-1e6d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="64fc-4ec1-8e89-a44d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10061,6 +10253,7 @@
       <entryLinks>
         <entryLink id="dab7-8c39-9480-7a54" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="be8f-e26f-d291-63c5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="fbdc-f12a-6e4b-b642" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -10105,6 +10298,7 @@
       <entryLinks>
         <entryLink id="8691-8a28-f9c0-0cad" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0d46-1139-a343-f4ec" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3da0-220e-5c3e-8c6e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10148,6 +10342,7 @@
       <entryLinks>
         <entryLink id="3e2c-e9af-192f-6960" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a250-26a2-8d74-0319" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a868-5ca3-0ee9-f961" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -10195,6 +10390,7 @@
       <entryLinks>
         <entryLink id="38e4-5a8f-8029-7cb7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="8740-8038-1997-ae13" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="02dd-667a-edc6-bffc" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
@@ -10233,6 +10429,7 @@
       <entryLinks>
         <entryLink id="3df0-9776-31c6-c6f9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b13c-31a3-ac4c-dad8" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="a8f1-e0e2-ed99-b0be" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -10276,6 +10473,7 @@
       <entryLinks>
         <entryLink id="e403-5f56-88a4-51c7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5f2f-9b38-5d30-a942" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="42b6-59bc-ed9c-192f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -10327,6 +10525,7 @@
       <entryLinks>
         <entryLink id="b313-d153-9f11-5553" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b4e0-5236-84b0-d42d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4e4d-8cc6-45de-4ff1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10378,6 +10577,7 @@
       <entryLinks>
         <entryLink id="97e5-16d0-0607-6d0f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="8ba0-b538-d7ad-f22e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5e60-8d5e-0968-e8f2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -10420,6 +10620,7 @@
       <entryLinks>
         <entryLink id="d718-3771-3912-188c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="03b3-355e-0551-a7e2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5a7d-2ec9-ddc3-e9c1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -10475,6 +10676,7 @@
       <entryLinks>
         <entryLink id="c490-0b3b-df6c-9265" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="7695-aa82-f91c-397b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="66e8-3b56-344d-a03b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10525,6 +10727,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="fa7e-47cc-7ea6-7ae5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="aae4-2b7a-900a-67b2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -10567,6 +10770,7 @@
       <entryLinks>
         <entryLink id="fa0d-4ba0-8b4a-965d" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="a0d0-c53c-9215-4cc4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b101-724d-377b-f9ec" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -10617,6 +10821,7 @@
       <entryLinks>
         <entryLink id="dca3-88b6-cb30-6965" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="16a7-69f6-a6eb-536e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="3e0e-5d56-e4d3-1b10" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -10666,6 +10871,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ea6b-0281-03e8-b3cd" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2cbb-5cba-df80-efb9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -10716,6 +10922,7 @@
       <entryLinks>
         <entryLink id="2bf4-c0e9-8c60-5067" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="6d52-d539-f7cf-d075" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c4b0-1f33-1ae3-b797" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -10802,6 +11009,7 @@
       <entryLinks>
         <entryLink id="6b0f-9b93-1b6f-dd46" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="15da-85d3-bc61-51f0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2e3f-adbd-1f61-95d4" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -10853,6 +11061,7 @@
         <entryLink id="45f9-1c6f-181c-bde7" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
         <entryLink id="950a-92ca-f03f-587b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="498e-c2c8-6499-2211" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="e47b-a539-d4a0-b074" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -10949,6 +11158,7 @@
       <entryLinks>
         <entryLink id="632b-60eb-bf2f-d6df" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="6c29-9e5f-9081-6704" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="f393-5344-fc11-518d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -10994,6 +11204,7 @@
       <entryLinks>
         <entryLink id="8711-c119-ea5a-ba6a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="e848-e058-b32e-2e58" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="e999-e922-e44b-7d0a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11041,6 +11252,7 @@
       <entryLinks>
         <entryLink id="4760-69e0-7989-c368" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="54f5-c4d9-f765-19c9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5672-f347-7677-1968" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11092,6 +11304,7 @@
       <entryLinks>
         <entryLink id="0f06-0ed7-11be-1700" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="944e-7872-26e8-b201" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="b991-0e97-b634-b61a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="100.0"/>
@@ -11149,6 +11362,7 @@
       <entryLinks>
         <entryLink id="dacb-255a-1ac2-3872" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="f316-dfbe-b772-433e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="a6ac-2c73-8f73-eecf" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11193,6 +11407,7 @@
       <entryLinks>
         <entryLink id="7bed-8540-a101-8d21" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="5115-deb8-35f4-e628" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3ed6-a90e-4bd4-5626" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -11246,6 +11461,7 @@
       <entryLinks>
         <entryLink id="793a-8174-05c2-a4a1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c3a9-a5f9-c975-5549" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="af67-8cd8-fc05-71c3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -11302,6 +11518,7 @@
       <entryLinks>
         <entryLink id="1783-fbf2-6874-a441" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="5815-27fc-7773-234e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="de84-9ff1-0f46-9b09" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11351,6 +11568,7 @@
       <entryLinks>
         <entryLink id="e906-c422-28ab-52f5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="fd31-825b-69c4-f4e9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3522-5c2a-f0e5-172f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="120.0"/>
@@ -11388,6 +11606,7 @@
       <entryLinks>
         <entryLink id="38d5-19b9-98ac-d10d" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="36a4-54d9-640e-08d9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="689a-4af0-b552-564a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -11439,6 +11658,7 @@
       <entryLinks>
         <entryLink id="b98a-8284-8113-d3c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="25a9-219f-900c-4680" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="eb40-87d5-46af-c19e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11489,6 +11709,7 @@
       <entryLinks>
         <entryLink id="7968-6262-aba9-a76c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="d2f9-a44e-c60e-5196" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="35c9-b5f2-305b-727f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -11537,6 +11758,7 @@
       <entryLinks>
         <entryLink id="316e-43c1-9a27-ee65" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="2913-43a9-ccc6-75fe" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="c8fc-1b4a-c1ef-9fbd" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -11587,6 +11809,7 @@
         <entryLink id="4ce6-459c-64d0-439e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="87fd-d378-35cf-aca6" name="Loa Wildnis" hidden="false" collective="false" import="true" targetId="72b7-3d44-a872-1d10" type="selectionEntryGroup"/>
         <entryLink id="b3a9-8344-cbda-1c04" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="7e20-174f-6dfb-d992" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -11643,6 +11866,7 @@
       <entryLinks>
         <entryLink id="5f86-1545-c1b2-54ec" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="d40a-d911-8d9c-aadb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="6ddf-12a3-0b5f-052a" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -11715,6 +11939,7 @@
       <entryLinks>
         <entryLink id="5856-96c6-e797-e31a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="4590-9c9b-7f95-ea35" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="a25e-ba41-b50d-fe70" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -11759,6 +11984,7 @@
       <entryLinks>
         <entryLink id="7e2d-ebc5-3b20-2b2f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="29e9-5063-73ab-2b25" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3117-b7d1-e29e-6375" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -11810,6 +12036,7 @@
       <entryLinks>
         <entryLink id="d973-5971-cf3e-b019" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="5985-160f-62bb-db9a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="b8da-d165-83f5-77d7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -11866,6 +12093,7 @@
       <entryLinks>
         <entryLink id="4358-d5f8-0ae9-fc31" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="7d49-3535-1b8e-2c34" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5d13-d257-b192-3f39" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
@@ -11915,6 +12143,7 @@
       <entryLinks>
         <entryLink id="e356-fa16-8645-71c5" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="4faa-21a3-9be8-21c8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="e881-9b96-09b6-f5e0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -11959,6 +12188,7 @@
       <entryLinks>
         <entryLink id="d9fb-09ae-beb4-786c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="1d4d-f867-7bda-a06e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="ed9e-8143-2867-a525" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -12071,6 +12301,7 @@
       <entryLinks>
         <entryLink id="d8b3-1e13-123c-9107" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="d3ab-99f4-423b-8ad3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="9364-7ae7-536d-9dbf" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="30.0"/>
@@ -12116,6 +12347,7 @@
       <entryLinks>
         <entryLink id="174b-719a-6321-d696" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="e977-ad88-b604-1507" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="7c96-3694-f411-abb6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -12166,6 +12398,7 @@
       <entryLinks>
         <entryLink id="4e36-8717-bf4e-a853" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="095a-2405-b170-a0fc" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="1e85-9ed8-b352-37a0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -12224,6 +12457,7 @@
       <entryLinks>
         <entryLink id="c085-1e51-4c1d-83ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="6e4d-78b4-c478-20b6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="fa27-dea8-ce5c-6e7d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -12270,6 +12504,7 @@
         <entryLink id="6172-1b07-d6eb-7913" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="8d49-1aa5-ef3d-2e8b" name="Loa Wohlwollen" hidden="false" collective="false" import="true" targetId="89bc-5009-d76f-313a" type="selectionEntryGroup"/>
         <entryLink id="cd2c-ebe0-412f-a819" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="1228-affa-8236-61e3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -12328,6 +12563,7 @@
         <entryLink id="846c-52ae-e858-39b5" name="Loa Missgunst" hidden="false" collective="false" import="true" targetId="4c8e-33a5-f5cd-9391" type="selectionEntryGroup"/>
         <entryLink id="1982-0ee4-82ac-c79a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="4423-d4ca-8ec0-402e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="941b-feaa-6a2e-2398" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -12377,6 +12613,7 @@
       <entryLinks>
         <entryLink id="2c87-28f1-9155-5860" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="0766-6e33-0d13-21b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="0219-c1cf-ae82-e5d3" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="35.0"/>
@@ -12434,6 +12671,7 @@
       <entryLinks>
         <entryLink id="42af-0be2-8b30-a142" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="5cb9-bab4-55b7-8e18" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="1672-2056-4f8e-72ca" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -12476,6 +12714,7 @@
       <entryLinks>
         <entryLink id="c09f-0def-ad6d-8d2b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="2727-167d-6850-4916" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="2677-056c-c6c8-8529" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -12524,6 +12763,7 @@
       <entryLinks>
         <entryLink id="2008-c864-3dff-c846" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="6129-1e2a-d29a-c976" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="6b2c-1823-e15b-1702" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -12570,6 +12810,7 @@
       <entryLinks>
         <entryLink id="3359-fa31-df0e-a14b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="49c8-9046-87ab-8270" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="31e6-0ed6-693c-f3b2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -12625,9 +12866,10 @@
       <entryLinks>
         <entryLink id="6631-4501-ff28-c7ad" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0c3f-f15a-f5f7-63fe" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9ad6-5e67-a365-7ea1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12668,6 +12910,7 @@
       <entryLinks>
         <entryLink id="5042-86c7-516a-388a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b99c-b5ea-e69c-d4d9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="cd0a-5302-93ab-5831" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -12713,6 +12956,7 @@
       <entryLinks>
         <entryLink id="4b95-d957-5176-55da" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="bf60-6732-5c30-06c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="0e18-0467-9dad-86ed" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -12752,7 +12996,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="921f-dba4-c6af-ed36" name="Verbergen" hidden="false" targetId="2cae-890f-ab59-ed2e" type="rule"/>
-        <infoLink id="6962-89f5-fa7d-da9b" name="Wachsam" hidden="false" targetId="212b-40b8-a396-ced1" type="rule"/>
+        <infoLink id="6962-89f5-fa7d-da9b" name="Waldläufer" hidden="false" targetId="35c8-a52c-3caf-230b" type="rule"/>
         <infoLink id="2f42-69eb-65e2-e003" name="Späherin" hidden="false" targetId="6031-2530-8d06-69eb" type="rule"/>
         <infoLink id="8c05-c90d-ac44-141d" name="Tarnen" hidden="false" targetId="0f68-f09a-2f3e-82ba" type="rule"/>
       </infoLinks>
@@ -12764,6 +13008,7 @@
       <entryLinks>
         <entryLink id="71bf-16ed-7dbf-9fa0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="9392-3557-729b-93cb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="bf1c-7fc2-1452-e915" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
@@ -13315,6 +13560,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="5b2b-8e22-6e04-796b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="2492-d50c-861a-3563" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="8b24-5241-ccac-7b8c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -13365,6 +13611,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="52e2-1e52-e888-00a3" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="012a-172d-b11a-93e7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9a70-8589-408d-3a67" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -13434,6 +13681,7 @@ Krallen</characteristic>
         <entryLink id="f11b-e94d-c307-6995" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="f509-ea79-8fc7-e267" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="3d02-da94-0492-0507" name="Wundermittel" hidden="false" collective="false" import="true" targetId="fae7-8f32-505c-d541" type="selectionEntryGroup"/>
+        <entryLink id="3ce3-1f57-a4a4-e728" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -13508,6 +13756,7 @@ Krallen</characteristic>
         <entryLink id="561d-b0da-e846-00a0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="0901-f587-4c54-809f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="92de-8d9e-bbf5-cc6e" name="Wundermittel" hidden="false" collective="false" import="true" targetId="fae7-8f32-505c-d541" type="selectionEntryGroup"/>
+        <entryLink id="31d9-de37-070c-89e1" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -13553,6 +13802,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="0896-d901-575a-d528" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b571-2dbe-80da-b76e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f04b-6bec-e89a-024c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
@@ -13596,6 +13846,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="a92f-17d6-63cc-beeb" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="a62f-e26d-e5e2-65c4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="0d70-726c-4dc4-c0a7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -13652,6 +13903,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="8c6c-2249-3791-60bf" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="b820-59ca-e539-7d5e" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="f7f5-7779-7082-e9e9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -13707,6 +13959,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="a842-6596-b0b9-015a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="e327-5b22-ad22-86b4" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="53f4-4804-37f4-9690" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -13763,6 +14016,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="6bf7-ec2c-e670-de42" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="834c-be23-7558-29e2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="6f63-d9c3-c263-4b44" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -13803,6 +14057,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="4ec2-06a0-bce8-4e40" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5fd7-3554-ec77-dbbf" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="6434-55bd-8b56-b5a8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -13844,6 +14099,7 @@ Krallen</characteristic>
       <entryLinks>
         <entryLink id="d784-c249-aee1-528c" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="1441-23b0-b95e-05b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="f0f9-5771-5a73-8939" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -13892,6 +14148,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="a606-16c8-4dff-428e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="1796-5c24-c6bc-4415" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="75cf-3b29-8722-991d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -13939,6 +14196,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="8a7f-49c8-cc9a-791a" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="8a47-46d1-6cbc-6517" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3edb-8c18-2d65-3931" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -13981,6 +14239,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="4692-6406-7bb0-f8c9" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="62cc-5dc2-24b5-af4a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="a0c9-515c-f7a4-fd80" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -14028,6 +14287,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="efa9-1926-2b00-e07b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="f412-cdf0-9bd1-c452" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="2585-27fb-d228-0a7d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -14116,6 +14376,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="f062-65f6-2672-acd0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="5d9a-e27b-90db-3981" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5b39-774f-09db-d57e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -14165,6 +14426,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="a659-b694-9b07-393f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="8044-6e89-d84f-bf1c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="a5a2-8b40-9d61-e78c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -14208,6 +14470,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="5b74-17f9-8d99-252f" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="ea62-d6a4-4228-0f5f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="46fd-3734-4fdc-b58f" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -14252,6 +14515,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="3b21-4330-c2b8-5484" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="9656-ce90-0bbb-1c6f" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="aff7-1c5c-55ea-3ed2" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -14320,6 +14584,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <entryLinks>
         <entryLink id="06b6-b9d6-c488-b641" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="1c46-ef6b-efd0-90cb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="5c6c-04e5-ac58-68a6" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -14368,6 +14633,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="463e-f3ea-74cf-1126" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="a350-bb8a-aee2-9250" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="4aca-0b7c-b627-8bba" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -14417,6 +14683,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d556-9fba-2fb7-e4d0" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d37b-4aec-e8f8-9964" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -14519,6 +14786,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="74a1-8a07-7d76-923c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="4905-b83f-ddae-b57d" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="2e33-c6bb-0e15-2f2c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -14570,6 +14838,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="563d-b57b-6eea-5a75" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="6352-4048-c7a2-bef6" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="eab9-17fe-e1d0-82a9" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -14625,6 +14894,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="3539-841e-888d-607b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="cc6c-3ea4-8e1d-bc68" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="d02e-bf2d-67e3-917d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -14681,6 +14951,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="e138-119c-95d4-6ad4" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="d603-4931-4332-05d0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="e190-dfbc-ab30-2f66" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -14792,6 +15063,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="8f6a-19be-9763-9b83" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="d57a-75de-17c7-6616" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="90f7-bed6-0fed-64c4" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -14845,6 +15117,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="e457-c0e2-e4a5-85dc" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="b4a8-f33b-25e9-a033" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="cfd9-d249-e019-3ca8" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -14896,6 +15169,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="9a32-59ca-3177-3812" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="4a0d-e0fb-d941-81b8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="0865-d9eb-e7bb-4324" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="95.0"/>
@@ -14955,6 +15229,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="fbd1-4474-b17a-004c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="0dbc-7f7f-7798-3d09" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="c1c1-971e-2861-9167" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -15011,6 +15286,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <entryLink id="3901-f1a1-3998-cabf" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
         <entryLink id="ea2f-1855-f4b9-bd06" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="5160-78b9-d8f7-44c8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="137f-15e1-c21b-384e" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -15071,6 +15347,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <entryLink id="9f48-7e94-e94f-3792" name="Loa Tod" hidden="false" collective="false" import="true" targetId="ecc4-a00e-4dc8-3158" type="selectionEntryGroup"/>
         <entryLink id="4944-d14b-3821-2e00" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="259e-ecde-bf43-7e4b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="8426-8581-aa92-9976" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="85.0"/>
@@ -16893,6 +17170,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="5723-7553-4163-16e2" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="c8f5-eddb-5b95-6467" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="9de4-2cbe-3982-e5c0" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -16943,6 +17221,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <entryLinks>
         <entryLink id="d4c3-5eef-01ae-ac1b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="e8ff-1846-7f07-f2c0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3cf5-4218-a4aa-3a3c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -16957,6 +17236,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad53-13d6-61ac-bd67" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fae7-8f32-505c-d541" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29a1-f8f2-a71e-c19f" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -16964,9 +17244,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="56a7-27b6-8d41-e1c6" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="4823-a2b1-e9c4-029b" name="Gift" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4823-a2b1-e9c4-029b" name="Gift #2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acb-c5da-9fe9-ddf7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ab3-4ffc-fb36-7930" type="max"/>
           </constraints>
           <profiles>
             <profile id="9f5c-0571-f165-3856" name="Gift" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -16982,7 +17263,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6913-121c-0838-4495" name="Chivato" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6913-121c-0838-4495" name="Chivato #3" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -16997,6 +17278,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="76fe-be07-7b05-6f2d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="249b-7e58-3b24-4ceb" type="max"/>
           </constraints>
           <profiles>
             <profile id="2b0f-e09a-cd15-cdc3" name="Chivato" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
@@ -17011,9 +17293,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="512c-8a3f-ed58-9892" name="Loa-Ex" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="512c-8a3f-ed58-9892" name="Loa-Ex #2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e46-237c-33e5-ba91" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30ce-b74d-5701-3498" type="max"/>
           </constraints>
           <profiles>
             <profile id="1d52-04e7-845c-c42b" name="Loa-Ex" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17029,60 +17312,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9d1b-8a0c-7dd0-f1d7" name="Glücksbringer" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66e7-9027-9065-7a68" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b68-98d4-0fe6-17ce" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4864-95d5-a83d-a501" name="Glücksbringer" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal anwenbar</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält einen Fate-Punkt. Nach der Nutzung ist das Mojo des Glücksbringers erschöpft und er wird unbrauchbar</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="db5e-03c1-d781-b604" name="Giftschlange" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5d-ef8f-f832-758d" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8d4-1eda-3553-a64f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110a-330a-0a6a-71e1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1be0-ac29-7a24-ec8b" name="Giftschlange" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal Anwendbar, nur für Amazonen, Bruderschaft oder Kult</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält einen zusätzlichen Nahkampfangriff mit A 2, ST 2 und Gift.  Dieser kann nicht weiter Modifiziert werden. Diese Attacke benötigt keine Aktion. Die Schlange ist danach aber mde und wird unbrauchbar</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c105-4d14-d4d9-cf88" name="Sägeschliff" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c105-4d14-d4d9-cf88" name="Sägeschliff #2" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="784c-6741-eb0e-2296" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad87-d0df-0b8b-2c5c" type="max"/>
           </constraints>
           <profiles>
             <profile id="2333-ec2a-2fca-58b4" name="Sägeschliff" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17098,33 +17331,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4a61-085c-a235-826a" name="Poncebys Taktikmanual" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e40b-1a54-0143-fcee" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="052b-fce6-6652-ac51" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e2-0dd5-63b2-bcb7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2df9-6fbf-de03-8d02" name="Poncebys Taktikmanual" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauherhaft, nur für Anführer</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Deine Mannschaft erhält einen Bonus von +1 auf die Ermittlung der inititive am Anfang jeder Runde</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="90e0-7ab7-cb74-ee8a" name="Kartusche" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="90e0-7ab7-cb74-ee8a" name="Kartusche #2" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -17139,6 +17346,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c53-bce3-8198-03cc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6b62-6808-57ca-a2f2" type="max"/>
           </constraints>
           <profiles>
             <profile id="7b46-b655-3464-d745" name="Kartusche" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17152,37 +17360,6 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           <infoLinks>
             <infoLink id="26db-b10a-c550-0cb8" name="Powdermonky" hidden="false" targetId="5bb4-fd53-8dfd-e32c" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b882-5a83-5895-5bdb" name="Zusatzwaffe" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac6e-7003-956e-dd57" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ceb-0482-226f-5889" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="125b-ce64-44cc-9e07" name="Zusatzwaffe" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal Anwendbar, nicht für Amazonen und Bruderschaft</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e">Rechter und Linker Arm</characteristic>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter kann einmalig die Aktion Fernkampfattacke mit FERN 5/4, 30cm mit dieser Pistole ausführen. Er braucht zum Abfeuern beide Hände</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -17203,6 +17380,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ca-a00d-a4a1-a458" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e6b5-c4d4-31e7-afdb" type="max"/>
           </constraints>
           <profiles>
             <profile id="913e-e194-85e7-367e" name="Fetisch" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17259,6 +17437,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688e-bf3e-f923-3b21" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="daed-8945-e469-0151" type="max"/>
           </constraints>
           <profiles>
             <profile id="41fe-68fa-6848-ba92" name="Jarronos Geschenk" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17310,6 +17489,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b69a-3d1e-2ba3-4243" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="522d-1d6c-1a36-14e8" type="max"/>
           </constraints>
           <profiles>
             <profile id="d93c-93b8-7620-69fc" name="Toccasana" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17342,64 +17522,6 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="970b-8017-aa2a-5fe6" name="Macacron de Bravoure" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f14-80a0-be46-0a79" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9948-6bde-15ff-3c66" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2167-3d48-7245-d6dd" name="Macacron de Bravoure" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, nur für Debonn, nur einmal einsetztbar</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter er</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="ff14-9a32-ea0c-9449" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ed6c-caa4-f009-07e3" name="Knüppelhartes Baguette" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f0-794e-c62a-6aae" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97d5-338e-5b11-69d1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="60dc-e5ec-5c3d-94e9" name="Knüppelhartes Baguette" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1"/>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="1a5c-5360-371a-94d8" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="5e1f-dd63-10a1-34a7" name="Champ Épine" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -17426,7 +17548,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9b7d-869e-058f-61bd" name="Potage Sibyllin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9b7d-869e-058f-61bd" name="Potage Sibyllin #2" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -17435,7 +17557,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="275c-c172-98f5-18fd" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="275c-c172-98f5-18fd" type="max"/>
           </constraints>
           <profiles>
             <profile id="cfcc-19e4-e344-0df3" name="Potage Sibyllin" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
@@ -17453,7 +17575,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f2a1-e2e0-6f82-381b" name="Leichter Handmörser" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f2a1-e2e0-6f82-381b" name="Leichter Handmörser #2" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -17463,6 +17585,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff5-bc40-8ae0-6d0d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd3b-d48e-ea55-07cc" type="max"/>
           </constraints>
           <profiles>
             <profile id="9ff4-91e9-a373-de20" name="Leichter Handmörser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17495,6 +17618,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b1c6-c582-a266-1a58" type="max"/>
+          </constraints>
           <profiles>
             <profile id="b978-2b3d-e910-e13c" name="Bootsreparaturkit" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -17536,6 +17662,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b9e-22c0-9cb1-97dc" type="max"/>
+          </constraints>
           <profiles>
             <profile id="5200-5a07-c4d2-9311" name="Rakete" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -17568,6 +17697,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943f-4e6d-4744-8a07" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d87-a24f-b71b-9702" type="max"/>
           </constraints>
           <profiles>
             <profile id="628c-f670-c598-833d" name="Holzbohrer" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
@@ -17582,7 +17712,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6b51-0657-466a-b293" name="Huhn" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6b51-0657-466a-b293" name="Huhn #2" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -17592,6 +17722,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="779d-a62f-3384-e164" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="45dc-68f7-3a5f-4065" type="max"/>
           </constraints>
           <profiles>
             <profile id="aa62-dfb9-2d2b-2265" name="Huhn" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17607,35 +17738,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e224-de92-eba2-2d2b" name="Blutdolch" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e869-8e85-7a56-60ed" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aea2-5c84-1713-223e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-b969-89bb-54c4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ecc6-e436-dacb-a1f1" name="Blutdolch" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft, nur für Mystiker</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Mystiker kann durch Zahlung einer Blutschuld von 1 einen Bonus von +1A auf eine Anrufung oder Austreibung erhalten. Diese Blutschuld entsteht zusätzlich zu der, die der Loa ohnehin verlangt</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4998-e641-93d9-9db9" name="Blaues Lutschbonbon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e9-ba24-8eec-1f1c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="85e0-bd83-3c25-3dea" type="max"/>
           </constraints>
           <profiles>
             <profile id="93db-5dfe-410c-1109" name="Blaues Lutschbonbon" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17654,31 +17760,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b428-f466-08cb-7827" name="Spucknapf des Schwarzen Schwans" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91cf-831f-5b68-6398" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c307-586e-288c-42a2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c896-84c3-96e7-49d8" name="Spucknapf des Schwarzen Schwans" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält die Eigenschaft Furchtlos</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2008-06d8-c319-c808" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="2328-52e8-6f7e-6e77" name="Kleine Knotenkunde" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c177-65e1-8d31-d3cc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53b8-a998-166f-929c" type="max"/>
           </constraints>
           <profiles>
             <profile id="4b61-30d3-ee2f-21b2" name="Kleine Knotenkunde" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17700,6 +17785,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="ee9c-d896-ca98-cb74" name="Splittergeschoss" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342c-d041-3777-48a3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd5b-0329-fc83-b425" type="max"/>
           </constraints>
           <profiles>
             <profile id="ecdc-43c5-7bfb-d009" name="Splittergeschoss" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17707,32 +17793,6 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
                 <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, nur für Schwarzpulverwaffen</characteristic>
                 <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
                 <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Zieht der Charakter bei der Ermittlung eines Kritischen Treffers im Fernkampf eine weiße Schicksalskarte, dann ist der Treffer Kritisch, unabhängig von der gezogenen Zahl</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="745e-d1ce-0451-9ea7" name="Rollstiefel" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e47-d461-b178-5e66" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc96-8ab3-bb7c-cb83" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ea-673d-1adc-2c9e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="57ab-5019-f479-c568" name="Rollstiefel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft, nicht für Tiere</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält +2 BEW in Offenem Gelände. Alle anderen Geländearten sind für ihn Gefählrich (5). Geht er durch irgendeinen Umstand zu Boden, erleidet er eine zusätliche Blutschuld von 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17757,6 +17817,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30a-f1b3-fa9a-808e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="377b-9b2e-6524-8a21" type="max"/>
           </constraints>
           <profiles>
             <profile id="92db-124b-75d1-56bb" name="Tarnbemalung" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17778,6 +17839,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="d485-54f0-d9a9-25e4" name="Kletterhaken" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6317-c4e7-b71b-ce7d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62e4-94ea-176d-9617" type="max"/>
           </constraints>
           <profiles>
             <profile id="7802-958f-d0fa-6807" name="Kletterhaken" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17796,6 +17858,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="d108-2269-b288-3709" name="Krummes Wurfholz" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b19a-07e9-6ff3-2dd2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="34d0-ceb7-77ec-2cff" type="max"/>
           </constraints>
           <profiles>
             <profile id="3a33-258a-6049-a450" name="Krummes Wurfholz" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17814,6 +17877,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="c2bd-576a-bdd1-e332" name="Mamas Trinktur" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c1-dcdd-101b-2d8b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1713-5259-a565-da31" type="max"/>
           </constraints>
           <profiles>
             <profile id="d505-bb25-cd02-80ba" name="Mamas Trinktur" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17829,73 +17893,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b635-eba2-3c8a-b676" name="Kristallkugel" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="525a-a1ca-b24a-0dd7" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="140b-c9e9-7c3f-00c1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ca-2b87-8e68-eaff" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4c00-6bf1-8efa-6d38" name="Kristallkugel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Einmal anwendbar, nicht für die Imperiale Armada</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Solange der die Kugel tragende Charakter noch im Spiel und nicht in Panik ist, kann sich der Spieler einmal im Spiel die oberste Schicksalskarte ansehen und dann wieder oben auflegen oder unten drunter schieben. Danach ist das Mojo der Kristallkugel aufgebraucht und sie wird unbrauchbar</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="38fa-5f6e-d7b5-f927" name="Alte Dublone" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1904-a83b-9f0e-94a2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6091-2bf9-7e43-f08b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2987-0900-6042-a739" name="Alte Dublone" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Einmal anwendbar</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Die Alte Dublone kann eingesetzt werden, wenn das Symbol Dublone benötigt wird. Nach dem Einsatz zerbröselt die Münze und wird dadurch unbrauchbar</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fe3e-fb16-a52b-f720" name="Treuer Begleiter" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="028c-4c39-06c9-581b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1781-2a10-2e63-69ff" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c849-fd07-a8b6-6b73" name="Treuer Begleiter" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
-              <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten</characteristic>
-                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter zählt immer, als ob er sich im Getümmel mit seinem Begleiter befindet. Wird bei einem Fernkampfangriff statt des Charakter der Begleiter getroffen, erhält dieser den gesammten Schaden. Der Begleiter wird dabei automatisch vertrieben und ist damit unbrauchbar</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8965-710c-8869-2e1f" name="Alte Holzpfeife" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412b-69a2-2027-bff4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e9ea-cb63-0c95-f9cf" type="max"/>
           </constraints>
           <profiles>
             <profile id="dbae-e3f3-1886-e2ee" name="Alte Holzpfeife" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -17911,17 +17912,17 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1a3d-14bf-0875-a994" name="Kleiner Handspiegel" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fc0e-5cb4-9fa6-509a" name="Gift #1" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dc2-f790-2648-3271" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8065-1f86-6644-5001" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4573-be0c-e325-1ec5" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="932f-bdad-c4db-9b7f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c615-d1e4-47ba-043f" name="Kleiner Handspiegel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+            <profile id="1a45-c570-2ee8-b3b1" name="Gift" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
               <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft</characteristic>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, nicht für Schwarzpulverwaffen</characteristic>
                 <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Benutzt der Charakter den Spiegel mit einer Einfachen Aktion Gegenstand benutzen, erhät er dafür die Waffeneigenschaft Nirgendwo Sicher für seine direkt in derselben Handlung nachfolgende Attacke</characteristic>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Eine Waffe des Charakters erhält die einegschaft Gift</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17930,16 +17931,24 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="85fb-a383-c030-ccfb" name="Winkelmesser" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9c82-4ff7-bf72-58a9" name="Huhn #1" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e869-8e85-7a56-60ed" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a034-66a3-9284-d73b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb3-3a3c-9dbe-f713" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b12-de7d-c3ea-b0f6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="681c-e6cd-688d-3cd1" name="Winkelmesser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+            <profile id="9e16-7422-61a1-f5db" name="Huhn" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
               <characteristics>
-                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, Selten</characteristic>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Einmal anwendbar, nur für Mystiker</characteristic>
                 <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
-                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Mystiker kann das Huhn opfern und damit eine, auch aus mehreren LE bestehende Blutschuld bei einer Anrufung oder Austreibung eines Loas bezahlen</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17948,12 +17957,285 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f449-7eff-272b-b943" name="Kartusche #1" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaee-be9d-a823-cf6a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e82-110c-6bfd-188c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8bea-ad5a-5f80-4193" name="Kartusche" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Einmal anwenbar, nur für nachladbare Schwarzpulverwaffen, nicht für Amazonen und Bruderschaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhählt fr eine Aktion Nachladen die Eigenschaft Powdermonky</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d978-cebc-11c4-7476" name="Powdermonky" hidden="false" targetId="5bb4-fd53-8dfd-e32c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="63ee-d5f7-e259-9f38" name="Leichter Handmörser #3" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30bf-5f75-630e-c44f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5099-0fbc-4e71-72dc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="39af-a780-637b-770f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0cfa-ac0c-789f-c1e5" name="Leichter Handmörser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Ausrstung, Dauerhaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b94c-fe71-5904-2320" name="Leichter Handmörser #1" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30bf-5f75-630e-c44f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1371-6cbe-cb4a-e1ec" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11fd-f414-6c00-f757" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="31e5-4eba-7161-6bb5" name="Leichter Handmörser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Ausrstung, Dauerhaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19fc-f852-c6f9-8c24" name="Loa-Ex #1" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef21-13dc-11b6-9204" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b33-8118-6ea8-6da3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="76cf-1f6b-8ba2-2c1e" name="Loa-Ex" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Einal Anwendbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter kann versuchen, einen Loa ins Geisterreich zu verbannen. Er erhält einmalig die Einfach Aktion Austreibung. Der Charakter kann sich dabei nicht konzentrieren.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="062b-6997-f229-c0fe" name="Potage Sibyllin #3" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7d1-ec7c-4883-2aa8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ae6-6dc8-21fa-6b8c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b605-b9ec-aa52-a019" name="Potage Sibyllin" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+              <characteristics>
+                <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266"/>
+                <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="488a-bb82-0fc4-dc6a" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6955-8700-b2b1-0586" name="Potage Sibyllin #1" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7d1-ec7c-4883-2aa8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa75-ae3c-bbb4-ad2d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7fb3-0da0-3006-aeab" name="Potage Sibyllin" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+              <characteristics>
+                <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266"/>
+                <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="7310-59da-073e-287d" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f0a-fcd6-d1f0-125f" name="Sägeschliff #1" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bfc-2f62-f5ed-d3ed" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74be-89c8-1417-1458" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5355-4042-6fdf-d5b8" name="Sägeschliff" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, nur fr Nahkampfwaffen</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Eine Nahkampfwaffe erhält die Waffeneigenschaft Sägeschliff</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7059-7a9d-dacc-87d3" name="Chivato #2" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="679d-c93d-5f95-b1b4" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="679d-c93d-5f95-b1b4" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ec2-3b7a-cf2d-6c6d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d39-6345-ffcb-5783" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="687d-fb6a-a6fb-c116" name="Chivato" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+              <characteristics>
+                <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+                <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="097f-32ff-e53f-a69b" name="Chivato #1" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="679d-c93d-5f95-b1b4" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="679d-c93d-5f95-b1b4" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3402-9ae4-8bd2-1d7b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69e9-7cfd-40ba-ae30" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0b3a-a33c-275e-9310" name="Chivato" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+              <characteristics>
+                <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922"/>
+                <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6875-6426-cb65-1289" name="Zigarre" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd64-5b3b-933d-9a7e" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2b9e-4c37-4544-4ce0" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd64-5b3b-933d-9a7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4dde-dc87-0203-a789" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafe-00d5-8d7b-2a22" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b9e-4c37-4544-4ce0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="48f6-3a87-6471-ece7" name="Zigarre" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1"/>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="e6e1-fe99-1f93-fbc9" name="Boots Ausrüstung" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="hidden" value="true"/>
+        <modifier type="decrement" field="3417-1b1a-48a8-2a5d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1452-4990-4f3c-59ed" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3417-1b1a-48a8-2a5d" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="e1e9-563f-15f4-5f36" name="Magazin für Ballista" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -17997,6 +18279,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="78b2-cf0f-9a17-921e" name="Eimer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd44-a814-ff86-2677" type="max"/>
+          </constraints>
           <profiles>
             <profile id="d414-2027-877e-de0b" name="Eimer" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -18006,7 +18291,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -18018,6 +18303,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eac-5cff-732b-6afe" type="max"/>
+          </constraints>
           <profiles>
             <profile id="1110-3ff4-3551-2aa8" name="Hohe Reling" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -18027,33 +18315,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
-            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3902-9b64-4bd9-e3ef" name="Imerialle Eiche" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ab9-5d4a-6011-c976" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1d3-dc08-1067-5dee" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile id="879a-4305-4c61-3956" name="Imerialle Eiche" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
-              <characteristics>
-                <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Bootsausrüstung, Groß, Dauerhaft, nur für Pinassa oder Barkaza</characteristic>
-                <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -18078,7 +18340,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f4-cd3d-632e-4c3c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="39f4-cd3d-632e-4c3c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e763-7590-0aea-6104" type="max"/>
           </constraints>
           <profiles>
             <profile id="038a-0e7b-fa04-0563" name="Rauchfackel" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
@@ -18094,6 +18357,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="fbec-7c76-b561-f413" name="Taufender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7494-5bc2-db75-8005" type="max"/>
+          </constraints>
           <profiles>
             <profile id="895a-c86e-f568-d567" name="Taufender" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -18108,6 +18374,9 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ec0-1782-6526-b4b1" name="Seepocken" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f6d-7de9-795c-4848" type="max"/>
+          </constraints>
           <profiles>
             <profile id="1a4c-e164-5362-f8d5" name="Seepocken" hidden="false" typeId="1596-5d49-ac81-74b8" typeName="3.3 Bootsausrüstung">
               <characteristics>
@@ -18117,7 +18386,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -18719,12 +18988,13 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     </selectionEntryGroup>
     <selectionEntryGroup id="ad53-13d6-61ac-bd67" name="Ausrüstung Groß" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e961-a265-c1be-0e65" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e961-a265-c1be-0e65" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="99b2-524b-f862-c412" name="Schwerer Mantel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676b-1123-723e-36e6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e502-bc66-0614-8654" type="max"/>
           </constraints>
           <profiles>
             <profile id="f509-5820-fb52-4582" name="Schwerer Mantel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18743,6 +19013,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="de39-672e-9b7b-5c0e" name="Tarnmantel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df11-0373-bcf5-6325" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67b3-df6b-b12e-fb6c" type="max"/>
           </constraints>
           <profiles>
             <profile id="fa85-21ee-f739-adf2" name="Tarnmantel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18776,6 +19047,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a5-edba-428a-eece" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c61f-144c-5028-c325" type="max"/>
           </constraints>
           <profiles>
             <profile id="7545-a1c6-8bdf-352a" name="Sprachrohr" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18794,6 +19066,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="763e-2ab4-7c8b-def0" name="Trittleiter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd2-af5b-9682-bfb1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb97-ad9d-9d41-0c9c" type="max"/>
           </constraints>
           <profiles>
             <profile id="e242-15fd-80a7-515d" name="Trittleiter" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -18879,6 +19152,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <selectionEntry id="f37b-5754-5b76-fa09" name="Zusätzliches Rüstzeugs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab90-b6f4-2363-b3c0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3f7f-34c4-ca63-3cd3" type="max"/>
           </constraints>
           <profiles>
             <profile id="5b32-4d5f-9977-aa69" name="Zusätzliches Rüstzeugs" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
@@ -19038,6 +19312,32 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d98b-54b5-900f-768f" name="Imerialle Eiche" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ab9-5d4a-6011-c976" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1d3-dc08-1067-5dee" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="d02d-423a-f8f7-0600" name="Imerialle Eiche" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+              <characteristics>
+                <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Bootsausrüstung, Groß, Dauerhaft, nur für Pinassa oder Barkaza</characteristic>
+                <characteristic name="FERN" typeId="1a68-426e-effa-4443"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="fae7-8f32-505c-d541" name="Wundermittel" hidden="false" collective="false" import="true">
@@ -19135,6 +19435,355 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="25df-a614-565a-3875" name="Legendäre Ausrüstung" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="29a1-f8f2-a71e-c19f" name="Ausrüstung Selten" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b411-356f-cdae-078f" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3a61-aab3-415c-fcd3" name="Alte Dublone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7223-1100-0a50-2dfc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe05-c372-8dd4-a7a6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9d28-68de-7ee1-b9ec" name="Alte Dublone" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Einmal anwendbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Die Alte Dublone kann eingesetzt werden, wenn das Symbol Dublone benötigt wird. Nach dem Einsatz zerbröselt die Münze und wird dadurch unbrauchbar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4ea2-79f4-a256-8643" name="Blutdolch" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e869-8e85-7a56-60ed" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6989-54f8-b1ca-938c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d7-ee4d-7ed4-a045" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f30a-979a-ce8f-c8f9" name="Blutdolch" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft, nur für Mystiker</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Mystiker kann durch Zahlung einer Blutschuld von 1 einen Bonus von +1A auf eine Anrufung oder Austreibung erhalten. Diese Blutschuld entsteht zusätzlich zu der, die der Loa ohnehin verlangt</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0562-627b-4de6-9e64" name="Giftschlange" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5d-ef8f-f832-758d" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1aa2-764d-0e30-e407" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="151f-838a-a26a-f644" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="045d-ce21-9f12-bde8" name="Giftschlange" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal Anwendbar, nur für Amazonen, Bruderschaft oder Kult</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält einen zusätzlichen Nahkampfangriff mit A 2, ST 2 und Gift.  Dieser kann nicht weiter Modifiziert werden. Diese Attacke benötigt keine Aktion. Die Schlange ist danach aber mde und wird unbrauchbar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e746-13da-849c-376b" name="Glücksbringer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="31de-a015-0dc7-ed74" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd06-f39c-3b43-f9cf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ef3d-91d9-fc05-b482" name="Glücksbringer" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal anwenbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält einen Fate-Punkt. Nach der Nutzung ist das Mojo des Glücksbringers erschöpft und er wird unbrauchbar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ebf-54d1-e8f3-d897" name="Kleiner Handspiegel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0536-734f-924e-9f23" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc98-805c-6871-d5ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="48ee-b589-601b-ddbf" name="Kleiner Handspiegel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Benutzt der Charakter den Spiegel mit einer Einfachen Aktion Gegenstand benutzen, erhät er dafür die Waffeneigenschaft Nirgendwo Sicher für seine direkt in derselben Handlung nachfolgende Attacke</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="652b-f208-4ebf-7f14" name="Kristallkugel" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="525a-a1ca-b24a-0dd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aeb2-e432-4d8b-c14a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2573-b97a-9c68-29fc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fa88-9e89-d8ea-a71f" name="Kristallkugel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Einmal anwendbar, nicht für die Imperiale Armada</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Solange der die Kugel tragende Charakter noch im Spiel und nicht in Panik ist, kann sich der Spieler einmal im Spiel die oberste Schicksalskarte ansehen und dann wieder oben auflegen oder unten drunter schieben. Danach ist das Mojo der Kristallkugel aufgebraucht und sie wird unbrauchbar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce51-fe81-7300-b036" name="Poncebys Taktikmanual" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e40b-1a54-0143-fcee" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0674-417b-198d-1045" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d43-3f36-16f7-1cee" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dbb3-706c-e8e0-9614" name="Poncebys Taktikmanual" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauherhaft, nur für Anführer</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Deine Mannschaft erhält einen Bonus von +1 auf die Ermittlung der inititive am Anfang jeder Runde</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df27-5ed6-a138-de23" name="Rollstiefel" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e47-d461-b178-5e66" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8969-eebf-219b-ec82" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="251d-e45d-072e-2b94" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b879-c83b-1c76-28a1" name="Rollstiefel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft, nicht für Tiere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält +2 BEW in Offenem Gelände. Alle anderen Geländearten sind für ihn Gefählrich (5). Geht er durch irgendeinen Umstand zu Boden, erleidet er eine zusätliche Blutschuld von 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3cf3-d835-8b2a-7fd8" name="Spucknapf des Schwarzen Schwans" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="797f-9ac7-70e3-1005" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa2-888b-3a3f-32b1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="af2b-f02f-8791-4c16" name="Spucknapf des Schwarzen Schwans" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter erhält die Eigenschaft Furchtlos</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="01c0-1c22-d814-7d97" name="Furchlos" hidden="false" targetId="12f7-f1fd-2da4-890e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c476-fae5-bbd0-fa9a" name="Treuer Begleiter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9301-43ab-7c4a-75f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="135e-b4ea-a014-3aec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="431f-8a00-305b-d2ba" name="Treuer Begleiter" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter zählt immer, als ob er sich im Getümmel mit seinem Begleiter befindet. Wird bei einem Fernkampfangriff statt des Charakter der Begleiter getroffen, erhält dieser den gesammten Schaden. Der Begleiter wird dabei automatisch vertrieben und ist damit unbrauchbar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e44-5459-7921-05a6" name="Zusatzwaffe" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="83c3-bbc7-1029-a4f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-453f-2ab3-d2ca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1847-9f5c-caa5-85e7" name="Zusatzwaffe" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, einmal Anwendbar, nicht für Amazonen und Bruderschaft</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e">Rechter und Linker Arm</characteristic>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter kann einmalig die Aktion Fernkampfattacke mit FERN 5/4, 30cm mit dieser Pistole ausführen. Er braucht zum Abfeuern beide Hände</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="604d-9f17-e4a2-d9de" name="Macacron de Bravoure" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4be-7aae-22e5-fd64" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2d-1ff8-d58a-6628" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3e4a-bfa1-3ed3-e2c6" name="Macacron de Bravoure" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, nur für Debonn, nur einmal einsetztbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">Der Charakter er</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="5d73-324f-8f6c-87fe" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d9db-32be-5633-b74f" name="Winkelmesser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4700-a18a-65f6-aef5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d28-2b30-fa39-2411" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9bac-77d4-c2b3-4d5d" name="Winkelmesser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Dauerhaft, Selten</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8aff-fe3c-3ed4-6dfb" name="Knüppelhartes Baguette" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-a374-8e25-39c4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1de8-137c-a4a2-8d63" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d9f1-a895-af6a-b79f" name="Knüppelhartes Baguette" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="d9cf-0ad1-2090-e755" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8f32-8598-e005-f017" name="Sturmschuss" hidden="false"/>
