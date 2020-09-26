@@ -9,6 +9,8 @@ https://discord.gg/deVyWbg
 
 #### Version ####
 
+2.13.0 Div Charaktere
+
 2.4.2 Ausrüstungauswahl an Regeln angepasst
 
 2.4.1 Bugfix Heuer angepasst
