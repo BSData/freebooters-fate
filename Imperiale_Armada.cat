@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f842-ba6c-9d61-9ea4" name="Imperiale Armada" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7566-f051-ac5e-1090" name="Eitu" hidden="false" collective="false" import="true" targetId="d885-4599-55bd-51a8" type="selectionEntry"/>
     <entryLink id="2e23-df63-bd32-90b0" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
@@ -81,5 +81,8 @@
     <entryLink id="6cb6-765e-0d3a-1025" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
     <entryLink id="0b1b-5305-8704-6a49" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
     <entryLink id="b272-6739-2b06-4eb2" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
+    <entryLink id="2f43-a200-811f-bdc5" name="Belle Satine •" hidden="false" collective="false" import="true" targetId="d8b7-59db-5953-e422" type="selectionEntry"/>
+    <entryLink id="3034-e7d3-d812-0750" name="Hugo " hidden="false" collective="false" import="true" targetId="277f-72f6-480e-6fb2" type="selectionEntry"/>
+    <entryLink id="ff81-3eff-9caf-ea55" name="Le Dingue •" hidden="false" collective="false" import="true" targetId="c348-c515-e63b-2afc" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

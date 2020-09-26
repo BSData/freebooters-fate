@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="12" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f58-b8f9-caf7-1889" name="Freebooter´s Fate #2" revision="13" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/VgHEntb" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0"/>
-    <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0"/>
+    <costType id="3e2b-74a8-7713-6552" name=" Dublonen" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="dc64-94cb-1dad-90b6" name=" Schattenmacht" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="f7bc-94e0-f392-9073" name="1.1 Charakter Stats">
@@ -180,14 +180,14 @@
     </categoryEntry>
     <categoryEntry id="d10b-c097-e162-0b71" name="Söldner" hidden="false">
       <modifiers>
-        <modifier type="increment" field="6022-ac19-492a-3207" value="1">
+        <modifier type="increment" field="6022-ac19-492a-3207" value="1.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3187-0a9d-e3b5-1281" type="greaterThan"/>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" type="greaterThan"/>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" type="greaterThan"/>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5d-ef8f-f832-758d" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af49-8d98-c8f7-58b8" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f9c-7935-3bf5-30a8" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dcb7-12c6-0bf4-4166" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b407-dcd4-44bc-6fa7" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -201,9 +201,9 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af95-975f-c9e2-2f9d" type="greaterThan"/>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="525a-a1ca-b24a-0dd7" type="greaterThan"/>
-                <condition field="selections" scope="e40b-1a54-0143-fcee" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5a0-87c6-e508-be03" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="3362-126e-19fe-6248" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c42-73fc-8d53-e3b3" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="34cc-a189-a44d-a299" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -227,14 +227,14 @@
       <modifiers>
         <modifier type="increment" field="cd75-698f-57a0-7852" value="1.0">
           <repeats>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3187-0a9d-e3b5-1281" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af95-975f-c9e2-2f9d" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="525a-a1ca-b24a-0dd7" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5a0-87c6-e508-be03" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4442-3555-f798-0a9b" repeats="2" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0ed-4f52-f8d2-9edc" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a5d-ef8f-f832-758d" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="732f-549d-3e93-89af" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="962a-a5ef-939e-a65b" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af49-8d98-c8f7-58b8" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3362-126e-19fe-6248" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c42-73fc-8d53-e3b3" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="34cc-a189-a44d-a299" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f9c-7935-3bf5-30a8" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dcb7-12c6-0bf4-4166" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b407-dcd4-44bc-6fa7" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9541-fd29-ad36-388b" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="increment" field="cd75-698f-57a0-7852" value="1.0">
@@ -265,14 +265,20 @@
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad3b-1e60-84ea-498b" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1bf0-21d8-69c1-cb9d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="177a-6b5f-8cc0-856d" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="decrement" field="cd75-698f-57a0-7852" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="d10b-c097-e162-0b71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d10b-c097-e162-0b71" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -309,7 +315,6 @@
     <categoryEntry id="d5a0-87c6-e508-be03" name="Goblin Piraten" hidden="false"/>
     <categoryEntry id="143b-d54b-d49f-65c2" name="Whaitaua" hidden="false"/>
     <categoryEntry id="962a-a5ef-939e-a65b" name="Schatten" hidden="false"/>
-    <categoryEntry id="fec1-70b9-afca-abf0" name=" Gefolge" hidden="false"/>
     <categoryEntry id="90fc-6632-5d82-68ff" name="Rauch" hidden="false"/>
     <categoryEntry id="bcd3-ea1d-c64e-c73c" name="Spezial" hidden="false"/>
     <categoryEntry id="f713-4f83-367e-66df" name="Szenariogegenstand" hidden="false"/>
@@ -323,6 +328,14 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="c855-1a30-2c8e-e26d" name="Compañero" hidden="false"/>
+    <categoryEntry id="af49-8d98-c8f7-58b8" name="Amazonengefolge" hidden="false"/>
+    <categoryEntry id="9f9c-7935-3bf5-30a8" name="Bruderschaftgefolge" hidden="false"/>
+    <categoryEntry id="dcb7-12c6-0bf4-4166" name="Debonngefolge" hidden="false"/>
+    <categoryEntry id="34cc-a189-a44d-a299" name="Goblingefolge" hidden="false"/>
+    <categoryEntry id="9c42-73fc-8d53-e3b3" name="Imperialesgefolge" hidden="false"/>
+    <categoryEntry id="b407-dcd4-44bc-6fa7" name="Kultgefolge" hidden="false"/>
+    <categoryEntry id="3362-126e-19fe-6248" name="Piratengefolge" hidden="false"/>
+    <categoryEntry id="9541-fd29-ad36-388b" name="Schattengefolge" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ae6-f80d-3eba-63b6" name="Scharmützel" hidden="false">
@@ -525,6 +538,7 @@
         <categoryLink id="0464-4124-3bf7-a671" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="fec4-c77a-dc77-13e7" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="1113-eda1-60a7-a9c3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e491-7e2e-c409-9b82" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f919-349c-5b46-e859" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -587,6 +601,7 @@
         <categoryLink id="b997-d028-f3c3-bda4" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="a1d3-2912-bc05-b2bd" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="1c2f-1ef4-0f9e-cdc3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="3056-3499-70d6-b045" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8916-7a08-d773-26ab" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -945,6 +960,7 @@
         <categoryLink id="06b9-f11e-2ed9-d287" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="320e-6baa-e5ce-babb" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="a55f-5b84-c0b3-b9fb" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="12e4-3b95-5757-2642" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8891-7607-1c63-1301" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -999,6 +1015,7 @@
         <categoryLink id="4565-831e-c707-dd4b" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="f1fc-d795-53f4-7887" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c5fc-d8e0-c7bd-ed7a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d9d3-f046-5b73-c813" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3189-8968-4c3b-303e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -1210,6 +1227,7 @@
         <categoryLink id="c440-ecef-e0e6-dab9" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="4f3f-4536-d58e-d762" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="4c4b-146c-5bac-4314" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="fa6d-b3eb-cbd5-e0bf" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b6b8-b289-7949-9642" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -1266,6 +1284,7 @@
         <categoryLink id="9d3b-8e46-c330-5819" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="d0c1-5915-6712-8806" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="4c52-4795-22cc-23b1" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e2ef-9227-bd64-c889" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5961-5a3f-7ae8-3b0b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -1314,6 +1333,7 @@
         <categoryLink id="7825-8a56-ee2c-6fee" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="a749-8849-d68d-91f8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="a10e-115a-fe87-439e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="b537-d316-c54f-7508" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5ef3-057e-d6e8-a67b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -1370,6 +1390,7 @@
         <categoryLink id="4fec-302d-9e26-9680" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="54fd-e231-c684-d85f" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="fd92-89b0-cec8-3872" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="b340-dd4b-0fa2-d35a" name="Amazonengefolge" hidden="false" targetId="af49-8d98-c8f7-58b8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dcc8-5738-2be1-b119" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -1973,6 +1994,7 @@
         <categoryLink id="8f46-deb5-cc5c-ac00" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
         <categoryLink id="8300-2caa-7ab0-d26a" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
         <categoryLink id="243b-2cde-bbcb-9c25" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="c89c-7164-f534-32de" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7c0b-a428-28e4-7841" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -2640,7 +2662,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ca7-1060-7a50-092d" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1ca7-1060-7a50-092d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2670,9 +2692,8 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="b369-b4a1-5e3d-38e8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="false"/>
+        <categoryLink id="b369-b4a1-5e3d-38e8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="5301-0630-ff4f-4870" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
-        <categoryLink id="30c3-66c8-72c1-9e0d" name="New CategoryLink" hidden="false" targetId="fec1-70b9-afca-abf0" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="abe3-a798-7dd8-010c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -4884,6 +4905,7 @@
         <categoryLink id="cebc-9313-3646-63a0" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="2acf-41df-7433-68ce" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="7944-4d6b-2fda-bc9c" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="2f99-30e5-b7d3-37a9" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ed5b-42e7-3cdb-780a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -4925,6 +4947,7 @@
         <categoryLink id="1625-1552-e31e-49b5" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="cb7b-189a-9e22-0dbf" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="cde6-3f80-db67-e972" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="0042-a5a9-0cee-4c5c" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="29b1-605d-6962-d39e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -4966,6 +4989,7 @@
         <categoryLink id="2e74-736f-7e34-8f62" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="3636-4e38-3251-9287" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="25b0-6752-6340-ab8e" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="5830-b21c-778c-1fd8" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8b82-692d-2253-77cd" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -5017,6 +5041,7 @@
         <categoryLink id="07e6-a169-7ea5-587e" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="5089-5a94-d14b-0276" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="c8d0-1458-e768-1d3a" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="bd61-de03-eef1-8084" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="baab-97f6-eaf0-8fc0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -5055,6 +5080,7 @@
         <categoryLink id="495f-5943-fe89-2b4a" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="3205-fe90-00e7-b754" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="5d84-7012-02b8-5360" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="6277-474d-f877-9247" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5436-53b1-5481-c3e8" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -6017,9 +6043,10 @@
         <categoryLink id="f5d1-d583-4387-a4e4" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="4304-d335-41e3-2bbc" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="d901-a855-90f2-5c80" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="65c9-5f5d-c99c-d4ab" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8ae5-399e-4b02-c499" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="8ae5-399e-4b02-c499" name="Ausrüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
         <entryLink id="70b4-1ace-d3e3-db54" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
         <entryLink id="abbe-625f-d3bb-376c" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
       </entryLinks>
@@ -6072,6 +6099,7 @@
         <categoryLink id="b275-7897-72b6-55f1" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="f72b-62da-c6c3-6363" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="e20b-1514-af17-0133" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="532f-aca2-8919-2602" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="090f-87ac-894a-e283" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -6117,6 +6145,7 @@
         <categoryLink id="dfe5-c6c9-2eb6-7d7b" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="41ce-657c-6e72-f167" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="88f3-476c-6060-661b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="99f5-da36-9a5f-5d71" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="703f-6709-aeaf-0c6a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -6172,6 +6201,7 @@
         <categoryLink id="dde9-2923-03c6-aea1" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="cb92-a6ad-6af5-56d1" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="cc80-b95b-c92e-37fc" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d6cd-5002-e7af-0916" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b8db-c7dc-add2-458b" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -6216,6 +6246,7 @@
         <categoryLink id="ace1-5570-49d0-9668" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="1683-dfb7-30a8-41bd" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c6c2-3f07-2dfb-f98b" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+        <categoryLink id="f241-ffbc-8a7b-56eb" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="009d-8957-9f62-3c07" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -7312,9 +7343,9 @@
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="160c-74be-065e-bf07" name="Harter Junge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="160c-74be-065e-bf07" name="Harter Junge / Hartes Mädel" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="d157-85d3-d5bc-7f35" value="1">
+        <modifier type="increment" field="d157-85d3-d5bc-7f35" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="824e-a22b-e73f-3c65" type="greaterThan"/>
           </conditions>
@@ -7349,6 +7380,7 @@
         <categoryLink id="40b0-b77a-0d37-846d" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="2e9c-71a7-d35c-a69b" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="63ed-2666-2a02-1a40" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="244c-50c0-5eba-2b64" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ac56-1f01-c5f1-491c" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -7360,7 +7392,7 @@
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="824e-a22b-e73f-3c65" name="Harter Junge (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="824e-a22b-e73f-3c65" name="Harter Junge / Hartes Mädel (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7405,6 +7437,7 @@
         <categoryLink id="6a62-445b-8442-489f" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c6de-2254-02b3-6dab" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="6c85-84c0-ccfd-53ab" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="e897-1b0f-2896-1102" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5b4c-36fa-f584-65c5" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -7449,6 +7482,7 @@
         <categoryLink id="d5d8-dae1-53f7-047f" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="006d-d567-69a2-275f" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="fd04-0baa-0e74-2320" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="91ef-c406-a13d-2bc0" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="06e1-fe2c-b83b-44d0" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -7497,6 +7531,7 @@
         <categoryLink id="69d0-2267-6a96-b0a3" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="d0a8-7115-035b-35e7" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="7448-afa5-8622-daa7" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="7ebf-51aa-5fc5-fb46" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f3fe-f714-9a24-6329" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -7541,6 +7576,7 @@
         <categoryLink id="d2fd-e44f-7274-1c5b" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c03c-c088-7f15-c3ad" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="8a6b-9b2c-a249-844b" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="851c-837d-aabe-d5e8" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0dd7-8d7a-d8be-1dfc" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -8453,6 +8489,7 @@
         <categoryLink id="2041-6806-b583-1ca8" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="285b-70ee-86a2-8156" name="Goblin Piraten" hidden="false" targetId="d5a0-87c6-e508-be03" primary="false"/>
         <categoryLink id="dae1-3f4a-d5f9-545e" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
+        <categoryLink id="bef4-f4ff-46b9-9502" name="Goblingefolge" hidden="false" targetId="34cc-a189-a44d-a299" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c673-df51-79e7-a942" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -9073,6 +9110,7 @@
         <categoryLink id="33f7-f571-5ad4-7fb8" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
         <categoryLink id="6748-5c2c-a33b-cd0c" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="96e7-5b30-02e6-c129" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="90c6-3fa4-1520-88d0" name="Bruderschaftgefolge" hidden="false" targetId="9f9c-7935-3bf5-30a8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="078d-ee85-21a2-f467" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -9108,6 +9146,7 @@
         <categoryLink id="25d2-b22c-40c2-7366" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="cad8-89e9-e738-314d" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
         <categoryLink id="78b3-d104-bd0a-d655" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e7ac-c405-b9e6-7599" name="Bruderschaftgefolge" hidden="false" targetId="9f9c-7935-3bf5-30a8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d8b6-ad63-b3f0-d814" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -9146,6 +9185,7 @@
         <categoryLink id="9320-239d-e9aa-3870" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
         <categoryLink id="1540-5139-ec70-6b4f" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="0bcd-274e-b465-1917" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="28ba-daef-525d-a6df" name="Bruderschaftgefolge" hidden="false" targetId="9f9c-7935-3bf5-30a8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3fbc-3061-69a8-f040" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -9200,6 +9240,7 @@
         <categoryLink id="7eef-2dee-6955-cd1b" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
         <categoryLink id="3d3f-2090-b3c4-60bc" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="9890-dd79-7f92-8436" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e5ed-7227-2866-4b68" name="Bruderschaftgefolge" hidden="false" targetId="9f9c-7935-3bf5-30a8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0967-3efc-2d5a-179a" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -9262,6 +9303,7 @@
         <categoryLink id="af49-86d0-6417-4a84" name="Bruderschaft" hidden="false" targetId="4442-3555-f798-0a9b" primary="false"/>
         <categoryLink id="d4af-80c3-d2aa-0fe9" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="6c46-daff-082e-b8f9" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="b8fd-e9a1-d615-1c00" name="Bruderschaftgefolge" hidden="false" targetId="9f9c-7935-3bf5-30a8" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="27ac-27eb-4f27-8575" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -10338,6 +10380,7 @@
         <categoryLink id="d1f0-d918-0e98-5fea" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c772-e579-a9c5-35d8" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="30a4-8053-74e1-820f" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="3f5a-9dff-c590-98a5" name="Debonngefolge" hidden="false" targetId="dcb7-12c6-0bf4-4166" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3e2c-e9af-192f-6960" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -10386,6 +10429,7 @@
         <categoryLink id="3f80-902d-a55d-41a9" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
         <categoryLink id="1f37-f7bf-0616-d555" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="42eb-a3ee-679c-1e4a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="196f-d368-9448-2d92" name="Debonngefolge" hidden="false" targetId="dcb7-12c6-0bf4-4166" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="38e4-5a8f-8029-7cb7" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -10425,6 +10469,7 @@
         <categoryLink id="737e-6233-c326-75d0" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="0574-654b-dca6-5004" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
         <categoryLink id="47bc-14ab-3061-18c8" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="1544-dc52-615c-58f4" name="Debonngefolge" hidden="false" targetId="dcb7-12c6-0bf4-4166" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3df0-9776-31c6-c6f9" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -11457,6 +11502,7 @@
         <categoryLink id="1eef-eadf-4846-b709" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
         <categoryLink id="b6a7-17b1-2a29-17fd" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="785e-2f24-e837-fb7d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="1108-f91b-3946-b034" name="Debonngefolge" hidden="false" targetId="dcb7-12c6-0bf4-4166" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="793a-8174-05c2-a4a1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -11602,6 +11648,7 @@
         <categoryLink id="f6e8-f303-16b8-c7f8" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="d261-e1ab-9a78-768a" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="8741-18fa-0763-512a" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="3c73-c521-0217-ef20" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="38d5-19b9-98ac-d10d" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -12089,6 +12136,7 @@
         <categoryLink id="a14f-0ac1-f391-9f2f" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
         <categoryLink id="df21-1512-2794-125c" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="aee4-559a-3d66-172d" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="2d2f-fb83-709a-c79e" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4358-d5f8-0ae9-fc31" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12297,6 +12345,7 @@
         <categoryLink id="1f5b-06db-67f1-5458" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="e52f-7816-a617-945f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="dac9-ebf9-eaed-263f" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="6d90-e476-0e6e-c164" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d8b3-1e13-123c-9107" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12394,6 +12443,7 @@
         <categoryLink id="7b14-3331-505d-f0da" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c875-0e65-0ef4-9b8d" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="3363-813a-10ca-e59d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="9e1b-ba9e-2939-f46d" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4e36-8717-bf4e-a853" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12453,6 +12503,7 @@
         <categoryLink id="b44d-899d-5759-2e3f" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="0549-24f1-f457-a0da" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="5c82-860f-87ef-71ee" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="fe8e-824f-d866-61ec" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c085-1e51-4c1d-83ff" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12609,6 +12660,7 @@
         <categoryLink id="0686-db9f-0dc6-bc07" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="d78e-7596-1112-a668" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="6216-3103-10ae-286b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="c129-d548-672d-d7c0" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2c87-28f1-9155-5860" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12667,6 +12719,7 @@
         <categoryLink id="eeb0-7a3d-6389-8ea7" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="ffef-c95a-4f01-b1ec" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
         <categoryLink id="5424-1f00-2b75-93f6" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="ec9e-b84e-2e5e-e772" name="Kultgefolge" hidden="false" targetId="b407-dcd4-44bc-6fa7" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="42af-0be2-8b30-a142" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
@@ -12862,6 +12915,7 @@
         <categoryLink id="bd43-653c-ad73-94ae" name="Piraten" hidden="false" targetId="af95-975f-c9e2-2f9d" primary="false"/>
         <categoryLink id="5a56-fa8b-c05e-183d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="d139-6b5e-2fc9-14f6" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="d879-94c2-5ea7-b451" name="Piratengefolge" hidden="false" targetId="3362-126e-19fe-6248" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6631-4501-ff28-c7ad" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -13166,6 +13220,7 @@
         <categoryLink id="daa7-3114-ff19-30d9" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
         <categoryLink id="9fb1-b368-fb16-3b8d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="2508-47db-be29-58ae" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="c4f0-b062-4c7c-21bd" name="Schattengefolge" hidden="false" targetId="9541-fd29-ad36-388b" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2845-e41d-ef99-9e6d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
@@ -13214,6 +13269,7 @@
         <categoryLink id="f4c1-7ae6-bdc8-2038" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="d7b1-b317-69b8-3d87" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
         <categoryLink id="3b8e-1ab1-ba82-f734" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="a538-f892-6777-9ffa" name="Schattengefolge" hidden="false" targetId="9541-fd29-ad36-388b" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d058-cdb4-76b4-6554" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
@@ -13262,7 +13318,6 @@
       <categoryLinks>
         <categoryLink id="4137-935a-236d-00fb" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
         <categoryLink id="9674-8e9b-ced2-6ec5" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
-        <categoryLink id="3106-f4b9-50de-252e" name=" Gefolge" hidden="false" targetId="fec1-70b9-afca-abf0" primary="false"/>
         <categoryLink id="9d6b-9d05-e177-edfa" name="New CategoryLink" hidden="false" targetId="90fc-6632-5d82-68ff" primary="true"/>
       </categoryLinks>
       <costs>
@@ -13309,7 +13364,6 @@
       <categoryLinks>
         <categoryLink id="8244-c29b-9b47-b16c" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="52e3-6f14-c251-5a3e" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
-        <categoryLink id="6ae8-5804-92d7-0f71" name=" Gefolge" hidden="false" targetId="fec1-70b9-afca-abf0" primary="false"/>
         <categoryLink id="a0f3-4dcb-b127-2190" name="New CategoryLink" hidden="false" targetId="90fc-6632-5d82-68ff" primary="true"/>
       </categoryLinks>
       <costs>
@@ -14053,6 +14107,7 @@ Krallen</characteristic>
         <categoryLink id="a03f-86a2-556f-40cf" name="New CategoryLink" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
         <categoryLink id="c5ea-23ab-efa5-b6fe" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="9bc2-854a-9d76-96e3" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="7555-fe37-1cf6-ad38" name="Imperialesgefolge" hidden="false" targetId="9c42-73fc-8d53-e3b3" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4ec2-06a0-bce8-4e40" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
@@ -17228,15 +17283,440 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b5a0-0e2d-45ba-662e" name="Le Dingue" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71c9-1aed-698e-1347" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9ffe-d5b0-36db-3680" name="Le Dingue" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">9</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd51-535b-4c50-3a26" name="Le Dingue" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Kleine Flinte, Nachladen rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6231-f263-6173-ecf1" name="Le Dingue" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Kleine Flinte als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Kochtopf</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4710-25c6-7493-b84b" name="Le Dingue" hidden="false" typeId="e592-a9d2-7c5a-4744" typeName="2.3 Munition">
+          <characteristics>
+            <characteristic name="Munition" typeId="2194-f120-f0ef-474e">Gute Gerüstet:  O O O</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7df9-d335-8741-2d64" name="Sturmschuss" hidden="false" targetId="8f32-8598-e005-f017" type="rule"/>
+        <infoLink id="4409-242f-e2a8-8976" name="Unverwüstlich" hidden="false" targetId="6abc-9e1f-693e-685b" type="rule"/>
+        <infoLink id="9bb1-aa20-64ef-ee85" name="Gute Grüstet" hidden="false" targetId="5ae8-1227-ae67-95cf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="315b-1d6d-2406-4f03" name="New CategoryLink" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="true"/>
+        <categoryLink id="a395-0468-6975-1eb1" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="b0be-9086-9cda-7713" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f91-21ed-a59f-fdd2" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="b111-e7dd-5c8f-2123" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="171b-8171-ecad-ab92" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c348-c515-e63b-2afc" name="Le Dingue •" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80d7-14d5-1cfc-acec" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2b70-8957-4a1a-f7dd" name="Le Dingue" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">9</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/4</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf14-fa35-b3a2-27d6" name="Le Dingue" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+          <characteristics>
+            <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Kleine Flinte, Nachladen rechts</characteristic>
+            <characteristic name="FERN" typeId="1a68-426e-effa-4443">5/4 ~ 40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8311-a5f4-ae5c-074d" name="Le Dingue" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Kleine Flinte als Knüppel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Kochtopf</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b276-bb56-b615-0626" name="Le Dingue" hidden="false" typeId="e592-a9d2-7c5a-4744" typeName="2.3 Munition">
+          <characteristics>
+            <characteristic name="Munition" typeId="2194-f120-f0ef-474e">Gute Gerüstet:  O O O</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="77ff-a3b3-5fe9-0218" name="Le Dingue" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft nur für die Imperiale Armada, Kult und Piraten</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9aba-582a-accc-5d74" name="Sturmschuss" hidden="false" targetId="8f32-8598-e005-f017" type="rule"/>
+        <infoLink id="4352-da46-c9ae-3e8a" name="Unverwüstlich" hidden="false" targetId="6abc-9e1f-693e-685b" type="rule"/>
+        <infoLink id="8334-365b-38a6-3cad" name="Gute Grüstet" hidden="false" targetId="5ae8-1227-ae67-95cf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="232a-f0d4-c337-ef0e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="d17f-5964-6cf8-2fe1" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="74dc-9c91-5b78-8b71" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="1ec1-ab87-9cc1-e6bb" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="05a1-f14b-40ed-f79d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5238-0d56-ecdf-eab2" name="Hugo •" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8d-e5b7-03f7-1564" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4e40-eb06-c4ac-8368" name="Hugo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f6b9-4edd-a019-f1af" name="Hugo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Fackel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schwert</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c18-58b6-dd7e-2766" name="Hugo •" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft NUR für Debonn, Poraten oder Goblins</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1cb3-e2a3-1c00-1c0c" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+        <infoLink id="272c-a527-4224-6299" name="Kanonier" hidden="false" targetId="7d74-84dd-3ef9-6816" type="rule"/>
+        <infoLink id="eb77-d0b6-0b61-aa10" name="Lastenträger" hidden="false" targetId="6a7c-414d-4f14-caac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="192f-7226-0125-a123" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="9d1b-b971-e150-c079" name="Söldner" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dbb1-2141-9284-1d9e" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="335c-a6cf-4af5-d949" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5217-3133-4a40-55c7" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="d7ea-a74a-cd65-0e9c" name="Gertrude" hidden="false" collective="false" import="true" targetId="19de-28d5-428b-d4ff" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19de-28d5-428b-d4ff" name="Gertrude" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="576c-6faf-976e-db5a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4a9a-57fc-f17b-83f9" name="Gertrude" hidden="false" typeId="88df-25af-9de7-4bbd" typeName="2.2 Ex">
+          <characteristics>
+            <characteristic name="Waffe" typeId="47f5-7988-9bed-1567">Gertrude, Radius 3 cm</characteristic>
+            <characteristic name="EX" typeId="6533-239a-6c5b-dfb3">8/4 ~ 60</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb2d-7434-a0bf-c45b" name="Gertrude" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">Abschleppen (5)</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587"/>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73"/>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8"/>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3"/>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3643-5151-2286-da42" name="Seefest" hidden="false" targetId="0fce-1afd-a269-0254" type="rule"/>
+        <infoLink id="9549-0528-a41a-040d" name="**Wehrlos" hidden="false" targetId="faa9-4b49-9f73-990e" type="rule"/>
+        <infoLink id="32d0-d04b-9893-a950" name="Abschleppen" hidden="false" targetId="6a61-f815-b445-1691" type="rule"/>
+        <infoLink id="ac11-53eb-e199-a5b0" name="Artillerie" hidden="false" targetId="f475-2c8a-4307-8502" type="rule"/>
+        <infoLink id="a6b1-a6ee-b270-66ff" name="Steilfeuerwaffe" hidden="false" targetId="ba79-789e-6676-a700" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="277f-72f6-480e-6fb2" name="Hugo " hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5167-7b0b-6bb8-3d5d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f241-7c78-744d-327c" name="Hugo" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">13</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">2/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa87-2b69-89fe-dde4" name="Hugo" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Fackel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Schwert</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="57aa-80c2-17e6-650b" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+        <infoLink id="f7e6-5233-4f29-c2dc" name="Kanonier" hidden="false" targetId="7d74-84dd-3ef9-6816" type="rule"/>
+        <infoLink id="a3a2-66b8-9e68-0d6e" name="Lastenträger" hidden="false" targetId="6a7c-414d-4f14-caac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dbbf-e6a9-49f9-51bf" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
+        <categoryLink id="8f4b-754a-4c39-798b" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="b571-952d-b8da-69f8" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="95c6-482c-709f-23e1" name="Aurüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="3a45-7255-8e69-8480" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="5ef4-242d-89a2-4925" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="6bf8-078b-2690-ef1a" name="Gertrude" hidden="false" collective="false" import="true" targetId="19de-28d5-428b-d4ff" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bf0-21d8-69c1-cb9d" name="Taurekareka" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5e-bdce-3a1c-5ecd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e636-ca6b-6217-33e2" name="Taurekareka" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Kampfpaddel</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Kampfpaddel</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b8c-1075-1a0e-e4f9" name="Taurekareka" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/7</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/7</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="92b2-8243-b22e-6309" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+        <infoLink id="5d8b-cc2b-7550-dd42" name="Einzelgänger (nur Debonn)" hidden="false" targetId="601d-dd83-472f-a9ef" type="rule"/>
+        <infoLink id="c873-6d3d-d56f-a055" name="Schelle Rechts - Schelle Links" hidden="false" targetId="252c-720e-593a-f251" type="rule"/>
+        <infoLink id="0fcd-0cff-3cad-e606" name="Späherin" hidden="false" targetId="6031-2530-8d06-69eb" type="rule"/>
+        <infoLink id="5442-9d52-141a-1d42" name="Verwandt (Turituri)" hidden="false" targetId="8ad5-7841-90c7-a671" type="rule"/>
+        <infoLink id="0f52-884b-d9f2-a7c8" name="Waldläufer" hidden="false" targetId="35c8-a52c-3caf-230b" type="rule"/>
+        <infoLink id="8c2b-860a-5153-ee4a" name="Whaitaua" hidden="false" targetId="fe68-fbc2-a6c8-ab37" type="rule"/>
+        <infoLink id="e842-38cb-f8fb-756d" name="Provozieren" hidden="false" targetId="4fb5-c02e-90c2-0348" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="61f8-929c-7a49-73b4" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="b51e-f47a-adc1-0253" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="e241-54e6-8278-919c" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f61e-0ad7-9718-fb73" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="474f-fa0c-6477-ab91" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="77f4-6608-adb2-8a73" name="Ausrüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="177a-6b5f-8cc0-856d" name="Turituri" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788e-cbb5-2fa2-4b9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4512-a129-f24c-6e3b" name="Turituri" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Kampfpaddel, Umhauen (4), Zweihändig</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Kampfpaddel, Umhauen (4), Zweihändig</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2c33-fa13-8bbb-7e80" name="Turituri" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/6 ⑨</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/6 ⑨</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="33ed-984a-e6d6-8b77" name="Einzelgänger (nur Debonn)" hidden="false" targetId="601d-dd83-472f-a9ef" type="rule"/>
+        <infoLink id="5bd2-df4e-3b50-4e7b" name="Verwandt (Taurekareka)" hidden="false" targetId="22b1-5b45-612b-160d" type="rule"/>
+        <infoLink id="3d47-417e-ff5a-842d" name="Waldläufer" hidden="false" targetId="35c8-a52c-3caf-230b" type="rule"/>
+        <infoLink id="a8e6-7a93-3648-3738" name="Whaitaua" hidden="false" targetId="fe68-fbc2-a6c8-ab37" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9ba8-e0a7-dc27-e934" name="Amazonen" hidden="false" targetId="3187-0a9d-e3b5-1281" primary="false"/>
+        <categoryLink id="3e7d-be52-36b6-3362" name="Debonn" hidden="false" targetId="c0ed-4f52-f8d2-9edc" primary="false"/>
+        <categoryLink id="edc4-60ca-30b6-e72e" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="53e0-0af1-00e1-d824" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ebbf-05b5-ddeb-da30" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="df77-4454-ca94-97f7" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+        <entryLink id="4bb5-1c95-9d08-1101" name="Ausrüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3066-3460-6d18-1b77" name="Belle Satine" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="212b-3450-4c4e-3886" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="52a6-4d73-19dc-d5ba" name="Belle Satine" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Fächer</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c97-efa3-2cf9-b70e" name="Belle Satine" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="de77-6581-18c8-c064" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+        <infoLink id="6072-16b4-1349-7302" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+        <infoLink id="9fd8-e909-fa8a-4e0f" name="Becircen" hidden="false" targetId="db0d-ddc9-9427-6d5d" type="rule"/>
+        <infoLink id="677c-7710-8779-9399" name="Tanzen" hidden="false" targetId="b0e2-c77c-b5e7-ded7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b73f-4c35-2e1d-c889" name="Kult" hidden="false" targetId="6a5d-ef8f-f832-758d" primary="false"/>
+        <categoryLink id="30ba-f935-cb74-0261" name="Spezialist" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
+        <categoryLink id="e033-1619-c3aa-3ced" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="14ab-2652-607c-58cb" name="Ausrüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="757f-47f8-e417-b60d" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="d549-a8f4-90f8-b629" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8b7-59db-5953-e422" name="Belle Satine •" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b38-4ff5-439d-9e9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1a72-3c27-b89b-a226" name="Belle Satine" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Fächer</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e81-d6b6-0987-4dae" name="Belle Satine" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">10</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/6</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f32-88bd-a921-6ced" name="Belle Satine •" hidden="false" typeId="3476-83da-85b2-ac24" typeName="5.1 Heuer">
+          <characteristics>
+            <characteristic name="Heuer" typeId="0a04-9e8b-4bec-d06d">Kämpft nicht für Goblins oder Schatten.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="303b-7224-63e3-a06c" name="Agil" hidden="false" targetId="3b45-65a0-06e7-4788" type="rule"/>
+        <infoLink id="ddb3-79eb-e48b-9089" name="Attraktiv" hidden="false" targetId="9949-ef18-c9e0-0fdb" type="rule"/>
+        <infoLink id="5617-025f-26f9-789d" name="Becircen" hidden="false" targetId="db0d-ddc9-9427-6d5d" type="rule"/>
+        <infoLink id="4c4d-5c27-5673-84f9" name="Tanzen" hidden="false" targetId="b0e2-c77c-b5e7-ded7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6bae-af8e-8d9d-fe14" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+        <categoryLink id="f41b-4c3f-6172-35c7" name="New CategoryLink" hidden="false" targetId="d10b-c097-e162-0b71" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f504-5ad0-4ced-2fd5" name="Ausrüstung" hidden="false" collective="false" import="true" targetId="f671-d619-9954-7019" type="selectionEntryGroup"/>
+        <entryLink id="dd80-b391-b67d-b83b" name="Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="29a1-f8f2-a71e-c19f" type="selectionEntryGroup"/>
+        <entryLink id="15f2-c49a-135d-b45b" name="Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="ad53-13d6-61ac-bd67" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="f671-d619-9954-7019" name="Aurüstung" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f671-d619-9954-7019" name="Ausrüstung" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="decrement" field="56a7-27b6-8d41-e1c6" value="1.0">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad53-13d6-61ac-bd67" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fae7-8f32-505c-d541" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29a1-f8f2-a71e-c19f" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19de-28d5-428b-d4ff" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad53-13d6-61ac-bd67" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -18222,6 +18702,10 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -20056,5 +20540,15 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="3287-029e-f529-c79e" name="Verstärkung (Seemann, Seesoldaten)" hidden="false"/>
     <rule id="2de2-0438-aaaa-5916" name="Miese Ratte" hidden="false"/>
     <rule id="9c2c-8b7b-19e4-1cb6" name="Die mit den Ratten tanzt" hidden="false"/>
+    <rule id="5ae8-1227-ae67-95cf" name="Gute Grüstet" hidden="false"/>
+    <rule id="6a61-f815-b445-1691" name="Abschleppen" hidden="false"/>
+    <rule id="f475-2c8a-4307-8502" name="Artillerie" hidden="false"/>
+    <rule id="ba79-789e-6676-a700" name="Steilfeuerwaffe" hidden="false"/>
+    <rule id="601d-dd83-472f-a9ef" name="Einzelgänger (nur Debonn)" hidden="false"/>
+    <rule id="8ad5-7841-90c7-a671" name="Verwandt (Turituri)" hidden="false"/>
+    <rule id="22b1-5b45-612b-160d" name="Verwandt (Taurekareka)" hidden="false"/>
+    <rule id="4fb5-c02e-90c2-0348" name="Provozieren" hidden="false"/>
+    <rule id="db0d-ddc9-9427-6d5d" name="Becircen" hidden="false"/>
+    <rule id="b0e2-c77c-b5e7-ded7" name="Tanzen" hidden="false"/>
   </sharedRules>
 </gameSystem>

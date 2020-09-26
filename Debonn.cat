@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4816-5b55-bca1-bbdf" name="Buscar" hidden="false" collective="false" import="true" targetId="0b87-d810-d98a-2a1e" type="selectionEntry"/>
     <entryLink id="6853-7ae3-669f-a5a7" name="Brahyn" hidden="false" collective="false" import="true" targetId="dcbe-7362-cb94-ef02" type="selectionEntry"/>
@@ -38,7 +38,7 @@
     <entryLink id="4ef4-64d3-7a98-c293" name="Maitre Charlemont" hidden="false" collective="false" import="true" targetId="3352-c08c-47d5-bed0" type="selectionEntry"/>
     <entryLink id="b091-50d1-2c04-0cf9" name="Chevalier Calembour" hidden="false" collective="false" import="true" targetId="3e4e-2985-d5be-a0a1" type="selectionEntry"/>
     <entryLink id="aa75-ce39-b7cb-ef97" name="D´Arebousse" hidden="false" collective="false" import="true" targetId="0840-d7fc-2395-e295" type="selectionEntry"/>
-    <entryLink id="1401-0788-df25-7bba" name="Armond" hidden="false" collective="false" import="true" targetId="ff27-adcc-ea1c-aa07" type="selectionEntry"/>
+    <entryLink id="1401-0788-df25-7bba" name="Armond (AFE)" hidden="false" collective="false" import="true" targetId="ff27-adcc-ea1c-aa07" type="selectionEntry"/>
     <entryLink id="6b59-f955-579d-0282" name="Rattenschwarm" hidden="false" collective="false" import="true" targetId="fa17-a3e7-4e4b-dd64" type="selectionEntry"/>
     <entryLink id="7b92-d87f-88f8-15bc" name="Kasper Boulott" hidden="false" collective="false" import="true" targetId="e7d1-ec7c-4883-2aa8" type="selectionEntry"/>
     <entryLink id="d107-9009-4efd-63a2" name="Captain Dèzette •" hidden="false" collective="false" import="true" targetId="98e7-050b-da3f-a69f" type="selectionEntry"/>
@@ -77,5 +77,10 @@
     <entryLink id="82b0-4755-e841-6e35" name="Donja Esperanza" hidden="false" collective="false" import="true" targetId="46b8-b8cf-e3e0-216a" type="selectionEntry"/>
     <entryLink id="3251-e1a3-2fb5-5f3f" name="Gunpowder Mary" hidden="false" collective="false" import="true" targetId="e3ce-34ff-bd37-0705" type="selectionEntry"/>
     <entryLink id="1b0a-dd36-cc47-9b1f" name="Gipsy" hidden="false" collective="false" import="true" targetId="82b3-03dd-0930-ca4f" type="selectionEntry"/>
+    <entryLink id="1bab-985e-6043-aef8" name="Le Dingue" hidden="false" collective="false" import="true" targetId="b5a0-0e2d-45ba-662e" type="selectionEntry"/>
+    <entryLink id="ca17-8ee5-4162-6dd5" name="Hugo •" hidden="false" collective="false" import="true" targetId="5238-0d56-ecdf-eab2" type="selectionEntry"/>
+    <entryLink id="4fa5-fbe7-eef8-163c" name="Taurekareka" hidden="false" collective="false" import="true" targetId="1bf0-21d8-69c1-cb9d" type="selectionEntry"/>
+    <entryLink id="adfd-5ff1-1772-1206" name="Turituri" hidden="false" collective="false" import="true" targetId="177a-6b5f-8cc0-856d" type="selectionEntry"/>
+    <entryLink id="6286-3fb9-0dd6-9a2b" name="Belle Satine •" hidden="false" collective="false" import="true" targetId="d8b7-59db-5953-e422" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

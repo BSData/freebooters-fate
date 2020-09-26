@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7228-2f64-e0ee-4925" name="Goblin Piraten" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2f56-3339-9366-5682" name="Baron Conchita" hidden="false" collective="false" import="true" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
     <entryLink id="6aad-0daa-4314-8227" name="Moja Alga" hidden="false" collective="false" import="true" targetId="88fd-cd02-fe2a-ed4f" type="selectionEntry"/>
@@ -97,5 +97,6 @@
     <entryLink id="d731-5863-14d3-7dcb" name="Virgo Despedad Saufeder" hidden="false" collective="false" import="true" targetId="003f-4215-269b-5e8c" type="selectionEntry"/>
     <entryLink id="823f-decc-d334-2c30" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
     <entryLink id="8208-723b-258b-3d03" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
+    <entryLink id="765b-b0af-fa9a-f0f5" name="Hugo •" hidden="false" collective="false" import="true" targetId="5238-0d56-ecdf-eab2" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

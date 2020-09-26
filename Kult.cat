@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf64-0fb8-8087-62da" name="Kult" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8022-9887-19ec-677d" name="Don Pavo" hidden="false" collective="false" import="true" targetId="5002-604a-ad71-924c" type="selectionEntry"/>
     <entryLink id="0be1-a588-0ef1-82fa" name="La Pelotera #1" hidden="false" collective="false" import="true" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
@@ -84,5 +84,7 @@
     <entryLink id="32be-4865-f6ba-050f" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
     <entryLink id="1103-09e6-8c4c-e060" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
     <entryLink id="b58b-c2ff-8f58-1275" name="Finka Junior" hidden="false" collective="false" import="true" targetId="7466-0ffa-5fea-49b5" type="selectionEntry"/>
+    <entryLink id="924c-5c69-f848-ce5d" name="Belle Satine" hidden="false" collective="false" import="true" targetId="3066-3460-6d18-1b77" type="selectionEntry"/>
+    <entryLink id="305d-aa38-6555-9548" name="Le Dingue •" hidden="false" collective="false" import="true" targetId="c348-c515-e63b-2afc" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
