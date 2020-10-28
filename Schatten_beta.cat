@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ecd5-8eda-3dfb-bce1" name="Schatten beta " revision="1" battleScribeVersion="2.03" authorName="Kuina" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ecd5-8eda-3dfb-bce1" name="Schatten beta " revision="1" battleScribeVersion="2.03" authorName="Kuina" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="15fe-c3c2-5301-5f9f" name="Flüsterer" hidden="false" collective="false" import="true" targetId="9036-151a-f883-7d87" type="selectionEntry"/>
     <entryLink id="4765-22f3-22ac-3b7d" name="Banshee" hidden="false" collective="false" import="true" targetId="0226-cfdc-4e8e-8d58" type="selectionEntry"/>
@@ -12,5 +12,6 @@
     <entryLink id="d314-3d5f-ae28-d174" name="Todesfee" hidden="false" collective="false" import="true" targetId="ed80-80e7-137c-97f5" type="selectionEntry"/>
     <entryLink id="a246-1859-ea10-b467" name="Schwarze Witwe" hidden="false" collective="false" import="true" targetId="bcde-14d2-2552-4ef1" type="selectionEntry"/>
     <entryLink id="c165-2f8f-28af-f2ad" name="Schattentor" hidden="false" collective="false" import="true" targetId="c0a1-dd9b-a6f7-8dbf" type="selectionEntry"/>
+    <entryLink id="fce4-4545-353c-d88c" name="Isabella Caduto" hidden="false" collective="false" import="true" targetId="c3aa-e5ff-9cc0-c4f6" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

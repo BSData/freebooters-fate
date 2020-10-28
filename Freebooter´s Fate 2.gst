@@ -13257,7 +13257,7 @@
         </profile>
         <profile id="6369-a35d-33b6-21f3" name="Schleicher" hidden="false" typeId="8b55-17ee-4b7b-bae2" typeName="0.1 Schattenmacht">
           <characteristics>
-            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">0</characteristic>
+            <characteristic name="Punkte" typeId="5ca9-b2e6-e187-c38e">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17707,6 +17707,57 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c3aa-e5ff-9cc0-c4f6" name="Isabella Caduto" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afce-d69d-95ef-817d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aee0-c321-3d8e-c4d3" name="Isabella Caduto" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Rostiges Cinqueda</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Dolch</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8665-4cc6-b366-c2d1" name="Isabella Caduto" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">7	</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">6/12</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">3/8</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">3/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="07f0-797b-7fde-67a6" name="Isabella Caduto" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•1: Körperlos
+•1: Skelettiert beim Symbol Pistole</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a830-a04e-ef6b-3956" name="Ausweichen (Nahkampf)" hidden="false" targetId="c6dd-b38b-b841-9058" type="rule"/>
+        <infoLink id="1e72-1529-66f3-3ce0" name="Flink" hidden="false" targetId="70a8-76c0-bab4-82b6" type="rule"/>
+        <infoLink id="2c80-783f-50e1-c127" name="Hinterhältiger Angriff" hidden="false" targetId="a766-ffb8-5f43-91cb" type="rule"/>
+        <infoLink id="9f6f-a99e-1873-2919" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="5519-e04a-6c04-ba7c" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+        <infoLink id="5bc1-6f95-9538-a8c3" name="Zahn der Zeit" hidden="false" targetId="0efd-5270-b333-df28" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0877-7f2d-b028-8158" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="faff-c6dd-5c26-89c8" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="false"/>
+        <categoryLink id="fb8a-4a19-3bf3-abcd" name="New CategoryLink" hidden="false" targetId="283a-763f-29e6-0186" primary="true"/>
+        <categoryLink id="1c9a-0a6f-f391-794c" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2e7e-288b-a130-a1e5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f671-d619-9954-7019" name="Ausrüstung" hidden="false" collective="false" import="true">
@@ -20431,8 +20482,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="7fe5-c24c-c71b-e603" name="Gestaltenwandler" hidden="false"/>
     <rule id="77a6-cd23-3bd4-bee5" name="Regeneration (1)" hidden="false"/>
     <rule id="cdd3-dbe9-c0ef-aa5d" name="Herrin der Tausend Masken" hidden="false"/>
-    <rule id="de8a-8216-f9c8-500a" name="Hinterhältiger Angriff" hidden="false"/>
-    <rule id="d6b9-3960-9220-98cf" name="Mäxhtiger Hieb" hidden="false"/>
+    <rule id="d6b9-3960-9220-98cf" name="Mächtiger Hieb" hidden="false"/>
     <rule id="c70b-23b3-065b-8756" name="Ungeschickt (Ausrüstung)" hidden="false"/>
     <rule id="7078-3d47-ae4a-42b6" name="Ehrengarde (Harlequin)" hidden="false"/>
     <rule id="f45b-4302-421d-da92" name="Pestbringer" hidden="false"/>
@@ -20550,5 +20600,6 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="4fb5-c02e-90c2-0348" name="Provozieren" hidden="false"/>
     <rule id="db0d-ddc9-9427-6d5d" name="Becircen" hidden="false"/>
     <rule id="b0e2-c77c-b5e7-ded7" name="Tanzen" hidden="false"/>
+    <rule id="0efd-5270-b333-df28" name="Zahn der Zeit" hidden="false"/>
   </sharedRules>
 </gameSystem>
