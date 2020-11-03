@@ -18745,12 +18745,12 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="337d-8be9-d205-06d1" name="Arrr´chibald" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="337d-8be9-d205-06d1" name="Arrrchibald" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc86-326b-1a70-0e0b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6fa4-804d-0c27-3a5f" name="Arrr´chibald" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+        <profile id="6fa4-804d-0c27-3a5f" name="Arrrchibald" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
           <characteristics>
             <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">11</characteristic>
             <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
@@ -18761,13 +18761,13 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/3</characteristic>
           </characteristics>
         </profile>
-        <profile id="14ac-54bb-4c2a-97d1" name="Arrr´chibald" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
+        <profile id="14ac-54bb-4c2a-97d1" name="Arrrchibald" hidden="false" typeId="76c5-eae8-28cf-f52d" typeName="2.1 Fernkampf">
           <characteristics>
             <characteristic name="Waffe" typeId="fd1b-28d9-9ab5-a266">Pistole, links</characteristic>
             <characteristic name="FERN" typeId="1a68-426e-effa-4443">6/4 ~ 30</characteristic>
           </characteristics>
         </profile>
-        <profile id="f301-bb96-72a9-3fa3" name="Arrr´chibald" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+        <profile id="f301-bb96-72a9-3fa3" name="Arrrchibald" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
             <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Entersäbel</characteristic>
             <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Pistole als Knüppel</characteristic>
@@ -19821,7 +19821,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6875-6426-cb65-1289" name="Zigarre" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6875-6426-cb65-1289" name="Dicke Zigarre" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -19852,6 +19852,27 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
             <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
             <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="ef85-7951-9a6d-7fdb" name="Metzgermesser" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1551-b232-25bf-f9a9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1a2-22ce-e1c9-1a26" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e43-8a6f-d2f8-1e8a" name="Metzgermesser" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1"/>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -21722,7 +21743,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="a262-85a6-8a17-7f1a" name="Mitschleifen (6)" hidden="false"/>
     <rule id="4fd5-0687-8f17-cba1" name="Ungeschickt (Stillstand)" hidden="false"/>
     <rule id="bf8a-9845-c7ac-9fc4" name="Verstärkung (Coscritti)" hidden="false"/>
-    <rule id="7c99-a63e-f382-3edf" name="Arrr! (&quot;Meine Mutter ist was?&quot;)" hidden="false"/>
+    <rule id="7c99-a63e-f382-3edf" name="Arrr! (Meine Mutter ist was?)" hidden="false"/>
     <rule id="7a15-abc6-5c5f-7c45" name="Neeeiiin!" hidden="false"/>
     <rule id="17a1-2072-4292-23ea" name="Intrigieren" hidden="false"/>
     <rule id="e1e4-d0f2-b6ee-7f62" name="Spinnefeind (Aplantage)" hidden="false"/>
