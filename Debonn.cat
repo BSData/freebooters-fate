@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8100-5401-d5d2-0c48" name="Debonn" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4816-5b55-bca1-bbdf" name="Buscar" hidden="false" collective="false" import="true" targetId="0b87-d810-d98a-2a1e" type="selectionEntry"/>
     <entryLink id="6853-7ae3-669f-a5a7" name="Brahyn" hidden="false" collective="false" import="true" targetId="dcbe-7362-cb94-ef02" type="selectionEntry"/>
@@ -82,5 +82,7 @@
     <entryLink id="4fa5-fbe7-eef8-163c" name="Taurekareka" hidden="false" collective="false" import="true" targetId="1bf0-21d8-69c1-cb9d" type="selectionEntry"/>
     <entryLink id="adfd-5ff1-1772-1206" name="Turituri" hidden="false" collective="false" import="true" targetId="177a-6b5f-8cc0-856d" type="selectionEntry"/>
     <entryLink id="6286-3fb9-0dd6-9a2b" name="Belle Satine •" hidden="false" collective="false" import="true" targetId="d8b7-59db-5953-e422" type="selectionEntry"/>
+    <entryLink id="497b-8697-999b-04d4" name="Isabella Inizia •" hidden="false" collective="false" import="true" targetId="c1a9-d02f-7396-2299" type="selectionEntry"/>
+    <entryLink id="97ed-45ee-fe0b-eded" name="Mylady" hidden="false" collective="false" import="true" targetId="559e-6999-6be6-787a" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

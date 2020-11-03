@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9b0-f1d4-36b5-dfd1" name="Söldner" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9b0-f1d4-36b5-dfd1" name="Söldner" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d2c4-49cc-408c-f870" name="Liname" hidden="false" collective="false" import="true" targetId="0530-696e-1b58-ac77" type="selectionEntry"/>
     <entryLink id="4b3a-403a-0b72-7b00" name="Schwalbe" hidden="false" collective="false" import="true" targetId="1773-bd90-c46a-0d03" type="selectionEntry"/>
@@ -70,5 +70,7 @@
     <entryLink id="e007-3d4b-cc7d-0469" name="Belle Satine •" hidden="false" collective="false" import="true" targetId="d8b7-59db-5953-e422" type="selectionEntry"/>
     <entryLink id="b109-f948-7462-847f" name="Hugo •" hidden="false" collective="false" import="true" targetId="5238-0d56-ecdf-eab2" type="selectionEntry"/>
     <entryLink id="ced8-322e-1831-b5c0" name="Le Dingue •" hidden="false" collective="false" import="true" targetId="c348-c515-e63b-2afc" type="selectionEntry"/>
+    <entryLink id="7487-b889-30f4-6ab2" name="Coscritti •" hidden="false" collective="false" import="true" targetId="e1a0-435a-f1dd-c7a7" type="selectionEntry"/>
+    <entryLink id="7f69-e8f5-ff86-707b" name="Isabella Inizia ••" hidden="false" collective="false" import="true" targetId="2940-bb00-b6ec-e5d5" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

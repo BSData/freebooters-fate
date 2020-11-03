@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ee4-d450-b22d-3d58" name="Bruderschaft" revision="7" battleScribeVersion="2.03" authorName="Kuina" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ee4-d450-b22d-3d58" name="Bruderschaft" revision="8" battleScribeVersion="2.03" authorName="Kuina" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="915a-f8ac-6abc-06de" name="El Curandero" hidden="false" collective="false" import="true" targetId="818f-4ca7-47e1-7dec" type="selectionEntry"/>
     <entryLink id="f1b5-2ad5-f22c-07fd" name="Estrella Nocturna" hidden="false" collective="false" import="true" targetId="430a-cd12-3696-d772" type="selectionEntry"/>
@@ -86,5 +86,6 @@
     <entryLink id="be9e-570e-3505-56db" name="Virgo Despedad" hidden="false" collective="false" import="true" targetId="f913-5a83-0515-6505" type="selectionEntry"/>
     <entryLink id="eb75-ec30-4bca-89b3" name="Virgo Despedad epic" hidden="false" collective="false" import="true" targetId="43f4-549b-1da5-5ccd" type="selectionEntry"/>
     <entryLink id="62a6-4bd2-8bf9-52aa" name="Finka Junior" hidden="false" collective="false" import="true" targetId="7466-0ffa-5fea-49b5" type="selectionEntry"/>
+    <entryLink id="1590-45e6-be21-f015" name="Isabella Inizia" hidden="false" collective="false" import="true" targetId="09f6-a4e2-2bbd-c7e5" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

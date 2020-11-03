@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b1d-9b06-f455-1676" name="Piraten" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="0f58-b8f9-caf7-1889" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6fcf-c863-bf87-6af3" name="La Pelotera" hidden="false" collective="false" import="true" targetId="6484-5ac6-c301-11b8" type="selectionEntry"/>
     <entryLink id="9afe-2dc8-cbdb-572f" name="Baron Conchita" hidden="false" collective="false" import="true" targetId="0e9e-d630-08c1-0a07" type="selectionEntry"/>
@@ -108,5 +108,7 @@
     <entryLink id="7f15-2e46-402c-2f17" name="Virgo Despedad Muskete" hidden="false" collective="false" import="true" targetId="178b-8b2e-c246-60ce" type="selectionEntry"/>
     <entryLink id="10d1-0e82-0c6a-8043" name="Le Dingue •" hidden="false" collective="false" import="true" targetId="c348-c515-e63b-2afc" type="selectionEntry"/>
     <entryLink id="ced7-816c-0e89-f297" name="Hugo •" hidden="false" collective="false" import="true" targetId="5238-0d56-ecdf-eab2" type="selectionEntry"/>
+    <entryLink id="b86f-6448-f3eb-7487" name="Isabella Inizia •" hidden="false" collective="false" import="true" targetId="c1a9-d02f-7396-2299" type="selectionEntry"/>
+    <entryLink id="58c1-abad-5694-ea19" name="Arrr´chibald" hidden="false" collective="false" import="true" targetId="337d-8be9-d205-06d1" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
