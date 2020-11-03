@@ -128,6 +128,7 @@
         <characteristicType id="0df7-abb7-f60c-3840" name="Schattenmacht"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="6750-14de-df0b-e05c" name="New ProfileType"/>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="e40b-1a54-0143-fcee" name="Anführer" hidden="false">
