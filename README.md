@@ -9,6 +9,8 @@ https://discord.gg/deVyWbg
 
 #### Version ####
 
+2.14.3 Schatten ausrüstet, Bugfix, Söldner ind OLHG geändert
+
 2.14.0 Schatten haben sich reingeschliechen, Oktober 2020
 
 2.13.0 Div Charaktere

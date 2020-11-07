@@ -128,7 +128,6 @@
         <characteristicType id="0df7-abb7-f60c-3840" name="Schattenmacht"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="6750-14de-df0b-e05c" name="New ProfileType"/>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="e40b-1a54-0143-fcee" name="Anführer" hidden="false">
@@ -325,7 +324,7 @@
     <categoryEntry id="143b-d54b-d49f-65c2" name="Whaitaua" hidden="false"/>
     <categoryEntry id="962a-a5ef-939e-a65b" name="Schatten" hidden="false"/>
     <categoryEntry id="bcd3-ea1d-c64e-c73c" name="Spezial" hidden="false"/>
-    <categoryEntry id="f713-4f83-367e-66df" name="Szenariogegenstand" hidden="false"/>
+    <categoryEntry id="f713-4f83-367e-66df" name="Ausrüstung" hidden="false"/>
     <categoryEntry id="2ff6-ca78-4df9-8993" name="Alle für einen" hidden="false"/>
     <categoryEntry id="9172-483a-3792-9bbf" name="Legenden" hidden="true">
       <modifiers>
@@ -345,6 +344,7 @@
     <categoryEntry id="3362-126e-19fe-6248" name="Piratengefolge" hidden="false"/>
     <categoryEntry id="9541-fd29-ad36-388b" name="Schattengefolge" hidden="false"/>
     <categoryEntry id="dacc-624c-c70a-b362" name="Gefolge*" hidden="false"/>
+    <categoryEntry id="56ad-8178-0086-d397" name="Mannschaftsausrüstung" hidden="false"/>
     <categoryEntry id="0f99-3986-45be-be12" name="Rauch" hidden="false"/>
   </categoryEntries>
   <forceEntries>
@@ -362,9 +362,10 @@
         <categoryLink id="6f78-a493-056d-a9bf" name="Imperiale Armada" hidden="false" targetId="525a-a1ca-b24a-0dd7" primary="false"/>
         <categoryLink id="df42-c7ca-2e44-8799" name="Limited" hidden="false" targetId="283a-763f-29e6-0186" primary="false"/>
         <categoryLink id="fb6c-9b13-59a2-e420" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
-        <categoryLink id="3ca6-8562-1ee1-e97e" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
+        <categoryLink id="3ca6-8562-1ee1-e97e" name="Ausrüstung" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
         <categoryLink id="2ae1-8252-9780-b392" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
-        <categoryLink id="8d22-9081-01ce-67b6" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
+        <categoryLink id="0329-8d21-8b54-529b" name="Mannschaftsausrüstung" hidden="false" targetId="56ad-8178-0086-d397" primary="false"/>
+        <categoryLink id="b8c4-f96b-d1d9-730d" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c4da-7fa8-e089-d0a5" name="Iron Ball" hidden="false">
@@ -382,7 +383,8 @@
         <categoryLink id="d9a8-c4f1-b27c-f90f" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="5b85-acf3-2187-7b53" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
         <categoryLink id="a0dc-60a1-a08d-6bad" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
-        <categoryLink id="339a-af76-3228-f6ed" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
+        <categoryLink id="3f62-3c57-f5de-f485" name="Mannschaftsausrüstung" hidden="false" targetId="56ad-8178-0086-d397" primary="false"/>
+        <categoryLink id="bdb6-2dc8-dbab-1bb5" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="30bf-5f75-630e-c44f" name="Wolfgangs Mörserschule" hidden="true">
@@ -406,7 +408,8 @@
         <categoryLink id="c7d8-1eda-2220-17ff" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="fbb5-ac9f-8878-350b" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
         <categoryLink id="6689-f0d7-0b62-f093" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
-        <categoryLink id="e804-63b6-472c-b9df" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
+        <categoryLink id="35c7-4fdf-8a59-38a3" name="Mannschaftsausrüstung" hidden="false" targetId="56ad-8178-0086-d397" primary="false"/>
+        <categoryLink id="56ab-9e8a-8086-811f" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8bcb-9b29-a795-4c22" name="Seeschlacht" hidden="false">
@@ -426,7 +429,8 @@
         <categoryLink id="845e-69a4-3f05-0d89" name="Spezial" hidden="false" targetId="bcd3-ea1d-c64e-c73c" primary="false"/>
         <categoryLink id="072d-5f83-cc48-1032" name="Szenariogegenstand" hidden="false" targetId="f713-4f83-367e-66df" primary="false"/>
         <categoryLink id="bc84-e9bc-b896-7a16" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
-        <categoryLink id="de0c-de80-619f-42ce" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
+        <categoryLink id="b259-a660-64a8-a639" name="Mannschaftsausrüstung" hidden="false" targetId="56ad-8178-0086-d397" primary="false"/>
+        <categoryLink id="6324-1cac-37eb-062f" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c2e7-8009-a151-95c5" name="Legendäre Schlacht" hidden="false">
@@ -447,7 +451,8 @@
         <categoryLink id="6275-f244-31ce-a16a" name="Alle für einen" hidden="false" targetId="2ff6-ca78-4df9-8993" primary="false"/>
         <categoryLink id="a6d4-e957-fb70-a516" name="Legenden" hidden="false" targetId="9172-483a-3792-9bbf" primary="false"/>
         <categoryLink id="1161-c0e8-7227-f21c" name="Compañero" hidden="false" targetId="c855-1a30-2c8e-e26d" primary="false"/>
-        <categoryLink id="f2fd-38fb-1abb-27d3" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
+        <categoryLink id="fd31-d647-687b-35f0" name="Mannschaftsausrüstung" hidden="false" targetId="56ad-8178-0086-d397" primary="false"/>
+        <categoryLink id="5761-58c9-3906-49db" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -13137,6 +13142,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a4cb-4443-6549-cb2e" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="074d-d1a7-9c82-6335" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="90a3-e0d0-be70-ccb0" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -13186,7 +13193,9 @@ wäre er ein Mystiker“ </characteristic>
         <categoryLink id="e62f-3ffa-0b07-1c9f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9f9d-bd59-f063-7ab0" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="9f9d-bd59-f063-7ab0" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="8295-f2f6-d713-d3de" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="1a14-9217-ec57-3141" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
@@ -13232,6 +13241,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2845-e41d-ef99-9e6d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="3137-e02f-ff48-562b" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="012c-e047-ba5c-6c04" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -13276,6 +13287,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d058-cdb4-76b4-6554" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="45ed-ee27-a87d-742d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="e25f-1d2d-c58b-dd29" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
@@ -13313,8 +13326,13 @@ wäre er ein Mystiker“ </characteristic>
         <categoryLink id="4137-935a-236d-00fb" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
         <categoryLink id="9674-8e9b-ced2-6ec5" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
         <categoryLink id="42a0-4f4b-94ee-bb00" name="Gefolge*" hidden="false" targetId="dacc-624c-c70a-b362" primary="false"/>
-        <categoryLink id="781a-0089-e8a3-26a2" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="true"/>
+        <categoryLink id="76cc-ab3c-39f3-9ae8" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="bd00-e864-5972-b32d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="9d9f-da41-d96a-99e9" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="d420-997f-af92-27ba" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -13363,6 +13381,11 @@ wäre er ein Mystiker“ </characteristic>
         <categoryLink id="5248-5f63-5afe-2a41" name="Gefolge*" hidden="false" targetId="dacc-624c-c70a-b362" primary="false"/>
         <categoryLink id="8202-565e-6ea3-0a83" name="Schattengefolge" hidden="false" targetId="9541-fd29-ad36-388b" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="7e17-e45e-4c69-4b4d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="aa8a-f5f1-969e-9ed4" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+        <entryLink id="b4b5-913a-2803-061b" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="45.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -13407,6 +13430,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="300e-0fa1-fb46-9918" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="af6a-ba1d-5f61-23a5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="0e93-e6dc-b9ec-1a58" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -13453,6 +13478,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7abf-fe97-8008-5ca5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="e596-f188-8dcf-8748" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="8c7f-75d9-5cbe-3a69" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -13505,6 +13532,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ee8c-af1d-cbaa-0eeb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="a1d6-add1-dd12-e14e" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="5766-1b4c-ea9f-a299" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -13546,6 +13575,8 @@ wäre er ein Mystiker“ </characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2060-531c-7d0d-aaec" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="0479-c67d-b854-a24b" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="8a98-df06-f91c-59bb" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -14565,10 +14596,10 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
       <profiles>
         <profile id="d264-fa8b-5483-e79a" name="Schattentor" hidden="false" typeId="af41-a8ef-8473-949e" typeName="3.1 Szenario Aurüstung">
           <characteristics>
-            <characteristic name="Bedingung" typeId="341a-275d-fed8-6832">Groß, Mittelgroßer Szenario Gegenstand, nur für Schatten</characteristic>
-            <characteristic name="Leben" typeId="df09-1d4e-c21a-d7e2">11</characteristic>
-            <characteristic name="W Torso" typeId="d0d0-686f-7d1f-f21c">5/5</characteristic>
-            <characteristic name="Fähigkeit" typeId="4a6a-0580-27bc-f55c">•1: Beschwören (Schemen)</characteristic>
+            <characteristic name="Bedingung" typeId="341a-275d-fed8-6832">Groß, Sehr großer Szenario Gegenstand, nur für Schattenchraktere</characteristic>
+            <characteristic name="Leben" typeId="df09-1d4e-c21a-d7e2">10</characteristic>
+            <characteristic name="W Torso" typeId="d0d0-686f-7d1f-f21c">4/4</characteristic>
+            <characteristic name="Fähigkeit" typeId="4a6a-0580-27bc-f55c">Träger: -1/-2 BEW</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14576,6 +14607,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
         <infoLink id="662e-59e4-ce0e-e186" name="**Wehrlos" hidden="false" targetId="faa9-4b49-9f73-990e" type="rule"/>
         <infoLink id="f4f2-e453-0f98-8c09" name="Anfällig für Ferracereo" hidden="false" targetId="439c-4cf5-0496-dcb3" type="rule"/>
         <infoLink id="7ad1-8e29-a6a5-50e4" name="Eingeschränkte Sicht (0)" hidden="false" targetId="4b55-b102-adea-5dca" type="rule"/>
+        <infoLink id="5b2a-0cc6-e191-41db" name="Abschleppen (4)" hidden="false" targetId="e02f-51b3-38e9-478e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8b5-112c-697a-fb12" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
@@ -14583,7 +14615,7 @@ Wiesel Gauchi, Festbeißen, Nirgenwo sicher, Gift, links</characteristic>
         <categoryLink id="1cf9-1694-0e30-32c4" name="New CategoryLink" hidden="false" targetId="f713-4f83-367e-66df" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="25.0"/>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17740,6 +17772,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2e7e-288b-a130-a1e5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="7cbb-baa3-d730-8856" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+        <entryLink id="6a0d-c626-c784-6484" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -17788,6 +17822,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="53e0-3baf-ca8b-ffd6" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="c63a-83c7-1352-d2bd" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="4b29-51cc-524d-cb67" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
@@ -17841,6 +17877,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bfb1-a2a0-bdec-1337" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="2a3e-5704-a68c-66bb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="b472-4fac-b845-a23d" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -17922,6 +17960,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3fde-2353-4e2f-059b" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="6282-fa09-5d35-d137" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="80bf-41c3-1512-3483" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="135.0"/>
@@ -17967,8 +18007,13 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       <categoryLinks>
         <categoryLink id="0416-6aef-1d7b-7c2c" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
         <categoryLink id="1047-b0c9-d6e4-fe18" name="Kleine Figur" hidden="false" targetId="5bea-1560-9e28-ca1b" primary="false"/>
-        <categoryLink id="ff6f-a27f-e7c5-69b7" name="Rauch" hidden="false" targetId="0f99-3986-45be-be12" primary="true"/>
+        <categoryLink id="7baf-4834-6b4e-b037" name="New CategoryLink" hidden="false" targetId="0f99-3986-45be-be12" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="89ed-9aa2-67af-38eb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="35ff-1b62-3f40-1d55" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="48dd-4b3d-a953-be39" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="0.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
@@ -18017,6 +18062,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9c30-0582-14b1-3808" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="ded6-6d6d-a4b4-3880" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+        <entryLink id="8db8-5208-6fad-e711" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="50.0"/>
@@ -18024,6 +18071,16 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="642f-b672-4c8a-b417" name="Falscher Affe" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="2f52-91cb-c6b5-bc16" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecb4-cacb-259d-68a0" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f52-91cb-c6b5-bc16" type="max"/>
+      </constraints>
       <profiles>
         <profile id="3c49-65cb-c61b-a38c" name="Falscher Affe" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
           <characteristics>
@@ -18062,6 +18119,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9f99-fc5f-b890-4549" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="e102-3e3f-61ad-effe" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="2cc4-b0fb-4b78-2dad" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
@@ -18112,6 +18171,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8ea8-a29a-41ad-f67e" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="de6c-9ad2-d5c2-0928" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="3e1c-cb5b-86bc-3209" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="1.0"/>
@@ -18162,6 +18223,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="78d0-7377-5511-b040" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="e1a4-615a-05de-f6e1" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="42ea-2fb6-d4e9-d5a1" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -18210,6 +18273,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="28be-0e15-e7c6-ddb0" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="bbbc-cbc2-3af8-1da5" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="93ad-3bd6-d859-c129" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="60.0"/>
@@ -18259,6 +18324,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dff5-3f58-6596-cc31" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="c61e-47f3-71ad-9a1c" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="ebd5-5db3-6319-8c85" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="65.0"/>
@@ -18308,6 +18375,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d62e-8088-85d4-b616" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="952d-dd72-4f22-6afd" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="db76-0cc2-8196-8d99" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="75.0"/>
@@ -18357,6 +18426,11 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <categoryLink id="d010-6cb2-ef43-197b" name="New CategoryLink" hidden="false" targetId="3042-6dd0-6849-6711" primary="true"/>
         <categoryLink id="c261-314d-c44b-034d" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="941e-2973-a41b-5f34" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="4d17-1893-2849-cd02" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+        <entryLink id="be41-b33b-6ba8-de3d" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="1.0"/>
@@ -18406,6 +18480,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6df4-1f56-6b20-4cbb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="0e36-36cf-ec78-8d8e" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="149e-58af-5a93-1160" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -18457,6 +18533,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7c3d-f4e2-56ed-a835" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="1dc9-6384-3052-d9e4" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="3b91-4795-3e33-28b9" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="90.0"/>
@@ -18505,6 +18583,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dbb2-29c9-729b-6638" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="3f36-c9e5-0220-0236" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="0551-52ac-1a2f-d7af" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="80.0"/>
@@ -18555,6 +18635,8 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8e7c-cbb8-274c-cdcc" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="9d75-d083-805d-ebae" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="5717-ccd4-bbbf-bc02" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="55.0"/>
@@ -18850,6 +18932,179 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="70.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ecb4-cacb-259d-68a0" name="Falscher Affe (Ehrengarde)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e8a-e542-ccb6-e13b" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="12a8-2b0f-02a6-526d" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="642f-b672-4c8a-b417" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12a8-2b0f-02a6-526d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c15d-76e9-15f8-e9a2" name="Falscher Affe" hidden="false" typeId="4e16-a753-363e-2951" typeName="2.4 Nahkampf">
+          <characteristics>
+            <characteristic name="Waffe Rechts" typeId="fa19-7fa1-4e1c-0922">Klaue</characteristic>
+            <characteristic name="Waffe Links" typeId="5fd7-eb8d-c728-478e">Klaue</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b860-bdc7-c6ad-ccd7" name="Falscher Affe" hidden="false" typeId="c245-49c9-5e02-1384" typeName="2.5 Schattemacht">
+          <characteristics>
+            <characteristic name="Eigenschaften" typeId="cb98-23ed-fabd-e338">•2: Überanstrengung
+•1: Reißattacke</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8f4a-042d-6466-139f" name="Falscher Affe" hidden="false" typeId="f7bc-94e0-f392-9073" typeName="1.1 Charakter Stats">
+          <characteristics>
+            <characteristic name="Leben" typeId="1fc9-d21e-6cff-f9d8">5</characteristic>
+            <characteristic name="Beine (BEW)" typeId="9197-26bd-e35b-c893">5/10</characteristic>
+            <characteristic name="Kopf (A)" typeId="22df-2267-d38d-5587">1/2</characteristic>
+            <characteristic name="Unterleib (V)" typeId="6645-1b76-8cc6-3d73">2/3</characteristic>
+            <characteristic name="Arm rechts (ST)" typeId="3c5e-13a8-dfe7-f5e8">2/5</characteristic>
+            <characteristic name="Arm links (ST)" typeId="ddf7-0c69-aeb3-00b3">2/5</characteristic>
+            <characteristic name="Torso (W)" typeId="817d-6802-10fd-8a51">1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a0b1-cdfd-dd58-238f" name="Böser Zwilling (Ozomatli)" hidden="false" targetId="d8dd-85b0-8c34-2c44" type="rule"/>
+        <infoLink id="7237-c036-4d0d-4469" name="Einzelgänger" hidden="false" targetId="17cf-8594-a159-df47" type="rule"/>
+        <infoLink id="e59d-91af-d80e-12d8" name="In Rauch Auflösen" hidden="false" targetId="0e8d-f224-850e-1413" type="rule"/>
+        <infoLink id="6aff-a24e-c3be-3007" name="Dimensionriss (1)" hidden="false" targetId="2ffa-889e-5ca8-0443" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5cc9-7e87-7f78-d8d6" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="cd11-fee6-d3d3-eadd" name="Schattengefolge" hidden="false" targetId="9541-fd29-ad36-388b" primary="false"/>
+        <categoryLink id="5c7f-4fc4-f88e-0b83" name="Gefolge" hidden="false" targetId="732f-549d-3e93-89af" primary="true"/>
+        <categoryLink id="9ae2-c263-77ba-ee4f" name="Mittlere Figur" hidden="false" targetId="83d9-5269-d673-749d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d3fc-df6a-a503-824f" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true" targetId="bf04-9545-b3ab-28b7" type="selectionEntryGroup"/>
+        <entryLink id="e6f6-b30c-0119-fddb" name="Schatten Ausrüstung" hidden="false" collective="false" import="true" targetId="9e6d-83a3-a358-2f8d" type="selectionEntryGroup"/>
+        <entryLink id="c4cb-32e9-487c-430a" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true" targetId="3e29-251e-f5cd-face" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="40.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="907d-f581-c986-3420" name="Dimensionstore" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9a-efe8-ed9f-6404" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="33ea-53fa-06ab-4982" name="Dimensionstore" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Mannschaftsausrüstung, Selten, nur für Schatten</characteristic>
+            <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+            <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b782-4bcc-fa86-815a" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+        <categoryLink id="536c-6090-e121-b026" name="New CategoryLink" hidden="false" targetId="56ad-8178-0086-d397" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f945-925c-3909-b137" name="Nebeltor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8def-8259-ea51-2961" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="16d5-9cb6-adee-b52a" name="Nebeltor" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Mannschaftsausrüstung, Selten, nur für Schatten</characteristic>
+            <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+            <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3a6c-cdfc-55a7-2abb" name="New CategoryLink" hidden="false" targetId="56ad-8178-0086-d397" primary="true"/>
+        <categoryLink id="146f-9608-2830-67c5" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e706-058c-b2b1-330c" name="Schattenquelle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdd-9e54-1189-2681" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="909f-ef6b-d893-d48b" name="Schattenquelle" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Mannschaftsausrüstung, Selten, nur für Schatten</characteristic>
+            <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+            <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e40d-48a5-b84c-4be9" name="New CategoryLink" hidden="false" targetId="56ad-8178-0086-d397" primary="true"/>
+        <categoryLink id="35ea-047c-7320-aef1" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0cb-b5bf-b9d7-737b" name="Schemenfluktuation" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216a-bb34-e5c7-98b7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="eaa9-12d3-5d16-7809" name="Schemenfluktuation" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Mannschaftsausrüstung, Selten, nur für Schatten</characteristic>
+            <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+            <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9a48-b9ce-518b-699c" name="New CategoryLink" hidden="false" targetId="56ad-8178-0086-d397" primary="true"/>
+        <categoryLink id="175b-1aef-8f97-6c53" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="20.0"/>
+        <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1992-b913-31a9-19c4" name="Schriftrolle der Finsternis" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4db-205b-c20f-394b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ffb3-53f2-c378-60c8" name="Schriftrolle der Finsternis" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+          <characteristics>
+            <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Mannschaftsausrüstung, Selten, einmal anwendbar, nur für Schatten</characteristic>
+            <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+            <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="651d-f9e2-15c2-33cd" name="New CategoryLink" hidden="false" targetId="56ad-8178-0086-d397" primary="true"/>
+        <categoryLink id="88be-a181-f986-ae31" name="Schatten" hidden="false" targetId="962a-a5ef-939e-a65b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
         <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20720,7 +20975,66 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bf04-9545-b3ab-28b7" name="Schatten Ausrüstung" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bf04-9545-b3ab-28b7" name="Schatten Ausrüstung Groß" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c0c-fb1b-b23c-d77d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7e0c-5f8b-a6b4-0e6f" name="Gestaltloser Rauch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59d1-3b8a-bb25-1fca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="52e5-51e1-6223-47fc" name="Gestaltloser Rauch" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Groß, nur für Schattencharaktere, nur einmal Nutzbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4cd3-6e32-df97-d520" name="Mimikry" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0b-1dcf-a47c-578d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="192d-20c5-265c-a4b9" name="Mimikry" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Groß, Nur für Schattencharaktere, einmal Anwendbar</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="28ab-bad6-1a86-c574" name="Dunkler Nebel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126e-193b-3d1c-56bb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2191-1167-4337-0f13" name="Dunkler Nebel" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Groß, Dauerhaft, Nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">•1: Verbergen oder Agil oder Verschleiern</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="9fe2-bea2-218d-ae55" name="Schattentor" hidden="false" collective="false" import="true" targetId="c0a1-dd9b-a6f7-8dbf" type="selectionEntry">
           <constraints>
@@ -21133,6 +21447,189 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="3e29-251e-f5cd-face" name="Schatten Ausrüstung Selten" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="749d-5479-aaf8-be8c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6c76-7160-7b2f-65d4" name="O´Debonn" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7be-c719-726c-30ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a19-c818-1f61-b33a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b687-2ca8-4012-fa75" name="O Debonn" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7d33-a3d2-aabe-50e3" name="Monströses Massivgeschoss" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a839-986a-d6fd-f90c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bcd-62ba-2a93-dfdb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bc31-6c20-0499-bedf" name="Monströses Massivgeschoss" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Nur für Schattencharaktere, nur für Waffen mit der Eigenschaft Schattengeschoss, nicht für Waffen mit der Eigenschaft Nirgendwo Sicher</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6be6-1b22-cf77-d6a1" name="Wabernder Körper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ab2-6051-ba61-7cca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a73-4426-9a5b-173e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="265f-9410-1dda-095b" name="Wabernder Körper" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb25-e4a9-816c-b1b1" name="Verhüllung" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c3-5492-8ce8-aafe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1983-590b-0f08-8683" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="344a-23ff-70a3-4161" name="Verhüllung" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="15.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="272e-772b-56d0-778f" name="Große Dodofeder" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca25-72b1-571b-f7a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="108f-b24d-3f79-57c3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cbfb-50bd-3e45-85ca" name="Große Dodofeder" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Dauerhaft, auch für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2953-e43b-9119-6306" name="Sturkopf" hidden="false" targetId="b615-8d69-2882-e43a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2762-0d41-31e2-1a25" name="Schuppenpanzer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e421-8a94-3e22-1923" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a93-5000-278f-62e5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d2f3-2399-1fc7-2cc8" name="Schuppenpanzer" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e414-0fe7-9ac8-409e" name="Schattenklinge" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8eb-284d-2ead-86f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef1-3195-8db2-08b4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b041-71f4-bea3-72a1" name="Schattenklinge" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Selten, Nur für Schattencharaktere</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="10.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9e6d-83a3-a358-2f8d" name="Schatten Ausrüstung" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="decrement" field="3916-fdad-80ff-9cb5" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf04-9545-b3ab-28b7" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e29-251e-f5cd-face" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3916-fdad-80ff-9cb5" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b3f9-b732-9a5d-77dc" name="Aufgeblähter Körper" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="277e-238c-16da-9b8c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ef-dd62-f380-ec8d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f4b6-dfb0-432a-cc2c" name="Aufgeblähter Körper" hidden="false" typeId="296f-1a00-dba6-e656" typeName="3.1 Aurüstung">
+              <characteristics>
+                <characteristic name="Bedingung" typeId="b7b7-079d-c53e-34a1">Nur für Schattencharaktere, nicht für Schemen</characteristic>
+                <characteristic name="Körperzone" typeId="138b-2893-778d-3b5e"/>
+                <characteristic name="Fähigkeit" typeId="36db-e9b1-9734-27df">+1 LE (max 9 LE)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Dublonen" typeId="3e2b-74a8-7713-6552" value="5.0"/>
+            <cost name=" Schattenmacht" typeId="dc64-94cb-1dad-90b6" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8f32-8598-e005-f017" name="Sturmschuss" hidden="false"/>
@@ -21447,5 +21944,6 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
     <rule id="7a15-abc6-5c5f-7c45" name="Neeeiiin!" hidden="false"/>
     <rule id="17a1-2072-4292-23ea" name="Intrigieren" hidden="false"/>
     <rule id="e1e4-d0f2-b6ee-7f62" name="Spinnefeind (Aplantage)" hidden="false"/>
+    <rule id="e02f-51b3-38e9-478e" name="Abschleppen (4)" hidden="false"/>
   </sharedRules>
 </gameSystem>
