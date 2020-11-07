@@ -21452,7 +21452,7 @@ Verflucht, Schwere Waffe, Zweihändig</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="749d-5479-aaf8-be8c" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6c76-7160-7b2f-65d4" name="O´Debonn" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6c76-7160-7b2f-65d4" name="ODebonn" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7be-c719-726c-30ea" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a19-c818-1f61-b33a" type="max"/>
